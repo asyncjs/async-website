@@ -1,0 +1,40 @@
+# Async Options
+title:   Async
+caption: "A JavaScript meetup for _Brighton & Hove_"
+
+elsewhere:
+- name: Announcements
+  link: /news/
+  desc: Recent Async Announcements
+- name: Calendar
+  link: http://lanyrd.com/series/asyncjs/save-to-calendar/
+  desc: Subscribe to out calendar
+- name: Lanyrd
+  link: http://lanyrd.com/series/asyncjs/
+  desc: Lanyrd
+- name: Twitter
+  link: http://twitter.com/asyncjs
+  desc: Twitter
+- name: Mailing List
+  link: http://groups.google.com/group/asyncjs/
+  desc: The Async JS IRC channel
+- name: IRC
+  link: http://webchat.freenode.net/?channels=asyncjs
+  desc: The Async JS IRC channel
+
+# Jekyll Options
+safe:        true
+auto:        true
+server:      true
+server_port: 4000
+baseurl:     /
+url:         http://localhost:4000
+
+source:      .
+destination: /tmp/asyncjs
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    maruku
+permalink:   /:title

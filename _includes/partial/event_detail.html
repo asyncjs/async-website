@@ -1,0 +1,32 @@
+<article class="event-detail">
+	<header>
+		<h2 class="heading">{{ event.title }}{% if event.lanyrd %} <a class="lanyrd-link" href="{{ event.lanyrd }}">on Lanyrd</a>{% endif %}</h2>
+		<p class="meta">
+			{% if event.speakers %}
+				{% assign users = event.speakers %}
+				By {% include partial/user_list.html %}.
+			{% endif %}
+			{% if event.sponsors and event.sponsors %} {% endif %}
+			{% if event.sponsors %}
+				{% assign users = event.sponsors %}
+				Sponsored by {% include partial/user_list.html %}.
+			{% endif %}
+	</header>
+	<section class="vevent">
+		{% capture timestamp %}{{ event.date | date:"%FT%T%z" }}{% endcapture %}
+		<time class="dtstart" title="{{ timestamp }}" datetime="{{ timestamp }}">
+			<span class="date">{{ event.date | date:"%A, %-d %B %Y" }}</span>
+			<span class="time">{{ event.date | date:"%l:%M%P" }}</span>
+		</time>
+		&nbsp;@&nbsp;
+		<span class="location vcard">
+			<a class="url fn org" href="{{ event.venue.site }}">{{ event.venue.name }}</a>
+			<span class="adr">{{ event.venue.address }}</span>
+		</span>
+		<a class="map bordered" href="">
+			{% capture map_url %}http://staticmaps.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/staticmap?center={{ event.venue.latlong }}&amp;zoom=16&amp;size=140x140&amp;format=png&amp;styleid=997{% endcapture %}
+			<img src="{{ map_url }}" width="140" height="140" />
+		</a>
+	</section>
+	{% assign post = event %}{% include partial/post_description.html %}
+</article>

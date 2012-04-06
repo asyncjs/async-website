@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<h2>Tags</h2>
+{% for tag in site.tags | sort %}
+	<section id="{{ tag[0] | replace:" ","-" }}" class="module">
+		<h3 class="module-heading">{{ tag[0] }} <a href="./#{{ tag[0] | replace:" ","-" }}">#</a></h3>
+		<ul>
+			{% for item in tag[1] %}
+				<li class="event-item"><a href="{{ item.url }}">{{ item.title }}</a></li>
+			{% endfor %}
+		</ul>
+	</section>
+{% endfor %}

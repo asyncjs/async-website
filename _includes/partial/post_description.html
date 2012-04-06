@@ -1,0 +1,8 @@
+<section class="prose description{% if post.image %} image{% endif %}">
+	{% if post.image %}
+		<a class="bordered" href="{{ post.image.link }}">
+			<img src="{{ post.image.url }}" alt="{{ post.image.title }}" />
+		</a>
+	{% endif %}
+	{{ post.content | markdownify }}
+</section>

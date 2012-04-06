@@ -1,0 +1,50 @@
+---
+layout: base
+---
+{% assign news = site.categories.news %}
+{% assign events = site.categories.event %}
+
+{% for post in news %}
+	{% capture start_timestamp %}{{ site.time | date:"%s" | minus:2592000 }}{% endcapture %}
+	{% capture item_timestamp %}{{ post.date | date:"%s" }}{% endcapture %}
+	{% if item_timestamp > start_timestamp and post.date < site.time %}
+		<section class="module news">
+			<a href="{{ post.url }}"><strong>News:</strong> {{ post.title }}</a>
+		</section>
+	{% endif %}
+{% endfor %}
+
+<section class="module event-detail">
+	<h2 class="module-heading">Next Event:</h2>
+	{% for event in events reversed %}
+		{% unless current or event.date < site.time  %}
+			{% assign current = event %}{% assign offset  = forloop.rindex %}
+			{% include partial/event_detail.html %}
+		{% endunless %}
+	{% endfor %}
+</section>
+
+<section class="module">
+	<section class="column upcoming-events">
+		<h2 class="module-heading">Upcoming Events:</h2>
+		<ul class="event-lisiting">
+			{% for event in events limit:offset %}
+				{% if event.date > current.date %}
+					<li class="event-item">{% include partial/event_item.html %}</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		<p class="read-more"><a href="/archives/">View all events</a></p>
+	</section>
+	<section class="column past-events">
+		<h2 class="module-heading">Past Events:</h2>
+		<ul class="event-lisiting">
+			{% for event in events offset:offset limit:2 %}
+			{% if event.date < current.date %}
+				<li class="event-item">{% include partial/event_item.html %}</li>
+			{% endif %}
+		{% endfor %}
+		</ul>
+		<p class="read-more"><a href="/archives/">View all events</a></p>
+	</section>
+</section>

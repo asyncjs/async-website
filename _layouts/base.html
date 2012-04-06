@@ -1,0 +1,34 @@
+<!doctype>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ site.title }}: {{ site.caption | markdownify | strip_html }}</title>
+		<link rel="stylesheet" href="http://f.fontdeck.com/s/css/ANxYhj9dllkYxm1NMwN3LihqgYU/localhost/18017.css" type="text/css" />
+		<link rel="stylesheet" href="/css/global.css" />
+	</head>
+	<body>
+		<header class="masthead">
+			<h1><a href="/">{{ site.title }}:</a></h1>
+			<p>{{ site.caption | markdownify }}</p>
+			<img class="logo" src="/images/logo.png" />
+		</header>
+		{% capture body %}{{ content }}{% endcapture %}
+		{{ body | replace:"	","" | strip_newlines }}
+		<section class="module about">
+			<h2 class="module-heading">About:</h2>
+			{% capture about %}{% include about.md %}{% endcapture %}
+			<div class="prose">{{ about | markdownify }}</div>
+		</section>
+
+		<section class="module elsewhere">
+			<h2 class="module-heading">Elsewhere:</h2>
+			<ul>
+			{% for link in site.elsewhere %}
+				<li><a href="{{ link.link }}" title="{{ link.desc }}">{{ link.name }}</a></li>
+			{% endfor %}
+			</ul>
+		</section>
+		<div id="media-test"></div>
+		<script src="/javascript/main.js"></script>
+	</body>
+</html>

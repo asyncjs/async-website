@@ -1,0 +1,38 @@
+---
+layout: base
+---
+{% assign news = site.categories.news %}
+
+<h2>News</h2>
+{% for item in news %}
+	{% assign first_item = false %}
+	{% capture month %}{{ item.date | date:"%B %Y" }}{% endcapture %}
+	{% if current_month != month %}
+		{% unless forloop.first %}
+				</ul>
+			</section>
+		{% endunless %}
+		<section class="module">
+			<h2 class="module-heading">{{ month }}:</h2>
+			<ul>
+	{% endif %}
+		<li class="column news-item">
+			<h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+			<div class="prose">
+				{% if item.summary %}
+					{{ item.summary | markdownify }}
+				{% else %}
+					{{ item.content | strip_html | truncatewords:"15" | markdownify }}
+				{% endif %}
+				<p class="read-more"><a href="{{ item.url }}">Read more</a></p>
+			</div>
+		</li>
+	{% if current_month != month %}
+		{% assign first_item = true %}
+		{% assign current_month = month %}
+	{% else %}
+		{% assign first_item = false %}
+	{% endif %}
+{% endfor %}
+	</ul>
+</section>

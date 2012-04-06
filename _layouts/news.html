@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<section class="module event-detail">
+	<h2 class="module-heading">News:</h2>
+	<article class="event-detail">
+		<header>
+			<h2 class="heading">{{ page.title }}</h2>
+			<p class="meta">
+				{% if page.authors %}
+					{% assign users = page.authors %}
+					By {% include partial/user_list.html %}.
+				{% endif %}
+		</header>
+		{% assign post = page %}{% include partial/post_description.html %}
+	</article>
+</section>
