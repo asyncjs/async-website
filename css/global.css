@@ -142,7 +142,6 @@ h2 {
 .module {
 	margin-bottom: 20px;
 	font-size: 16px;
-	overflow: hidden;
 }
 
 .module:after,
@@ -177,9 +176,14 @@ h2 {
 
 .masthead {
 	position: relative;
-	overflow: hidden;
 	margin-bottom: 32px;
-	padding-left: 50px;
+}
+
+.masthead:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
 }
 
 .masthead h1,
@@ -209,13 +213,7 @@ h2 {
 }
 
 .masthead .logo {
-	position: absolute;
-	top: 3px;
-	left: -5px;
-	bottom: 0;
-	display: block;
-	height: 100%;
-	width: auto;
+	display: none;
 }
 
 .event-detail header,
@@ -418,7 +416,24 @@ h2 {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-	
+
+	.masthead {
+		position: relative;
+		overflow: hidden;
+		margin-bottom: 32px;
+		padding-left: 50px;
+	}
+
+	.masthead .logo {
+		position: absolute;
+		top: 3px;
+		left: -5px;
+		bottom: 0;
+		display: block;
+		height: 100%;
+		width: auto;
+	}
+
 	.event-detail .description.image {
 		position: relative;
 	}
