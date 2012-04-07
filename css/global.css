@@ -126,7 +126,10 @@ h2 {
 	width: 16px;
 	height: 16px;
 	text-indent: -900em;
-	background: url(../images/lanyrd-16x16.png) no-repeat top left;
+	background: url(../images/lanyrd-32x32.png) no-repeat top left;
+	-webkit-background-size: 16px 16px;
+	-moz-background-size: 16px 16px;
+	background-size: 16px 16px;
 }
 
 .read-more a {
@@ -228,14 +231,8 @@ h2 {
 }
 
 .event-detail .lanyrd-link {
-	position: relative;
 	top: -8px;
 	left: 4px;
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	text-indent: -900em;
-	background: url(../images/lanyrd-16x16.png) no-repeat top left;
 }
 
 .event-detail .meta {
