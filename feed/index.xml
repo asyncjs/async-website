@@ -1,0 +1,40 @@
+---
+layout:
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Async</title>
+ <subtitle>A JavaScript meetup group in Brighton &amp; Hove, UK</subtitle> 
+ <link href="{{ site.url }}/feed/" rel="self"/>
+ <link href="{{ site.url }}/feed/" />
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}/feed/atom/</id>
+ <author>
+   <name>{{ site.title }}</name>
+   <email>{{ site.email }}</email>
+ </author>
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   {% if post.author %}
+   <author>
+     <name>{{ post.author.name }}</name>
+     <uri>{{ post.author.uri }}</uri>
+   </author>
+   {% endif %}
+   <link href="{{ site.url }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ post.id }}</id>
+   <content type="html">
+     {% capture body %}
+       {% if post.category == "event" %}
+         <p>{{ post.date | date:"%l:%M%P %A, %-d %B %Y" }} @ <a href="{{ post.venue.link }}">{{ post.venue.name }}, {{ post.venue.address }}</a></p>
+         <p><a href="{{ post.lanyrd }}">Sign up on Lanyrd</a></p>
+       {% endif %}
+       {{ post.content | markdownify }}
+     {% endcapture %}
+     {{ body | xml_escape }}
+   </content>
+ </entry>
+ {% endfor %}
+</feed>
