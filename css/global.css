@@ -370,6 +370,18 @@ h2 {
 	margin-top: -16px;
 }
 
+footer,
+footer a {
+	font-size: 12px;
+	color: #aaa;
+	margin-top: 32px;
+	margin-bottom: 16px;
+}
+
+footer a {
+	border-bottom: 1px dashed;
+}
+
 .lanyrd-people {
 	list-style-type: none;
 	overflow: hidden;
