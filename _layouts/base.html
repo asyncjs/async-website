@@ -15,7 +15,7 @@
 			<img class="logo" src="/images/logo-100x100.png" width="50" height="50" />
 		</header>
 		{% capture body %}{{ content }}{% endcapture %}
-		{{ body | replace:"	","" | strip_newlines }}
+		{{ body | replace:"	","" }}
 		<section class="module about">
 			<h2 class="module-heading">About:</h2>
 			{% capture about %}{% include about.md %}{% endcapture %}
