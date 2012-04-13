@@ -346,6 +346,11 @@ h2 {
 }
 
 .news {
+	margin-top: -20px;
+}
+
+.news:first-of-type {
+	margin-top: 0;
 }
 
 .news:after {
