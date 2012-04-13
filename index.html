@@ -8,7 +8,7 @@ layout: base
 	{% capture start_timestamp %}{{ site.time | date:"%s" | minus:2592000 }}{% endcapture %}
 	{% capture item_timestamp %}{{ post.date | date:"%s" }}{% endcapture %}
 	{% if item_timestamp > start_timestamp and post.date < site.time %}
-		<section class="module news">
+		<section class="module news" data-timestamp="{{ post.date | date_to_xmlschema }}">
 			<a href="{{ post.url }}"><strong>News:</strong> {{ post.title }}</a>
 		</section>
 	{% endif %}

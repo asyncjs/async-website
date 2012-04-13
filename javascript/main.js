@@ -109,6 +109,18 @@ if (document.querySelectorAll) {
   })();
 
   (function () {
+    var news = document.querySelectorAll('.news'),
+        expires = new Date().getTime() - (30 * 24 * 60 * 60 * 1000);
+
+    [].forEach.call(news || [], function (element) {
+      var time = Date.parse(element.getAttribute('data-timestamp'));
+      if (time < expires) {
+        element.parentNode.removeChild(element);
+      }
+    });
+  })();
+
+  (function () {
     var lanyrdLinks = document.querySelectorAll('.lanyrd-link');
 
     [].forEach.call(lanyrdLinks || [], function (link) {
