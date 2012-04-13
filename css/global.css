@@ -261,12 +261,12 @@ h2 {
 	font-family: "FS Joey Web Bold", sans-serif;
 	line-height: 20px;
 	position: relative;
-	padding: 14px 0 12px 78px;
+	padding: 14px 0 12px 58px;
 	min-height: 40px;
 	border: 1px dashed #ccc;
 	border-left: 0;
 	border-right: 0;
-	margin: 0 -16px 8px;
+	margin: 0 0 8px;
 }
 
 .event-detail .vevent .location a {
@@ -284,7 +284,7 @@ h2 {
 .event-detail .vevent .map {
 	position: absolute;
 	top: 8px;
-	left: 16px;
+	left: 0px;
 	display: block;
 }
 
@@ -440,10 +440,6 @@ footer a {
 
 .lanyrd-trackers li {
 	width: 35px;
-}
-
-.lanyrd-trackers img {
-	width: ;
 }
 
 #media-test {
