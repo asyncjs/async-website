@@ -150,6 +150,7 @@ h2 {
 .module {
 	margin-bottom: 20px;
 	font-size: 16px;
+	clear: left;
 }
 
 .module:after,
@@ -462,7 +463,6 @@ footer a {
 
 	.masthead {
 		position: relative;
-		overflow: hidden;
 		margin-bottom: 32px;
 		padding-left: 50px;
 	}
@@ -471,10 +471,7 @@ footer a {
 		position: absolute;
 		top: 3px;
 		left: -5px;
-		bottom: 0;
 		display: block;
-		height: 100%;
-		width: auto;
 	}
 
 	.event-detail .description.image {
@@ -498,10 +495,6 @@ footer a {
 }
 
 @media (min-width:560px) {
-	.masthead {
-		overflow: auto;
-	}
-	
 	.masthead h1,
 	.masthead p {
 		position: static;

@@ -12,7 +12,7 @@
 		<header class="masthead">
 			<h1><a href="/">{{ site.title }}:</a></h1>
 			<p>{{ site.caption | markdownify }}</p>
-			<img class="logo" src="/images/logo.png" />
+			<img class="logo" src="/images/logo-100x100.png" width="50" height="50" />
 		</header>
 		{% capture body %}{{ content }}{% endcapture %}
 		{{ body | replace:"	","" | strip_newlines }}
