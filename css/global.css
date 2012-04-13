@@ -295,6 +295,29 @@ h2 {
 	max-height: 40px;
 }
 
+.event-detail .sponsors {
+	position: absolute;
+	right: 0;
+	top: 7px;
+	position: static;
+	overflow: hidden;
+	margin-left: -58px;
+	border-top: 1px dashed #ccc;
+	margin-top: 13px;
+	padding-top: 8px;
+}
+
+.event-detail .sponsor-logo {
+	float: right;
+	float: none;
+}
+
+.event-detail .sponsor-logo img {
+	display: block;
+	max-height: 52px;
+	max-width: auto;
+}
+
 .event-item {
 	margin-bottom: 16px;
 }
@@ -496,6 +519,19 @@ footer a {
 
 	#media-test {
 		width: 1px;
+	}
+	
+	.event-detail .sponsors {
+		position: absolute;
+		right: 0;
+		top: 7px;
+		border-top: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.event-detail .sponsors .sponsor-logo {
+		float: right;
 	}
 }
 
