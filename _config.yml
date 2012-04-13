@@ -11,6 +11,9 @@ elsewhere:
 - name: Contact Us
   link: mailto:hello [at] asyncjs [dot] com
   desc: Get in touch
+- name: Twitter
+  link: http://twitter.com/asyncjs
+  desc: Twitter
 - name: Subscribe
   link: /feed/index.xml
   desc: Subscribe by atom feed
@@ -23,9 +26,6 @@ elsewhere:
 - name: Lanyrd
   link: http://lanyrd.com/series/asyncjs/
   desc: Lanyrd
-- name: Twitter
-  link: http://twitter.com/asyncjs
-  desc: Twitter
 - name: Mailing List
   link: http://groups.google.com/group/asyncjs/
   desc: The Async JS IRC channel
