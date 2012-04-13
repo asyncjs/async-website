@@ -5,4 +5,7 @@
 		</a>
 	{% endif %}
 	{{ post.content | markdownify }}
+	{% if post.lanyrd %}
+		<p class="sign-up prose">Thinking of coming along? <a href="{{ post.lanyrd }}"><b>Sign up on Lanyrd</b></a></p>
+	{% endif %}
 </section>
