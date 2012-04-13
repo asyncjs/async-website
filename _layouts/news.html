@@ -9,8 +9,9 @@ layout: base
 			<p class="meta">
 				{% if page.authors %}
 					{% assign users = page.authors %}
-					By {% include partial/user_list.html %}.
+					By {% include partial/user_list.html %}.&nbsp;
 				{% endif %}
+				Posted on {{ page.date | date_to_long_string }}
 		</header>
 		{% assign post = page %}{% include partial/post_description.html %}
 	</article>

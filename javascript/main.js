@@ -95,10 +95,16 @@ if (document.querySelectorAll) {
 
   (function () {
     var emails = document.querySelectorAll('a[href^=mailto]');
-    [].forEach.call(emails || [], function (link) {
-      link.href = link.href.replace(/ \[([^\]]+)\] /g, function ($0, $1) {
+
+    function replace(email) {
+      return email.replace(/(?:%20| )\[([^\]]+)\](?:%20| )/g, function ($0, $1) {
         return {at: '@', dot: '.'}[$1] || $0;
       });
+    }
+
+    [].forEach.call(emails || [], function (link) {
+      link.href = replace(link.href);
+      link.innerHTML = replace(link.innerHTML);
     });
   })();
 
