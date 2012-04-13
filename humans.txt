@@ -1,0 +1,21 @@
+---
+---
+/* TEAM */
+
+Lanyrd Widget: Aaron Acerboni
+Twitter: @aaronacerboni
+Location: Brighton, UK
+
+Design & Development: Aron Carroll
+Twitter: @ac94
+Location: Brighton, UK
+
+Design & QA: Premasagar Rose
+Twitter: @premasagar
+Location: Brighton, UK
+
+/* THANKS */
+
+/* SITE */
+
+Last update: {{ site.time | date:"%Y/%m/%d" }}
