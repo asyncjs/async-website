@@ -63,7 +63,7 @@ b, strong {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 28px;
 	margin-bottom: 16px;
 }
 
@@ -129,7 +129,7 @@ h2 {
 	width: 32px;
 	height: 32px;
 	text-indent: -900em;
-	background: url(../images/lanyrd-32x32.png) no-repeat  center center;
+	background: url(../images/lanyrd-48x48.png) no-repeat  center center;
 	-webkit-background-size: 16px 16px;
 	-moz-background-size: 16px 16px;
 	background-size: 16px 16px;
@@ -457,6 +457,10 @@ footer a {
 		margin: 0 auto;
 		padding-left: 10%;
 		padding-right: 10%;
+	}
+
+	h2 {
+		font-size: 36px;
 	}
 
 	.masthead {
