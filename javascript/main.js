@@ -92,11 +92,20 @@ if (document.querySelectorAll) {
       });
     }
   })();
-  
+
+  (function () {
+    var emails = document.querySelectorAll('a[href^=mailto]');
+    [].forEach.call(emails || [], function (link) {
+      link.href = link.href.replace(/ \[([^\]]+)\] /g, function ($0, $1) {
+        return {at: '@', dot: '.'}[$1] || $0;
+      });
+    });
+  })();
+
   (function () {
     var lanyrdLinks = document.querySelectorAll('.lanyrd-link');
 
-    [].forEach.call(lanyrdLinks, function (link) {
+    [].forEach.call(lanyrdLinks || [], function (link) {
       var parent = link.parentNode,
           prev = link.previousSibling, words, wrap, clone;
 
@@ -128,7 +137,6 @@ if (document.querySelectorAll) {
         wrap.appendChild(link);
         parent.appendChild(wrap);
       }
-      
     });
   })();
 }
