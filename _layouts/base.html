@@ -21,9 +21,8 @@
 			{% capture about %}{% include about.md %}{% endcapture %}
 			<div class="prose">{{ about | markdownify }}</div>
 		</section>
-
-		<section class="module elsewhere">
-			<h2 class="module-heading">Elsewhere:</h2>
+		<section class="module links">
+			<h2 class="module-heading">More:</h2>
 			<ul>
 			{% for link in site.elsewhere %}
 				<li><a href="{{ link.link }}" title="{{ link.desc }}">{{ link.name }}</a></li>

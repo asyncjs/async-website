@@ -316,22 +316,22 @@ h2 {
 	color: #2e2e2e;
 }
 
-.elsewhere li {
+.links li {
 	display: inline-block;
 	margin-bottom: 8px;
 }
 
-.elsewhere li:after {
+.links li:after {
 	content: " •";
 	padding: 0 8px;
 	color: #808080;
 }
 
-.elsewhere li:last-child:after {
+.links li:last-child:after {
 	content: "";
 }
 
-.elsewhere li a {
+.links li a {
 	border-bottom: 1px dashed;
 }
 

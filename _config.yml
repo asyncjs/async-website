@@ -5,9 +5,18 @@ url:     http://asyncjs.com
 email:   connect@asyncjs.com
 
 elsewhere:
-- name: Announcements
+- name: News
   link: /news/
   desc: Recent Async Announcements
+- name: Contact Us
+  link: mailto:hello [at] asyncjs [dot] com
+  desc: Get in touch
+- name: Subscribe
+  link: /feed/index.xml
+  desc: Subscribe by atom feed
+#- name: Subscribe by email
+#  link: /
+#  desc: Subscribe to email updates
 - name: Calendar
   link: http://lanyrd.com/series/asyncjs/save-to-calendar/
   desc: Subscribe to out calendar
