@@ -2,14 +2,14 @@
 title:   Async
 caption: "A JavaScript meetup for _Brighton & Hove_"
 url:     http://asyncjs.com
-email:   hello@asyncjs.com
+email:   &#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
 
 elsewhere:
 - name: News
   link: /news/
   desc: Recent Async Announcements
 - name: Contact Us
-  link: mailto:hello [at] asyncjs [dot] com
+  link: &#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
   desc: Get in touch
 - name: Twitter
   link: http://twitter.com/asyncjs
