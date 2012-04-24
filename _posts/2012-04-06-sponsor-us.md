@@ -37,8 +37,8 @@ our early months.
 
 If you are potentially interested, we can send you details of our sponsorship
 packages and tell you about all the benefits. Please email us at
-[connect \[at\] asyncjs \[dot\] com][#mail].
+[&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;][#mail].
 
 Thanks. We look forward to partnering with you.
 
-[#mail]: mailto:connect%20[at]%20asyncjs%20[dot]%20com
+[#mail]: &#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
