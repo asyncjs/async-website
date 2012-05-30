@@ -1,19 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
 		<title>{{ site.title }}: {{ site.caption | markdownify | strip_html }}</title>
 		<link rel="author" href="/humans.txt">
-		<link rel="stylesheet" href="http://f.fontdeck.com/s/css/ANxYhj9dllkYxm1NMwN3LihqgYU/localhost/18017.css">
-		<link rel="stylesheet" href="/css/global.css">
-		<link rel="shortcut icon" href="/images/favicon.png">
+		<link rel="stylesheet" href="http://f.fontdeck.com/s/css/ANxYhj9dllkYxm1NMwN3LihqgYU/localhost/18017.css" />
+		<link rel="stylesheet" href="/css/global.css" />
+		<link rel="shortcut icon" href="/images/favicon.png" />
 	</head>
 	<body>
 		<header class="masthead">
 			<h1><a href="/">{{ site.title }}:</a></h1>
 			<p>{{ site.caption | markdownify }}</p>
-			<img class="logo" src="/images/logo-100x100.png" width="50" height="50">
+			<img class="logo" src="/images/logo-100x100.png" width="50" height="50" />
 		</header>
 		{% capture body %}{{ content }}{% endcapture %}
 		{{ body | replace:"	","" }}
