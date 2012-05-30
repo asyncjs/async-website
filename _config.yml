@@ -1,9 +1,10 @@
 # Async Options
-title:   Async
-caption: A JavaScript meetup for _Brighton & Hove_
-url:     http://asyncjs.com
-email:   &#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
+title:      Async
+caption:    A JavaScript meetup for _Brighton & Hove_
+url:        http://asyncjs.com
+email:      &#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
 feedburner: http://feeds.feedburner.com/asyncjs
+analytics:  UA-2150808-14
 
 elsewhere:
 - name: News
