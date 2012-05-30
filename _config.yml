@@ -18,9 +18,9 @@ elsewhere:
 - name: Subscribe
   link: /feed/
   desc: Subscribe by atom feed
-#- name: Subscribe by email
-#  link: /
-#  desc: Subscribe to email updates
+- name: Subscribe by email
+  link: http://feedburner.google.com/fb/a/mailverify?uri=asyncjs
+  desc: Subscribe to email updates
 - name: Calendar
   link: http://lanyrd.com/series/asyncjs/save-to-calendar/
   desc: Subscribe to out calendar
