@@ -16,7 +16,7 @@ elsewhere:
   link: http://twitter.com/asyncjs
   desc: Twitter
 - name: Subscribe
-  link: /feed/index.xml
+  link: /feed/
   desc: Subscribe by atom feed
 #- name: Subscribe by email
 #  link: /
