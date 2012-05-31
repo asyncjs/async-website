@@ -1,6 +1,6 @@
 <article class="event-detail">
 	<header>
-		<h2 class="heading">{{ event.title }}{% if event.lanyrd %} <a class="lanyrd-link" href="{{ event.lanyrd }}">on Lanyrd</a>{% endif %}</h2>
+		<h2 class="heading"><a href="{{ event.url }}">{{ event.title }}</a>{% if event.lanyrd %} <a class="lanyrd-link" href="{{ event.lanyrd }}">on Lanyrd</a>{% endif %}</h2>
 		<p class="meta">
 			{% if event.speakers %}
 				{% assign users = event.speakers %}
@@ -11,6 +11,7 @@
 				{% assign users = event.sponsors %}
 				Sponsored by {% include partial/user_list.html %}.
 			{% endif %}
+		</p>
 	</header>
 	<section class="vevent">
 		{% capture timestamp %}{{ event.date | date:"%FT%T%z" }}{% endcapture %}
