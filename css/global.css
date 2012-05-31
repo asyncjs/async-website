@@ -1,7 +1,7 @@
 /* @override http://localhost:4000/css/global.css */
 
 body {
-	font: 62.5%/1 "FS Joey Web Regular", sans-serif;
+	font: 62.5%/1 "FS Joey Web Regular", Helvetica, Arial, Verdana , sans-serif;
 	margin: 0;
 	padding: 24px;
 	margin: 0 auto;
@@ -219,7 +219,7 @@ h2 {
 }
 
 .masthead h1 {
-	font-family: "FS Joey Web Bold";
+	font-family: "FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
 	text-transform: none;
 	font-size: 48px;
 	margin-right: 8px;
