@@ -600,7 +600,7 @@ footer span {
 	}
 }
 
-body {
+body, .masthead p em {
 	font-family: "FS Joey Web Regular", Helvetica, Arial, Verdana , sans-serif;
 	font-weight: normal;
 }
