@@ -127,6 +127,10 @@ if (document.querySelectorAll) {
       var parent = link.parentNode,
           prev = link.previousSibling, words, wrap, clone;
 
+      while (prev && prev.nodeType === 3 && !prev.nodeValue.trim()) {
+        prev = prev.previousSibling;
+      }
+
       if (prev) {
         if (prev.nodeType === 3) {
           words = prev.nodeValue.trim().split(" ");
