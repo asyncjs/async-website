@@ -50,22 +50,6 @@ img {
 	white-space: nowrap;
 }
 
-.bordered {
-	display: inline-block;
-	padding: 4px;
-	border: 1px solid #ccc;
-}
-
-.bordered:hover {
-	border-color: rgba(239,73,72,0.4);
-	background-color: rgba(239,73,72,0.25);
-}
-
-.bordered:active {
-	border-color: #e52222;
-	background-color: #ef4948;
-}
-
 b, strong {
 	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
 }
@@ -135,6 +119,26 @@ h2 {
 .prose .bordered:active {
 	border-color: #e52222;
 	background-color: #ef4948;
+}
+
+.bordered {
+	display: inline-block;
+	padding: 4px;
+	border: 1px solid #ccc;
+}
+
+.bordered:hover {
+	border-color: rgba(239,73,72,0.4);
+	background-color: rgba(239,73,72,0.25);
+}
+
+.bordered:active {
+	border-color: #e52222;
+	background-color: #ef4948;
+}
+
+.bordered img {
+	margin: 0;
 }
 
 .lanyrd-link {
