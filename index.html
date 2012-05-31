@@ -35,11 +35,16 @@ layout: base
 	<section class="column upcoming-events">
 		<h2 class="module-heading">Upcoming Events:</h2>
 		<ul class="event-lisiting">
+			{% assign matches = "0" %}
 			{% for event in events limit:offset %}
 				{% if event.date > current.date %}
 					<li class="event-item">{% include partial/event_item.html %}</li>
+					{% capture matches %}{{ matches | plus:1 }}{% endcapture %}
 				{% endif %}
 			{% endfor %}
+			{% if matches == "0" %}
+				<li class="empty">There are no upcoming events</li>
+			{% endif %}
 		</ul>
 		<p class="read-more"><a href="/events/">View all events</a></p>
 	</section>
@@ -49,11 +54,14 @@ layout: base
 			{% assign matches = "0" %}
 			{% for event in events %}
 				{% if event.date < current.date and matches < "2" %}
-					{% capture matches %}{{ matches | plus:1 }}{% endcapture %}
 					{{ event.title }}
 					<li class="event-item">{% include partial/event_item.html %}</li>
+					{% capture matches %}{{ matches | plus:1 }}{% endcapture %}
 				{% endif %}
 			{% endfor %}
+			{% if matches == "0" %}
+				<li class="empty">There are no past events</li>
+			{% endif %}
 		</ul>
 		<p class="read-more"><a href="/events/">View all events</a></p>
 	</section>
