@@ -252,6 +252,10 @@ h2 {
 	padding-right: 16px;
 }
 
+.event-detail .heading:hover a {
+	color: #e52222;
+}
+
 .event-detail .lanyrd-link {
 	top: 0px;
 	left: 5px;
