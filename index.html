@@ -54,7 +54,6 @@ layout: base
 			{% assign matches = "0" %}
 			{% for event in events %}
 				{% if event.date < current.date and matches < "2" %}
-					{{ event.title }}
 					<li class="event-item">{% include partial/event_item.html %}</li>
 					{% capture matches %}{{ matches | plus:1 }}{% endcapture %}
 				{% endif %}
