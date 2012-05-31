@@ -21,7 +21,7 @@
 		</time>
 		&nbsp;@&nbsp;
 		<span class="location vcard">
-			<a class="url fn org" href="{{ event.venue.site }}">{{ event.venue.name }}</a>
+			<a class="url fn org" href="{{ event.venue.link }}">{{ event.venue.name }}</a>
 			<span class="adr">{{ event.venue.address }}</span>
 		</span>
 		<a class="map bordered" href="http://maps.google.co.uk/?q={{ event.venue.address | cgi_escape }}">
