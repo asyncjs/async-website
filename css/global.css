@@ -440,6 +440,10 @@ footer a {
 	border-bottom: 1px dashed;
 }
 
+footer span {
+	white-space: nowrap;
+}
+
 .dharmafly {
 	font-family: Calibri, Helvetica, Arial, sans-serif;
 	text-decoration: none;
