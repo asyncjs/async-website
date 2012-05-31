@@ -3,7 +3,6 @@ layout: base
 ---
 {% assign news = site.categories.news %}
 {% assign events = site.categories.event %}
-{% assign current = events.first %}
 {% assign offset = 0 %}
 
 {% for post in news %}
@@ -25,6 +24,7 @@ layout: base
 		{% endunless %}
 	{% endfor %}
 	{% if offset == 0 %}
+		{% assign current = events.first %}
 		<p class="prose">There are currently no upcoming events, stay tuned for more. You can
 		follow us on <a href="http://twitter.com/asyncjs">Twitter</a> or
 		subscribe to the <a href="/feed/">feed</a> for updates.</p>
