@@ -1,13 +1,11 @@
 body {
-	font: 62.5%/1 "FS Joey Web Regular", Helvetica, Arial, Verdana , sans-serif;
+	font: 62.5%/1;
 	margin: 0;
 	padding: 24px;
 	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6, .header{
-	font-family: "Creighton Regular", Verdana, sans-serif;
-	font-weight: normal;
+h1, h2, h3, h4, h5, h6, .header {
 	text-transform: uppercase;
 	text-shadow: 0 0 1px #fff;
 }
@@ -48,10 +46,6 @@ img {
 
 .no-wrap {
 	white-space: nowrap;
-}
-
-b, strong {
-	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
 }
 
 h2 {
@@ -157,10 +151,6 @@ h2 {
 	margin-bottom: -8px;
 }
 
-.read-more a {
-	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
-}
-
 .read-more a:before {
 	content: "» ";
 	float: left;
@@ -221,7 +211,6 @@ h2 {
 }
 
 .masthead h1 {
-	font-family: "FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
 	text-transform: none;
 	font-size: 48px;
 	margin-right: 8px;
@@ -284,7 +273,6 @@ h2 {
 
 .event-detail .vevent {
 	font-size: 16px;
-	font-family: "FS Joey Web Bold", sans-serif;
 	line-height: 20px;
 	position: relative;
 	padding: 14px 0 12px 58px;
@@ -366,7 +354,6 @@ h2 {
 }
 
 .event-item .lanyrd-simple {
-	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
 	font-size: 13px;
 	line-height: 1;
 	text-transform: uppercase;
@@ -424,7 +411,6 @@ h2 {
 
 .news strong {
 	text-transform: uppercase;
-	font-family: "Creighton Regular", Verdana, sans-serif;
 	font-weight: normal;
 }
 
@@ -612,4 +598,28 @@ footer span {
 		margin-right: auto;
 		max-width: 840px;
 	}
+}
+
+body {
+	font-family: "FS Joey Web Regular", Helvetica, Arial, Verdana , sans-serif;
+	font-weight: normal;
+}
+
+i, em {
+	font-family:"FS Joey Web Italic", Helvetica, Arial, Verdana , sans-serif;
+	font-style: italic;
+}
+
+b, strong,
+.masthead h1,
+.read-more a,
+.event-detail .vevent,
+.event-item .lanyrd-simple {
+	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, .header, .news strong {
+	font-family: "Creighton Regular", Verdana, sans-serif;
+	font-weight: normal;
 }
