@@ -48,3 +48,13 @@ venue:
 <p>Whilst Addy loves writing, his true passion is in helping move the web (even a little) forward. He's a member of the jQuery Core bug triage and docs teams and has also contributed to open-source projects such as <a href="http://www.modernizr.com">Modernizr</a>.</p>
 
 <p>Addy is currently writing his second open-source book, '<a href="http://addyosmani.com/blog/backbone-fundamentals/">Backbone Fundamentals</a>', about <a href="http://asyncjs.com/backbone/">Backbone.js</a>, which can be <a href="https://github.com/addyosmani/backbone-fundamentals">downloaded from GitHub</a> along with his some of his other open source projects.</p>
+
+### Update: videos of the talk
+
+We've uploaded videos of the session to our new [Vimeo account](http://vimeo.com/asyncjs):
+
+- [Part 1](http://vimeo.com/35924671){: data-video="http://player.vimeo.com/video/35924671?portrait=0&amp;color=A6C664"}
+- [Part 2](http://vimeo.com/35924733){: data-video="http://player.vimeo.com/video/35924733?portrait=0&amp;color=A6C664"}
+- [Part 3](http://vimeo.com/35990666){: data-video="http://player.vimeo.com/video/35990666?portrait=0&amp;color=A6C664"}
+
+More info on [Addy’s blog](http://addyosmani.com/scalable-javascript-videos/).
