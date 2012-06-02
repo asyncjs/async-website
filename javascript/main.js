@@ -136,7 +136,7 @@ if (document.querySelectorAll) {
       div.className = 'slides-wrapper';
 
       iframe = document.createElement('iframe');
-      iframe.src = slides.href;
+      iframe.src = slides.dataset && slides.dataset.slides || slides.href;
       iframe.width = '100%';
       iframe.frameborder = 0;
       iframe.className = 'slides-frame';
