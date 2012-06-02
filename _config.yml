@@ -46,6 +46,7 @@ url:         http://localhost:4000
 source:      .
 destination: /tmp/asyncjs
 exclude:
+- newpost
 - README.md
 future:      true
 lsi:         false
