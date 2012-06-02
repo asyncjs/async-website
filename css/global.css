@@ -23,7 +23,7 @@ abbr {
 a {
 	color: #000;
 	text-decoration: none;
-	-webkit-transition: background-color, border-color, color;	
+	-webkit-transition: background-color, border-color, color;
 	-webkit-transition-duration: 0.2s;
 	-webkit-transition-timing-function: ease-out;
 }
@@ -566,7 +566,7 @@ footer span {
 	#media-test {
 		width: 1px;
 	}
-	
+
 	.event-detail .sponsors {
 		position: absolute;
 		right: 0;
@@ -575,7 +575,7 @@ footer span {
 		padding: 0;
 		margin: 0;
 	}
-	
+
 	.event-detail .sponsors .sponsor-logo {
 		float: right;
 	}
@@ -600,11 +600,6 @@ footer span {
 }
 
 @media (min-width:840px) {
-	body {
-		padding-left: 15%;
-		padding-right: 15%;
-	}
-
 	.column {
 		float: left;
 		box-sizing: border-box;
@@ -615,7 +610,7 @@ footer span {
 	.column:after {
 		content: "";
 	}
-	
+
 	.column.event-item h3 {
 		margin-top: 0;
 	}
