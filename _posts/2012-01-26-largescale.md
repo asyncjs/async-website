@@ -9,23 +9,14 @@ lanyrd: http://lanyrd.com/2012/largescale/
 layout: event
 number: "40"
 published: true
-speakers: 
+speakers:
+- name: Addy Osmani
+  link: http://addyosmani.com
 sponsors: 
 tags: 
-- application
-- async
-- asyncjs
-- brighton
-- events
-- hove
 - javascript
-- jquery
-- js
-- largescale
-- programming
-- uk
-- webapp
-- webdev
+- applications
+- patterns
 title: Scaling Your JavaScript Application Architecture
 venue: 
   name: The Skiff
