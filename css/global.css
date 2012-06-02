@@ -485,22 +485,25 @@ footer span {
 	width: 35px;
 }
 
-.slides {
+.iframe-wrapper {
+	position: relative;
+	padding-bottom: 65%;
 	margin-bottom: 20px;
 }
 
-.slides-wrapper {
-	position: relative;
-	padding-bottom: 65%;
-}
-
-.slides-frame {
+.iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	max-width: 100%;
+}
+
+.iframe-slides .iframe {
 	width: 200%;
 	height: 200%;
-	border: none;
 	max-width: 200%;
 	-webkit-transform: scale(0.5);
 	-webkit-transform-origin: top left;
