@@ -458,18 +458,17 @@ footer span {
 	border-bottom: none;
 }
 
+.extra .heading {
+	margin-bottom: 8px;
+	margin-top: 0;
+}
+
 .lanyrd-people {
 	list-style-type: none;
 	overflow: hidden;
 	position: relative;
 	left: -8px;
 	margin-bottom: 0;
-}
-
-.lanyrd .heading {
-	font-size: 18px;
-	margin-bottom: 8px;
-	margin-top: 0;
 }
 
 .lanyrd-people {
@@ -484,6 +483,35 @@ footer span {
 
 .lanyrd-trackers li {
 	width: 35px;
+}
+
+.slides {
+	margin-bottom: 20px;
+}
+
+.slides-wrapper {
+	position: relative;
+	padding-bottom: 65%;
+}
+
+.slides-frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200%;
+	height: 200%;
+	border: none;
+	max-width: 200%;
+	-webkit-transform: scale(0.5);
+	-webkit-transform-origin: top left;
+	-moz-transform: scale(0.62);
+	-moz-transform-origin: 0;
+	-o-transform: scale(0.62);
+	-o-transform-origin: 0;
+	-ms-transform: scale(0.62);
+	-ms-transform-origin: 0;
+	transform: scale(0.62);
+	transform-origin: 0;
 }
 
 #media-test {

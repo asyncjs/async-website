@@ -30,7 +30,7 @@ if (document.querySelectorAll) {
 
         if (target) {
           container = document.createElement('section');
-          container.className = 'lanyrd';
+          container.className = 'extra lanyrd';
           event.appendChild(container);
 
           lanyrd.widget.people([target.href], container, {
@@ -118,6 +118,35 @@ if (document.querySelectorAll) {
         element.parentNode.removeChild(element);
       }
     });
+  })();
+
+  (function () {
+    var slides = document.querySelector('[data-slides]'),
+        section, iframe, heading, div;
+
+    if (slides) {
+      section = document.createElement('section');
+      section.className = 'extra slides';
+
+      heading = document.createElement('h3');
+      heading.className = 'heading';
+      heading.appendChild(document.createTextNode('Slides'));
+
+      div = document.createElement('div');
+      div.className = 'slides-wrapper';
+
+      iframe = document.createElement('iframe');
+      iframe.src = slides.href;
+      iframe.width = '100%';
+      iframe.frameborder = 0;
+      iframe.className = 'slides-frame';
+
+      div.appendChild(iframe);
+      section.appendChild(heading);
+      section.appendChild(div);
+
+      document.querySelector('.event-detail').appendChild(section);
+    }
   })();
 
   (function () {
