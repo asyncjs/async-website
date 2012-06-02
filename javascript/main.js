@@ -121,32 +121,44 @@ if (document.querySelectorAll) {
   })();
 
   (function () {
-    var slides = document.querySelector('[data-slides]'),
-        section, iframe, heading, div;
-
-    if (slides) {
-      section = document.createElement('section');
-      section.className = 'extra slides';
-
-      heading = document.createElement('h3');
-      heading.className = 'heading';
-      heading.appendChild(document.createTextNode('Slides'));
-
-      div = document.createElement('div');
-      div.className = 'slides-wrapper';
+    function createFrame(src, type) {
+      var div = document.createElement('div'), iframe;
+      div.className = 'iframe-wrapper iframe-' + type;
 
       iframe = document.createElement('iframe');
-      iframe.src = slides.dataset && slides.dataset.slides || slides.href;
+      iframe.src = src;
       iframe.width = '100%';
-      iframe.frameborder = 0;
-      iframe.className = 'slides-frame';
+      iframe.className = 'iframe';
 
       div.appendChild(iframe);
-      section.appendChild(heading);
-      section.appendChild(div);
-
-      document.querySelector('.event-detail').appendChild(section);
+      return div;
     }
+
+    function createSection(title, type) {
+      var media = document.querySelectorAll('[data-' + type + ']'),
+          section, heading;
+
+      if (media.length) {
+        section = document.createElement('section');
+        section.className = 'extra ' + type;
+
+        heading = document.createElement('h3');
+        heading.className = 'heading';
+        heading.appendChild(document.createTextNode(title));
+
+        section.appendChild(heading);
+
+        [].forEach.call(media, function (link) {
+          var src =  link.dataset && link.dataset.video || link.href;
+          section.appendChild(createFrame(src, type));
+        });
+
+        document.querySelector('.event-detail').appendChild(section);
+      }
+    }
+
+    createSection('Slides', 'slides');
+    createSection('Videos', 'video');
   })();
 
   (function () {
