@@ -38,7 +38,7 @@
 		</footer>
 		<div id="media-test"></div>
 		<script src="/javascript/main.js"></script>
-		{% if  %}
+		{% if site.analytics and site.pygments == true %}
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '{{ site.analytics }}']);
