@@ -5,6 +5,16 @@ Welcome to the repository for the Async website. The site is a static
 repository of files and directories that is converted by [Jekyll][#jekyll]
 into a static site when a new commit is pushed to GitHub.
 
+Running the server locally
+--------------------------
+
+Just run the following from the project directory:
+
+    $ make serve
+
+Then visit http://localhost:4000 in the browser. This writes out the site files
+into the */tmp/asyncjs* directory (apols to Windows users).
+
 Creating a new event
 --------------------
 
@@ -12,10 +22,14 @@ To create a new post you'll need to create a new file in the __posts_
 directory. This should be named `YYYY-MM-DD-slug.md` where `YYYY-MM-DD` is the
 date of the event, `slug` is the page slug and `.md` is the formatter.
 
-See _0000-01-01-_blank.md_ for an example of how a post is structured. The
-top part of the post is meta data that is used to build the site the second
-part after the second `---` is the post body. This should be formatted
-with [markdown][#md].
+There is a helpful `make` task for creating a new event file. Just run the
+following from the project directory:
+
+    $ make post
+
+The top part of the post is meta data that is used to build the site the second
+part after the second `---` is the post body. This should be formatted with
+[markdown][#md].
 
 ### Metadata
 
