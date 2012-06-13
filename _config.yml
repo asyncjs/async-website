@@ -10,30 +10,30 @@ elsewhere:
 - name: News
   link: /news/
   desc: Recent Async Announcements
+- name: Twitter
+  link: http://twitter.com/asyncjs
+  desc: @asyncjs on Twitter
+- name: Mailing List
+  link: http://groups.google.com/group/asyncjs/
+  desc: Email list on Google Groups
+- name: Subscribe
+  link: /feed/
+  desc: Subscribe to the website's Atom feed
+- name: Subscribe by email
+  link: http://feedburner.google.com/fb/a/mailverify?uri=asyncjs
+  desc: Subscribe to email updates for the website
+- name: Lanyrd
+  link: http://lanyrd.com/series/asyncjs/
+  desc: Async events on Lanyrd
+- name: Calendar
+  link: http://lanyrd.com/series/asyncjs/save-to-calendar/
+  desc: Subscribe to our calendar
+- name: IRC
+  link: http://webchat.freenode.net/?channels=asyncjs
+  desc: The Async IRC channel
 - name: Email Us
   link: &#109;&#97;&#105;&#108;&#x74;&#x6f;&#58;&#104;&#101;&#108;&#108;&#111;&#064;&#097;&#115;&#121;&#110;&#099;&#106;&#115;&#046;&#099;&#111;&#109;
   desc: Get in touch
-- name: Twitter
-  link: http://twitter.com/asyncjs
-  desc: Twitter
-- name: Subscribe
-  link: /feed/
-  desc: Subscribe by atom feed
-- name: Subscribe by email
-  link: http://feedburner.google.com/fb/a/mailverify?uri=asyncjs
-  desc: Subscribe to email updates
-- name: Calendar
-  link: http://lanyrd.com/series/asyncjs/save-to-calendar/
-  desc: Subscribe to out calendar
-- name: Lanyrd
-  link: http://lanyrd.com/series/asyncjs/
-  desc: Lanyrd
-- name: Mailing List
-  link: http://groups.google.com/group/asyncjs/
-  desc: The Async JS IRC channel
-- name: IRC
-  link: http://webchat.freenode.net/?channels=asyncjs
-  desc: The Async JS IRC channel
 
 # Jekyll Options
 safe:        true
