@@ -40,7 +40,7 @@ In which [Async][#async] and [Functional Brighton][#fbtn] join forces for the ni
 [Roy][#roy] is a new statically typed functional language that compiles to JavasScript. It's designed to help with correctness while being lightweight and working well with existing JavaScript code.
 [Richard Dallaway][#richard] will reveal its beauty, its warts and all.
 
-And other adventures in functional JavaScript...
+Amongst other functional delights on the night...
 
 [#async]: http://asyncjs.com
 [#fbtn]: http://www.meetup.com/Functional-Brighton/
