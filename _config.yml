@@ -16,7 +16,7 @@ elsewhere:
 - name: Mailing List
   link: http://groups.google.com/group/asyncjs/
   desc: Email list on Google Groups
-- name: Subscribe
+- name: Subscribe to feed
   link: /feed/
   desc: Subscribe to the website's Atom feed
 - name: Subscribe by email

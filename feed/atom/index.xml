@@ -28,8 +28,8 @@ layout:
    <content type="html">
      {% capture body %}
        {% if post.category == "event" %}
-         <p>{{ post.date | date:"%l:%M%P %A, %-d %B %Y" }} @ <a href="{{ post.venue.link }}">{{ post.venue.name }}, {{ post.venue.address }}</a></p>
-         <p><a href="{{ post.lanyrd }}">Sign up on Lanyrd</a></p>
+         <p>{{ post.date | date:"%l:%M%P %A, %-d %B %Y" }} @ <a href="{{ post.venue.location | post.venue.link }}">{{ post.venue.name }}, {{ post.venue.address }}</a></p>
+         <p>☞ <a href="{{ post.lanyrd }}">Sign up on Lanyrd</a></p>
        {% endif %}
        {{ post.content | markdownify }}
      {% endcapture %}
