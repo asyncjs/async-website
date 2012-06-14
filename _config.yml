@@ -52,4 +52,4 @@ future:      true
 lsi:         false
 pygments:    false
 markdown:    kramdown
-permalink:   /:title
+permalink:   /:title/
