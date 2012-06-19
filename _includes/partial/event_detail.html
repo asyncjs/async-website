@@ -4,7 +4,7 @@
 		<p class="meta">
 			{% if event.speakers %}
 				{% assign users = event.speakers %}
-				By {% include partial/user_list.html %}.
+				Presented by {% include partial/user_list.html %}.
 			{% endif %}
 			{% if event.sponsors and event.sponsors %} {% endif %}
 			{% if event.sponsors %}
