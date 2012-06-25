@@ -34,15 +34,27 @@ category: event
 published: true
 ---
 
-In which [Async][#async] and [Functional Brighton][#fbtn] join forces for a night of functionality.
+In which [Async][#async] and [Functional Brighton][#fbtn] join forces for a
+night of functionality.
 
-[Functional Programming][#fp] is an old paradigm with new interest that can reduce complexity and create more reusable, provable, scalable and composable programs. But what are the main features of functional programming? Why should you be interested? And why now?  
-[Kingsley Davies][#kingsley] will introduce the topic and the benefits of using functional concepts both in JavaScript and in general.
+[Functional Programming][#fp] is an old paradigm with new interest that can
+reduce complexity and create more reusable, provable, scalable and composable
+programs. But what are the main features of functional programming? Why should
+you be interested? And why now?
 
-[Tom Parslow][#tom] will walk us through some of the <em>functional programming</em> techniques you can use in JavaScript and at the very helpful [Underscore.js][#underscore] library's support for functional programming.
+### The Evening's Speakers
 
-[Roy][#roy] is a new [statically typed][#statictype] functional language that compiles to JavasScript. It's designed to help with correctness, while being lightweight and working well with existing JavaScript code.  
-[Richard Dallaway][#richard] will reveal its beauty, its warts and all.
+[Kingsley Davies][#kingsley] will introduce the topic and the benefits of using
+functional concepts both in JavaScript and in general.
+
+[Tom Parslow][#tom] will walk us through some of the <em>functional
+programming</em> techniques you can use in JavaScript and at the very helpful
+[Underscore.js][#underscore] library's support for functional programming.
+
+[Roy][#roy] is a new [statically typed][#statictype] functional language that
+compiles to JavasScript. It's designed to help with correctness, while being
+lightweight and working well with existing JavaScript code. [Richard
+Dallaway][#richard] will reveal its beauty, its warts and all.
 
 [#async]: http://asyncjs.com
 [#fbtn]: http://www.meetup.com/Functional-Brighton/
