@@ -66,6 +66,16 @@ h2 {
 	margin-bottom: 16px;
 }
 
+.prose ul {
+	margin-left: 1.2em;
+	list-style-type: square;
+}
+
+.prose ol {
+	margin-left: 1.3em;
+	list-style-type: decimal;
+}
+
 .prose .heading {
 	margin-top: 24px;
 	margin-bottom: 0;
@@ -269,7 +279,16 @@ h2 {
 }
 
 .event-detail .description {
-	overflow: hidden;
+}
+
+.event-detail .description:before,
+.event-detail .description:after {
+    content: "";
+    display: table;
+}
+
+.event-detail .description:after {
+    clear: both;
 }
 
 .event-detail .bordered {
