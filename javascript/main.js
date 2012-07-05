@@ -49,7 +49,9 @@ if (document.querySelectorAll) {
             section.appendChild(heading);
 
             [].forEach.call(media, function (link) {
-              var src =  link.dataset && link.dataset.video || link.href;
+              var data = link.dataset,
+                  src = data && (data.video || data.slides) || link.href;
+
               section.appendChild(createFrame(src, type));
             });
 
