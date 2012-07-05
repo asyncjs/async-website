@@ -17,7 +17,6 @@ image:
   title: "'details' by jared"
   link:  http://www.flickr.com/photos/generated/1278618271/
 tags:
-- functional
 - functional programming
 - design patterns
 - javascript
@@ -56,6 +55,12 @@ compiles to JavasScript. It's designed to help with correctness, while being
 lightweight and working well with existing JavaScript code. [Richard
 Dallaway][#richard] will reveal its beauty, its warts and all.
 
+### Update: Slides Online
+
+- Kingsley's [intro slides][#intro-slides]{: data-slides=""}
+- Tom's [Underscore slides][#underscore-slides]{: data-slides=""}
+- Richard's [Roy code examples][#roy-slides]
+
 [#async]: http://asyncjs.com
 [#fbtn]: http://www.meetup.com/Functional-Brighton/
 [#fp]: https://en.wikipedia.org/wiki/Functional_programming
@@ -65,3 +70,7 @@ Dallaway][#richard] will reveal its beauty, its warts and all.
 [#kingsley]: http://scalabound.org
 [#tom]: http://almostobsolete.net
 [#richard]: http://richard.dallaway.com
+
+[#intro-slides]:http://scalabound.org/fnbtn/fpjs-intro/func-damentals.html#/History
+[#underscore-slides]: http://almostobsolete.net/talks/functionaljs/#1
+[#roy-slides]: https://github.com/functionalbrighton/roy-june-2012
