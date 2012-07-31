@@ -18,7 +18,7 @@ tags:
 - webgl
 - games
 - dataviz
-- hacknight
+- hackday
 venue:
   name: The Skiff
   link: http://theskiff.org/
