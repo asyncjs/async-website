@@ -630,6 +630,10 @@ footer span {
 		margin-right: 5%;
 	}
 
+	.column:nth-child(odd) {
+		clear: left;
+	}
+
 	.column:after {
 		content: "";
 	}
