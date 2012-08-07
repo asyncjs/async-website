@@ -36,8 +36,8 @@ layout: base
 		<h2 class="module-heading">Upcoming Events:</h2>
 		<ul class="event-lisiting">
 			{% assign matches = "0" %}
-			{% for event in events limit:offset %}
-				{% if event.date > current.date %}
+			{% for event in events reversed limit:offset %}
+				{% if matches < "2" and event.date > current.date %}
 					<li class="event-item">{% include partial/event_item.html %}</li>
 					{% capture matches %}{{ matches | plus:1 }}{% endcapture %}
 				{% endif %}
