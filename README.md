@@ -82,6 +82,17 @@ much simpler:
     published: true
     ---
 
+Triggering a site rebuild, without new content
+----------------------------------------------
+
+GitHub pages rebuilds the site whenever a new commit is made. If a re-build is 
+required, even without new content - e.g. in order to re-render the 'next event' 
+on the home page, then run the following:
+
+    git commit --allow-empty -m "Republish GitHub pages (empty commit)"
+    git push
+
+
 [#md]: http://daringfireball.net/projects/markdown/
 [#yaml]: http://www.yaml.org/
 [#jekyll]: http://jekyllrb.com/
