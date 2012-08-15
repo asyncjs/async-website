@@ -36,18 +36,20 @@ We'll set up an infinitely scrollable and zoomable web page, where anyone can co
 
 This is a fun, relaxed, no-experience-necessary event to learn and play with new technologies in the web browser, hook up with other local artists, designers and developers, and get together to make something beautiful and unique. We need artists and designers as much as JavaScript and other developers, so come along to either or both sessions, whoever you are. We'll put the whole anarchic burst of colour live when we're done.
 
-<!---
 Related events:
-* "[Three.js from Scratch][#3js]" at [Async][#async]
+* "[Three Dimensions Good][#3js]" at [Async][#async]
 * "[Bring Your Own Beamer - Lab Days][#byob]" at [L4RP][#l4rp]
--->
+
+[![A Brighton Digital Festival event][#bdf-logo]][#bdf-onecanvas]
 
 [#jj]: http://jungle.asyncjs.com
 [#jjblog]: http://asyncjs.com/the-mighty-jungle/
-[#bdf]: brightondigitalfestival.co.uk
+[#bdf]: http://brightondigitalfestival.co.uk
+[#bdf-logo]: http://asyncjs.com/images/bdf-2012-logo-small.png "A Brighton Digital Festival event"
+[#bdf-onecanvas]: http://2012.brightondigitalfestival.co.uk/event/asyncs-one-canvas-hack-night-part-one-2/
 [#onecanvas]: http://asyncjs.com/onecanvas/
 [#onecanvas2]: http://asyncjs.com/onecanvas-2/
 [#3js]: http://asyncjs.com/threejs/
 [#async]: http://asyncjs.com
 [#byob]: http://L4RP.com/byob/
-[#l4rp]: http://L4RP.com/byob/
+[#l4rp]: http://L4RP.com
