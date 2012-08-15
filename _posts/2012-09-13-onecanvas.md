@@ -36,7 +36,8 @@ We'll set up an infinitely scrollable and zoomable web page, where anyone can co
 
 This is a fun, relaxed, no-experience-necessary event to learn and play with new technologies in the web browser, hook up with other local artists, designers and developers, and get together to make something beautiful and unique. We need artists and designers as much as JavaScript and other developers, so come along to either or both sessions, whoever you are. We'll put the whole anarchic burst of colour live when we're done.
 
-Related events:
+### Related events:
+
 * "[Three Dimensions Good][#3js]" at [Async][#async]
 * "[Bring Your Own Beamer - Lab Days][#byob]" at [L4RP][#l4rp]
 * "[One Canvas: part two][#onecanvas2]" at [Async][#async]
