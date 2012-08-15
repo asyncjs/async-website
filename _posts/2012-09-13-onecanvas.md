@@ -39,6 +39,7 @@ This is a fun, relaxed, no-experience-necessary event to learn and play with new
 Related events:
 * "[Three Dimensions Good][#3js]" at [Async][#async]
 * "[Bring Your Own Beamer - Lab Days][#byob]" at [L4RP][#l4rp]
+* "[One Canvas: part two][#onecanvas2]" at [Async][#async]
 
 [![A Brighton Digital Festival event][#bdf-logo]][#bdf-onecanvas]
 
