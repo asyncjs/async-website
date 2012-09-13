@@ -23,7 +23,7 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event
 category: event
-published: false
+published: true
 ---
 
 Reponsive design is hot. JavaScript is cool. But mix them together in the wrong
