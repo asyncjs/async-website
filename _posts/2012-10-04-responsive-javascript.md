@@ -2,7 +2,7 @@
 number: 58
 title: Responsibly Responsive JavaScript
 summary: A look at what JavaScript can bring to the world of responsive web design
-date: 2012-10-04T19:15+00:00
+date: 2012-10-11T19:15+00:00
 lanyrd: http://lanyrd.com/async-responsive-javascript
 speakers:
 - name: Mark Perkins
