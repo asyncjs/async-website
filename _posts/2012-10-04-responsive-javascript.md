@@ -9,7 +9,7 @@ speakers:
   link: http://allmarkedup.com
 image:
   url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: A short description of the image, on Flickr
+  title: "'Title' by Chaval Brasil"
   link:  http://www.flickr.com/photos/chavals/2941676828/
 tags:
 - responsive
