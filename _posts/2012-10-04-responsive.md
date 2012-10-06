@@ -3,14 +3,14 @@ number: 58
 title: Responsibly Responsive JavaScript
 summary: A look at what JavaScript can bring to the world of responsive web design
 date: 2012-10-11T19:15+00:00
-lanyrd: http://lanyrd.com/async-responsive-javascript
+lanyrd: http://lanyrd.com/asyncjs-responsive
 speakers:
 - name: Mark Perkins
   link: http://allmarkedup.com
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Title' by Chaval Brasil"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   http://farm2.staticflickr.com/1266/1399989742_40ef97e256.jpg
+  title: "'bladespin2' by Derekwin"
+  link:  http://www.flickr.com/photos/derekwin/1399989742/
 tags:
 - responsive
 - javascript
