@@ -29,12 +29,11 @@ Following on from the <a href="http://asyncjs.com/nodejs">fantastic opening sess
 <strong>Have you got a little JavaScript discovery to share?</strong> Or a pet project, or an interesting app that you’ve seen and want to tell us about? Come and share it with all the people...
 Each slot will be just <strong>5 minutes</strong> (+ 2 mins for questions).
 
-Please let us know in the comments below if there's something you'd like to share, or if you have any questions.
+Please let us know if there's something you'd like to share, or if you have any questions.
 
 <hr />
 <h3>[Update]: The demos</h3>
-From <a href="http://asyncjs.com/showntell/#comments">the comments</a> on this post...
-<em>(BTW - there's still time if you'd like to give a demo at the event)</em>
+
 <ol>
 	<li><a href="http://www.psychicorigami.com">John Montgomery</a>: JavaScript iPhone apps that use localStorage, demoed with his <a href="http://www.psychicorigami.com/2009/07/10/an-iphone-friendly-local-storage-backed-offline-todo-list-webapp/">TODO list app</a>.</li>
 	<li><a href="http://flashygraphics.co.uk">Craig Moore</a>: a <em>mystery</em> jQuery widget to get feedback on</li>

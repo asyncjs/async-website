@@ -31,6 +31,22 @@ venue:
 
 <p>It's that time of year again. As a troupe of JavaScripters from the back of beyond descend upon the humble shores of Brighton for another heady dose of the <a href="http://2011.full-frontal.org">Full Frontal JavaScript conference</a>, we wee <a href="http://asyncjs.com">Async</a> folk will prop open our doors and welcome our international kinsfolk, for the breaking of bread and the sharing of our lofty wares.</p>
 
-<p><strong><em>Translation:</em></strong> On the night before Full Frontal, you are cordially invited to <span class="summary">Async's "International Show n' Tell"</span>. If you'd like to take a 5-minute slot, to tell us about a project, a technique or a story, please add a comment to this blog post. (Check out <a href="http://asyncjs.com/showntell3/">last year's event</a> for some inspiration).
+<p><strong><em>Translation:</em></strong> On the night before Full Frontal, you are cordially invited to <span class="summary">Async's "International Show n' Tell"</span>. If you'd like to take a 5-minute slot, to tell us about a project, a technique or a story, please let us know. (Check out <a href="http://asyncjs.com/showntell3/">last year's event</a> for some inspiration).
 
 Anyway, if you'd like to just attend, please sign up on <a href="http://lanyrd.com/2011/asyncjs-international">the Lanyrd event page</a>. See you there.</p>
+
+<hr />
+
+<h3>[Update]: The demos</h3>
+
+<ol>
+	<li>[Pete Goodman](http://petegoodman.com): 5 projects in 5 minutes ([Browser Breakout](http://petegoodman.com/labs/js-canvas-browser-breakout/), [Canvas Letters](http://petegoodman.com/labs/javascript-canvas-letters/), [Ghetto Blaster](http://petegoodman.com/labs/ghetto-blaster-php-js-soundboard/), [Spotify Remote](http://petegoodman.com/labs/spotify-remote/), [Boris](http://petegoodman.com/labs/boris-localhost-browser/)).</li>
+	<li>[Yves Van Goethem](http://yves.vg): how we track front-end errors at [SoundCloud](http://soundcloud.com), what tools we use and how useful they are.</li>
+	<li>[Rebecca Murphey](http://rmurphey.com): [Mulberry](http://toura.github.com/mulberry), an open-source HTML/CSS/JS framework for rapidly scaffolding, testing, and deploying mobile apps on Android and iOS.</li>
+	<li>Daniel: using the [DataSift API](http://dev.datasift.com).</li>
+	<li>[Trevor Ward](http://thewarpedcoder.net): using JavaScript to create a mobile app with [Titanium](https://www.appcelerator.com/platform).</li>
+	<li>[Mark Kirby](http://mark-kirby.co.uk): how we created the Chrome Web app, Tesco Food, which is written with backbone.js and hosted locally.</li>
+	<li>[Thomas Parslow](http://almostobsolete.net): our new [JSONPatch library](https://github.com/dharmafly/jsonpatch.js), and maybe talk a little about RESTful APIs and the [HTTP PATCH verb](https://tools.ietf.org/html/rfc5789)</li>
+	<li>[Sam Foster](http://leedsjs.org): what we've been doing at [Javascript Leeds](http://leedsjs.org) and what's new in Dojo 1.7.</li>
+	<li>[Mike de Boer](https://twitter.com/mikedeboer): [Cloud9 IDE](http://c9.io), one year on.</li>
+</ol>
