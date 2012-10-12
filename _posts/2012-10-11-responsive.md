@@ -45,6 +45,11 @@ smartest people in the industry. He also helps develop a browser plugin for
 Gmail called [ActiveInbox][#activeinbox] that has a passionate community of
 users across the world.
 
+## Update: [slides online][#slides]
+
+<script async class="speakerdeck-embed" data-id="507806c11d371f000203b9f8" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
 [#mark]: http://twitter.com/allmarkedup/
 [#clearleft]: http://clearleft.com/
 [#activeinbox]: http://activeinboxhq.com/
+[#slides]: http://lanyrd.com/2012/asyncjs-responsive/coverage/
