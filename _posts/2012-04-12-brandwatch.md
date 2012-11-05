@@ -75,7 +75,7 @@ The official accounts are [@brandwatch](http://twitter.com/brandwatch) / [github
 ### Sponsorship
 
 If you are interested in sponsoring a month or more of Async, please
-[read the details](/sponsorship/) and [get in touch with us](mailto:hello%20[at]%20asyncjs%20[dot]%20com).
+[read the details](/sponsorship/) and [get in touch with us](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#97;&#115;&#121;&#110;&#99;&#106;&#115;&#46;&#99;&#111;&#109;).
 
 *[OO]:  Object Orientated
 *[MVC]: Model View Controller
