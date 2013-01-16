@@ -3,7 +3,7 @@ number: 64
 title: "Firefox OS: native mobile with JavaScript"
 summary: Where Native and Web are one and the same.
 date: 2013-01-24T19:15+00:00
-lanyrd: http://lanyrd.com/asyncjs-firefoxos/
+lanyrd: http://lanyrd.com/2013/asyncjs-firefoxos/
 speakers:
 - name: James Hugman
   link: http://hugman.posterous.com
