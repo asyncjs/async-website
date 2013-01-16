@@ -8,7 +8,7 @@ speakers:
 - name: James Hugman
   link: http://hugman.posterous.com
 image:
-  url:   https://farm1.staticflickr.com/120/305145490_409051da7b_t.jpg
+  url:   https://farm1.staticflickr.com/120/305145490_409051da7b.jpg
   title: "'shining star' by belgianchocolate"
   link:  http://www.flickr.com/photos/frank-wouters/305145490/
 tags:
