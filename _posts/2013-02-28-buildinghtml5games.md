@@ -1,22 +1,22 @@
 ---
 number: 66
 title: "Building HTML5 Games"
-summary: How to build your very own HTML5 powered games
+summary: How to build your very own HTML5-powered games
 date: 2013-02-28T19:15+00:00
-lanyrd: 
+lanyrd: http://lanyrd.com/2013/async-building-html5-games/
 speakers:
 - name: Dan Neame
   link: http://twitter.com/cham
 image:
   url:   http://farm4.staticflickr.com/3644/3587597615_f366ef8db7.jpg
-  title: Death Pac by JD Hancock
+  title: "'Death Pac' by JD Hancock"
   link:  http://www.flickr.com/photos/jdhancock/3587597615/
 tags:
 - html5
 - canvas
-- GamepadAPI
-- Pathfinding
-- cross-device
+- gamepadAPI
+- pathfinding
+- crossdevice
 venue:
   name: The Skiff
   link: http://theskiff.org/
@@ -25,7 +25,7 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event
 category: event
-published: false
+published: true
 ---
 
 With the advent of HTML5 it is now possible to build games that run in the browser, plugin free, on multiple devices. Ever wanted to make your own game but weren't sure where to start? Or maybe you've built a few games before for desktop and are interested in the challenges involved in building one in the browser?
