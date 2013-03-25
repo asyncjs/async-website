@@ -29,7 +29,7 @@ category: event
 published: false # Set this to true to publish
 ---
 
-Javascript is a great programming language marred by idiosyncratic flaws. Odd [semantic quirks][] and [inconsistencies][] in browser implementations combine with verbose syntax to make coding difficult and error-prone. While [forthcoming versions][] will address these flaws, many of us will be maintening support for existing web browsers well into the future.
+Javascript is a great programming language marred by idiosyncratic flaws. Odd [semantic quirks][] and [inconsistencies][] in browser implementations combine with verbose syntax to make coding difficult and error-prone. While [forthcoming versions][] will address these flaws, many of us will be maintaining support for existing web browsers well into the future.
 
 Enter [Coffeescript][] - a lightweight syntactic wrapper that compiles to Javascript and is available for production use right now. Coffeescript, which has been the topic of [previous talks][] at Async, aims to help developers improve their Javascript by making "good" code easier to write.
 
