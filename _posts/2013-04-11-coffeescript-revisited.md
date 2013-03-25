@@ -9,9 +9,9 @@ speakers:
   link: http://davegurnell.com
 sponsors:
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Photo title' by Creator"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   http://cdn.memegenerator.net/instances/400x/22884366.jpg
+  title: "Coffeescript all the things"
+  link:  http://memegenerator.net/instance/22884366
 tags:
 - brighton
 - coffeescript
