@@ -9,9 +9,9 @@ speakers:
   link: http://davegurnell.com
 sponsors:
 image:
-  url:   http://cdn.memegenerator.net/instances/400x/22884366.jpg
-  title: "Coffeescript all the things"
-  link:  http://memegenerator.net/instance/22884366
+  url:   http://gwb.blob.core.windows.net/liammclennan/WindowsLiveWriter/CoffeeScriptHandler_12229/coffee_poster_3.gif
+  title: "Coffee: you can sleep when you're dead"
+  link:  http://geekswithblogs.net/liammclennan/archive/2010/06/13/140393.aspx
 tags:
 - brighton
 - coffeescript
