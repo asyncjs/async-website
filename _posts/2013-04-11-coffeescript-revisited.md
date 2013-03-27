@@ -3,7 +3,7 @@ number: 68
 title: Caffeine Hit: Coffeescript Revisited
 summary: A tour of the advantanges and weaknesses of the popular Javascript replacement.
 date: 2013-04-11T19:15+00:00
-lanyrd: http://lanyrd.com/2013/asyncjs-coffeescript-revisited/
+lanyrd: http://lanyrd.com/2013/async-coffeescript-revisited/
 speakers:
 - name: Dave Gurnell
   link: http://davegurnell.com
@@ -26,7 +26,7 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 
 Javascript is a great programming language marred by idiosyncratic flaws. Odd [semantic quirks][] and [inconsistencies][] in browser implementations combine with verbose syntax to make coding difficult and error-prone. While [forthcoming versions][] will address these flaws, many of us will be maintaining support for existing web browsers well into the future.
