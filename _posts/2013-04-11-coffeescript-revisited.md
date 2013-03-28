@@ -1,6 +1,6 @@
 ---
 number: 68
-title: Caffeine Hit: Coffeescript Revisited
+title: "Caffeine Hit: Coffeescript Revisited"
 summary: A tour of the advantanges and weaknesses of the popular Javascript replacement.
 date: 2013-04-11T19:15+00:00
 lanyrd: http://lanyrd.com/2013/async-coffeescript-revisited/
@@ -9,9 +9,9 @@ speakers:
   link: http://davegurnell.com
 sponsors:
 image:
-  url:   http://gwb.blob.core.windows.net/liammclennan/WindowsLiveWriter/CoffeeScriptHandler_12229/coffee_poster_3.gif
-  title: "Coffee: you can sleep when you're dead"
-  link:  http://geekswithblogs.net/liammclennan/archive/2010/06/13/140393.aspx
+  url: https://farm4.staticflickr.com/3664/3462198490_bb5fe57fb7.jpg
+  title: "'¿ Café?' by OliBac"
+  link:  http://www.flickr.com/photos/olibac/3462198490/
 tags:
 - brighton
 - coffeescript
