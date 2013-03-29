@@ -26,7 +26,7 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event
 category: event
-published: true
+published: true 
 ---
 
 Javascript is a great programming language marred by idiosyncratic flaws. Odd [semantic quirks][] and [inconsistencies][] in browser implementations combine with verbose syntax to make coding difficult and error-prone. While [forthcoming versions][] will address these flaws, many of us will be maintaining support for existing web browsers well into the future.
