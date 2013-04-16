@@ -29,6 +29,7 @@ published: true
 The Model-View-Controller (MVC) model has been widely adopted for building client-side Javascript apps, but how does this architecture scale as complexity increases? Is MVC the right choice after all?
 
 In this talk, Tom will present: 
+
 * an overview of modular architectures
 * the problem he's trying to solve
 * how he approached it (with some crazy diagrams)
