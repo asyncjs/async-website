@@ -4,6 +4,10 @@ title: Managing Modularity
 summary: What I've learned about how MVC scales with complexity.
 date: 2013-04-25T19:15+00:00
 lanyrd: http://lanyrd.com/2013/async-managing-modularity/
+speakers:
+- name: Tom Ashworth
+  link: http://phuu.net
+sponsors:
 image:
   url:   http://farm5.staticflickr.com/4094/4765638181_929bedcc32_z.jpg
   title: "'NBM Lego Exhibit Legos' by Mr. T in DC"
