@@ -9,7 +9,7 @@ speakers:
   link: http://www.linkedin.com/in/cristianosolarino
 sponsors:
 image:
-  url:   https://farm4.staticflickr.com/3025/2303330321_051c08f3d2_m.jpg
+  url:   https://farm4.staticflickr.com/3025/2303330321_051c08f3d2.jpg
   title: "'A Notable Lineage (2 of 2)' by blogrodent"
   link:  http://www.flickr.com/photos/blogrodent/2303330321/
 tags:
