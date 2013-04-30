@@ -30,7 +30,7 @@ category: event
 published: true
 ---
 
-**NOTE THE NEW VENUE:** [Lab for the Recently Possible](http://L4RP.com), opposite The Skiff.
+**NOTE THE NEW VENUE:** [Lab for the Recently Possible](http://L4RP.com), at 45 Gloucester Street, opposite The Skiff.
 
 
 It turns out that we can't have it all when we are dealing with the kind of distributed systems required by today's web-scale applications. 
