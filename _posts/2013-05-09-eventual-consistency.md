@@ -9,9 +9,9 @@ speakers:
   link: http://www.linkedin.com/in/cristianosolarino
 sponsors:
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Photo title' by Creator"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   https://farm4.staticflickr.com/3025/2303330321_051c08f3d2_m.jpg
+  title: "'A Notable Lineage (2 of 2)' by blogrodent"
+  link:  http://www.flickr.com/photos/blogrodent/2303330321/
 tags:
 - riak
 - node
@@ -20,36 +20,33 @@ tags:
 - eventual consistency
 - CAP
 venue:
-  name: The Skiff
-  link: http://theskiff.org/
-  location: http://theskiff.org/contact/
-  address: 6 Gloucester Street, Brighton, BN1 4EW
-  latlong: 50.826945,-0.136401
+  name: Lab for the Recently Possible
+  link: http://L4RP.com
+  location: http://l4rp.com/#location
+  address: 45 Gloucester Street, Brighton, BN1 4EW
+  latlong: 50.827006,-0.136063
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
+
+**Note the new venue**: [Lab for the Recently Possible](http://L4RP.com) - opposite The Skiff
+
 
 It turns out that we can't have it all when we are dealing with the kind of distributed systems required by today's web-scale applications. 
 
-Brewer's Theorem tells us that for any such system we cannot simultaneously guarantee *Consistency*, *Availability* and tolerance to *Partitioning*. We can fullfil any two but we are stuck with a weaker version of whatever is left!
+Brewer's Theorem tells us that for any such system we cannot simultaneously guarantee *Consistency*, *Availability* and tolerance to *Partitioning*. We can fulfill any two but we are stuck with a weaker version of whatever is left.
 
-So what happens then when we choose to relax the requirement of data consistency? And how are we going to write reliable code in these settings?
+So what happens then when we choose to relax the requirement of data consistency? And how are we going to write reliable code in these situations?
 
-In this talk I shall look at one approach to cope with this scenario called *Convergent Replicated Data Types* using [Riak][riak] as the reference example of an *eventually consistent* database. I will discuss why I think *CRDT*s are really cool (*warning* may contains some maths!) and I will go through a couple of very simple examples in [Node][node].
+In this talk, [Cristiano Solarino][cristiano] will look at one approach to cope with this scenario called *Convergent Replicated Data Types* using [Riak][riak] as the reference example of an *eventually consistent* database. Cris will explain why he thinks *CRDT*s are really cool (*warning:* may contains some maths!) and will walk through a couple of simple examples in [Node][node].
 
-I will then show how by adding a little constraint on the type of operations we can perform on our *CRDT*s, we can create a more generic [Node][node] module that will make our dev life a bit easier!
+We'll then look at adding a constraint on the type of operations we can perform on our *CRDT*s, by creating a generic [Node][node] module to make our dev life a bit easier.
 
-Let's discuss pros and cons after that shall we?
+Cristiano is one-third of [BrightMinded][brightminded]'s dev team. Feed him Tiramisu and you'll have gained a friend for life.
 
 
-[Cristiano][cristiano] is one-third of [BrightMinded][brightminded]'s dev team. Give him some good Tiramisu' and you'll have gained a friend!
-
+[cristiano]: https://twitter.com/c_solarino
 [riak]: http://basho.com/riak
 [node]: http://nodejs.org
 [brightminded]: http://brightminded.com
-
-
-
-
-
