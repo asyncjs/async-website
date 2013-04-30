@@ -14,7 +14,7 @@ image:
   link:  http://www.flickr.com/photos/blogrodent/2303330321/
 tags:
 - riak
-- node
+- nodejs
 - distributed databases
 - crdt
 - eventual consistency
