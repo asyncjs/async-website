@@ -30,7 +30,7 @@ category: event
 published: true
 ---
 
-**Note the new venue**: [Lab for the Recently Possible](http://L4RP.com) - opposite The Skiff
+**NOTE THE NEW VENUE:** [Lab for the Recently Possible](http://L4RP.com), opposite The Skiff.
 
 
 It turns out that we can't have it all when we are dealing with the kind of distributed systems required by today's web-scale applications. 
