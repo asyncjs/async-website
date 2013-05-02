@@ -39,7 +39,7 @@ Brewer's Theorem tells us that for any such system we cannot simultaneously guar
 
 So what happens then when we choose to relax the requirement of data consistency? And how are we going to write reliable code in these situations?
 
-In this talk, [Cristiano Solarino][cristiano] will look at one approach to cope with this scenario called *Convergent Replicated Data Types* using [Riak][riak] as the reference example of an *eventually consistent* database. Cris will explain why he thinks *CRDT*s are really cool (*warning:* may contains some maths!) and will walk through a couple of simple examples in [Node][node].
+In this talk, [Cristiano Solarino][cristiano] will look at one approach to cope with this scenario called *Convergent Replicated Data Types* using [Riak][riak] as the reference example of an *eventually consistent* database. Cris will explain why he thinks *CRDT*s are really cool and will walk through a couple of simple examples in [Node][node].
 
 We'll then look at adding a constraint on the type of operations we can perform on our *CRDT*s, by creating a generic [Node][node] module to make our dev life a bit easier.
 
