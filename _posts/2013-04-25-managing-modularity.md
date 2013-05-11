@@ -48,7 +48,9 @@ We'll take a journey into sandboxes and mediators, deeply nested models and view
 ### Update: Slides from the talk
 
 The slides are at
-<https://speakerdeck.com/phuu/managing-modularity>{: data-slides=""}.
+<https://speakerdeck.com/phuu/managing-modularity>.
+
+<script async class="speakerdeck-embed" data-id="9fb4e20099fb013022997a3bae9869de" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 [tom]: http://phuu.net
