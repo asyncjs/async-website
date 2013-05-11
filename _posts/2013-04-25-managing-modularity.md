@@ -44,6 +44,13 @@ We'll take a journey into sandboxes and mediators, deeply nested models and view
 
 [Tom][tom] is a Javascript developer from Brighton, working at [LeftLogic][leftlogic]. He's currently into AngularJS, has far too many side-projects and plays the tuba in a New Orleans hip hop band. He also enjoys screencasting, writing and has a [podcast][lessthanbang].
 
+
+### Update: Slides from the talk
+
+The slides are at
+<https://speakerdeck.com/phuu/managing-modularity>{: data-slides=""}.
+
+
 [tom]: http://phuu.net
 [leftlogic]:  http://leftlogic.com
 [lessthanbang]: http://lessthanbang.com

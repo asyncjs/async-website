@@ -46,6 +46,12 @@ We'll then look at adding a constraint on the type of operations we can perform 
 Cristiano is one-third of [BrightMinded][brightminded]'s dev team. Feed him Tiramisu and you'll have gained a friend for life.
 
 
+### Update: Slides from the talk
+
+The slides are at
+<http://eve.terseuniverse.net>{: data-slides=""}.
+
+
 [cristiano]: https://twitter.com/c_solarino
 [riak]: http://basho.com/riak
 [node]: http://nodejs.org
