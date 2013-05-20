@@ -1,0 +1,48 @@
+---
+number: 75
+title: Grunt Your Way to Glory
+summary: Everything you've wanted to know about Grunt but were afraid to ask.
+date: 2013-07-11T19:15+00:00
+lanyrd: http://lanyrd.com/2013/asyncjs-SLUG/
+speakers:
+- name: Shaun Dunne
+  link: http://about.me/shaundunne
+sponsors:
+- name:
+  link:
+image:
+  url:   http://farm6.staticflickr.com/5342/8758835529_308f032003_o.png
+  title: "'GYWTG' by shaundunne"
+  link:  http://www.flickr.com/photos/shaundunne/8758835529
+tags:
+- JavaScript
+- Grunt
+- Node
+- Build
+- Automation
+venue:
+  name: Lab for the Recently Possible
+  link: http://L4RP.com
+  location: http://l4rp.com/#location
+  address: 45 Gloucester Street, Brighton, BN1 4EW
+  latlong: 50.827006,-0.136063
+layout: event
+category: event
+published: false # Set this to true to publish
+---
+
+Grunt is a much needed wrench you need to add to your tollbelt. Improve your web development workflow through automation and get those trivial repetative tasks under control in a language you already know (and love).
+
+In this talk, Shaun will cover:
+
+* What is Grunt and why should you care.
+* Install, Write and Use Grunt
+* Scaffolding with grunt-init
+
+It's a solid introduction to using Grunt if you've never used it before and maybe some additional goodies for those who are already using it. Whatever your experience with build scripts and task automation, you will leave with the urge to bin those Ant scripts and get up and running with Grunt.
+
+[Shaun][shaun] is a developer for [SapientNitro][sape] based in London. He is currently into all things Sass, hacking the responsive web, open source and helping others level up in web development. He also runs the [London Device Lab][odl].
+
+[shaun]: http://about.me/shaundunne
+[sape]: http://www.sapientnitro.com
+[odl]: http://shaundunne.github.io/deviceLibrary
