@@ -40,9 +40,6 @@ elsewhere:
 
 # Jekyll Options
 safe:        true
-auto:        true
-server:      true
-server_port: 4000
 baseurl:     /
 
 source:      .
@@ -52,6 +49,7 @@ exclude:
 - Makefile
 - README.md
 future:      true
+timezone:    UCT
 lsi:         false
 pygments:    false
 markdown:    kramdown

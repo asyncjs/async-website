@@ -17,7 +17,7 @@
 		{% capture timestamp %}{{ event.date | date:"%FT%T%z" }}{% endcapture %}
 		<time class="dtstart" title="{{ timestamp }}" datetime="{{ timestamp }}">
 			<span class="date">{{ event.date | date:"%A, %-d %B %Y" }}</span>
-			<span class="time">7:15pm</span>
+			<span class="time">{{ event.date | date:"%l:%M%P" }}</span>
 		</time>
 		@
 		<span class="location vcard">
