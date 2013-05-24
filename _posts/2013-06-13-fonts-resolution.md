@@ -3,7 +3,7 @@ number: 73
 title: Double Bill: Responsive Web Fonts, Resolution Independence
 summary: Achieving resolution independence through SVG and asset fonts
 date: 2013-06-13T19:15+00:00
-lanyrd: http://lanyrd.com/2013/asyncjs-respwebfonts-resindependence/
+lanyrd: http://lanyrd.com/2013/asyncjs-fonts-resolution/
 speakers:
 - name: Richard Rutter
   link: http://clagnut.com
