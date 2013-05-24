@@ -11,9 +11,9 @@ speakers:
   link: http://joshemerson.co.uk
 sponsors: 
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Photo title' by Creator"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   https://farm1.staticflickr.com/90/269611427_008e9c3f32.jpg
+  title: "'Lines of a wave I' by somebody"
+  link:  http://www.flickr.com/photos/sabriirmak/269611427/
 tags:
 - webfonts
 - fontface
@@ -21,14 +21,15 @@ tags:
 - svg
 - html5
 venue:
-  name: The Skiff
-  link: http://theskiff.org/
-  location: http://theskiff.org/contact/
-  address: 6 Gloucester Street, Brighton, BN1 4EW
-  latlong: 50.826945,-0.136401
+  name: Lab for the Recently Possible
+  link: http://L4RP.com
+  location: http://l4rp.com/#location
+  address: 45 Gloucester Street, Brighton, BN1 4EW
+  latlong: 50.827006,-0.136063
 layout: event
 category: event
-published: false
+published: true
+
 ---
 
 ## Part 1: Responsive Web Fonts
