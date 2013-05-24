@@ -1,23 +1,25 @@
 ---
 number: 73
 title: "Responsive Web Fonts & Resolution Independence"
-summary: Everything you've wanted to know about Grunt but were afraid to ask.
+summary: Achieving resolution independence through SVG and asset fonts
 date: 2013-06-13T19:15+00:00
-lanyrd: http://lanyrd.com/2013/asyncjs-grunt/
+lanyrd: http://lanyrd.com/2013/async-responsive-web-fonts-resolution-independence/
 speakers:
-- name: Shaun Dunne
-  link: http://about.me/shaundunne
-sponsors:
+- name: Richard Rutter
+  link: http://clagnut.com
+- name: Josh Emerson
+  link: http://joshemerson.co.uk
+sponsors: 
 image:
-  url:   http://farm6.staticflickr.com/5342/8758835529_308f032003_o.png
-  title: "'GYWTG' by shaundunne"
-  link:  http://www.flickr.com/photos/shaundunne/8758835529
+  url:   https://farm1.staticflickr.com/90/269611427_008e9c3f32.jpg
+  title: "'Lines of a wave I' by somebody"
+  link:  http://www.flickr.com/photos/sabriirmak/269611427/
 tags:
-- JavaScript
-- Grunt
-- Node
-- Build
-- Automation
+- webfonts
+- fontface
+- responsive
+- svg
+- html5
 venue:
   name: Lab for the Recently Possible
   link: http://L4RP.com
@@ -27,7 +29,6 @@ venue:
 layout: event
 category: event
 published: true
-
 ---
 
 ## Part 1: Responsive Web Fonts
