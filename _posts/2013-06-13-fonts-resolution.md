@@ -1,58 +1,47 @@
 ---
-number: 70
-title: Managing Modularity
-summary: What I've learned about how MVC scales with complexity.
-date: 2013-04-25T19:15+00:00
-lanyrd: http://lanyrd.com/2013/async-managing-modularity/
+number: 75
+title: Grunt Your Way to Glory
+summary: Everything you've wanted to know about Grunt but were afraid to ask.
+date: 2013-07-11T19:15+00:00
+lanyrd: http://lanyrd.com/2013/asyncjs-grunt/
 speakers:
-- name: Tom Ashworth
-  link: http://phuu.net
+- name: Shaun Dunne
+  link: http://about.me/shaundunne
 sponsors:
 image:
-  url:   http://farm5.staticflickr.com/4094/4765638181_929bedcc32_z.jpg
-  title: "'NBM Lego Exhibit Legos' by Mr. T in DC"
-  link:  http://www.flickr.com/photos/mr_t_in_dc/4765638181/
+  url:   http://farm6.staticflickr.com/5342/8758835529_308f032003_o.png
+  title: "'GYWTG' by shaundunne"
+  link:  http://www.flickr.com/photos/shaundunne/8758835529
 tags:
-- modules
-- modular
-- backbone
-- sandbox
-- requirejs
-- mvc
+- JavaScript
+- Grunt
+- Node
+- Build
+- Automation
 venue:
-  name: The Skiff
-  link: http://theskiff.org/
-  location: http://theskiff.org/contact/
-  address: 6 Gloucester Street, Brighton, BN1 4EW
-  latlong: 50.826945,-0.136401
+  name: Lab for the Recently Possible
+  link: http://L4RP.com
+  location: http://l4rp.com/#location
+  address: 45 Gloucester Street, Brighton, BN1 4EW
+  latlong: 50.827006,-0.136063
 layout: event
 category: event
 published: true
 ---
 
-The Model-View-Controller (MVC) model has been widely adopted for building client-side Javascript apps, but how does this architecture scale as complexity increases? Is MVC the right choice after all?
+Grunt is a much needed wrench you need to add to your toolbelt. Improve your web development workflow through automation and get those trivial repetative tasks under control in a language you already know (and love).
 
-In this talk, Tom will present: 
+In this talk, Shaun Dunne will look at:
 
-* an overview of modular architectures
-* the problem he's trying to solve
-* how he approached it (with some crazy diagrams)
- 
-In the second part of the evening, Tom will open up the floor to the audience to discuss and improve on various ideas.
+* What is Grunt and why should you care?
+* Install, Write and Use Grunt
+* Scaffolding with grunt-init
 
-We'll take a journey into sandboxes and mediators, deeply nested models and views, and the complex data dependecies of a game - all within the context of RequireJS and Backbone.
+It's a solid introduction to using Grunt if you've never used it before and maybe some additional goodies for those who are already using it. Whatever your experience with build scripts and task automation, you will leave with the urge to bin those Ant scripts and get up and running with Grunt.
 
-[Tom][tom] is a Javascript developer from Brighton, working at [LeftLogic][leftlogic]. He's currently into AngularJS, has far too many side-projects and plays the tuba in a New Orleans hip hop band. He also enjoys screencasting, writing and has a [podcast][lessthanbang].
+[Shaun][shaun] is a developer for [SapientNitro][sape], based in London. He is currently into all things [Sass][sass], hacking the responsive web, open source and helping others level up in web development. He also runs the [London Device Lab][odl].
 
-
-### Update: Slides from the talk
-
-The slides are at
-<https://speakerdeck.com/phuu/managing-modularity>.
-
-<script async class="speakerdeck-embed" data-id="9fb4e20099fb013022997a3bae9869de" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-
-[tom]: http://phuu.net
-[leftlogic]:  http://leftlogic.com
-[lessthanbang]: http://lessthanbang.com
+[shaun]: http://about.me/shaundunne
+[sape]: http://www.sapientnitro.com
+[odl]: http://shaundunne.github.io/deviceLibrary
+[sass]: http://sass-lang.com
