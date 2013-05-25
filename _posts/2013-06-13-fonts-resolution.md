@@ -1,44 +1,58 @@
 ---
-number: 73
-title: "Double Bill: Responsive Web Fonts, Resolution Independence"
-summary: Achieving resolution independence through SVG and asset fonts
-date: 2013-06-13T19:15+00:00
-lanyrd: http://lanyrd.com/2013/async-responsive-web-fonts-resolution-independence/
+number: 70
+title: Managing Modularity
+summary: What I've learned about how MVC scales with complexity.
+date: 2013-04-25T19:15+00:00
+lanyrd: http://lanyrd.com/2013/async-managing-modularity/
 speakers:
-- name: Richard Rutter
-  link: http://clagnut.com
-- name: Josh Emerson
-  link: http://joshemerson.co.uk
-sponsors: 
+- name: Tom Ashworth
+  link: http://phuu.net
+sponsors:
 image:
-  url:   https://farm1.staticflickr.com/90/269611427_008e9c3f32.jpg
-  title: "'Lines of a wave I' by somebody"
-  link:  http://www.flickr.com/photos/sabriirmak/269611427/
+  url:   http://farm5.staticflickr.com/4094/4765638181_929bedcc32_z.jpg
+  title: "'NBM Lego Exhibit Legos' by Mr. T in DC"
+  link:  http://www.flickr.com/photos/mr_t_in_dc/4765638181/
 tags:
-- webfonts
-- fontface
-- responsive
-- svg
-- html5
+- modules
+- modular
+- backbone
+- sandbox
+- requirejs
+- mvc
 venue:
-  name: Lab for the Recently Possible
-  link: http://L4RP.com
-  location: http://l4rp.com/#location
-  address: 45 Gloucester Street, Brighton, BN1 4EW
-  latlong: 50.827006,-0.136063
+  name: The Skiff
+  link: http://theskiff.org/
+  location: http://theskiff.org/contact/
+  address: 6 Gloucester Street, Brighton, BN1 4EW
+  latlong: 50.826945,-0.136401
 layout: event
 category: event
 published: true
 ---
 
-## Part 1: Responsive Web Fonts
-Richard Rutter will discuss web fonts in a responsive context. He’ll demonstrate the different techniques available for optimum loading (or not) of web fonts and talk through the options around fallback fonts and other such implications.
+The Model-View-Controller (MVC) model has been widely adopted for building client-side Javascript apps, but how does this architecture scale as complexity increases? Is MVC the right choice after all?
 
-## Part 2: Achieving Resolution Independence
-Before the “mobile web” became a thing, people were creating fixed width sites. They got away with it for quite a while. They appeared to work. But with the introduction of a whole plethora of screen sizes and capabilities, the web wasn’t quite that simple any more, and so the term [Responsive Web Design][responsive] was coined to relate to sites which work regardless of context.
+In this talk, Tom will present: 
 
-With the introduction of high-DPI devices, I’m seeing the same thing happening again. We got away with creating images at 72dpi, and it worked, for a while. Not any more. If we want our sites to look great regardless of the display density, we will need to switch to using vector formats instead of bitmap ones.
+* an overview of modular architectures
+* the problem he's trying to solve
+* how he approached it (with some crazy diagrams)
+ 
+In the second part of the evening, Tom will open up the floor to the audience to discuss and improve on various ideas.
 
-Josh Emerson will discuss a few techniques for achieving resolution independence on your site including asset fonts, where icons are stored inside a web font, and SVG graphics for vectors which are equal part image and document.
+We'll take a journey into sandboxes and mediators, deeply nested models and views, and the complex data dependecies of a game - all within the context of RequireJS and Backbone.
 
-[responsive]: http://alistapart.com/article/responsive-web-design
+[Tom][tom] is a Javascript developer from Brighton, working at [LeftLogic][leftlogic]. He's currently into AngularJS, has far too many side-projects and plays the tuba in a New Orleans hip hop band. He also enjoys screencasting, writing and has a [podcast][lessthanbang].
+
+
+### Update: Slides from the talk
+
+The slides are at
+<https://speakerdeck.com/phuu/managing-modularity>.
+
+<script async class="speakerdeck-embed" data-id="9fb4e20099fb013022997a3bae9869de" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+
+[tom]: http://phuu.net
+[leftlogic]:  http://leftlogic.com
+[lessthanbang]: http://lessthanbang.com
