@@ -1,6 +1,6 @@
 ---
 number: 73
-title: "Double Bill: Responsive Web Fonts, Resolution Independence"
+title: Resolution Independence
 summary: What I've learned about how MVC scales with complexity.
 date: 2013-04-25T19:15+00:00
 lanyrd: http://lanyrd.com/2013/async-managing-modularity/
