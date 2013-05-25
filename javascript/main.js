@@ -65,7 +65,7 @@ if (document.querySelectorAll) {
     }
 
     function setupLanyrd(lanyrd) {
-      var event, target, container, upcoming;
+      var event, target, container, upcoming, eventUrlRegex;
 
       event = document.querySelector('.event-detail');
       if (event) {
@@ -104,11 +104,14 @@ if (document.querySelectorAll) {
       }
 
       upcoming = document.querySelectorAll('.event-item');
+
+      eventUrlRegex = /^\s*https?:\/\/(?:www.)?lanyrd.com\/\d{4}\/\w+\/\s*$/;
       lanyrd.utils.each(upcoming, function () {
         var item = this,
-            target = this.querySelector('.lanyrd-link');
+            target = this.querySelector('.lanyrd-link'),
+            url = target && target.getAttribute('href');
 
-        if (target && target.getAttribute('href')) {
+        if (url && eventUrlRegex.test(url)) {
           lanyrd.conference(target.href).fetch(function (conference) {
             var requests = [
               conference.related('conference.attendees').fetch(),
