@@ -31,28 +31,3 @@ published: true
 ---
 
 The Model-View-Controller (MVC) model has been widely adopted for building client-side Javascript apps, but how does this architecture scale as complexity increases? Is MVC the right choice after all?
-
-In this talk, Tom will present: 
-
-* an overview of modular architectures
-* the problem he's trying to solve
-* how he approached it (with some crazy diagrams)
- 
-In the second part of the evening, Tom will open up the floor to the audience to discuss and improve on various ideas.
-
-We'll take a journey into sandboxes and mediators, deeply nested models and views, and the complex data dependecies of a game - all within the context of RequireJS and Backbone.
-
-[Tom][tom] is a Javascript developer from Brighton, working at [LeftLogic][leftlogic]. He's currently into AngularJS, has far too many side-projects and plays the tuba in a New Orleans hip hop band. He also enjoys screencasting, writing and has a [podcast][lessthanbang].
-
-
-### Update: Slides from the talk
-
-The slides are at
-<https://speakerdeck.com/phuu/managing-modularity>.
-
-<script async class="speakerdeck-embed" data-id="9fb4e20099fb013022997a3bae9869de" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-
-[tom]: http://phuu.net
-[leftlogic]:  http://leftlogic.com
-[lessthanbang]: http://lessthanbang.com
