@@ -1,27 +1,29 @@
 ---
-number: 75
-title: Grunt Your Way to Glory
-summary: Everything you've wanted to know about Grunt but were afraid to ask.
-date: 2013-07-11T19:15+00:00
-lanyrd: http://lanyrd.com/2013/asyncjs-grunt/
+number: 73
+title: "Double Bill: Responsive Web Fonts, Resolution Independence"
+summary: Achieving resolution independence through SVG and asset fonts
+date: 2013-06-13T19:15+00:00
+lanyrd: http://lanyrd.com/2013/async-responsive-web-fonts-resolution-independence/
 speakers:
-- name: Shaun Dunne
-  link: http://about.me/shaundunne
-sponsors:
+- name: Richard Rutter
+  link: http://clagnut.com
+- name: Josh Emerson
+  link: http://joshemerson.co.uk
+sponsors: 
 image:
-  url:   http://farm6.staticflickr.com/5342/8758835529_308f032003_o.png
-  title: "'GYWTG' by shaundunne"
-  link:  http://www.flickr.com/photos/shaundunne/8758835529
+  url:   https://farm1.staticflickr.com/90/269611427_008e9c3f32.jpg
+  title: "'Lines of a wave I' by somebody"
+  link:  http://www.flickr.com/photos/sabriirmak/269611427/
 tags:
-- JavaScript
-- Grunt
-- Node
-- Build
-- Automation
+- webfonts
+- fontface
+- responsive
+- svg
+- html5
 venue:
   name: Lab for the Recently Possible
   link: http://L4RP.com
-  location: http://l4rp.com/#location
+  location: "http://l4rp.com/#location"
   address: 45 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.827006,-0.136063
 layout: event
@@ -29,19 +31,14 @@ category: event
 published: true
 ---
 
-Grunt is a much needed wrench you need to add to your toolbelt. Improve your web development workflow through automation and get those trivial repetative tasks under control in a language you already know (and love).
+## Part 1: Responsive Web Fonts
+Richard Rutter will discuss web fonts in a responsive context. He’ll demonstrate the different techniques available for optimum loading (or not) of web fonts and talk through the options around fallback fonts and other such implications.
 
-In this talk, Shaun Dunne will look at:
+## Part 2: Achieving Resolution Independence
+Before the “mobile web” became a thing, people were creating fixed width sites. They got away with it for quite a while. They appeared to work. But with the introduction of a whole plethora of screen sizes and capabilities, the web wasn’t quite that simple any more, and so the term [Responsive Web Design][responsive] was coined to relate to sites which work regardless of context.
 
-* What is Grunt and why should you care?
-* Install, Write and Use Grunt
-* Scaffolding with grunt-init
+With the introduction of high-DPI devices, I’m seeing the same thing happening again. We got away with creating images at 72dpi, and it worked, for a while. Not any more. If we want our sites to look great regardless of the display density, we will need to switch to using vector formats instead of bitmap ones.
 
-It's a solid introduction to using Grunt if you've never used it before and maybe some additional goodies for those who are already using it. Whatever your experience with build scripts and task automation, you will leave with the urge to bin those Ant scripts and get up and running with Grunt.
+Josh Emerson will discuss a few techniques for achieving resolution independence on your site including asset fonts, where icons are stored inside a web font, and SVG graphics for vectors which are equal part image and document.
 
-[Shaun][shaun] is a developer for [SapientNitro][sape], based in London. He is currently into all things [Sass][sass], hacking the responsive web, open source and helping others level up in web development. He also runs the [London Device Lab][odl].
-
-[shaun]: http://about.me/shaundunne
-[sape]: http://www.sapientnitro.com
-[odl]: http://shaundunne.github.io/deviceLibrary
-[sass]: http://sass-lang.com
+[responsive]: http://alistapart.com/article/responsive-web-design
