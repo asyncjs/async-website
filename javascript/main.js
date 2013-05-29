@@ -65,18 +65,20 @@ if (document.querySelectorAll) {
     }
 
     function setupLanyrd(lanyrd) {
-      var event, target, container, upcoming, eventUrlRegex;
+      var event, target, url, container, upcoming, eventUrlRegex;
 
+      eventUrlRegex = /^\s*https?:\/\/(?:www.)?lanyrd.com\/\d{4}\/\w+\/\s*$/;
       event = document.querySelector('.event-detail');
       if (event) {
         target = event.querySelector('.lanyrd-link');
+        url = target && target.href;
 
-        if (target) {
+        if (url && eventUrlRegex.test(url)) {
           container = document.createElement('section');
           container.className = 'extra lanyrd';
           event.appendChild(container);
 
-          lanyrd.widget.people([target.href], container, {
+          lanyrd.widget.people([url], container, {
             append: true,
             headingLevel: 3
           }).done(function () {
@@ -105,7 +107,6 @@ if (document.querySelectorAll) {
 
       upcoming = document.querySelectorAll('.event-item');
 
-      eventUrlRegex = /^\s*https?:\/\/(?:www.)?lanyrd.com\/\d{4}\/\w+\/\s*$/;
       lanyrd.utils.each(upcoming, function () {
         var item = this,
             target = this.querySelector('.lanyrd-link'),
