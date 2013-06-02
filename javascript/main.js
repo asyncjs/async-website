@@ -67,7 +67,7 @@ if (document.querySelectorAll) {
     function setupLanyrd(lanyrd) {
       var event, target, url, container, upcoming, eventUrlRegex;
 
-      eventUrlRegex = /^\s*https?:\/\/(?:www.)?lanyrd.com\/\d{4}\/[a-z\-]+\/\s*$/;
+      eventUrlRegex = /^\s*https?:\/\/(?:www.)?lanyrd.com\/\d{4}\/[a-z0-9\-]+\/\s*$/;
       event = document.querySelector('.event-detail');
       if (event) {
         target = event.querySelector('.lanyrd-link');
