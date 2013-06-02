@@ -7,9 +7,9 @@ lanyrd: http://lanyrd.com/2013/async-responsive-web-fonts-resolution-independenc
 speakers:
 - name: Richard Rutter
   link: http://clagnut.com
-- name: Josh Emerson
-  link: http://joshemerson.co.uk
-sponsors: 
+- name: Paul Lloyd
+  link: http://www.paulrobertlloyd.com/
+sponsors:
 image:
   url:   https://farm1.staticflickr.com/90/269611427_008e9c3f32.jpg
   title: "'Lines of a wave I' by somebody"
@@ -39,6 +39,6 @@ Before the “mobile web” became a thing, people were creating fixed width sit
 
 With the introduction of high-DPI devices, I’m seeing the same thing happening again. We got away with creating images at 72dpi, and it worked, for a while. Not any more. If we want our sites to look great regardless of the display density, we will need to switch to using vector formats instead of bitmap ones.
 
-Josh Emerson will discuss a few techniques for achieving resolution independence on your site including asset fonts, where icons are stored inside a web font, and SVG graphics for vectors which are equal part image and document.
+Paul Lloyd will discuss a few techniques for achieving resolution independence on your site including asset fonts, where icons are stored inside a web font, and SVG graphics for vectors which are equal part image and document.
 
 [responsive]: http://alistapart.com/article/responsive-web-design
