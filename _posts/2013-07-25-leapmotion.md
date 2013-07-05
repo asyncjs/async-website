@@ -8,10 +8,11 @@ speakers:
 - name: Dan Neame
   link: http://dan.nea.me
 sponsors:
+<a href="http://www.flickr.com/photos/by_andy/3693542365/" title="Jumping by AndyWilson, on Flickr"><img src="https://farm3.staticflickr.com/2506/3693542365_369dc61fcc.jpg" width="500" height="281" alt="Jumping"></a>
 image:
-  url:   
-  title: ""
-  link:  
+  url:   https://farm3.staticflickr.com/2506/3693542365_369dc61fcc.jpg
+  title: "'Jumping' by AndyWilson"
+  link:  http://www.flickr.com/photos/by_andy/3693542365/
 tags:
 - JavaScript
 - Leap Motion
@@ -26,12 +27,12 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event
 category: event
-published: false
+published: true
 ---
 
-"Imagine if you could do things on your computer just like you do them in real life. If natural movements replaced all those clicks and taps and drags and drops. Imagine if technology finally figured out people, instead of the other way around. That's the Leap Motion Controller."
+> "Imagine if you could do things on your computer just like you do them in real life. If natural movements replaced all those clicks and taps and drags and drops. Imagine if technology finally figured out people, instead of the other way around. That's the Leap Motion Controller."
 
-In this talk Dan Neame will discuss Leap Motion and how it can be used in your JavaScript applications. The potential for the device is huge - Dan will cover topics such as using it as a straightforward mouse replacement to manipulating objects in 3D space with Three.js and the Physi.js physics engine.
+In this talk, Dan Neame will discuss Leap Motion and how it can be used in your JavaScript applications. The potential for the device is huge. Dan will cover topics such as using it as a straightforward mouse replacement to manipulating objects in 3D space with Three.js and the Physi.js physics engine.
 
 [Dan][dan] is a JavaScript developer for [Brandwatch][brandwatch], based in Brighton. In his spare time he hacks around with new technology and plays too many games.
 
