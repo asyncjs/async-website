@@ -35,6 +35,10 @@ In this talk, Dan Neame will discuss [Leap Motion][leap] and how it can be used 
 
 [Dan][dan] is a JavaScript developer for [Brandwatch][brandwatch], based in Brighton. In his spare time he hacks around with new technology and plays too many games.
 
+## Update: slides online
+
+The slides and demos are at [dan.nea.me/leap/](http://dan.nea.me/leap/)
+
 [leap]: https://www.leapmotion.com/product
 [dan]: http://dan.nea.me
 [brandwatch]: http://www.brandwatch.com
