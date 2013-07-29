@@ -38,5 +38,11 @@ Graphic designers have long honed their craft to meet the specific constraints o
 
 [Paul Lloyd][paul] will talk about what it means to design for a medium and create designs which work to the strengths of the medium rather than highlight the weaknesses.
 
+## Update: slides online
+
+The slides are at
+<https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web-async>{: data-slides=""}.
+
+
 [richard]: http://clagnut.com
 [paul]: http://www.paulrobertlloyd.com
