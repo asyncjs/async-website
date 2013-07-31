@@ -1,6 +1,6 @@
 ---
 number: 79
-title: "Hack night 2: Nodeventure"
+title: "Nodeventure: hack night 1"
 summary: One of two hack nights to build a text adventure game, for the Brighton Digital Festival.
 date: 2013-09-12T19:15+00:00
 lanyrd: http://lanyrd.com/2013/asyncjs-nodeventure/
