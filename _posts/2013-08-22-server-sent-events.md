@@ -9,7 +9,7 @@ speakers:
   link: "http://kornel.lesinski.name"
 sponsors:
 image:
-  url:   http://www.w3.org/html/logo/img/class-header-connectivity.jpg
+  url:   /images/talks/class-header-connectivity.jpg
   title: "Server-Sent Events spec (image CC-BY-SA by W3C)"
   link:  http://www.w3.org/TR/eventsource/
 tags:
@@ -34,5 +34,7 @@ Server-Sent Events (AKA `EventSource`) is a light-weight, HTTP-compatible altern
 
 In this talk you'll learn the simple API and protocol for pushing events from Node or PHP to web browsers. This is the key to building pages that automagically update in real time (notifications, chat, collaborative editing, news tickers, twitter stream, etc.)
 
-Kornel Lesiński is a London-based web developer who participated in designing Server-Sent Events at <abbr>WHATWG</abbr>.
+[Kornel Lesiński][kornel] is a London-based web developer who participated in designing Server-Sent Events at <abbr>WHATWG</abbr>.
 
+
+[kornel]: http://kornel.lesinski.name
