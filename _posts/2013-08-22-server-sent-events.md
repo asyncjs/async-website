@@ -3,7 +3,7 @@ number: 78
 title: Real-time web with Server-Sent Events
 summary:
 date: 2013-08-22T19:15+00:00
-lanyrd: http://lanyrd.com/series/asyncjs/
+lanyrd: http://lanyrd.com/2013/asyncjs-server-sent-events/
 speakers:
 - name: "Kornel Lesiński"
   link: "http://kornel.lesinski.name"
