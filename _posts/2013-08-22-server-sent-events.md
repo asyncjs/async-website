@@ -30,11 +30,10 @@ category: event
 published: true
 ---
 
-Server-Sent Events (AKA `EventSource`) is a light-weight, HTTP-compatible alternative to WebSockets.
+Server-Sent Events (aka `EventSource`) is a lightweight alternative to WebSockets, for pushing real-time messages to connected browsers.
 
-In this talk you'll learn the simple API and protocol for pushing events from Node or PHP to web browsers. This is the key to building pages that automagically update in real time (notifications, chat, collaborative editing, news tickers, twitter stream, etc.)
+In this talk, you'll learn the simple API for pushing events from Node or PHP (or any other server) to web browsers. This is the key to building pages that automagically update in real time (notifications, chat, collaborative editing, news tickers, social media streams, etc.)
 
-[Kornel Lesiński][kornel] is a London-based web developer who participated in designing Server-Sent Events at <abbr>WHATWG</abbr>.
-
+[Kornel Lesiński][kornel] is a London-based web developer who participated in designing the Server-Sent Events specification at the <abbr title="Web Hypertext Application Technology Working Group">WHATWG</a>.
 
 [kornel]: http://kornel.lesinski.name
