@@ -36,4 +36,9 @@ In this talk, you'll learn the simple API for pushing events from Node or PHP (o
 
 [Kornel Lesiński][kornel] is a London-based web developer who participated in designing the Server-Sent Events specification at the <abbr title="Web Hypertext Application Technology Working Group">WHATWG</a>.
 
+### Update
+
+Slides are available from Kornel's website at [http://pornel.net/sse][slides]
+
 [kornel]: http://kornel.lesinski.name
+[slides]: http://pornel.net/sse
