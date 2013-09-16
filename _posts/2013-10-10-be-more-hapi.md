@@ -11,7 +11,7 @@ sponsors:
 - name: 
   link: 
 image:
-  url:   http://farm4.staticflickr.com/3322/3489976711_d22b331a9b_n_d.jpg
+  url:   /images/talks/happycomputer.jpg
   title: "'Happy computer' by Karsten Schmidt"
   link:  http://www.flickr.com/photos/toxi/3489976711/
 tags:
