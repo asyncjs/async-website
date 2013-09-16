@@ -33,8 +33,9 @@ published: true
 
 In this talk you will learn why it is worth considering dropping Express.js for HAPI if you are building APIs. Glenn will cover how to use HAPI and how to extend the framework to make your APIs self-documenting.
 
-[Glenn Jones][glenn] is a Brighton based web developer and designer who has spoken about JavaScript at a number of conferences such as Fullfrontal. 
+[Glenn Jones][glenn] is a Brighton based web developer and designer who has spoken about JavaScript at a number of conferences such as [Full Frontal][ff].
 
 
 [hapi]: http://spumko.github.io
 [glenn]: http://glennjones.net
+[ff]: http://full-frontal.org
