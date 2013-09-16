@@ -1,5 +1,5 @@
 ---
-number: 00
+number: 81
 title: Be More HAPI
 summary: HAPI the perfect foundation for building APIs with node.js.
 date: 2013-10-10T19:15+00:00
@@ -26,7 +26,7 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 
 [HAPI][hapi] is a node.js framework designed to provide the perfect foundation for APIs. It has a simple to use configuration-centric design with built-in support for input validation, caching, authentication, and other essential features. HAPI provides a painless route to scalable architecture allowing you to spend more time writing reusable application code instead of building API scaffolding.
@@ -36,5 +36,5 @@ In this talk you will learn why it is worth considering dropping Express.js for 
 [Glenn Jones][glenn] is a Brighton based web developer and designer who has spoken about JavaScript at a number of conferences such as Fullfrontal. 
 
 
-[hapi]: http://spumko.github.io/
-[glenn]: http://glennjones.net/
+[hapi]: http://spumko.github.io
+[glenn]: http://glennjones.net
