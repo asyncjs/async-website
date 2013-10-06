@@ -32,8 +32,12 @@ published: true
 
 The [Raspberry Pi][rp] is an amazing foundation for hacking with, and deserves more credit than most people give it. As the lovechild of an Arduino and a computer, it gives you more responsibilities and possibilities than you would otherwise expect. It leaves all of the choices to the end user, from Operating System to how much processing power is dedicated to graphics rendering. In this talk, Alex will cover the options and potential challenges you might face setting up your Raspberry Pi, and how to overcome these. In addition, Alex will also talk about why you might want to choose the Raspberry Pi as a platform. Specifically, Alex will be talking about [NodeJS][njs] and how to use Javascript to both Interface and Interact with physical elements such as LED's and Variable Potentiometers. To this end, there will also be discussion about some of the libraries that are available to run on the Raspberry Pi to make Hardware Interaction easier.
 
-In this talk, we will cover the options and potential challenges you might face setting up your Raspberry Pi, and how to overcome them. In addition, we will also talk about why you might want to choose the Raspberry Pi as a platform. Specifically, [NodeJS][njs] will be covered along with how to use Javascript to both interface and interact with physical elements such as LED's and Variable Potentiometers. To this end, there will also be discussion about some of the libraries that are available to run on the Raspberry Pi to make Hardware Interaction easier.
+The talk will be a discussion of my experiences using the Raspberry Pi as a platform, in addition to the different possibilities with the [NodeJS][njs] library. It should be helpful to anybody with a front end development background who wants to do some hardware hacking with a language they are familiar with.
 
+We will cover the options and potential challenges you might face setting up your Raspberry Pi, and how to overcome them. In addition, we will also talk about why you might want to choose the Raspberry Pi as a platform. Specifically, NodeJS will be covered along with how to use Javascript to both interface and interact with physical elements such as LED's and Variable Potentiometers. To this end, there will also be discussion about some of the libraries that are available to run on the Raspberry Pi to make Hardware Interaction easier.
+
+I'm [Alex Roche][ar], a London based Web Developer who has a passion for Hardware Hacking, and an enthusiasm for Learning. When i'm not being technical, i'm either riding a bike or practising archery.
+[ar] : http://twitter.com/alexHacked
 [rp] : http://www.raspberrypi.org/
 [njs] : http://nodejs.org/
 
