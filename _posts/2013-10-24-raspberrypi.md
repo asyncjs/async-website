@@ -40,7 +40,7 @@ We will cover the options and potential challenges you might face setting up you
 
 Alex is a London-based web developer who has a passion for hardware hacking and an enthusiasm for learning. When he's not being technical, he's either riding a bike or practising archery.
 
-[ar] : https://twitter.com/alexHacked
-[rp] : http://www.raspberrypi.org
-[node] : http://nodejs.org
+[ar]: https://twitter.com/alexHacked
+[rp]: http://www.raspberrypi.org
+[node]: http://nodejs.org
 
