@@ -7,9 +7,6 @@ lanyrd: http://lanyrd.com/2013/asyncjs-raspberrypi/
 speakers:
 - name: Alex Roche
   link: http://amroche.co.uk
-sponsors:
-- name: 
-  link: 
 image:
   url:   http://farm9.staticflickr.com/8305/7988262046_92331bed50.jpg
   title: "'Raspberry Pi' by Gijsbert Peijs"
