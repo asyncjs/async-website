@@ -44,7 +44,14 @@ ARTISTS: Bring beauty to the world...
 PROGRAMMERS: Extend our super simple game engine; maybe add interactions between players and other niceties.  
 EVERYONE: Help us create a new world!
 
+
+## Update:
+
+The Nodeventure is online! Come play and explore: [nodeventure.asyncjs.com][game]
+
+
 [bdf]: http://brightondigitalfestival.co.uk
 [ifiction]: https://en.wikipedia.org/wiki/Interactive_fiction
 [12-sept]: /nodeventure/
 [26-sept]: /nodeventure2/
+[game]: http://nodeventure.asyncjs.com
