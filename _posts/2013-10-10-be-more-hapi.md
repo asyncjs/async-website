@@ -7,9 +7,6 @@ lanyrd: http://lanyrd.com/2013/asyncjs-be-more-hapi/
 speakers:
 - name: Glenn Jones
   link: http://glennjones.net
-sponsors:
-- name: 
-  link: 
 image:
   url:   /images/talks/happycomputer.jpg
   title: "'Happy computer' by Karsten Schmidt"
