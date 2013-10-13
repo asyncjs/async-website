@@ -32,6 +32,9 @@ In this talk you will learn why it is worth considering dropping Express.js for 
 
 [Glenn Jones][glenn] is a Brighton based web developer and designer who has spoken about JavaScript at a number of conferences such as [Full Frontal][ff].
 
+## Update: slides online
+
+The slides and demos are at [https://github.com/glennjones/be-more-hapi](https://github.com/glennjones/be-more-hapi)
 
 [hapi]: http://spumko.github.io
 [glenn]: http://glennjones.net
