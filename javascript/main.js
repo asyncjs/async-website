@@ -12,6 +12,7 @@ if (document.querySelectorAll) {
           remaining -= 1;
           if (remaining === 0) {
             setupLanyrd(window.lanyrd);
+            setupHubbub();
           } else {
             loadScript(scripts.shift());
           }
@@ -62,6 +63,8 @@ if (document.querySelectorAll) {
         createSection('Slides', 'slides');
         createSection('Videos', 'video');
       })();
+    } else {
+      setupHubbub();
     }
 
     function setupLanyrd(lanyrd) {
@@ -137,6 +140,35 @@ if (document.querySelectorAll) {
           });
         }
       });
+    }
+
+    function setupHubbub () {
+      var gists = document.querySelectorAll('a[data-gist]');
+
+      function loadScript () {
+        var script = document.createElement('script');
+        script.onload = function () {
+          setupWidgets(window.Hubbub);
+        }
+        script.src = '/javascript/hubbub.js';
+        document.body.appendChild(script);
+      }
+
+      function setupWidgets (Hubbub) {
+        Hubbub.css.avatarLink = 'hubbub-avatar-link bordered';
+        [].forEach.call(gists, function (gist) {
+          var section = document.createElement('section');
+          section.setAttribute('class', 'extra');
+          document.querySelector('section.event-detail').appendChild(section);
+          Hubbub.appendWidget(section, gist.href);
+        });
+      }
+
+      if (gists.length < 1) {
+        return;
+      }
+
+      loadScript();
     }
   })();
 
