@@ -514,6 +514,40 @@ footer span {
 	width: 35px;
 }
 
+.hubbub {
+  margin-top: 24px;
+}
+
+.hubbub-avatar {
+  width: 40px;
+}
+
+.hubbub-avatar-link {
+  float: left;
+  margin-top: 4px;
+}
+
+.hubbub-content {
+  margin-left: 60px;
+}
+
+.hubbub-timestamp {
+  float: right;
+}
+
+.hubbub-header a {
+  margin-right: 5px;
+}
+
+.hubbub-comment-body p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.hubbub-comment-body a {
+  border-bottom:1px dashed;
+}
+
 .iframe-wrapper {
 	position: relative;
 	padding-bottom: 65%;
