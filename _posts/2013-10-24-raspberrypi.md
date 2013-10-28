@@ -37,11 +37,12 @@ We will cover the options and potential challenges you might face setting up you
 
 Alex is a London-based web developer who has a passion for hardware hacking and an enthusiasm for learning. When he's not being technical, he's either riding a bike or practising archery.
 
-##Update
 
-Alex has provided a link to his slides from the night, they are available at [http://bit.ly/ASYNCPiJs][slides] (nice bitly URL!)
+## Update: slides online
+
+Alex's slides are [available here][slides].
 
 [ar]: https://twitter.com/alexHacked
 [rp]: http://www.raspberrypi.org
 [node]: http://nodejs.org
-[slides]: http://bit.ly/ASYNCPiJs
+[slides]: http://www.slideshare.net/AlexanderRoche/hardware-hacking-on-the-pi-whats-js-got-to-do-with-it
