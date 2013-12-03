@@ -3,7 +3,7 @@ number: 85
 title: ServiceWorker & the Offline Web
 summary:
 date: 2013-12-12T19:15+00:00
-lanyrd: http://lanyrd.com/series/asyncjs/
+lanyrd: http://lanyrd.com/2013/asyncjs-serviceworker/
 speakers:
 - name: "Tom Ashworth"
   link: "http://twitter.com/phuunet"
