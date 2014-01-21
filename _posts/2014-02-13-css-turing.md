@@ -1,12 +1,12 @@
 ---
 number: 88
-title: HTML and CSS as a programming environment
-summary: or, how to write jQuery without jQuery
+title: "HTML and CSS as a programming environment"
+summary: "or, how to write jQuery without jQuery"
 date: 2014-02-13T19:15+00:00
 lanyrd: http://lanyrd.com/series/asyncjs/
-speakers: Dan Neame
-- name: "Dan Neame"
-  link: "http://dan.nea.me"
+speakers:
+- name: Dan Neame
+  link: http://dan.nea.me
 sponsors:
 image:
   url:   http://farm4.staticflickr.com/3207/2850280859_b40a198cf1.jpg
