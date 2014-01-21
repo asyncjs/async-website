@@ -5,8 +5,8 @@ summary: or, how to write jQuery without jQuery
 date: 2014-02-13T19:15+00:00
 lanyrd: http://lanyrd.com/series/asyncjs/
 speakers: Dan Neame
-- name: "?"
-  link: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#97;&#115;&#121;&#110;&#99;&#106;&#115;&#46;&#99;&#111;&#109;"
+- name: "Dan Neame"
+  link: "http://dan.nea.me"
 sponsors:
 image:
   url:   http://farm4.staticflickr.com/3207/2850280859_b40a198cf1.jpg
