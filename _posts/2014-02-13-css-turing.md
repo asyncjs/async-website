@@ -27,6 +27,8 @@ category: event
 published: true
 ---
 
+Or, "How to write jQuery without jQuery".
+
 JavaScript has evolved a lot of the last few years, particularly since the invention of jQuery by [John Resig](http://ejohn.org/) and then the rise of MV* programming frameworks such as [BackboneJS](http://backbonejs.org/) and [AngularJS](http://angularjs.org/). It's fair to say that JavaScript has been leading the charge in terms of front end development for a while now, with cross browser issues hampering progress with HTML and CSS.
 
 However, we are now in the fortunate position where many of the cutting edge features found in HTML5 and CSS3 are available cross-browser, cross-operating system. In fact it may well be the case that the rise of JavaScript has fed back to the design of HTML and CSS to the point at which the combination of these two languages are now [turing complete](http://en.wikipedia.org/wiki/Turing_completeness).
