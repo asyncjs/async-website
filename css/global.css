@@ -506,11 +506,14 @@ footer span {
 
 .lanyrd-people li {
 	float: left;
-	width: 50px;
 	margin-left: 8px;
 }
 
-.lanyrd-trackers li {
+.lanyrd-people li a {
+	width: 50px;
+}
+
+.lanyrd-trackers li a {
 	width: 35px;
 }
 
