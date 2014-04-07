@@ -3,7 +3,7 @@ number: 92
 title: "Developing HTML5 Apps for Ubuntu Touch"
 summary: "Developing HTML5 Apps for Ubuntu Touch: from Zero to Store in minutes"
 date: 2014-04-10T19:15+01:00
-lanyrd: http://lanyrd.com/2014/asyncjs/
+lanyrd: http://lanyrd.com/2014/asyncjs-ubuntu-touch/
 speakers:
 - name: Alan Pope
   link: http://popey.com/
