@@ -1,7 +1,7 @@
 ---
 number: 92
-title: "Developing HTML5 Apps for Ubuntu Touch"
-summary: "Developing HTML5 Apps for Ubuntu Touch: from Zero to Store in minutes"
+title: "Developing Apps for Ubuntu"
+summary: "Developing Apps for Ubuntu: from Zero to Store in minutes"
 date: 2014-04-10T19:15+01:00
 lanyrd: http://lanyrd.com/2014/asyncjs-ubuntu-touch/
 speakers:
@@ -9,9 +9,9 @@ speakers:
   link: http://popey.com/
 sponsors:
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Title?' by Chaval Brasil"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   http://assets.ubuntu.com/sites/ubuntu/latest/u/img/devices/phone-photo-hero.jpg
+  title: "Ubuntu for Phones"
+  link:  http://ubuntu.com/
 tags:
 - ubuntu
 - html5
@@ -27,6 +27,12 @@ category: event
 published: true
 ---
 
-Alan Pope on developing HTML5 Apps for Ubuntu Touch devices.
+Fast, secure and stylishly simple, the [Ubuntu](http://ubuntu.com) operating system is used by millions of people worldwide every day.
 
-//More details to follow
+In this talk Alan Pope (Engineering Manager at Canonical) will show the Ubuntu SDK and how easy it is to create applications for phone, tablet and desktop.
+
+We'll look at the tools, how to get setup and how to get an app into the Ubuntu Store in minutes.
+
+The talk is aimed at people who have never developed for Ubuntu before.
+
+There are no real pre-requsites, we'll go at the pace of the room and there should be plenty of time for Q&A.
