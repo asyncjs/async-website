@@ -28,4 +28,6 @@ Patterns like data pipelines, queuing and multi-plexing are familiar to backend 
 
 In this talk, Ismael Celis will attempt to bring together these patterns and principles and explore how they can be applied to everyday client-side JavaScript programming.
 
+This talk should be interesting to both backend and frontend developers who want to understand the general principles and how they can be implemented in JavaScript code.
+
 Ismael Celis is a Web Developer at [New Bamboo](http://new-bamboo.co.uk) in London and a founder at [Bootic.net](http://www.bootic.net). [Github](https://github.com/ismasan). [@ismasan](https://twitter.com/ismasan)
