@@ -26,7 +26,7 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 Have you ever wanted to write your own language?
 
