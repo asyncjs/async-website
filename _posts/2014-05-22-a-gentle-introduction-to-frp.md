@@ -3,7 +3,7 @@ number: 95
 title: "A gentle introduction to FRP"
 summary: "The basics of Functional Reactive Programming in client-side JavaScript"
 date: 2014-05-22T19:15+00:00
-lanyrd: http://lanyrd.com/2014/async-frp/
+lanyrd: http://lanyrd.com/2014/asyncjs-frp/
 speakers:
 - name: Julian Krispel-Samsel
   link: https://twitter.com/juliandoesstuff
