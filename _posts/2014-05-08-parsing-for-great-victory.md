@@ -3,7 +3,7 @@ number: 94
 title: "Parsing for Much Fun and Great Victory"
 summary: "Experiments with PEG.js"
 date: 2014-05-08T19:15+00:00
-lanyrd: http://lanyrd.com/2014/async-pegjs/
+lanyrd: http://lanyrd.com/2014/asyncjs-pegjs/
 speakers:
 - name: James Hugman
   link: https://twitter.com/jhugman
