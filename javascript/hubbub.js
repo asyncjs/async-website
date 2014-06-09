@@ -10,7 +10,7 @@
 */
 
 var Hubbub = (function () {
-  
+
   'use strict';
 
   if (![].forEach || !window.XMLHttpRequest) {
@@ -66,7 +66,7 @@ var Hubbub = (function () {
   });
 
   function getComments (el, callback) {
-    var gistId = el.getAttribute(gistUrlAttr).match(/\/(\d+)\/?$/)[1];
+    var gistId = el.getAttribute(gistUrlAttr).match(/\/(\w+)\/?$/)[1];
 
     if (cache.has(gistId)) {
       callback(el, cache.get(gistId), gistId);
@@ -101,7 +101,7 @@ var Hubbub = (function () {
     }, '');
 
     opts.data = { text: reqText };
-    
+
     ajax(opts, function (blob) {
       var parsedComments = blob.split('<p>' + delimiter + '</p>');
       parsedComments.forEach(function (comment, i) {
