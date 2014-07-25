@@ -28,6 +28,12 @@ category: event
 published: true
 ---
 
+### Update - Slides
+
+The slides for Matt's talk can be found here: [http://slides.com/gauntface/everything-is-awesome](http://slides.com/gauntface/everything-is-awesome#/)
+
+***
+
 As a native app developer, working in a web developer's world, the perspective is always going to be warped in comparison to a seasoned web pro.
 
 This talk covers the trials, tribulations, victories, and pillar stones Matt Gaunt holds dear to his heart when working with the web; covering topics ranging from the highs and lows of pure native development, to the hybrid approaches, and of course the pure web.
