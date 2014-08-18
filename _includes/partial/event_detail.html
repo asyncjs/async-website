@@ -31,10 +31,6 @@
 				http://maps.google.co.uk/?q={{ event.venue.address | cgi_escape }}
 			{% endif %}
 		{% endcapture %}
-		<a class="map bordered" href="{{ venue_address | strip_newlines }}">
-			{% capture map_url %}http://staticmaps.cloudmade.com/8ee2a50541944fb9bcedded5165f09d9/staticmap?center={{ event.venue.latlong }}&amp;zoom=16&amp;size=140x140&amp;format=png&amp;styleid=997{% endcapture %}
-			<img src="{{ map_url }}" alt="Map of {{ event.venue.name }}" width="140" height="140" />
-		</a>
 		{% if event.sponsors.size %}
 		<div class="sponsors">
 			{% for sponsor in event.sponsors %}
