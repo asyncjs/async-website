@@ -3,7 +3,7 @@ number: 104
 title: Tom Ashworth - Subject TBC
 summary: A mystery talk from Tom Ashworth
 date: 2014-10-09T19:15+00:00
-lanyrd: http://lanyrd.com/2014/tom-ashworth-oct-2014
+lanyrd: http://lanyrd.com/2014/tom-ashworth-october
 tags:
 - javascript
 - nodejs
