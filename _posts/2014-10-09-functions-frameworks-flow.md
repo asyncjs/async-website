@@ -33,4 +33,4 @@ Functional programming tends be inconsistently applied in JavaScript, particular
 
 We'll look at how the essence of modern frameworks can be recreated from very simple means, then about-face to try out ClojureScript and what it can offer.
 
-Tom is a JavaScript developer from Brighton, working at Twitter in London.
+Tom is a JavaScript developer, working at Twitter in London, and ex-Brightoner.
