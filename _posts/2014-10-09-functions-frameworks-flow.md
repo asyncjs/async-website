@@ -27,6 +27,10 @@ published: true
 
 ### Functions, frameworks and flow
 
+_Presented by [Tom Ashworth](http://twitter.com/phuunet)_
+
 Functional programming tends be inconsistently applied in JavaScript, particularly in front-end frameworks where the API comes first at the expense of composition and reuse. Working from first principles, how far can we get by simply composing functions and what are the benefits?
 
 We'll look at how the essence of modern frameworks can be recreated from very simple means, then about-face to try out ClojureScript and what it can offer.
+
+Tom is a JavaScript developer from Brighton, working at Twitter in London.
