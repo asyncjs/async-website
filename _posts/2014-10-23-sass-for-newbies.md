@@ -38,4 +38,8 @@ I will be covering all the basics. Partials, nesting, variables, mixins and exte
 
 Learn some best practises when writing Sass, and how to avoid some of the common pitfalls.
 
+***
+
+Hugo Darby-Brown is a Welsh front-end developer with a passion for Sass and CSS animations. 
+
 [Sass]: http://sass-lang.com/
