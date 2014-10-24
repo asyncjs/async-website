@@ -28,6 +28,12 @@ category: event
 published: true
 ---
 
+## UPDATE: 
+
+Slides for Hugo's talk are now available here: [http://slides.com/darby-brown/sass-for-newbies](http://slides.com/darby-brown/sass-for-newbies)
+
+---
+
 [Sass](sass) (or Syntactically Awesome Stylesheets) has established itself as one of the most comprehensive CSS extension languages around.
 
 This talk is aimed at people who have heard of Sass but are yet to delve into it.
