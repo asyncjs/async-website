@@ -5,7 +5,7 @@ summary: An introduction to writing Google Glass apps with Node.js
 date: 2014-11-17T19:15+00:00
 lanyrd: http://lanyrd.com/2014/async-google-glass-and-nodejs
 speakers:
-- name: Alena Dagneau
+- name: Alena Ruprecht
   link: https://twitter.com/alenaruprecht
 image:
   url:   https://farm4.staticflickr.com/3858/14348739945_c819e31c67_z_d.jpg
