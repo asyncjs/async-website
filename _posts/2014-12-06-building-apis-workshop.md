@@ -1,7 +1,7 @@
 ---
 number: 108
-title: Building APIs with HAPI.js workshop
-summary: An introduction to writing Google Glass apps with Node.js
+title: Building APIs with HAPI.js
+summary: A step by step workshop on building APIs with HAPI.js and Node.js
 date: 2014-12-06T13:00+00:00
 speakers:
 - name: Glenn Jones
