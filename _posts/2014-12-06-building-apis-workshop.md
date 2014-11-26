@@ -1,8 +1,9 @@
 ---
 number: 108
-title: Async Special: Hapi.js Workshop
+title: Async Special - Hapi.js Workshop
 summary: A step by step workshop on building APIs with HAPI.js and Node.js
 date: 2014-12-06T13:00+00:00
+lanyrd: 
 speakers:
 - name: Glenn Jones
   link: https://twitter.com/glennjones
@@ -50,12 +51,14 @@ Unlike normal [asyncjs](http://asyncjs.com/) nights, this an afternoon long work
 ###Skills required to get the most out of the workshop
 The workshop is aimed at Front-end devs, JavaScript and Node coders. You need an understanding of JavaScript beyond just using jquery, but you don’t need to be an expert, just confident enough to write your own functions. You should also be happy working with command line tools such as Grunt or similar. Knowledge of using Node.js is not needed, but will also help.
 
-###[Register for a ticket](http://www.eventbrite.co.uk/e/building-apis-with-hapijs-workshop-tickets-6222255935)
+###[Register for a ticket](http://www.eventbrite.co.uk/e/building-apis-with-hapijs-workshop-tickets-6222255935)  
+
 
 ###Tickets
 As this is a workshop there are a limited number of places. If you wish to come please get a free ticket. If you cannot make it once you have a ticket, please release your place so that someone else can come.
 
 Supported by [68 Middle Street](http://68middle.st/)
+
 ***
 
 [Glenn Jones](http://glennjones.net) is a designer and coder who has spoken about JavaScript at conferences such as Fullfrontal. He also maintains an open source auto documentation plug-in for HAPI.js  . 
