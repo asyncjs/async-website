@@ -1,6 +1,6 @@
 ---
 number: 108
-title: Building APIs with HAPI.js
+title: Async Special: Hapi.js Workshop
 summary: A step by step workshop on building APIs with HAPI.js and Node.js
 date: 2014-12-06T13:00+00:00
 speakers:
@@ -29,15 +29,15 @@ published: true
 
 Writing an API can seem a complex task, but by using [HAPI.js](http://hapijs.com/) you can easily build well-structured APIs quickly. If you have ever wanted to build a backend for your latest mobile app idea or just a web interface to share data this workshop will show you how.
 
-HAPI.js is now powering some of the webs largest APIs such as [Walmark, NPM, and PayPal](http://hapijs.com/community). It’s a [Node.js](http://nodejs.org/) framework suited to building solid APIs that are easy to code and maintain.
+HAPI.js is now powering some of the web's largest APIs such as [Walmart, NPM, and PayPal](http://hapijs.com/community). It’s a [Node.js](http://nodejs.org/) framework suited to building solid APIs that are easy to code and maintain.
 
 In this workshop Glenn will take you step by step from setting up a node server through to creating a RESTfull API with HAPI.js, and how to secure and deploy your API.
 
 ###What will be covered
- - Setup Node.js sever with HAPI.js
+ - Setup Node.js server with HAPI.js
  - Serving static files 
  - Using handlebar templates
- - Creating routes and RESTfull endpoints
+ - Creating routes and RESTful endpoints
  - Validating data using JOI
  - Storing data into Mongodb
  - Auto documenting your API and plugins
