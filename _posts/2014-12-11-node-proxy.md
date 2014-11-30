@@ -26,7 +26,7 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 
 Adapting change in technical architecture is the single most demanding but necessary consideration in modern applications. Modularity on the front-end is a familiar topic, but achieving this separation of concerns across a full stack poses a much greater challenge.
