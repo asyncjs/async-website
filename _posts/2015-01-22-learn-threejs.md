@@ -3,7 +3,7 @@ number: 111
 title: Everything you ever wanted to know about Three.js and WebGL but were afraid to ask
 summary: A concise introduction to building visualisations and games with Three.js, from absolute beginner to particle Lord / Dutchess
 date: 2015-01-22T19:15+00:00
-lanyrd: http://lanyrd.com/2015/asyncjs/
+lanyrd: http://lanyrd.com/2015/asyncjs-2/
 speakers:
 - name: Dan Neame
   link: http://dan.nea.me
