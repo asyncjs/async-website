@@ -26,7 +26,7 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event
 category: event
-published: true # Set this to true to publish
+published: false # Set this to true to publish
 ---
 
 In this talk, [Dave Gurnell][dave] ([@davegurnell][dave-twitter]) will discuss the design and implementation of two declarative libraries for [drawing][doodle] and [composing music][compose] on the web. The talk will focus on the high-level design patterns, which are drawn from classical functional programming and help keep user code simple, clean, maintainable, and portable.
