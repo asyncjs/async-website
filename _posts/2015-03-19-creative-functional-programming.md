@@ -3,7 +3,7 @@ number: 115
 title: "Creative Functional Programming"
 summary: "For fun and posthumous profit"
 date: 2015-03-19T19:15+00:00
-lanyrd: http://lanyrd.com/2014/asyncjs-SLUG/
+lanyrd: http://lanyrd.com/2015/asyncjs-march/
 speakers:
 - name: Dave Gurnell
   link: http://davegurnell.com
@@ -26,7 +26,7 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 
 In this talk, [Dave Gurnell][dave] ([@davegurnell][dave-twitter]) will discuss the design and implementation of two declarative libraries for [drawing][doodle] and [composing music][compose] on the web. The talk will focus on the high-level design patterns, which are drawn from classical functional programming and help keep user code simple, clean, maintainable, and portable.
