@@ -38,7 +38,8 @@
 		</footer>
 		<div id="media-test"></div>
 		<script src="/javascript/main.js?v2"></script>
-		{% if site.analytics %}
+		{% if site.analytics and site.github %}
+		{% comment %}The above uses site.github to determine if the site is deployed to production{% endcomment %}
 		<script>
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', '{{ site.analytics }}']);
