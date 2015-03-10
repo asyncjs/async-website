@@ -31,6 +31,16 @@
 				http://maps.google.co.uk/?q={{ event.venue.address | cgi_escape }}
 			{% endif %}
 		{% endcapture %}
+		<a class="map bordered" href="{{ venue_address | strip_newlines }}">
+			{% comment %}
+				We need to reverse the lat-lon for the mapbox api. So we split the
+				string here manually and extract the individual values.
+			{% endcomment %}
+			{% capture lat %}{{ event.venue.latlong | split:"," | first }}{% endcapture %}
+			{% capture lon %}{{ event.venue.latlong | split:"," | last }}{% endcapture %}
+			{% capture map_url %}https://api.tiles.mapbox.com/v4/mapbox.streets/{{ lon }},{{ lat }},15/140x140.png?access_token={{ site.mapbox.api_token }}{% endcapture %}
+			<img src="{{ map_url }}" alt="Map of {{ event.venue.name }}" width="140" height="140" />
+		</a>
 		{% if event.sponsors.size %}
 		<div class="sponsors">
 			{% for sponsor in event.sponsors %}
