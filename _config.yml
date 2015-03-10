@@ -40,7 +40,7 @@ elsewhere:
 
 # Jekyll Options
 safe:        true
-baseurl:     /
+baseurl:
 
 source:      .
 destination: /tmp/asyncjs
