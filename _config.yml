@@ -5,6 +5,8 @@ url:        http://asyncjs.com
 email:      hello@asyncjs.com
 feedburner: http://feeds.feedburner.com/asyncjs
 analytics:  UA-2150808-14
+mapbox:
+  api_token: pk.eyJ1IjoiYXN5bmNqcyIsImEiOiJrMHlGX3BJIn0.O57e5qvXpxKni60engPX2Q
 
 elsewhere:
 - name: News
