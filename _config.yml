@@ -51,6 +51,6 @@ exclude:
 future:      true
 timezone:    UCT
 lsi:         false
-pygments:    false
+highlighter: false
 markdown:    kramdown
 permalink:   /:title/
