@@ -1,19 +1,26 @@
 Async Website
 =============
 
-Welcome to the repository for the Async website. The site is a static
-repository of files and directories that is converted by [Jekyll][#jekyll]
-into a static site when a new commit is pushed to GitHub.
+Welcome to the repository for the Async website. The site a [Jekyll][#jekyll]
+website hosted by [GitHub pages][#gh-pages]. This just means this repository
+contains templates and assets that are converted into a static HTML site each
+time a commit is pushed to GitHub.
 
 Running the server locally
 --------------------------
 
-Just run the following from the project directory:
+You'll need **ruby** and **bundler** installed locally. The [GitHub pages
+documentation][#gh-docs] will take you through this. Once done you can install
+Jekyll by running:
+
+    $ bundle install
+
+Then to start the server run the following from the project directory:
 
     $ make serve
 
-Then visit http://localhost:4000 in the browser. This writes out the site files
-into the */tmp/asyncjs* directory (apols to Windows users).
+Then visit <http://localhost:4000/> in the browser. This writes out the site
+files into the **/tmp/asyncjs** directory (apols to Windows users).
 
 Creating a new event
 --------------------
@@ -72,7 +79,7 @@ A blog post is created in the same way as an event entry but the date in
 the filename should be the published date. For a blog post the metadata is
 much simpler:
 
-    --- 
+    ---
     title:     The title of the blog post
     authors:   An array of authors
     - name:    The authors name.
@@ -85,8 +92,8 @@ much simpler:
 Triggering a site rebuild, without new content
 ----------------------------------------------
 
-GitHub pages rebuilds the site whenever a new commit is made. If a re-build is 
-required, even without new content - e.g. in order to re-render the 'next event' 
+GitHub pages rebuilds the site whenever a new commit is made. If a re-build is
+required, even without new content - e.g. in order to re-render the 'next event'
 on the home page, then run the following:
 
     git commit --allow-empty -m "Republish GitHub pages (empty commit)"
@@ -96,3 +103,5 @@ on the home page, then run the following:
 [#md]: http://daringfireball.net/projects/markdown/
 [#yaml]: http://www.yaml.org/
 [#jekyll]: http://jekyllrb.com/
+[#gh-pages]: https://pages.github.com
+[#gh-docs]: https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll
