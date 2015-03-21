@@ -67,8 +67,8 @@ in [YAML][#yaml] and here's an overview of what it all means.
       location:A link to a map for the venue, falls back to Google Maps (optional)
       address: The address of the venue all in one line.
       latlong: Lat long for the venue eg. "50.826945,-0.136401"
-    layout:    The page layout file. Usually "event"
-    category:  The page category. Usually "event"
+    layout:    The page layout file. Usually "event".
+    category:  The page category. Usually "event".
     published: If false then the post will not appear on the site.
     ---
 
