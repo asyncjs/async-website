@@ -8,6 +8,8 @@ speakers:
 - name: Jack Franklin
   link: http://javascriptplayground.com
 sponsors:
+- name: Brandwatch
+  link: http://www.brandwatch.com
 image:
   url:   https://farm6.staticflickr.com/5068/5676724071_6b28c7d764_z_d.jpg
   title: "Lego bricks"
