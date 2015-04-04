@@ -30,6 +30,8 @@ category: event
 published: true
 ---
 
+## UPDATE: Jack's code for this talk can be found [here](https://github.com/jackfranklin/jspm-demo-async-brighton)
+
 Traditionally modules in JS have been difficult - we've fantastic, but complex, solutions like [Browserify][browserify] or [RequireJS][requireJS] - but ES6 brings its own module system that is fantastic to work with. In this talk I'll show you how it works and how you can use libraries to start using ES6 modules in your production apps today.
 
 We'll cover the following topics:
