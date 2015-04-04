@@ -29,6 +29,9 @@ category: event
 published: true
 ---
 
+### UPDATE: Slides for this talk are available [here](https://github.com/davegurnell/asyncjs-creative-fp)
+
+
 In this talk, [Dave Gurnell][dave] ([@davegurnell][dave-twitter]) will discuss the design and implementation of two declarative libraries for [drawing][doodle] and [composing music][compose] on the web. The talk will focus on the high-level design patterns, which are drawn from classical functional programming and help keep user code simple, clean, maintainable, and portable.
 
 He will touch on how the design of these libraries relates to modern visualisation libraries such as [D3.js][d3js], [SVG.js][svgjs], and [Pablo.js][pablojs], and discuss how the design patterns used can be applied to a variety of problems beyond the creative arts, including data validation, error handling, and the coordination of asynchronous processes.
