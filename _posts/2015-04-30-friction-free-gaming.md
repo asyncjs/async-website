@@ -31,6 +31,6 @@ published: true
 Could there be a better alternative to the App Store? This talk explores how we currently build and play games and looks to the web for a better solution. [HTML5](http://www.w3.org/TR/html5/) and [WebGL](http://en.wikipedia.org/wiki/WebGL) offer exciting opportunities for game developers (or anyone working with realtime 3D). These technologies power [PlayCanvas](https://playcanvas.com), an online platform for building 3D games and apps. We'll take a look at some PlayCanvas content to see what's possible.
 
 ***
-#Speaker Bio:
+Speaker Bio:
 
 Hi! I'm Will Eastcott. I'm a video games industry veteran and the former Technical Director for Europe at Activision. I have credits in some of the world's biggest games franchises like Call of Duty, Max Payne, DJ Hero and many more. I'm now co-founder of PlayCanvas. We provide a online, collaborative platform for 3D app development designed for game developers and online advertisers.
