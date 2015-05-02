@@ -3,7 +3,7 @@ number: 119
 title: "Native mobile apps in JavaScript with React Native"
 summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-05-07T19:15+00:00
-lanyrd: http://lanyrd.com/2015/react-native/
+lanyrd: http://lanyrd.com/2015/async-react-native/
 speakers:
 - name: Thomas Parslow
   link: http://almostobsolete.net/
