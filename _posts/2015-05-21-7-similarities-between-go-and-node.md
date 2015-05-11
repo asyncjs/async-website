@@ -3,7 +3,7 @@ number: 117
 title: "7 Similarities between Go and Node"
 summary: "A JavaScript Meeteup for Brighton and Hove"
 date: 2015-05-21T19:15+00:00
-lanyrd: http://lanyrd.com/2015/7-similarities-between-go-and-node-again/
+lanyrd: http://lanyrd.com/2015/7-similarities-between-go-and-node-agai/
 speakers:
 - name: Dave Mackintosh
   link: https://dav3.co
