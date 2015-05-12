@@ -28,6 +28,10 @@ category: event
 published: true
 ---
 
+### Update
+
+Tom's slides for this talk are [now available here](http://almostobsolete.net/talks/react-native/#1)
+
 With the recent release of React Native, there is a new option for building mobile apps for iOS (and soon Android too). React Native allows you to write your app in JavaScript using the same programming model as Facebook's React framework, with the performance and usability benefits of native UIKit components. This talk will introduce the React programming model and show how you can use React Native to build apps. I'll also touch on the Flux architecture that can be used to build maintainable apps in React and React Native and on building integrating native views and modules written in Objective C.
 
 [Tom Parslow](http://almostobsolete.net) is a freelance polyglot developer and cake enthusiast based in Brighton. He has recently release an SQLite module for [React Native](https://github.com/almost/react-native-sqlite) and written an article on Custom Native Views in [React Native](http://almostobsolete.net/react-native/custom-ios-views-with-react-native.html). 
