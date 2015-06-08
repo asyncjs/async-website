@@ -31,6 +31,10 @@ Users don’t wait for slow sites to load, and they’re only getting more and m
 
 In this talk we will cover what every browser needs to sort out before it can start rendering a web page, and how we can use this knowledge to improve page render performance dramatically. We will cover the basic techniques and some practical examples to show exactly how this can be implemented on your site - no matter the complexity. Your site will be faster than ever!
 
+### UPDATE
+
+We'll also be giving away two tickets to [Cold Front Conference](https://coldfrontconf.com/) in Copenhagen, make sure to put your name in the hat to be in with a chance!
+
 ---
 
 [Jonas Ohlsson](http://jonassebastianohlsson.com) is a front end developer at [State](https://state.com). He created  [Penthouse](https://github.com/pocketjoso/penthouse/), the first popular critical path css generator, and is a big believer in open source and the power of the web. He likes calisthenics and currently chases his dreams in London.
