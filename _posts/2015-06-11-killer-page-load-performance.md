@@ -37,4 +37,4 @@ We'll also be giving away two tickets to [Cold Front Conference](https://coldfro
 
 ---
 
-[Jonas Ohlsson](http://jonassebastianohlsson.com) is front end developer at [State](https://state.com). He created  [Penthouse](https://github.com/pocketjoso/penthouse/), the first popular critical path css generator, and is a big believer in open source and the power of the web. He likes calisthenics and currently chases his dreams in London.
+[Jonas Ohlsson](http://jonassebastianohlsson.com) is a front end developer at [State](https://state.com). He created  [Penthouse](https://github.com/pocketjoso/penthouse/), the first popular critical path css generator, and is a big believer in open source and the power of the web. He likes calisthenics and currently chases his dreams in London.
