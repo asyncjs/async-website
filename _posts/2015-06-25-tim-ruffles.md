@@ -1,19 +1,22 @@
 ---
 number: 121
-title: "Tim Ruffles - TBA"
+title: "AngularJS 1.x the right way"
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-06-25T19:15+00:00
-lanyrd: 
+lanyrd: http://lanyrd.com/2015/angularjs-1-x-the-right-way
 speakers:
 - name: Tim Ruffles
   link: https://truffles.me.uk/
 sponsors:
 image:
-  url:   http://upload.wikimedia.org/wikipedia/commons/2/25/Icon-round-Question_mark.jpg
-  title: "Question Mark"
-  link: https://www.wikipedia.org
+  url:   https://c2.staticflickr.com/8/7439/9541553698_455c292e64_b.jpg
+  title: "Angular Composition"
+  link: https://www.flickr.com/photos/gregbiche/9541553698/
 tags:
 - javascript
+- angular
+- framework
+- patterns
 venue:
   name: 68 Middle St
   link: http://68middle.st
@@ -24,4 +27,15 @@ layout: event
 category: event
 published: true
 ---
-Async welcomes back [Tim Ruffles](https://truffles.me.uk/), author or [Sidekick.js](https://www.sidekickjs.com/) and a previous speaker here at Async. The details of his talk are to be confirmed, but it's sure to be a good one - don't miss it!
+[AngularJS][angular] has exploded in popularity, but the lack of guidance on the right way to use [Angular][angular] from the authors has resulted in teams with collapsing productivity. Gigantic controllers that everyone's too afraid to touch, scopes knotting the whole app together, persistence concerns leaking throughout, a sadly empty test folder... Applying some evergreen UI patterns, and a smattering of [Angular][angular] specific tools, can make it all so much simpler.
+
+In this session founder of [SidekickJS][sidekick] and Javascript guru Tim Ruffles teaches us how to write AngularJS the right way!
+
+#About the speaker
+
+[Tim][tim] has been building, teaching and speaking on Javascript web-applications for years, using a range of frameworks. He is currently building [SidekickJS][sidekick], a code-quality tool for teams, and contracting with [Capco][capco] on a data-visualisation tool using D3, [Angular][angular] and NodeJS.
+
+[angular]: https://angularjs.org/
+[sidekick]: https://www.sidekickjs.com/
+[capco]: http://www.capco.com/
+[tim]: https://truffles.me.uk/
