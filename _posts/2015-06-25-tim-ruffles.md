@@ -8,6 +8,8 @@ speakers:
 - name: Tim Ruffles
   link: https://truffles.me.uk/
 sponsors:
+- name: Brandwatch
+  link: http://www.brandwatch.com/careers
 image:
   url:   https://c2.staticflickr.com/8/7439/9541553698_455c292e64_b.jpg
   title: "Angular Composition"
@@ -34,6 +36,10 @@ In this session founder of [SidekickJS][sidekick] and Javascript guru Tim Ruffle
 #About the speaker
 
 [Tim][tim] has been building, teaching and speaking on Javascript web-applications for years, using a range of frameworks. He is currently building [SidekickJS][sidekick], a code-quality tool for teams, and contracting with [Capco][capco] on a data-visualisation tool using D3, [Angular][angular] and NodeJS.
+
+#Update: Pizza!
+
+We're happy to announce that Brandwatch will be sponsoring this event; so free beer and pizza for all! Contact us at hello AT asyncjs DOT com for any specific dietary requirements.
 
 [angular]: https://angularjs.org/
 [sidekick]: https://www.sidekickjs.com/
