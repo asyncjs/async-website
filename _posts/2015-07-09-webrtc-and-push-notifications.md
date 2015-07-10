@@ -38,6 +38,27 @@ The second part of the evening will see Phil exploring Push Notifications with h
 
 The meetup will be sponsored by [Riot Games][riot], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
 
+###Update:
+
+Here are the resources Phil mentioned during his talks
+
+#WhatRTC?
+
+[Slides](https://speakerdeck.com/philnash/whatrtc-everything-you-need-to-know-to-connect-browsers-to-the-world-front-trends-2015)
+
+[Code for WebRTC video](https://github.com/philnash/video-chat)
+
+[Blog post walking through WebRTC video](https://www.twilio.com/blog/2014/12/set-phasers-to-stunturn-getting-started-with-webrtc-using-node-js-socket-io-and-twilios-nat-traversal-service.html)
+
+
+#The web is getting pushy
+
+[Slides](https://speakerdeck.com/philnash/the-web-is-getting-pushy-at-the-frontend-2015) (The upload is from when I gave the talk at a different conference, but the only difference is the hashtag we used)
+
+[Code](https://github.com/philnash/the-web-is-getting-pushy)
+
+[Chrome team's best practices for push notification UX](https://goo.gl/OyF0LG)
+
 [webrtc]: http://www.webrtc.org/
 [phil]: http://philna.sh/ 
 [riot]: http://www.riotgames.com/articles/20150519/1542/riot-games-brighton 
