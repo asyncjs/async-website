@@ -31,4 +31,8 @@ published: true
 
 Come along to hold your own with the Haskell crowd, and more importantly how to use these concepts to write elegant, beautiful code.
 
+***
+
+Fabien is a JavaScript dev in brighton, currently working for Brandwatch and enemy of (the) state
+
 [fabien]: http://allou.is/ 
