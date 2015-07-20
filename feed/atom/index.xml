@@ -11,18 +11,22 @@
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
+        {% capture image %}
+          {% if post.image %}
+          <img src="{{ post.image.url }}" class="img-responsive img-rounded" alt="{{ post.image.title }}" />
+          {% endif %}
+        {% endcapture %}
         <title>{{ post.title | xml_escape }}</title>
         {% for speaker in post.speakers %}
           <dc:creator>{{ speaker.name | xml_escape }}</dc:creator>
         {% endfor %}
-        {% if post.excerpt %}
-          <description>{{ post.excerpt | markdownify | strip_html | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | markdownify | strip_html | xml_escape }}</description>
-        {% endif %}
+        <description>{{ post.content | markdownify | strip_html | xml_escape }}</description>
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
-        <atom:link href="{{ post.image.url | xml_escape }}" rel="enclosure" />
+        {% if post.image %}
+          <atom:link href="{{ post.image.url | xml_escape }}" rel="enclosure" />
+        {% endif %}
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <content type="html">
           {% capture body %}
@@ -32,6 +36,7 @@
             {% endif %}
             {{ post.content | markdownify }}
           {% endcapture %}
+          {{ image | xml_escape }}
           {{ body | xml_escape }}
         </content>
       </item>
