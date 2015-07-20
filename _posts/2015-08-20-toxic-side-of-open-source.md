@@ -1,5 +1,5 @@
 ---
-number: 126
+number: 125
 title: "The toxic side of open source"
 summary: "The dark sided story of an open source project: JS Bin."
 date: 2015-08-20T19:15+00:00
