@@ -1,9 +1,9 @@
 ---
-number: 00
-title: "The toxic side of free. Or: how I lost the love for my side project"
-summary: "The dark side of story of an open source project: JS Bin."
+number: 126
+title: "The toxic side of open source"
+summary: "The dark sided story of an open source project: JS Bin."
 date: 2015-08-20T19:15+00:00
-lanyrd: http://lanyrd.com/2014/asyncjs-toxic-side-of-open-source/
+lanyrd: http://lanyrd.com/2015/async-the-toxic-side-of-open-source/
 speakers:
 - name: Remy Sharp
   link: https://remysharp.com
@@ -25,13 +25,20 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event
 category: event
-published: false # Set this to true to publish
+published: true
 ---
 
-[Remy Sharp](https://remysharp.com) <abbr title="i.e. he's never turned up before and he lives in the same damn city for heavens sake!">adorns</abbr> Async for the first time evar to talk about the dark side of running [JS Bin](https://jsbin.com) as an open for all playground.
+[Remy Sharp][remy-sharp] <abbr title="i.e. he's never turned up before and he lives in the same damn city for heavens sake!">adorns</abbr> Async for the first time evar to talk about the dark side of running [JS Bin][js-bin] as an open for all playground.
 
 Tales of spam, abuse, police, terrorists and VAT.
 
 ***
 
-Remy is a developer living in Brighton, running [Left Logic](http://leftlogic.com), [JS Bin](), [Confwall](https://confwall.com) and [an event](http://ffconf.org)
+Remy is a developer living in Brighton, running [Left Logic][left-logic], [JS Bin][left-logic], [Confwall][confwall] and [an event][ffconf].
+
+
+[remy-sharp]: https://remysharp.com
+[js-bin]: https://jsbin.com
+[left-logic]: http://leftlogic.com
+[confwall]: https://confwall.com
+[ffconf]: http://ffconf.org
