@@ -20,7 +20,7 @@
         {% for speaker in post.speakers %}
           <dc:creator>{{ speaker.name | xml_escape }}</dc:creator>
         {% endfor %}
-        <description>{{ post.content | markdownify | strip_html | xml_escape }}</description>
+        <description>{{ image | xml_escape }}{{ post.content | markdownify | strip_html | xml_escape }}</description>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
