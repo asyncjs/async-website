@@ -3,7 +3,7 @@ number: 124
 title: "WTF: What The Flux?"
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-07-23T19:15+00:00
-lanyrd: http://lanyrd.com/2015/functors-and-monads
+lanyrd: http://lanyrd.com/2015/what-the-flux
 speakers:
 - name: Thomas Parslow
   link: http://almostobsolete.net
