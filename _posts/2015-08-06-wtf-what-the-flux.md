@@ -28,7 +28,7 @@ category: event
 published: true
 ---
 
-[Tom Parslow][tom] returns to Async to talk about Flux, the perfect compliment to React.JS for building reliable maintainable JavaScript applications
+[Tom Parslow][tom] returns to Async to talk about Flux, the perfect compliment to React.JS for building reliable maintainable JavaScript applications.
 
 React.JS is a fantastic way to render views in your JavaScript application. But it only provides for that one part of overall app, you still need a way to manage your models and keep data flowing through your system. MVC and two-way data binding have been useful, but too often we end up with a tangled mess. Flux is a new way of architecting your JavaScript applications using unidirectional data flow and immutable data that works very well with React.JS and frees us from the tyranny of event chains!
 
