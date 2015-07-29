@@ -32,8 +32,13 @@ published: true
 
 React.JS is a fantastic way to render views in your JavaScript application. But it only provides for that one part of overall app, you still need a way to manage your models and keep data flowing through your system. MVC and two-way data binding have been useful, but too often we end up with a tangled mess. Flux is a new way of architecting your JavaScript applications using unidirectional data flow and immutable data that works very well with React.JS and frees us from the tyranny of event chains!
 
+### Update
+
+This meetup will now be sponsored by [Pure360][pure360], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
+
 ***
 
 [Tom Parslow][tom] is a freelance polyglot developer and cake enthusiast based in Brighton. He is currently building applications with React, React Native and Flux.
 
 [tom]: http://almostobsolete.net
+[pure360]: http://www.pure360.com/
