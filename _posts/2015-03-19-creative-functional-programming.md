@@ -55,3 +55,7 @@ Dave is a full-stack web developer and a consultant and trainer at Scala consult
 [coffeescript]: http://coffeescript.org
 [underscorejs]: http://underscorejs.org
 [angularjs]: https://angularjs.org
+
+### Update
+
+[Watch the video here](https://vimeo.com/128853043){: data-video="http://player.vimeo.com/video/128853043?portrait=0&amp;color=A6C664"}

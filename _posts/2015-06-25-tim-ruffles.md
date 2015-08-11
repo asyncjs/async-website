@@ -45,3 +45,7 @@ We're happy to announce that Brandwatch will be sponsoring this event; so free b
 [sidekick]: https://www.sidekickjs.com/
 [capco]: http://www.capco.com/
 [tim]: https://truffles.me.uk/
+
+### Update
+
+[Watch the video here](https://vimeo.com/134322682){: data-video="http://player.vimeo.com/video/134322682?portrait=0&amp;color=A6C664"}

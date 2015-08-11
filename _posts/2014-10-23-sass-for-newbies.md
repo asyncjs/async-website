@@ -32,6 +32,8 @@ published: true
 
 Slides for Hugo's talk are now available here: [http://slides.com/darby-brown/sass-for-newbies](http://slides.com/darby-brown/sass-for-newbies)
 
+And the video is available here: [https://vimeo.com/120463213](https://vimeo.com/120463213){: data-video="http://player.vimeo.com/video/120463213?portrait=0&amp;color=A6C664"}
+
 ---
 
 [Sass](sass) (or Syntactically Awesome Stylesheets) has established itself as one of the most comprehensive CSS extension languages around.
