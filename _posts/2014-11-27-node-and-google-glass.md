@@ -36,4 +36,8 @@ In this talk, we take a look at how to combine these two boundary pushing techno
 
 ***
 
-[Alena](http://alengel.github.io) is a frontend developer at Brandwatch and has recently completed her MSc thesis on software architectures for Google Glass. 
+[Alena](http://alengel.github.io) is a frontend developer at Brandwatch and has recently completed her MSc thesis on software architectures for Google Glass.
+
+### Update
+
+[Watch the video here](https://vimeo.com/121762016){: data-video="http://player.vimeo.com/video/121762016?portrait=0&amp;color=A6C664"}

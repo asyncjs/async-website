@@ -34,3 +34,6 @@ We'll be focusing on the currying and composition of functions to build up an ap
 
 My name's Fabien, I work on JS Bin at Left Logic in Brighton and I secretly like math more than I like code.
 
+### Update
+
+[Watch the video here](https://vimeo.com/119840433){: data-video="http://player.vimeo.com/video/119840433?portrait=0&amp;color=A6C664"}
