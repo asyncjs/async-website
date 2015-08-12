@@ -34,3 +34,7 @@ Could there be a better alternative to the App Store? This talk explores how we 
 Speaker Bio:
 
 Hi! I'm Will Eastcott. I'm a video games industry veteran and the former Technical Director for Europe at Activision. I have credits in some of the world's biggest games franchises like Call of Duty, Max Payne, DJ Hero and many more. I'm now co-founder of PlayCanvas. We provide a online, collaborative platform for 3D app development designed for game developers and online advertisers.
+
+### Update
+
+[Watch the video here](https://vimeo.com/129539052){: data-video="http://player.vimeo.com/video/129539052?portrait=0&amp;color=A6C664"}
