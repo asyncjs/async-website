@@ -40,7 +40,7 @@ The meetup will be sponsored by [Riot Games][riot], who will provide pizzas and 
 
 ###Update:
 
-Here are the resources Phil mentioned during his talks
+[Here](https://vimeo.com/134323927){: data-video="http://player.vimeo.com/video/134323927?portrait=0&amp;color=A6C664"} is the video of the talk and here are the resources Phil mentioned during his talks:
 
 #WhatRTC?
 

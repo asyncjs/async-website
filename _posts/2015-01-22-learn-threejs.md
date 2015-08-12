@@ -37,3 +37,7 @@ All source code is included, as well as multiple interactive demos, _and_ a hors
 ***
 [Dan Neame @cham](https://twitter.com/cham) is a programmer and horse / goat enthusiast at [Brandwatch](http://www.brandwatch.com).
 (Image thanks to [Kyle Phillips](https://www.flickr.com/photos/hapticdata/8091008901))
+
+### Update
+
+[Watch the video here](https://vimeo.com/122961044){: data-video="http://player.vimeo.com/video/122961044?portrait=0&amp;color=A6C664"}

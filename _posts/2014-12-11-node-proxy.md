@@ -38,3 +38,7 @@ New radical directions in our industry and our responsibility to develop accordi
 ***
 
 [Yann Eves](http://yannev.es) is Lead Developer at [Affio](http://www.affio.co.uk) satisfying his passion for JavaScript programming by developing complex algorithms to disrupt the relatively technology-inert Legal Services industry.  
+
+### Update
+
+[Watch the video here](https://vimeo.com/121766810){: data-video="http://player.vimeo.com/video/121766810?portrait=0&amp;color=A6C664"}

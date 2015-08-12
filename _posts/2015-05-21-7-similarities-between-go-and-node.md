@@ -31,3 +31,7 @@ Go and Node have their fundamental differences and appeals but there are some ke
 
 ***
 Dave is an interface and API developer, featured in .NET and CEO of Dav3 LTD, CTO of Sun Map. He spends equal amounts of time building interfaces, apis and ranting on Twitter at [@daveymackintosh](http://twitter.com/daveymackintosh)
+
+### Update
+
+[Watch the video here](https://vimeo.com/133639449){: data-video="http://player.vimeo.com/video/133639449?portrait=0&amp;color=A6C664"}
