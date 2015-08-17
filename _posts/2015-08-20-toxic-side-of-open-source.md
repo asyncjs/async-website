@@ -32,6 +32,10 @@ published: true
 
 Tales of spam, abuse, police, terrorists and VAT.
 
+### Update
+
+This meetup is sponsored by [Affio][affio], an innovative legal technology startup, who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
+
 ***
 
 Remy is a developer living in Brighton, running [Left Logic][left-logic], [JS Bin][left-logic], [Confwall][confwall] and [an event][ffconf].
@@ -42,3 +46,4 @@ Remy is a developer living in Brighton, running [Left Logic][left-logic], [JS Bi
 [left-logic]: http://leftlogic.com
 [confwall]: https://confwall.com
 [ffconf]: http://ffconf.org
+[affio]: https://www.affio.co.uk/
