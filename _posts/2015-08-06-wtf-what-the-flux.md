@@ -36,6 +36,10 @@ React.JS is a fantastic way to render views in your JavaScript application. But 
 
 This meetup will now be sponsored by [Pure360][pure360], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
 
+### Slides
+
+You can find a copy of Tom's slides from the talk here: http://almostobsolete.net/talks/flux/
+
 ***
 
 [Tom Parslow][tom] is a freelance polyglot developer and cake enthusiast based in Brighton. He is currently building applications with React, React Native and Flux.
