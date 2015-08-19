@@ -38,7 +38,7 @@ This meetup will now be sponsored by [Pure360][pure360], who will provide pizzas
 
 ### Slides
 
-You can find a copy of Tom's slides from the talk here: http://almostobsolete.net/talks/flux/
+You can find a copy of Tom's slides from the talk here: [http://almostobsolete.net/talks/flux/](http://almostobsolete.net/talks/flux/)
 
 ***
 
