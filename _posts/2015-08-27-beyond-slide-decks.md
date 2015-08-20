@@ -2,7 +2,7 @@
 number: 126
 title: "Beyond slide decks"
 summary: "A JavaScript Meetup for Brighton and Hove"
-date: 2015-08-20T19:15+00:00
+date: 2015-08-27T19:15+00:00
 lanyrd: http://lanyrd.com/2015/async-beyond-slide-decks
 speakers:
 - name: Soledad Penadés
