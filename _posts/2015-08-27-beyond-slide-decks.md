@@ -7,7 +7,9 @@ lanyrd: http://lanyrd.com/2015/async-beyond-slide-decks
 speakers:
 - name: Soledad Penadés
   link: http://soledadpenades.com/
-sponsors:
+sponsors: 
+- name: Brandwatch
+  link: https://www.brandwatch.com/
 image:
   url:   https://farm7.staticflickr.com/6004/5934405346_edd94956e8_z_d.jpg
   title: "Warp Speed"
@@ -33,3 +35,9 @@ Talks about rich media APIs often see the speaker having to leave the slide deck
 ***
 
 Sole is a devrel for Mozilla, working on making the web the best platform around
+
+### Update
+
+This meetup is sponsored by [Brandwatch][brandwatch], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
+
+[brandwatch]: https://www.brandwatch.com/careers/
