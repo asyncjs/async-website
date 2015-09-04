@@ -5,9 +5,9 @@ summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-09-24T19:15+00:00
 lanyrd: http://lanyrd.com/2015/async-playcanvas-hacknight-part-2
 image:
-  url:   https://upload.wikimedia.org/wikipedia/en/9/9f/Lunar_Lander.png
+  url:   /images/talks/spaceships_asteroids.png
   title: "Lunar Lander"
-  link:  https://en.wikipedia.org/wiki/Lunar_Lander_(1979_video_game)
+  link:  http://playcanvas.com
 tags:
 - javascript
 - html5
