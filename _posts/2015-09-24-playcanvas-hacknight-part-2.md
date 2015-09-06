@@ -33,6 +33,8 @@ For this year’s [Brighton Digital Festival][bdf], we’re continuing with our 
 
 If you haven’t used PlayCanvas before, we’ll have a skeleton app and a tutorial/support on the night from the creators of the platform themselves.
 
+Please bring your own laptop. If you don't have one, then it's likely you could pair program with somebody but do please bring one if you have it.
+
 This is part 2 of a 2 part series but there will be help and support for those that missed the first event
 
 [bdf]: http://brightondigitalfestival.co.uk/
