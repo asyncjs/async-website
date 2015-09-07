@@ -44,3 +44,7 @@ Seraphina has a BA Hons Degree in Fine Art Film and Video from Central Saint Mar
 Design, a Masters in Animation from the Royal College of Art, and is in the process of studying towards a Degree
 in Mathematics with the Open University. She has been working at the Friday Media Group as a data harvester
 since April 2013, which has kindled an interest in learning more about the processes within Data Science.
+
+### Update
+
+You can find Seraphina's slides here: http://www.slideshare.net/Seraphina1979/my-year-of-crawling
