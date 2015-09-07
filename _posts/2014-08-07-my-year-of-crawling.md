@@ -47,4 +47,6 @@ since April 2013, which has kindled an interest in learning more about the proce
 
 ### Update
 
-You can find Seraphina's slides here: http://www.slideshare.net/Seraphina1979/my-year-of-crawling
+You can find Seraphina's slides here: [http://www.slideshare.net/Seraphina1979/my-year-of-crawling](http://www.slideshare.net/Seraphina1979/my-year-of-crawling)
+
+[Here](https://vimeo.com/114077932){: data-video="http://player.vimeo.com/video/114077932?portrait=0&amp;color=A6C664"} is the video of the talk.
