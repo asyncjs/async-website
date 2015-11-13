@@ -1,6 +1,6 @@
 ---
 number: 132
-title: ES6/ES2015: Fancy Pants New JavaScript
+title: ES6/ES2015 - Fancy Pants New JavaScript
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-11-19T19:15+00:00
 lanyrd:
