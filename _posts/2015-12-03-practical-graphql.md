@@ -3,7 +3,7 @@ number: 133
 title: Practical GraphQL
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-12-03T19:15+00:00
-lanyrd:
+lanyrd: http://lanyrd.com/2015/asyncjs-graphql/
 speakers:
 - name: Alexander Savin
   link: https://alexsavin.me
