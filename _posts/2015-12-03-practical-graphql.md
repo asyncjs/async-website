@@ -29,9 +29,9 @@ category: event
 published: true
 ---
 
-GraphQL was introduced by Facebook this year and since then been a hot topic. We are going to talk about reasonings behind GraphQL, why you might consider using it, and who is it for. We will also talk about concepts of the modern web application concerning data sending and fetching from backend. There will be mention of Facebook Relay, and how it integrates with GraphQL endpoints.
+GraphQL was introduced by Facebook this year and since then it has been a hot topic. We are going to talk about reasonings behind GraphQL, why you might consider using it, and who it is for. We will also talk about concepts of the modern web application concerning data sending and fetching from the backend. There will be mention of Facebook Relay, and how it integrates with GraphQL endpoints.
 
-Expect some live demos, data pushing and schema exploration games, as well as stories from real life projects. We will build a GraphQL schema from scratch, with types, fragments and mutations, deploy it to a remote server and consume it via GraphiQL tool.
+Expect some live demos, data pushing and schema exploration games, as well as stories from real life projects. We will build a GraphQL schema from scratch, with types, fragments and mutations, deploy it to a remote server and consume it via the GraphiQL tool.
 
 If you feel like REST is not enough, come to this meetup.
 
