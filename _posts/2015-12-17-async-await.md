@@ -3,12 +3,15 @@ number: 134
 title: Async @ Async
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-12-17T19:15+00:00
-lanyrd:
+lanyrd: http://lanyrd.com/2015/asyncjs-async-at-async
 speakers:
 - name: Mark Everitt
   link: https://twitter.com/qubyte
 sponsors:
 image:
+    url: http://alexperry.io/images/posts/generators/meme2.jpg
+    title: Async all the things
+    link: http://alexperry.io/javascript/2015/09/17/es6-generators-and-asynchronous-javascript.html
 tags:
 - javascript
 - ES7
