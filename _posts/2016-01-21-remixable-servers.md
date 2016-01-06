@@ -26,4 +26,17 @@ category: event
 published: true
 ---
 
-Further details TBC
+Today's Javascript apps are multi-team, multi-version, server-side, client-side behemoths.
+
+Archictecture lets you build bigger things – but it's all too easy to miss out on when writing the first prototype.
+
+Worse, it is often derided as something that only academics and Java developers need to think about.
+
+One approach to managing this scale is to provide some kind of extension mechanism (e.g. plugins, addons or extensions), but such systems themselves require a large and well thought out system to plug into.
+
+This talk explores a handful of concepts used in such systems and introduces a server-side prototype built whilst exploring a proposal for [WebExtensions][1] and turned out to be a really nice way of building modular [nodejs][2] apps.
+
+This talk will contain code, but nothing mind-bending. Audience questions are encouraged throughout the talk, especially if you're confused and are convinced no-one else is.
+
+[1]: https://developer.mozilla.org/en-US/Add-ons/WebExtensions
+[2]: https://nodejs.org
