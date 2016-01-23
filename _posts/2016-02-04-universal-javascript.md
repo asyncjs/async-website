@@ -8,6 +8,8 @@ speakers:
 - name: Jack Franklin
   link: http://jackfranklin.co.uk/
 sponsors:
+- name: Brandwatch
+  link: http://www.brandwatch.com
 image:
     url: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/A_view_of_the_server_room_at_The_National_Archives.jpg/640px-A_view_of_the_server_room_at_The_National_Archives.jpg
     title: A view of the server room at The National Archives
@@ -43,3 +45,9 @@ Jack Franklin is a developer, writer, and speaker. He is the author of _Beginnin
 ### Pre-requisite knowledge
 
 Attendees should be familiar with JavaScript and the concept of single-page applications. Some knowledge about ReactJS is helpful but not essential.
+
+# Update
+
+This event will be sponsored by [Brandwatch][brandwatch], so **free beers & pizzas** will be supplied! Please contact hello AT asyncjs DOT com if you have specific dietary requirements.
+
+[brandwatch]: http://www.brandwatch.com
