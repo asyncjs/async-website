@@ -1,6 +1,6 @@
 ---
 number: 138
-title: Twofer - Graham Smith & Yann Eves
+title: Twofer - From Local to Live (plus untitled talk by Yann Eves)
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2016-02-18T19:15+00:00
 lanyrd:
@@ -12,6 +12,9 @@ speakers:
 tags:
 - javascript
 - css
+- devops
+- cloud
+- deployment
 venue:
   name: 68 Middle St
   link: http://68middle.st
@@ -23,6 +26,12 @@ category: event
 published: true
 ---
 
-In this special two for one evening, we'll be welcoming Graham Smith to the Async stage for the first time, with a talk tentatively entitled "From Local To Live". He'll be joined by Yann Eves with an as yet unnamed talk.
+In this special two for one evening, we'll be welcoming Graham Smith to the Async stage for the first time, with a talk entitled "From Local To Live":
+
+> Local development environments and deploying to live servers can be tricky and also subjective. At Clearleft, over the course of a year, we moved to using Virtual Machines for local development and unmanaged servers for our hosting. We then wrote a command-line tool focused on simplifying local development and managing our remote servers. We called it ‘Elf’.
+
+> In this talk I’d like to share our setup, the system we built and some of the things we’ve learnt along the way.
+
+Graham will be joined by Yann Eves with an as yet unnamed talk.
 
 Further details TBC.
