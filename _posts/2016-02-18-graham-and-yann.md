@@ -9,6 +9,10 @@ speakers:
   link: https://gablaxian.com/
 - name: Yann Eves
   link: https://yannev.es/
+image:
+  url: http://cdn.diycozyhome.com/wp-content/uploads/2014/03/bunkbed-shelf.jpg
+  title: Bunk Bed
+  link: http://redtri.com/awesome-bunk-beds/
 tags:
 - javascript
 - css
