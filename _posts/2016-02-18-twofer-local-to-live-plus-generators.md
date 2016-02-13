@@ -1,6 +1,6 @@
 ---
 number: 138
-title: Twofer - From Local to Live (plus untitled talk by Yann Eves)
+title: Twofer - From Local to Live - Generate yo' Generators
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2016-02-18T19:15+00:00
 lanyrd:
