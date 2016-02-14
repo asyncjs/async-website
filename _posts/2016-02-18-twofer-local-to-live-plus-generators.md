@@ -1,6 +1,6 @@
 ---
 number: 138
-title: Twofer - From Local to Live (plus untitled talk by Yann Eves)
+title: Twofer - From Local to Live - Generate yo' Generators
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2016-02-18T19:15+00:00
 lanyrd:
@@ -36,6 +36,8 @@ In this special two for one evening, we'll be welcoming Graham Smith to the Asyn
 
 > In this talk I’d like to share our setup, the system we built and some of the things we’ve learnt along the way.
 
-Graham will be joined by Yann Eves with an as yet unnamed talk.
+Graham will be joined by Yann Eves with his talk "Generate yo' Generators".
 
-Further details TBC.
+> Autonomy in the way we produce a working solution from source and serving static files are nothing new. However, in a trend plagued by _new_ it's clearly important to revisit technologies that have since lost the hype, even dated as far as 2012 (gasp!) or 2008 (faint!). We're not averted to making things complicated in the world of JavaScript, which often leads to us putting off cool side-projects, open source contributions, or what have you..
+
+> In this talk, I'd like to introduce some changes I've been working on for the Async website static site engine, as well as how you can make use of my hipster discoveries to bring forward your own side-projects, or even.. a blog! Expect no slides, we'll dive straight into the code; I'll focus on the interesting stuff, so bring a notepad.
