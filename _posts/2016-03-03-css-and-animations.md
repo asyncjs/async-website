@@ -1,9 +1,9 @@
 ---
 number: 139
-title: CSS and Animations (Details TBC)
+title: Motion on the Web
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2016-03-03T19:15+00:00
-lanyrd: http://lanyrd.com/2016/asyncjs-css-and-animations
+lanyrd: http://lanyrd.com/2016/asyncjs-motion-on-the-web
 speakers:
 - name: Graham Smith
   link: https://gablaxian.com/
@@ -26,6 +26,4 @@ category: event
 published: true
 ---
 
-Graham Smith will return to Async to give us a masterclass in CSS and animations.
-
-Further details TBC.
+Flash is back, baby! Sort of. And without all that alleged battery drain. Today's browsers are more sophisticated than they've ever been. It's never been easier to implement graphics and motion on your websites in responsive and accessible ways. In this talk we'll delve into the world of motion and animation. We will examine the strengths and weaknesses of CSS; when and where to use it and when not to. We'll follow that by looking at how we could extend its capabilities with a sprinkling of JavaScript. Then, in the latter half of the talk, we go deep, deep into the world of timings, easing and JavaScript. We'll cover, not only why you might use JavaScript for your animations, but also how to begin writing an animation library. Finally, finishing off, we'll briefly look at the performance implications and practical ways to bring life to your website right now.
