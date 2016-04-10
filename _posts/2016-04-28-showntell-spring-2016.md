@@ -42,7 +42,7 @@ We've also hosted International Show n' Tells in [2015][showntell-2015], [2014][
 
 The event will be sponsored by the [Ministry Of Justice][moj], so free beers & pizza for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
 
-[event-lanyrd]: httphttp://lanyrd.com/2016/asyncjs-showntell-2016-spring/
+[event-lanyrd]: http://lanyrd.com/2016/asyncjs-showntell-2016-spring/
 
 [async]: http://asyncjs.com
 [spring-2015]: http://asyncjs.com/showntell-spring-2015/
