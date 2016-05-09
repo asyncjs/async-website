@@ -7,6 +7,10 @@ lanyrd: http://lanyrd.com/2016/asyncjs-adventures-startup
 speakers:
 - name: Dan Neame
   link: https://twitter.com/cham
+image:
+  url: https://upload.wikimedia.org/wikipedia/commons/d/d2/Russian-Matroshka_no_bg.jpg
+  title: Matryoshka doll
+  link: https://en.wikipedia.org/wiki/Matryoshka_doll
 tags:
 - javascript
 - nodejs
@@ -24,4 +28,6 @@ category: event
 published: true
 ---
 
-Further details TBC.
+[Brandwatch Vizia](https://www.brandwatch.com/brandwatch-vizia) is a multi-screen data visualisation system, the second product that Brandwatch released. It uses the Brandwatch platform to present data in an attractive and simple manner.
+
+Dan has been leading the techical team since the beginning of the project. In this talk Dan will explain the 4 year history of Brandwatch Vizia, and what he's learnt along the way. Dan will talk about how the project has evolved from a single app to a service oriented platform, from a team of 3 to 16, the challenges met along the way, and what the future looks like.
