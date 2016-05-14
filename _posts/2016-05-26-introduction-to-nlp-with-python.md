@@ -26,4 +26,7 @@ category: event
 published: true
 ---
 
-Further details TBC
+This talk will introduce the area of NLP (Natural Language Processing) and a basic introduction of its principles. It will use Python and some of its fundamental NLP packages, such as NLTK, to illustrate examples and topics, demonstrating how to get started with processing and analysing Natural Languages.
+We’ll look at what NLP can be used for, a broad overview of the sub-topics, and how to get yourself started with a demo project.
+
+The talk assumes no prior knowledge of NLP or Python.
