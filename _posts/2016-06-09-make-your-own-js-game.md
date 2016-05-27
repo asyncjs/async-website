@@ -5,7 +5,7 @@ summary: A web tech meetup for Brighton & Hove
 date: 2016-06-09T19:15+00:00
 lanyrd: http://lanyrd.com/2016/asyncjs-make-your-own-js-game
 speakers:
-- name: Alvin O
+- name: Alvin Ourrad
   link: https://twitter.com/alvinsight
 image:
   url: https://pixabay.com/static/uploads/photo/2013/07/12/13/26/video-game-controller-147039_960_720.png
