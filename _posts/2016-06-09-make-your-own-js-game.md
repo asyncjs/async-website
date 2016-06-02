@@ -11,6 +11,10 @@ image:
   url: https://pixabay.com/static/uploads/photo/2013/07/12/13/26/video-game-controller-147039_960_720.png
   title: Video Game Controller
   link: https://pixabay.com/en/photos/video%20game/
+sponsors:
+- name: Brandwatch
+  link: https://www.brandwatch.com/careers
+  logo: /images/sponsors/brandwatch.png
 tags:
 - games
 - js
@@ -44,3 +48,9 @@ We will cover:
 - Components that make a game
 - Animating using requestAnimationFrame
 - How to use a game framework
+
+### Update
+
+This meeting is sponsored by [Brandwatch][brandwatch], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
+
+[brandwatch]: https://www.brandwatch.com/careers
