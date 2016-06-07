@@ -11,6 +11,10 @@ image:
   url: https://pixabay.com/static/uploads/photo/2014/11/10/17/48/offline-525700_960_720.png
   title: Offline disconnected wifi network
   link: https://pixabay.com/en/offline-disconnected-wifi-network-525700/
+sponsors:
+- name: Pusher
+  link: https://www.pusher.com
+  logo: /images/sponsors/pusher.png
 tags:
 venue:
   name: 68 Middle St
@@ -32,3 +36,9 @@ We will look at offline text search, geo search, dynamic facets and querying loc
 About Glenn:
 
 Glenn Jones is a designer and coder who has spoken about JavaScript at conferences such as Fullfrontal. He also maintains a number open source projects including plug-ins for HAPI.js
+
+### Update
+
+This meeting is sponsored by [Pusher][pusher], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
+
+[pusher]: https://www.pusher.com
