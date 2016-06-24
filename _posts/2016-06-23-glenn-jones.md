@@ -42,4 +42,12 @@ Glenn Jones is a designer and coder who has spoken about JavaScript at conferenc
 
 This meeting is sponsored by [Pusher][pusher], who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com
 
+### Second update
+
+Here are the links from Glenn's talk:
+
+[https://github.com/glennjones/extending-the-offline-web](https://github.com/glennjones/extending-the-offline-web)
+
+[https://github.com/glennjones/mani](https://github.com/glennjones/mani)
+
 [pusher]: https://www.pusher.com
