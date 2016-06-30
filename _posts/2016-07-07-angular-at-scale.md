@@ -5,6 +5,7 @@ summary: A web tech meetup for Brighton & Hove
 date: 2016-07-07T19:15+00:00
 speakers:
 - name: James Gray
+lanyrd: http://lanyrd.com/2016/asyncjs-angular-at-scale
 sponsors:
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/512px-Angular_full_color_logo.svg.png
