@@ -7,7 +7,7 @@ image:
   url: http://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-logo.png
   link: http://www.brandwatch.com/
   title: Brandwatch
-collection: newss
+collection: news
 layout: news.html
 published: true
 ---

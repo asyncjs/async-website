@@ -87,36 +87,7 @@ gulp.task('sync', () => {
 })
 
 gulp.task('images', ['sync'])
-
 gulp.task('layouts', ['pages'])
-// gulp.task('layouts', ['posts', 'pages'])
-
-// gulp.task('posts', () => {
-//   return gulp.src(MATERIALS.posts.path)
-//     // expose metalsmith front-matter to gulp pipelines
-//     .pipe(gulpFrontMatter()).on('data', file => {
-//       _.assign(file, file.frontMatter)
-//       delete file.frontMatter
-//     })
-//     .pipe(
-//       // pipe wrapped
-//       // metalsmith config
-//       gulpsmith()
-
-//       // metalsmith pipes
-//       .use(drafts())
-//       .use(markdown())
-//       .use(permalinks({
-//         "pattern": ":title",
-//         "relative": false
-//       }))
-//       .use(layouts({
-//         engine: 'swig',
-//         directory: MATERIALS.layouts.dir
-//       }))
-//     )
-//     .pipe(gulp.dest(MATERIALS.clean.path))
-// })
 
 gulp.task('pages', ['sync'], () => {
   return gulp.src([MATERIALS.pages.path, MATERIALS.posts.path])
@@ -130,26 +101,30 @@ gulp.task('pages', ['sync'], () => {
       // metalsmith config
       gulpsmith()
 
-      // metalsmith pipes
+      // metalsmith collections
+      .use(collections({
+        posts: '*.md',
+        sortBy: 'date',
+        reverse: true
+      }))
+
+      // metalsmith posts
       .use(drafts())
       .use(markdown())
       .use(permalinks({
-        "pattern": ":title",
-        "relative": false
+        "relative": false,
+        linksets: [{
+          match: { collection: 'posts' },
+          pattern: 'blog/:title'
+        }]
       }))
-      .use(collections({
-        news: {
-          sortBy: 'date',
-          reverse: true
-        },
-        events: {
-          sortBy: 'date',
-          reverse: true
-        }
-      }))
+
+      // metalsmith pages
       .use(templates({
         engine: 'swig'
       }))
+
+      // metalsmith layouts
       .use(layouts({
         engine: 'swig',
         directory: MATERIALS.layouts.dir

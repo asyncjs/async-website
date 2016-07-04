@@ -1,16 +1,43 @@
----
-layout: base.html
----
-
-{% for post in news %}
-		<section class="module news" data-timestamp="{{ post.date }}">
-			<a href="{{ post.url }}"><strong>News:</strong> {{ post.title }}</a>
-		</section>
-{% endfor %}
-
-<section class="module event-detail">
-	<h2 class="module-heading">Next Event:</h2>
-	{% for event in events %}
-    <p>{{ event.title }}</p>
-  {% endfor %}
-</section>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="author" href="/humans.txt">
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="https://f.fontdeck.com/s/css/3rCWrQDRwvJMSFa1ECS+8Yenk1c/asyncjs.com/18017.css" />
+    <link rel="stylesheet" href="/css/global.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <h1><a href="/"></a></h1>
+      <img class="logo" src="/images/logo-100x100.png" width="50" height="50" />
+    </header>
+    {% for post in news %}
+        <section class="module news" data-timestamp="{{ post.date }}">
+          <a href="{{ post.url }}"><strong>News:</strong> {{ post.title }}</a>
+        </section>
+    {% endfor %}
+    <section class="module event-detail">
+      <h2 class="module-heading">Next Event:</h2>
+      {% for event in events %}
+        <p>{{ event.title }}</p>
+      {% endfor %}
+    </section>
+    <section class="module about">
+      <h2 class="module-heading">About:</h2>
+    </section>
+    <section class="module links">
+      <h2 class="module-heading">More:</h2>
+      <ul>
+      </ul>
+    </section>
+    <footer>
+      <span>Webfonts <a href="https://fontdeck.com/typeface/creighton/">Creighton</a> and <a href="https://fontdeck.com/typeface/fsjoeyweb/">FS Joey</a> served by <a href="https://fontdeck.com/">Fontdeck</a>.</span>
+      <span>Lanyrd Icons by <a href="https://paulrobertlloyd.com/2009/06/social_media_icons/">PRL</a>.</span>
+      <span>Content licenced under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.</span><br />
+      Created by <a class="dharmafly" href="http://dharmafly.com">Dharmafly</a> and <a href="/humans.txt">friends</a>
+    </footer>
+    <div id="media-test"></div>
+  </body>
+</html>
