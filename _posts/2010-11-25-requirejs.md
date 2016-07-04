@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2010-11-25T19:15+00:00
 image: 
   url: http://farm2.static.flickr.com/1099/530743543_3fe15fe6e8.jpg
   title: legos by huladancer, on Flickr
   link: http://www.flickr.com/photos/huladancer22/530743543/
 lanyrd: http://lanyrd.com/2010/asyncjs-requirejs/
-layout: event
+layout: event.html
 number: "14"
 published: true
 speakers: 

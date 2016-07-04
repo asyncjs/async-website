@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2011-06-23T19:15+00:00
 image: 
   url: http://farm6.static.flickr.com/5182/5671953126_8c1126c222.jpg
   title: Coffee Alchemy - Marickville by sachman75, on Flickr
   link: http://www.flickr.com/photos/sacharules/5671953126/
 lanyrd: http://lanyrd.com/2011/async-coffeescript/
-layout: event
+layout: event.html
 number: "27"
 published: true
 speakers: 

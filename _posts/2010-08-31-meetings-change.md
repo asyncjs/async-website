@@ -1,6 +1,6 @@
 --- 
-category: news
-layout: news
+collection: newss
+layout: news.html
 published: true
 speakers: 
 sponsors: 

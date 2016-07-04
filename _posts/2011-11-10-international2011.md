@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2011-11-10T19:15+00:00
 image: 
   url: http://farm4.static.flickr.com/3289/3060694963_3d778f69dd.jpg
   title: The Juggler II by Helico, on Flickr
   link: http://www.flickr.com/photos/helico/3060694963/
 lanyrd: http://lanyrd.com/2011/asyncjs-international/
-layout: event
+layout: event.html
 number: "36"
 published: true
 speakers: 
@@ -37,14 +37,14 @@ venue:
 
 <hr />
 
-<h3>[Update]: The demos</h3>
+### [Update]: The demos
 
-1. [Pete Goodman](http://petegoodman.com): 5 projects in 5 minutes ([Browser Breakout](http://petegoodman.com/labs/js-canvas-browser-breakout/), [Canvas Letters](http://petegoodman.com/labs/javascript-canvas-letters/), [Ghetto Blaster](http://petegoodman.com/labs/ghetto-blaster-php-js-soundboard/), [Spotify Remote](http://petegoodman.com/labs/spotify-remote/), [Boris](http://petegoodman.com/labs/boris-localhost-browser/)).
-1. [Yves Van Goethem](http://yves.vg): how we track front-end errors at [SoundCloud](http://soundcloud.com), what tools we use and how useful they are.
-1. [Rebecca Murphey](http://rmurphey.com): [Mulberry](http://toura.github.com/mulberry), an open-source HTML/CSS/JS framework for rapidly scaffolding, testing, and deploying mobile apps on Android and iOS.
+1. [Pete Goodman](http://petegoodman.com); 5 projects in 5 minutes ([Browser Breakout](http://petegoodman.com/labs/js-canvas-browser-breakout/), [Canvas Letters](http://petegoodman.com/labs/javascript-canvas-letters/), [Ghetto Blaster](http://petegoodman.com/labs/ghetto-blaster-php-js-soundboard/), [Spotify Remote](http://petegoodman.com/labs/spotify-remote/), [Boris](http://petegoodman.com/labs/boris-localhost-browser/)).
+1. [Yves Van Goethem](http://yves.vg); how we track front-end errors at [SoundCloud](http://soundcloud.com), what tools we use and how useful they are.
+1. [Rebecca Murphey](http://rmurphey.com); [Mulberry](http://toura.github.com/mulberry), an open-source HTML/CSS/JS framework for rapidly scaffolding, testing, and deploying mobile apps on Android and iOS.
 1. Daniel: using the [DataSift API](http://dev.datasift.com).
-1. [Trevor Ward](http://thewarpedcoder.net): using JavaScript to create a mobile app with [Titanium](https://www.appcelerator.com/platform).
-1. [Mark Kirby](http://mark-kirby.co.uk): how we created the Chrome Web app, Tesco Food, which is written with backbone.js and hosted locally.
-1. [Thomas Parslow](http://almostobsolete.net): our new [JSONPatch library](https://github.com/dharmafly/jsonpatch.js), and maybe talk a little about RESTful APIs and the [HTTP PATCH verb](https://tools.ietf.org/html/rfc5789)
-1. [Sam Foster](http://leedsjs.org): what we've been doing at [Javascript Leeds](http://leedsjs.org) and what's new in Dojo 1.7.
-1. [Mike de Boer](https://twitter.com/mikedeboer): [Cloud9 IDE](http://c9.io), one year on.
+1. [Trevor Ward](http://thewarpedcoder.net); using JavaScript to create a mobile app with [Titanium](https://www.appcelerator.com/platform).
+1. [Mark Kirby](http://mark-kirby.co.uk); how we created the Chrome Web app, Tesco Food, which is written with backbone.js and hosted locally.
+1. [Thomas Parslow](http://almostobsolete.net); our new [JSONPatch library](https://github.com/dharmafly/jsonpatch.js), and maybe talk a little about RESTful APIs and the [HTTP PATCH verb](https://tools.ietf.org/html/rfc5789)
+1. [Sam Foster](http://leedsjs.org); what we've been doing at [Javascript Leeds](http://leedsjs.org) and what's new in Dojo 1.7.
+1. [Mike de Boer](https://twitter.com/mikedeboer); [Cloud9 IDE](http://c9.io), one year on.

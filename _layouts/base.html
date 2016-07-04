@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<title>{% if page.title %}{{ page.title }} &ndash; {{ site.title }}{% else %}{{ site.title }}: {{ site.caption | markdownify | strip_html }}{% endif %}</title>
 		<link rel="author" href="/humans.txt">
 		<link rel="shortcut icon" href="/images/favicon.png" />
 		<link rel="stylesheet" href="https://f.fontdeck.com/s/css/3rCWrQDRwvJMSFa1ECS+8Yenk1c/asyncjs.com/18017.css" />
@@ -12,23 +11,16 @@
 	</head>
 	<body>
 		<header class="masthead">
-			<h1><a href="/">{{ site.title }}:</a></h1>
-			<p>{{ site.caption | markdownify }}</p>
+			<h1><a href="/"></a></h1>
 			<img class="logo" src="/images/logo-100x100.png" width="50" height="50" />
 		</header>
-		{% capture body %}{{ content }}{% endcapture %}
-		{{ body | replace:"	","" }}
+		{{ contents }}
 		<section class="module about">
 			<h2 class="module-heading">About:</h2>
-			{% capture about %}{% include about.md %}{% endcapture %}
-			<div class="prose">{{ about | markdownify }}</div>
 		</section>
 		<section class="module links">
 			<h2 class="module-heading">More:</h2>
 			<ul>
-			{% for link in site.elsewhere %}
-				<li><a href="{{ link.link }}" title="{{ link.desc }}">{{ link.name }}</a></li>
-			{% endfor %}
 			</ul>
 		</section>
 		<footer>
@@ -38,20 +30,5 @@
 			Created by <a class="dharmafly" href="http://dharmafly.com">Dharmafly</a> and <a href="/humans.txt">friends</a>
 		</footer>
 		<div id="media-test"></div>
-		<script src="/javascript/main.js?v2"></script>
-		{% if site.analytics and site.github %}
-		{% comment %}The above uses site.github to determine if the site is deployed to production{% endcomment %}
-		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', '{{ site.analytics }}']);
-			_gaq.push(['_trackPageview']);
-
-			(function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-		</script>
-		{% endif %}
 	</body>
 </html>

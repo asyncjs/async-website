@@ -24,8 +24,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
+layout: event.html
+collection: events
 published: true # Set this to true to publish
 ---
 

@@ -1,6 +1,6 @@
 --- 
-category: event
-layout: event
+collection: events
+layout: event.html
 number: "2"
 published: true
 speakers: 
@@ -32,13 +32,14 @@ Each slot will be just <strong>5 minutes</strong> (+ 2 mins for questions).
 Please let us know if there's something you'd like to share, or if you have any questions.
 
 <hr />
-<h3>[Update]: The demos</h3>
+
+### [Update]: The demos
 
 <ol>
-	<li><a href="http://www.psychicorigami.com">John Montgomery</a>: JavaScript iPhone apps that use localStorage, demoed with his <a href="http://www.psychicorigami.com/2009/07/10/an-iphone-friendly-local-storage-backed-offline-todo-list-webapp/">TODO list app</a>.</li>
-	<li><a href="http://flashygraphics.co.uk">Craig Moore</a>: a <em>mystery</em> jQuery widget to get feedback on</li>
-	<li><a href="http://paulofierro.com">Paulo Fierro</a>: JavaScript for Flash devs, plus a little personal project</li>
-	<li><a href="http://www.divydovy.com">David Lockie</a>: bridging JavaScript and ActionScript, and using APIs with jQuery's Ajax toolkit</li>
-	<li><a href="http://allmarkedup.com">Mark Perkins</a>: creating jQuery plugins, with custom events</li>
-	<li><a href="http://premasagar.com">Premasagar Rose</a>: Client-side templating with JavaScript, to keep HTML markup in one place</li>
+  <li><a href="http://www.psychicorigami.com">John Montgomery</a>: JavaScript iPhone apps that use localStorage, demoed with his <a href="http://www.psychicorigami.com/2009/07/10/an-iphone-friendly-local-storage-backed-offline-todo-list-webapp/">TODO list app</a>.</li>
+  <li><a href="http://flashygraphics.co.uk">Craig Moore</a>: a <em>mystery</em> jQuery widget to get feedback on</li>
+  <li><a href="http://paulofierro.com">Paulo Fierro</a>: JavaScript for Flash devs, plus a little personal project</li>
+  <li><a href="http://www.divydovy.com">David Lockie</a>: bridging JavaScript and ActionScript, and using APIs with jQuery's Ajax toolkit</li>
+  <li><a href="http://allmarkedup.com">Mark Perkins</a>: creating jQuery plugins, with custom events</li>
+  <li><a href="http://premasagar.com">Premasagar Rose</a>: Client-side templating with JavaScript, to keep HTML markup in one place</li>
 </ol>

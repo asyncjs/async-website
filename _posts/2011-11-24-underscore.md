@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2011-11-24T19:15+00:00
 image: 
   url: http://asyncjs.com/wp/wp-content/uploads/2011/11/pen-knife-500x345.jpg
   title: Handy tools (greyscale) by magnuscanis, on Flickr
   link: http://www.flickr.com/photos/magnuscanis/526247737/
 lanyrd: http://lanyrd.com/2011/asyncjs-underscore/
-layout: event
+layout: event.html
 number: "37"
 published: true
 speakers: 

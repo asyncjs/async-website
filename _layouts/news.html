@@ -8,11 +8,11 @@ layout: base
 			<h2 class="heading">{{ page.title }}</h2>
 			<p class="meta">
 				{% if page.authors %}
-					{% assign users = page.authors %}
-					By {% include partial/user_list.html %}.&nbsp;
+					 assign users = page.authors
+					By  include partial/user_list.html .&nbsp;
 				{% endif %}
-				<a href="{{ page.url }}">Posted on {{ page.date | date_to_long_string }}</a>
+				<a href="{{ page.url }}">Posted on  page.date | date_to_long_string </a>
 		</header>
-		{% assign post = page %}{% include partial/post_description.html %}
+		 assign post = page include partial/post_description.html
 	</article>
 </section>

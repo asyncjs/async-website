@@ -7,8 +7,8 @@ image:
   url: http://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-logo.png
   link: http://www.brandwatch.com/
   title: Brandwatch
-category: news
-layout: news
+collection: newss
+layout: news.html
 published: true
 ---
 The very lovely [Brandwatch](http://www.brandwatch.com), a social
