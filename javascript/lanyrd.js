@@ -531,7 +531,7 @@
 
     // The base API object.
     lanyrd = {
-        API_DOMAIN: 'http://lanyrd.asyncjs.com',
+        API_DOMAIN: 'https://lanyrd.asyncjs.com',
 
         // Attempts to match a conference resource for the Lanyrd url provided.
         // This breaks rest conventions but provides a nicer API for people to
