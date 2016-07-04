@@ -28,8 +28,8 @@ venue:
   location: http://theskiff.org/contact/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event
-category: event
+layout: event.html
+collection: events
 published: true
 ---
 

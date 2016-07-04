@@ -1,6 +1,6 @@
 --- 
-category: event
-layout: event
+collection: events
+layout: event.html
 number: "5"
 published: true
 speakers: 

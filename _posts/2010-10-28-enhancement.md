@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2010-10-28T19:15+01:00
 image: 
   url: http://farm2.static.flickr.com/1268/1327537391_360f138dac.jpg
   title: Grey sky, great egret by wolfpix
   link: http://www.flickr.com/photos/wolfraven/1327537391/
 lanyrd: http://lanyrd.com/2010/async-responsive-enhancement/
-layout: event
+layout: event.html
 number: "12"
 published: true
 speakers: 

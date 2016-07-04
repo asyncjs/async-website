@@ -2,7 +2,7 @@
 number: 46
 title: Architecture of a JavaScript Application
 summary: A tour of a real-world JavaScript application
-category: event
+collection: events
 date: 2012-04-12T19:15+00:00
 image: 
   url: http://farm1.staticflickr.com/150/391988714_6cb98eab7e.jpg
@@ -28,7 +28,7 @@ venue:
   link: http://theskiff.org/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event
+layout: event.html
 published: true
 ---
 

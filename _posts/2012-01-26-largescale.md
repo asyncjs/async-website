@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2012-01-26T19:15+00:00
 image: 
   url: http://asyncjs.com/wp/wp-content/uploads/2012/02/5980913422_06e08daef2_o.jpg
   title: Setting Sails In Berlin - Potsdamer Platz by Sprengben [why not get a friend], on Flickr
   link: http://www.flickr.com/photos/sprengben/5980913422/
 lanyrd: http://lanyrd.com/2012/largescale/
-layout: event
+layout: event.html
 number: "40"
 published: true
 speakers:

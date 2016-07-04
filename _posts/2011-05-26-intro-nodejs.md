@@ -1,12 +1,12 @@
 --- 
-category: event
+collection: events
 date: 2011-05-26T19:15+00:00
 image: 
   url: http://farm4.static.flickr.com/3196/2765597758_826a9e7c47.jpg
   title: look downstairs into stairwell whirl by quapan, on Flickr
   link: http://www.flickr.com/photos/hinkelstone/2765597758/
 lanyrd: http://lanyrd.com/2011/asyncjs-intro-nodejs/
-layout: event
+layout: event.html
 number: "25"
 published: true
 speakers: 

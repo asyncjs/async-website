@@ -1,0 +1,16 @@
+---
+layout: base.html
+---
+
+{% for post in news %}
+		<section class="module news" data-timestamp="{{ post.date }}">
+			<a href="{{ post.url }}"><strong>News:</strong> {{ post.title }}</a>
+		</section>
+{% endfor %}
+
+<section class="module event-detail">
+	<h2 class="module-heading">Next Event:</h2>
+	{% for event in events %}
+    <p>{{ event.title }}</p>
+  {% endfor %}
+</section>

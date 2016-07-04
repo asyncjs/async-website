@@ -7,8 +7,8 @@ image:
   url: http://farm3.staticflickr.com/2555/4135993317_f565c9f8ab.jpg
   link: http://www.flickr.com/photos/paperpariah/4135993317/
   title: Cute penguin couple - explored by Adam Foster | Codefor, on Flickr
-category: news
-layout: news
+collection: newss
+layout: news.html
 published: true
 ---
 Async is now completing its second year of twice monthly JavaScript events,
