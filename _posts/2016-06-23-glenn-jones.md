@@ -3,7 +3,7 @@ number: 147
 title: Extending the offline web experience
 summary: A web tech meetup for Brighton & Hove
 date: 2016-06-23T19:15+00:00
-lanyrd: http://lanyrd.com/2016/asyncjs-glenn-jones
+lanyrd: http://lanyrd.com/2016/asyncjs-glenn-jones/
 speakers:
 - name: Glenn Jones
   link: http://glennjones.net/
