@@ -7,7 +7,7 @@ image:
   url: http://farm3.staticflickr.com/2555/4135993317_f565c9f8ab.jpg
   link: http://www.flickr.com/photos/paperpariah/4135993317/
   title: Cute penguin couple - explored by Adam Foster | Codefor, on Flickr
-collection: newss
+collection: news
 layout: news.html
 published: true
 ---
