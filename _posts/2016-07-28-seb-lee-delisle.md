@@ -9,7 +9,7 @@ speakers:
   link: http://seb.ly/
 sponsors:
 image:
-  url: https://upload.wikimedia.org/wikipedia/commons/6/6e/Raspberry_Pi_Logo.svg.png
+  url: https://upload.wikimedia.org/wikipedia/commons/8/85/Raspberry_Pi_Logo.png
   title: Raspberry Pi Logo
   link: https://commons.wikimedia.org/wiki/File:Raspberry_Pi_Logo.svg.png
 tags:
