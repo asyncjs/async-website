@@ -112,7 +112,7 @@ gulp.task('pages', ['sync'], () => {
       .use(drafts())
       .use(markdown())
       .use(permalinks({
-        "relative": false,
+        relative: false,
         linksets: [{
           match: { collection: 'posts' },
           pattern: 'blog/:title'
@@ -121,12 +121,12 @@ gulp.task('pages', ['sync'], () => {
 
       // metalsmith pages
       .use(templates({
-        engine: 'swig'
+        engine: 'handlebars'
       }))
 
       // metalsmith layouts
       .use(layouts({
-        engine: 'swig',
+        engine: 'handlebars',
         directory: MATERIALS.layouts.dir
       }))
     )
