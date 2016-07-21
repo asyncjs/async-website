@@ -115,7 +115,7 @@ gulp.task('pages', ['sync'], () => {
         relative: false,
         linksets: [{
           match: { collection: 'posts' },
-          pattern: 'blog/:title'
+          pattern: ':title'
         }]
       }))
 
