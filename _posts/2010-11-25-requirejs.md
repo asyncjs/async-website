@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2010-11-25T19:15+00:00
+date: 2010-11-25T19:15:00+00:00
 image: 
   url: http://farm2.static.flickr.com/1099/530743543_3fe15fe6e8.jpg
   title: legos by huladancer, on Flickr

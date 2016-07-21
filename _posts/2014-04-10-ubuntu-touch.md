@@ -2,7 +2,7 @@
 number: 92
 title: "Developing Apps for Ubuntu"
 summary: "Developing Apps for Ubuntu: from Zero to Store in minutes"
-date: 2014-04-10T19:15+00:00
+date: 2014-04-10T19:15:00+00:00
 lanyrd: http://lanyrd.com/2014/asyncjs-ubuntu-touch/
 speakers:
 - name: Alan Pope

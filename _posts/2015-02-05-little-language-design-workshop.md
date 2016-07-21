@@ -2,7 +2,7 @@
 number: 112
 title: Little Language Design Workshop
 summary: Workshop in which we prototype new syntax for a new language.
-date: 2015-02-05T19:15+00:00
+date: 2015-02-05T19:15:00+00:00
 lanyrd: http://lanyrd.com/2015/little-language-design-workshop
 speakers:
 - name: James Hugman

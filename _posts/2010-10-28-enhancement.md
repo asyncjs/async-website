@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2010-10-28T19:15+01:00
+date: 2010-10-28T19:15:00+01:00
 image: 
   url: http://farm2.static.flickr.com/1268/1327537391_360f138dac.jpg
   title: Grey sky, great egret by wolfpix

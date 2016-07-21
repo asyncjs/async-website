@@ -8,7 +8,7 @@ sponsors:
 tags: 
 - workshop
 title: JavaScript Surgery
-date: 2010-07-08T19:15:00Z
+date: 2010-07-08T19:15:00+00:00
 lanyrd: http://lanyrd.com/2010/asyncjs-surgery/
 venue: 
   name: The Werks

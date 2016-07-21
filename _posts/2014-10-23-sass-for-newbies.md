@@ -2,7 +2,7 @@
 number: 105
 title: Sass for Newbies
 summary: by Hugo Darby-Brown
-date: 2014-10-23T19:15+00:00
+date: 2014-10-23T19:15:00+00:00
 lanyrd: http://lanyrd.com/2014/async-sass-for-newbies/
 speakers:
 - name: Hugo Darby-Brown

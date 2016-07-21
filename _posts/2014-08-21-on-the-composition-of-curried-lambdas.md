@@ -2,7 +2,7 @@
 number: 101
 title: On the Composition of Curried Lamb(das)
 summary: A tour of some essential functional programming concepts. And maybe a mutton vindaloo
-date: 2014-08-21T19:15+00:00
+date: 2014-08-21T19:15:00+00:00
 lanyrd: http://lanyrd.com/2014/async-on-the-composition-of-curried-lambdas
 speakers:
 - name: Fabien O'Carroll

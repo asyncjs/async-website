@@ -3,7 +3,7 @@ number: 46
 title: Architecture of a JavaScript Application
 summary: A tour of a real-world JavaScript application
 collection: events
-date: 2012-04-12T19:15+00:00
+date: 2012-04-12T19:15:00+00:00
 image: 
   url: http://farm1.staticflickr.com/150/391988714_6cb98eab7e.jpg
   title: Capital Spiral Stairs by sunsurfr, on Flickr

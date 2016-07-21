@@ -2,7 +2,7 @@
 number: 49
 title: Hypermedia APIs & JavaScript Applications
 summary: A look through the process of building a rich full-stack JavaScript application, API-first.
-date: 2012-05-24T19:15+01:00
+date: 2012-05-24T19:15:00+01:00
 lanyrd: http://lanyrd.com/2012/asyncjs-hypermedia/
 speakers:
 - name: Tom Parslow

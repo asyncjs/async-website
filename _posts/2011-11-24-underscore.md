@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2011-11-24T19:15+00:00
+date: 2011-11-24T19:15:00+00:00
 image: 
   url: http://asyncjs.com/wp/wp-content/uploads/2011/11/pen-knife-500x345.jpg
   title: Handy tools (greyscale) by magnuscanis, on Flickr

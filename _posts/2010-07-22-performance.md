@@ -20,7 +20,7 @@ tags:
 - runtime
 - speed
 title: A Rough Guide to JavaScript Performance
-date: 2010-07-22T19:15:00Z
+date: 2010-07-22T19:15:00+00:00
 lanyrd: http://lanyrd.com/2010/asyncjs-performance/
 venue: 
   name: The Werks
