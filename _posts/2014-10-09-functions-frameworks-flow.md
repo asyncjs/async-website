@@ -2,7 +2,7 @@
 number: 104
 title: Functions, frameworks and flow
 summary: There are parallels across the landscape of modern functional languages. Let's explore.
-date: 2014-10-09T19:15+00:00
+date: 2014-10-09T19:15:00+00:00
 lanyrd: http://lanyrd.com/2014/async-tom-ashworth-october/
 tags:
 - javascript

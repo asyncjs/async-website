@@ -2,7 +2,7 @@
 number: 118
 title: "Friction Free Gaming"
 summary: ""
-date: 2015-04-30T19:15+00:00
+date: 2015-04-30T19:15:00+00:00
 lanyrd: http://lanyrd.com/2015/friction-free-gaming/
 speakers:
 - name: Will Eastcott

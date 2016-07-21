@@ -2,7 +2,7 @@
 number: 113
 title: Spring Show n' Tell
 summary: Show us yer wares
-date: 2015-02-19T19:15+00:00
+date: 2015-02-19T19:15:00+00:00
 lanyrd: http://lanyrd.com/2015/asyncjs-showntell-spring-2015/
 speakers:
 image:

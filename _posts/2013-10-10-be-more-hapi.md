@@ -2,7 +2,7 @@
 number: 81
 title: Be More HAPI
 summary: HAPI the perfect foundation for building APIs with node.js.
-date: 2013-10-10T19:15+00:00
+date: 2013-10-10T19:15:00+00:00
 lanyrd: http://lanyrd.com/2013/asyncjs-be-more-hapi/
 speakers:
 - name: Glenn Jones

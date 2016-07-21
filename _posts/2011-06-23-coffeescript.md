@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2011-06-23T19:15+00:00
+date: 2011-06-23T19:15:00+00:00
 image: 
   url: http://farm6.static.flickr.com/5182/5671953126_8c1126c222.jpg
   title: Coffee Alchemy - Marickville by sachman75, on Flickr

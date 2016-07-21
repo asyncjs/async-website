@@ -2,7 +2,7 @@
 number: 128
 title: "Playcanvas Lunar Lander Hacknight (Part 2)"
 summary: "A JavaScript Meetup for Brighton and Hove"
-date: 2015-09-24T19:15+00:00
+date: 2015-09-24T19:15:00+00:00
 lanyrd: http://lanyrd.com/2015/async-playcanvas-hacknight-part-2
 image:
   url:   /images/talks/spaceships_asteroids.png

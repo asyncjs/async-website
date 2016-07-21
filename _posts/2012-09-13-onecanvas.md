@@ -2,7 +2,7 @@
 number: 56
 title: "One Canvas: part one"
 summary: "A collaborative hack night for artists, designers and programmers, working together to make an interactive, intricate digital artwork on an infinitely scrollable, zoomable web page."
-date: 2012-09-13T19:15+01:00
+date: 2012-09-13T19:15:00+01:00
 lanyrd: http://lanyrd.com/2012/asyncjs-onecanvas/
 speakers:
 sponsors:

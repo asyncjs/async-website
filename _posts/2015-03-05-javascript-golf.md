@@ -2,7 +2,7 @@
 number: 114
 title: JavaScript Golf
 summary: Readability is out the window. Solve the problem in as fewer characters as possible!
-date: 2015-03-05T19:15+00:00
+date: 2015-03-05T19:15:00+00:00
 lanyrd: http://lanyrd.com/2015/javascript-golf
 speakers:
 image:

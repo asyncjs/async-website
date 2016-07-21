@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2011-11-10T19:15+00:00
+date: 2011-11-10T19:15:00+00:00
 image: 
   url: http://farm4.static.flickr.com/3289/3060694963_3d778f69dd.jpg
   title: The Juggler II by Helico, on Flickr

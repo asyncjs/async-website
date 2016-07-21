@@ -2,7 +2,7 @@
 number: 71
 title: Life in an Eventually Consistent World
 summary: Convergent Replicated Data Types with Riak and Node.
-date: 2013-05-09T19:15+00:00
+date: 2013-05-09T19:15:00+00:00
 lanyrd: http://lanyrd.com/2013/asyncjs-eventual-consistency/
 speakers:
 - name: Cristiano Solarino

@@ -2,7 +2,7 @@
 number: 130
 title: "Resilience"
 summary: "A JavaScript Meetup for Brighton and Hove"
-date: 2015-10-22T19:15+00:00
+date: 2015-10-22T19:15:00+01:00
 lanyrd: http://lanyrd.com/2015/asyncjs-resilience
 speakers:
 - name: Jeremy Keith

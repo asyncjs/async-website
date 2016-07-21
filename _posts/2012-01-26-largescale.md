@@ -1,6 +1,6 @@
 --- 
 collection: events
-date: 2012-01-26T19:15+00:00
+date: 2012-01-26T19:15:00+00:00
 image: 
   url: http://asyncjs.com/wp/wp-content/uploads/2012/02/5980913422_06e08daef2_o.jpg
   title: Setting Sails In Berlin - Potsdamer Platz by Sprengben [why not get a friend], on Flickr

@@ -2,7 +2,7 @@
 number: 70
 title: Managing Modularity
 summary: What I've learned about how MVC scales with complexity.
-date: 2013-04-25T19:15+00:00
+date: 2013-04-25T19:15:00+00:00
 lanyrd: http://lanyrd.com/2013/async-managing-modularity/
 speakers:
 - name: Tom Ashworth

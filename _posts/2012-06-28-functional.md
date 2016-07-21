@@ -2,7 +2,7 @@
 number: 51
 title: "Functional JavaScript"
 summary: Reduce complexity and create more reusable, provable, scalable and composable programs.
-date: 2012-06-28T19:15+01:00
+date: 2012-06-28T19:15:00+01:00
 lanyrd: http://lanyrd.com/2012/asyncjs-functional/
 speakers:
 - name: Kingsley Davies
