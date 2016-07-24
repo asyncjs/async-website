@@ -1,8 +1,8 @@
 ---
-number: 152
-title: Fishcotheque
+number: 153
+title: Fishcotheque (part 2 of 2
 summary: A web tech meetup for Brighton & Hove
-date: 2016-09-08T19:15+00:00
+date: 2016-09-22T19:15+00:00
 speakers:
 - name: Everybody
   link:
@@ -47,4 +47,5 @@ Please bring a laptop if you can. But don't worry if you don't have one, people 
 
 We'll post the fishcotheque online here for the world to see.
 
-This is part 1 of a 2 part series; the second event will be on September 22nd.
+This is part 2 of a 2 part series.
+
