@@ -6,6 +6,7 @@ date: 2016-09-22T19:15+00:00
 speakers:
 - name: Everybody
   link:
+lanyrd: https://lanyrd.com/2016/asyncjs-fishcotheque-2-of-2
 sponsors:
 image:
   url:   /images/talks/fishcotheque.jpg
