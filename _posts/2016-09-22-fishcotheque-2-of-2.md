@@ -1,6 +1,6 @@
 ---
 number: 153
-title: Fishcotheque (part 2 of 2
+title: Fishcotheque (part 2 of 2)
 summary: A web tech meetup for Brighton & Hove
 date: 2016-09-22T19:15+00:00
 speakers:
