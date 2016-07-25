@@ -1,0 +1,5 @@
+{
+  "preset": "idiomatic",
+  "fix": true,
+  "validateIndentation": 2,
+}
