@@ -1,8 +1,13 @@
 'use strict'
 
 // Dependencies
+const fs = require('graceful-fs')
 const path = require('path')
+const through2 = require('through2')
 const gulp = require('gulp')
+const gutil = require('gulp-util')
+const htmlhint = require('gulp-htmlhint')
+const markdownlint = require('markdownlint')
 const gulpsmith = require('gulpsmith')
 const gulpFrontMatter = require('gulp-front-matter')
 const drafts = require('metalsmith-drafts')
@@ -26,13 +31,45 @@ module.exports.lint = 'lint-smith'
 module.exports.build = module.exports.smith
 
 // Task configurations
-gulp.task(module.exports.lintIncludes, () => { /* markdown lint */ })
+gulp.task(module.exports.lintIncludes, () => {
+  return gulp.src(path.join(includes.dir, '**/*.md'), { read: false })
+    .pipe(through2.obj((file, enc, next) => {
+      markdownlint({
+        files: path.join(includes.dir, file.relative),
+        config: JSON.parse(fs.readFileSync('.markdownlintrc', 'utf8'))
+      }, (err, res) => {
+        res = (res || '').toString()
+        if (res) gutil.log(res)
+        next(err, file)
+      })
+    }))
+})
 
-gulp.task(module.exports.lintPartials, () => { /* html lint */ })
+gulp.task(module.exports.lintPartials, () => {
+  return gulp.src(path.join(includes.dir, '**/*.html'))
+    .pipe(htmlhint('.htmlhintrc'))
+    .pipe(htmlhint.failReporter())
+})
 
-gulp.task(module.exports.lintPosts, () => { /* markdown lint */ })
+gulp.task(module.exports.lintPosts, () => {
+  return gulp.src(path.join(includes.dir, '**/*.md'), { read: false })
+    .pipe(through2.obj((file, enc, next) => {
+      markdownlint({
+        files: path.join(includes.dir, file.relative),
+        config: JSON.parse(fs.readFileSync('.markdownlintrc', 'utf8'))
+      }, (err, res) => {
+        res = (res || '').toString()
+        if (res) gutil.log(res)
+        next(err, file)
+      })
+    }))
+})
 
-gulp.task(module.exports.lintPages, () => { /* html lint */ })
+gulp.task(module.exports.lintPages, () => {
+  return gulp.src(pages.glob)
+    .pipe(htmlhint('.htmlhintrc'))
+    .pipe(htmlhint.failReporter())
+})
 
 gulp.task(module.exports.lint, [
   module.exports.lintIncludes,
