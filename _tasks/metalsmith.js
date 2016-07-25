@@ -51,18 +51,20 @@ gulp.task(module.exports.lintPartials, () => {
     .pipe(htmlhint.failReporter())
 })
 
-gulp.task(module.exports.lintPosts, () => {
-  return gulp.src(path.join(includes.dir, '**/*.md'), { read: false })
-    .pipe(through2.obj((file, enc, next) => {
-      markdownlint({
-        files: path.join(includes.dir, file.relative),
-        config: JSON.parse(fs.readFileSync('.markdownlintrc', 'utf8'))
-      }, (err, res) => {
-        res = (res || '').toString()
-        if (res) gutil.log(res)
-        next(err, file)
-      })
-    }))
+gulp.task(module.exports.lintPosts, cb => {
+  gutil.log(`TODO: (help needed!) Linting for \'${posts.glob}\' currently disabled.`)
+  cb()
+
+  // return gulp.src(path.join(posts.dir, '**/*.md'), { read: false })
+  //   .pipe(through2.obj((file, enc, next) => {
+  //     markdownlint({
+  //       files: path.join(posts.dir, file.relative),
+  //       config: JSON.parse(fs.readFileSync('.markdownlintrc', 'utf8'))
+  //     }, (err, res) => {
+  //       res = (res || '').toString()
+  //       next(res || err, file)
+  //     })
+  //   }))
 })
 
 gulp.task(module.exports.lintPages, () => {
