@@ -2,7 +2,7 @@
 number: 93
 title: "Data pipelines in client side JavaScript"
 summary: "Patterns for building async, declarative data pipelines for client-side code"
-date: 2014-04-24T19:15
+date: 2014-04-24T19:15:00+00:00
 lanyrd: http://lanyrd.com/2014/asyncjs-data-pipelines/
 speakers:
 - name: Ismael Celis

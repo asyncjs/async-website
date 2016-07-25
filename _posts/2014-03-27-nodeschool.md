@@ -2,7 +2,7 @@
 number: 91
 title: "Async Does Nodeschool"
 summary: "nodeschool.io is a free, community driven, open source educational project that teaches JavaScript and node.js skills in an interactive, self-guided way."
-date: 2014-03-27T19:00+00:00
+date: 2014-03-27T19:00:00+00:00
 lanyrd: http://lanyrd.com/2014/asyncjs-nodeschool/
 speakers:
 - name: Tom Ashworth

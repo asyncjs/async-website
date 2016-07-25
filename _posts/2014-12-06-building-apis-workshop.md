@@ -2,7 +2,7 @@
 number: 108
 title: Async Special - Hapi.js Workshop
 summary: A step by step workshop on building APIs with HAPI.js and Node.js
-date: 2014-12-06T13:00+00:00
+date: 2014-12-06T13:00:00+00:00
 lanyrd: http://lanyrd.com/2014/async-hapijs-workshop
 speakers:
 - name: Glenn Jones
