@@ -1,0 +1,9 @@
+linters:
+  ColorVariable:
+    enabled: false
+  IdSelector:
+    enabled: false
+  PropertySortOrder:
+    enabled: false
+  SelectorDepth:
+    max_depth: 4
