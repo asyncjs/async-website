@@ -3,10 +3,11 @@ layout: base.html
 ---
 
 {{#each news}}
-    <section class="module news" data-timestamp="{{ date }}">
-      <a href="{{ url }}"><strong>News:</strong> {{ title }}</a>
-    </section>
+  <section class="module news" data-timestamp="{{ date }}">
+    <a href="{{ url }}"><strong>News:</strong> {{ title }}</a>
+  </section>
 {{/each}}
+
 <section class="module event-detail">
   <h2 class="module-heading">Next Event:</h2>
   {{#each events}}
