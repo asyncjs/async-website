@@ -25,7 +25,7 @@ gulp.task('build', [clean], cb => {
     scripts.build,
     styles.lint,
     styles.build,
-    // metalsmith.lint,
+    metalsmith.lint,
     metalsmith.build
   ], cb)
 })
