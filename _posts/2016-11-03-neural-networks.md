@@ -8,9 +8,8 @@ speakers:
 - name: Antonio De Luca
   link: http://www.antoniodeluca.info/
 image:
-  url: https://upload.wikimedia.org/wikipedia/commons/3/32/Single-layer_feedforward_artificial_neural_network.png
-  title: Single-layer feedforward artificial neural_network
-  link: https://en.wikipedia.org/wiki/Artificial_neural_network
+  url: /images/talks/neuralNetworksForSquirrels.jpg
+  title: Neural Networks for Squirrels
 sponsors:
 tags:
 - machine learning
@@ -28,4 +27,18 @@ category: event
 published: true
 ---
 
-In this talk, Antonio De Luca (author of [dn2a](http://www.dn2a.org/)) will provide an introduction to leveraging the powerful machine learning technology known as Artificial Neural Networks using JavaScript. Further details TBC
+What do Neural Networks and JavaScript have in common? 
+
+Well, probably more than what you think! 
+
+They may be a  match made in the heaven, and we are going to see feel the influence of both in the coming years.
+
+Neural Networks and JavaScript are today's buzzwords, but how can we use them together?
+
+You will have an introduction about what Neural Networks are, how to apply them in your applications, which packages are available in the JS community and how to think in terms of architectures to solve complex problems.
+
+Prerequisites:
+
+- A smartphone, tablet or laptop (only if you want to have access to more insights during the presentation or to play with the provided demos)
+- Basic knowledge of JavaScript
+
