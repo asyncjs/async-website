@@ -608,7 +608,7 @@ footer span {
 
 	.masthead .logo {
 		position: absolute;
-		top: 11px;
+		top: 14px;
 		left: -5px;
 		display: block;
 	}
@@ -700,12 +700,12 @@ footer span {
 }
 
 body, .masthead p em {
-	font-family: "FS Joey Web Regular", Helvetica, Arial, Verdana , sans-serif;
+	font-family: "Catamaran", Helvetica, Arial, Verdana , sans-serif;
 	font-weight: normal;
 }
 
 i, em {
-	font-family:"FS Joey Web Italic", Helvetica, Arial, Verdana , sans-serif;
+	font-family:"Catamaran", Helvetica, Arial, Verdana , sans-serif;
 	font-style: italic;
 }
 
@@ -714,12 +714,12 @@ b, strong,
 .read-more a,
 .event-detail .vevent,
 .event-item .lanyrd-simple {
-	font-family:"FS Joey Web Bold", Helvetica, Arial, Verdana , sans-serif;
+	font-family:"Catamaran", Helvetica, Arial, Verdana , sans-serif;
 	font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6, .header, .news strong {
-	font-family: "Creighton Regular", Verdana, sans-serif;
+	font-family: "Anton", Verdana, sans-serif;
 	font-weight: normal;
 	text-rendering: optimizeLegibility; /* May cause issues in Windows browsers */
 }
