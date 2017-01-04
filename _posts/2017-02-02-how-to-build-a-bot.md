@@ -1,15 +1,15 @@
 ---
 number: 159
-title: How to build a bot
+title: The rise of the bots
 summary: A web tech meetup for Brighton & Hove
 date: 2017-02-02T19:15+00:00
 lanyrd: https://lanyrd.com/2017/asyncjs-how-to-build-a-bot
 speakers:
 - name: Alexandre Nicol
 image:
-  url: 
-  title: 
-  link: 
+  url: /images/talks/riseOfTheBots.jpg
+  title: Artificial Intelligence
+  link: https://pixabay.com/p-503588/?no_redirect
 sponsors:
 tags:
 - bots
@@ -26,6 +26,10 @@ category: event
 published: true
 ---
 
-More details to follow...
+You've surely heard of them, the bots are coming! Some predict they will cause the end of mobile applications, others that they will even take over jobs!
+
+Throughout this talk, we will try to answer many questions about the rise of the bots: Who are they? Why such enthusiasm? Can they really take over the world of mobile applications?
+
+The talk will also include a tutorial so you can start building your own bots on Facebook Messenger using api.ai and node.js! 
 
 ---
