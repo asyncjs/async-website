@@ -1,22 +1,18 @@
 'use strict'
 
-// Dependencies
 const path = require('path')
 const gulp = require('gulp')
 const { dist } = require('../paths.json')
-const browser = require('browser-sync').create()
+const browserSync = require('browser-sync').create()
 
-// Task exports
-module.exports.browser = 'browser'
-module.exports.init = 'browser-init'
-module.exports.reloadFn = browser.reload
-module.exports.streamFn = browser.stream
+module.exports = function browser() {
 
-// Task configurations
-gulp.task(module.exports.init, () => (browser.init({
-  injectChanges: true,
-  server: { baseDir: dist.dir },
-  files: path.join(dist.dir, 'css/**/*.css')
-})))
+  return browserSync.init({
+    injectChanges: true,
+    server: { baseDir: dist.dir },
+    files: path.join(dist.dir, 'css/**/*.css')
+  })
+}
 
-gulp.task(module.exports.browser, [module.exports.init])
+module.exports.reload = browserSync.reload
+module.exports.stream = browserSync.stream

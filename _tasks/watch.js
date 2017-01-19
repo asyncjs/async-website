@@ -1,37 +1,28 @@
 'use strict'
 
-// Dependencies
 const gulp = require('gulp')
 const paths = require('../paths.json')
+// const images = require('./images')
+// const scripts = require('./scripts')
+// const styles = require('./styles')
+const generate = require('./generate/index')
 
-// Consumed tasks
-const { plumb } = require('./plumb')
-const { images } = require('./images')
-const { scripts } = require('./scripts')
-const { styles } = require('./styles')
-const { smith } = require('./metalsmith')
-
-// Task exports
-module.exports.watch = 'watch'
-
-// Task configuration
-gulp.task(module.exports.watch, [plumb], () => {
+module.exports = function watch() {
 
   // Images
-  gulp.watch([paths.images.glob], [images])
+  // gulp.watch([paths.images.glob], images)
 
   // Scripts
-  gulp.watch([paths.scripts.glob], [scripts])
+  // gulp.watch([paths.scripts.glob], scripts)
 
   // Styles
-  gulp.watch([paths.styles.glob], [styles])
+  // gulp.watch([paths.styles.glob], styles)
 
-  // Metalsmith
+  // Generate
   gulp.watch([
     paths.includes.glob,
     paths.layouts.glob,
     paths.posts.glob,
     paths.pages.glob
-  ], [smith])
-
-})
+  ], generate)
+}
