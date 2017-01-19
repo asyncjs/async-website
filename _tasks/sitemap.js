@@ -1,18 +1,14 @@
 'use strict'
 
-// Dependencies
 const path = require('path')
 const gulp = require('gulp')
-const sitemap = require('gulp-sitemap')
+const gulpSitemap = require('gulp-sitemap')
 const { homepage } = require('../package.json')
 const { dist } = require('../paths.json')
 
-// Task exports
-module.exports.sitemap = 'sitemap'
+module.exports = function sitemap() {
 
-// Task configuration
-gulp.task(module.exports.sitemap, () => {
   return gulp.src(path.join(dist.dir, '**/*.html'))
-    .pipe(sitemap({ siteUrl: homepage }))
+    .pipe(gulpSitemap({ siteUrl: homepage }))
     .pipe(gulp.dest(dist.dir))
-})
+}

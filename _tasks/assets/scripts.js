@@ -1,6 +1,5 @@
 'use strict'
 
-// Dependencies
 const path = require('path')
 const gulp = require('gulp')
 const eslint = require('gulp-eslint')
@@ -8,18 +7,11 @@ const jscs = require('gulp-jscs')
 const babel = require('gulp-babel')
 const uglify = require('gulp-uglify')
 const sourcemaps = require('gulp-sourcemaps')
-const { scripts, dist } = require('../paths.json')
+const { reload } = require('../browser')
+const { scripts, dist } = require('../../paths.json')
 
-// Consumed tasks
-const { reloadFn } = require('./browser')
+function lintScripts() {
 
-// Task exports
-module.exports.scripts = 'scripts'
-module.exports.lint = 'lint-scripts'
-module.exports.build = module.exports.scripts
-
-// Task configuration
-gulp.task(module.exports.lint, () => {
   return gulp.src(scripts.glob)
     .pipe(eslint())
     .pipe(eslint.format())
@@ -28,9 +20,10 @@ gulp.task(module.exports.lint, () => {
     .pipe(jscs.reporter())
     .pipe(jscs.reporter('fail'))
     .pipe(gulp.dest(scripts.dir))
-})
+}
 
-gulp.task(module.exports.scripts, cb => {
+function buildScripts(cb) {
+
   gulp.src(scripts.glob)
     .pipe(sourcemaps.init())
     .pipe(babel())
@@ -38,7 +31,9 @@ gulp.task(module.exports.scripts, cb => {
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(path.join(dist.dir, 'js/')))
     .on('finish', () => {
-      reloadFn()
+      reload()
       cb()
     })
-})
+}
+
+module.exports = gulp.series([lintScripts, buildScripts])
