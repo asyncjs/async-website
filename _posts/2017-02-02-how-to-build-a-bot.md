@@ -32,4 +32,9 @@ Throughout this talk, we will try to answer many questions about the rise of the
 
 The talk will also include a tutorial so you can start building your own bots on Facebook Messenger using api.ai and node.js! 
 
+
+### UPDATE
+
+Here are Alex's slides from the night: [http://riseofthebots.webnicol.fr/](http://riseofthebots.webnicol.fr/)
+
 ---
