@@ -14,6 +14,12 @@ Design & QA: Premasagar Rose
 Twitter: @premasagar
 Location: Brighton, UK
 
+Tools Development: Yann Eves
+Twitter: @yanneves_
+Location: Brighton, UK
+
+And all our other contributors at https://github.com/asyncjs/asyncjs.github.com/graphs/contributors
+
 /* THANKS */
 
 Richard Rutter and Josh Emerson @ Fontdeck for the fonts.
