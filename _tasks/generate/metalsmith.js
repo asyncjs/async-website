@@ -12,7 +12,7 @@ const tags = require('metalsmith-tags')
 const boilerplates = require('metalsmith-layouts')
 const templates = require('metalsmith-in-place')
 const collections = require('metalsmith-collections')
-const rewrite = require('metalsmith-rewrite')
+const redirect = require('metalsmith-redirect')
 const metadata = require('metalsmith-metadata')
 const metadataInFilename = require('metalsmith-metadata-in-filename')
 const buildDate = require('metalsmith-build-date')
@@ -41,6 +41,9 @@ module.exports = function metalsmith(cb) {
       .use(metadataInFilename())
       .use(metadata({ site: 'site.json' }))
       .use(buildDate({ key: 'BUILD' }))
+      .use(redirect({
+        '/podcast': '/'
+      }))
 
       // Metalsmith collections
       .use(collections({
