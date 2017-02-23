@@ -8,6 +8,7 @@ const drafts = require('metalsmith-drafts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
 const helpers = require('metalsmith-register-helpers')
+const tags = require('metalsmith-tags')
 const boilerplates = require('metalsmith-layouts')
 const templates = require('metalsmith-in-place')
 const collections = require('metalsmith-collections')
@@ -111,6 +112,11 @@ module.exports = function metalsmith(cb) {
       // Metalsmith register helpers
       .use(helpers({
         directory: path.join(includes.dir, 'helpers/')
+      }))
+
+      // Metalsmith tags
+      .use(tags({
+        layout: 'tag.html'
       }))
 
       // Metalsmith pages
