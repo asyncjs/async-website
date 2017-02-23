@@ -1,34 +1,38 @@
 {
   "dist": {
-    "dir": "./dist/",
-    "glob": "./dist/**"
+    "dir": "dist/",
+    "glob": "dist/**"
+  },
+  "assets": {
+    "dir": "_assets/",
+    "glob": "_assets/**"
   },
   "scripts": {
-    "dir": "./_assets/scripts/",
-    "glob": "./_assets/scripts/**/*.js"
+    "dir": "_assets/scripts/",
+    "glob": "_assets/scripts/**/*.js"
   },
   "styles": {
-    "dir": "./_assets/styles/",
-    "glob": "./_assets/styles/**/*.scss"
+    "dir": "_assets/styles/",
+    "glob": "_assets/styles/**/*.scss"
   },
   "images": {
-    "dir": "./_assets/images/",
-    "glob": "./_assets/images/**"
+    "dir": "_assets/images/",
+    "glob": "_assets/images/**"
   },
   "includes": {
-    "dir": "./_includes/",
-    "glob": "./_includes/**"
+    "dir": "_includes/",
+    "glob": "_includes/**"
   },
   "layouts": {
-    "dir": "./_layouts/",
-    "glob": "./_layouts/**/*.html"
+    "dir": "_layouts/",
+    "glob": "_layouts/**/*.html"
   },
   "posts": {
-    "dir": "./_posts/",
-    "glob": "./_posts/**/*.md"
+    "dir": "_posts/",
+    "glob": "_posts/**/*.md"
   },
   "pages": {
-    "dir": "./_pages/",
-    "glob": "./_pages/**/*.html"
+    "dir": "_pages/",
+    "glob": "_pages/**"
   }
 }

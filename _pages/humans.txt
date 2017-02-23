@@ -20,4 +20,4 @@ Richard Rutter and Josh Emerson @ Fontdeck for the fonts.
 
 /* SITE */
 
-Last update: {{ site.time | date:"%Y/%m/%d" }}
+Last update: {{ BUILD }}

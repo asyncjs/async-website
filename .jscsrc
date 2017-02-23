@@ -2,4 +2,10 @@
   "preset": "idiomatic",
   "fix": true,
   "validateIndentation": 2,
+  "maximumLineLength": false,
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "requireCurlyBraces": false,
+  "requireEarlyReturn": false,
+  "requireParenthesesAroundIIFE": false,
+  "validateCommentPosition": false
 }

@@ -8,9 +8,9 @@ const gutil = require('gulp-util')
 // const markdownlint = require('markdownlint')
 const { posts } = require('../../../paths.json')
 
-module.exports = function lintPosts(cb) {
+module.exports = function lintPosts(done) {
   gutil.log(`TODO: (help needed!) Linting for '${posts.glob}' currently disabled.`)
-  cb()
+  done()
 
   // return gulp.src(path.join(posts.dir, '**/*.md'), { read: false })
   //   .pipe(through2.obj((file, enc, next) => {

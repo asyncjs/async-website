@@ -41,14 +41,21 @@
     "gulpsmith": "^0.5.5",
     "handlebars": "^4.0.6",
     "markdownlint": "^0.2.0",
+    "marked": "^0.3.6",
     "metalsmith": "^2.3.0",
-    "metalsmith-collections": "^0.7.0",
+    "metalsmith-build-date": "^0.2.0",
+    "metalsmith-collections": "github:yanneves/metalsmith-collections",
     "metalsmith-drafts": "0.0.1",
     "metalsmith-in-place": "^1.4.4",
     "metalsmith-layouts": "^1.7.0",
     "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.4",
+    "metalsmith-metadata-in-filename": "^1.0.0",
     "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-register-helpers": "^0.2.0",
+    "moment": "^2.17.1",
     "run-sequence": "^1.2.2",
+    "striptags": "^2.2.1",
     "through2": "^2.0.3"
   }
 }
