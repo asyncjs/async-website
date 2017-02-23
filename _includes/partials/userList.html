@@ -1,0 +1,8 @@
+{{~#each users~}}
+  {{#if link}}
+    <a href="{{ link }}" target="_blank">{{ name }}</a>{{#if @last}}.{{/if}}{{#unless @last}},&nbsp;{{/unless}}
+  {{/if}}
+  {{#unless link}}
+    <span>{{ name }}{{#if @last}}.{{/if}}{{#unless @last}},&nbsp;{{/unless}}</span>
+  {{/unless}}
+{{~/each~}}

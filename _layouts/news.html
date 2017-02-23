@@ -1,18 +1,24 @@
----
-layout: base
----
-<section class="module event-detail">
-	<h2 class="module-heading">News:</h2>
-	<article class="event-detail">
-		<header>
-			<h2 class="heading">{{ page.title }}</h2>
-			<p class="meta">
-				{% if page.authors %}
-					 assign users = page.authors
-					By  include partial/user_list.html .&nbsp;
-				{% endif %}
-				<a href="{{ page.url }}">Posted on  page.date | date_to_long_string </a>
-		</header>
-		 assign post = page include partial/post_description.html
-	</article>
-</section>
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    {{> masthead}}
+    <section class="module event-detail">
+      <h2 class="module-heading">News:</h2>
+      <article class="event-detail">
+        <header>
+          <h2 class="heading">{{ title }}</h2>
+          <p class="meta">
+            {{#if authors}}
+              By {{> userList users=authors }}&nbsp;
+            {{/if}}
+            <a href="/{{ path }}">Posted on {{ day date }}</a>
+        </header>
+        {{> postDescription post=this }}
+      </article>
+    </section>
+    {{> about}}
+    {{> links}}
+    {{> footer}}
+  </body>
+</html>

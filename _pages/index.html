@@ -2,16 +2,45 @@
 layout: base.html
 ---
 
-{{#each news}}
+{{#each headlines}}
   <section class="module news" data-timestamp="{{ date }}">
-    <a href="{{ url }}"><strong>News:</strong> {{ title }}</a>
+    <a href="/{{ path }}"><strong>News:</strong> {{ title }}</a>
   </section>
 {{/each}}
 
 <section class="module event-detail">
   <h2 class="module-heading">Next Event:</h2>
-  {{#each events}}
-    <p>{{ title }}</p>
-    <time>{{ date }}</time>
+  {{#each soonest}}
+    {{> eventDetail }}
   {{/each}}
+  {{#unless soonest}}
+    <p class="prose">There are currently no upcoming events, stay tuned for more. You can follow us on <a href="https://twitter.com/asyncjs">Twitter</a> or subscribe to the <a href="/feed/">feed</a> for updates.</p>
+  {{/unless}}
+</section>
+
+<section class="module">
+  <section class="column upcoming-events">
+    <h2 class="module-heading">Upcoming Events:</h2>
+    <ul class="event-lisiting">
+      {{#each upcoming}}
+        <li class="event-item">{{> eventItem}}</li>
+      {{/each}}
+      {{#unless upcoming}}
+        <li class="empty">No further events are currently scheduled</li>
+      {{/unless}}
+    </ul>
+    <p class="read-more"><a href="/events/">View all events</a></p>
+  </section>
+  <section class="column past-events">
+    <h2 class="module-heading">Past Events:</h2>
+    <ul class="event-lisiting">
+      {{#each past}}
+        <li class="event-item">{{> eventItem}}</li>
+      {{/each}}
+      {{#unless past}}
+        <li class="empty">There are no past events</li>
+      {{/unless}}
+    </ul>
+    <p class="read-more"><a href="/events/">View all events</a></p>
+  </section>
 </section>

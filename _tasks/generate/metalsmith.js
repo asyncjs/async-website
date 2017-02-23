@@ -7,17 +7,23 @@ const gulpFrontMatter = require('gulp-front-matter')
 const drafts = require('metalsmith-drafts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
+const helpers = require('metalsmith-register-helpers')
 const boilerplates = require('metalsmith-layouts')
 const templates = require('metalsmith-in-place')
 const collections = require('metalsmith-collections')
+const rewrite = require('metalsmith-rewrite')
+const metadata = require('metalsmith-metadata')
+const metadataInFilename = require('metalsmith-metadata-in-filename')
+const buildDate = require('metalsmith-build-date')
 
 const { reload } = require('../browser')
+const { headlines, upcoming, past } = require('./filters')
 const { includes, layouts, posts, pages, dist } = require('../../paths.json')
 
 // Task configurations
 module.exports = function metalsmith(cb) {
 
-  gulp.src([pages.glob, posts.glob])
+  gulp.src(['./site.json', pages.glob, posts.glob])
 
     // Expose metalsmith front-matter to gulp pipelines
     .pipe(gulpFrontMatter()).on('data', file => {
@@ -30,12 +36,58 @@ module.exports = function metalsmith(cb) {
       // Metalsmith piping
       gulpsmith()
 
+      // Metalsmith metadata
+      .use(metadataInFilename())
+      .use(metadata({ site: 'site.json' }))
+      .use(buildDate({ key: 'BUILD' }))
+
       // Metalsmith collections
       .use(collections({
-        events: {
-          pattern: '*.md',
+        news: {
           sortBy: 'date',
           reverse: true
+        },
+        events: {
+          sortBy: 'date',
+          reverse: true
+        },
+        headlines: {
+          pattern: '*.md',
+          sortBy: 'date',
+          reverse: true,
+          refer: false,
+          limit: 2,
+          filter: headlines
+        },
+        upcoming: {
+          pattern: '*.md',
+          sortBy: 'date',
+          refer: false,
+          limit: 2,
+          filter: upcoming
+        },
+        past: {
+          pattern: '*.md',
+          sortBy: 'date',
+          reverse: true,
+          refer: false,
+          limit: 2,
+          filter: past
+        },
+        soonest: {
+          pattern: '*.md',
+          sortBy: 'date',
+          refer: false,
+          limit: 1,
+          filter: upcoming
+        },
+        latest: {
+          pattern: '*.md',
+          sortBy: 'date',
+          reverse: true,
+          refer: false,
+          limit: 1,
+          filter: past
         }
       }))
 
@@ -47,13 +99,18 @@ module.exports = function metalsmith(cb) {
         linksets: [
           {
             match: { collection: 'events' },
-            pattern: ':title'
+            pattern: ':slug'
           },
           {
             match: { collection: 'news' },
-            pattern: 'news/:title'
+            pattern: ':slug'
           }
         ]
+      }))
+
+      // Metalsmith register helpers
+      .use(helpers({
+        directory: path.join(includes.dir, 'helpers/')
       }))
 
       // Metalsmith pages

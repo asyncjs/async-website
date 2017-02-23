@@ -1,45 +1,40 @@
----
-layout: base
----
- assign events = site.categories.event
- for event in events
-	 if event.id == page.id
-		 assign current == event
-		 assign total = forloop.length
-		 assign prev = forloop.index
-		 capture next  forloop.index | minus:2 endcapture
-	 endif
- endfor
-
-<section class="module event-detail">
-	<h2 class="module-heading">This Event</h2>
-	 assign event = page
-	 include partial/event_detail.html
-</section>
-
-<section class="module">
-	<section class="column upcoming-events">
-		<h2 class="module-heading">Following Event:</h2>
-		<ul class="event-lisiting">
-			 for event in events offset:next limit:1
-				<li class="event-item"> include partial/event_item.html </li>
-			 endfor
-			 if next == "-1"
-				<li class="empty">This is the most recent event</li>
-			 endif
-		</ul>
-		<p class="read-more"><a href="/events/">View all events</a></p>
-	</section>
-	<section class="column past-events">
-		<h2 class="module-heading">Previous Event:</h2>
-		<ul class="event-lisiting">
-			 for event in events offset:prev limit:1
-				<li class="event-item"> include partial/event_item.html </li>
-			 endfor
-			 if prev == total
-				<li class="empty">This is the last event</li>
-			 endif
-		</ul>
-		<p class="read-more"><a href="/events/">View all events</a></p>
-	</section>
-</section>
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    {{> masthead}}
+    <section class="module event-detail">
+      <h2 class="module-heading">This Event</h2>
+      {{> eventDetail }}
+    </section>
+    <section class="module">
+      <section class="column past-events">
+        <h2 class="module-heading">Previous Event:</h2>
+        <ul class="event-listing">
+          {{#with previous}}
+            <li class="event-item">{{> eventItem }}</li>
+          {{/with}}
+          {{#unless previous}}
+            <li class="empty">This is the last event</li>
+          {{/unless}}
+        </ul>
+        <p class="read-more"><a href="/events/">View all events</a></p>
+      </section>
+      <section class="column upcoming-events">
+        <h2 class="module-heading">Following Event:</h2>
+        <ul class="event-listing">
+          {{#with next}}
+            <li class="event-item">{{> eventItem }}</li>
+          {{/with}}
+          {{#unless next}}
+            <li class="empty">This is the most recent event</li>
+          {{/unless}}
+        </ul>
+        <p class="read-more"><a href="/events/">View all events</a></p>
+      </section>
+    </section>
+    {{> about}}
+    {{> links}}
+    {{> footer}}
+  </body>
+</html>

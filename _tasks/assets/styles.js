@@ -23,10 +23,11 @@ function buildStyles() {
     .pipe(sourcemaps.init())
     .pipe(sass.sync().on('error', sass.logError))
     .pipe(autoprefixer({ browsers: ['> 1%'], cascade: false }))
-    .pipe(uncss({ html: [path.join(dist.dir, '**/*.html')] }))
+    // .pipe(uncss({ html: [path.join(dist.dir, '**/*.html')] }))
     .pipe(cssnano())
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(path.join(dist.dir, 'css/')))
 }
 
-module.exports = gulp.series([lintStyles, buildStyles])
+// module.exports = gulp.series([lintStyles, buildStyles])
+module.exports = gulp.series(buildStyles)
