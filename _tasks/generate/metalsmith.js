@@ -48,7 +48,8 @@ module.exports = function metalsmith(cb) {
       .use(metadata({ site: 'site.json' }))
       .use(buildDate({ key: 'BUILD' }))
       .use(redirect({
-        '/podcast': '/'
+        '/podcast': '/',
+        '/feed': '/feed/atom/index.xml'
       }))
 
       // Metalsmith collections
