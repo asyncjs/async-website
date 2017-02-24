@@ -24,7 +24,6 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event.html
 collection: events
-published: true
 ---
 
 Early last year, [Mozilla][mozilla] decided to get into the phone business. This year, [FirefoxOS][firefoxos] is being put onto real devices that will be put in the hands of real people.

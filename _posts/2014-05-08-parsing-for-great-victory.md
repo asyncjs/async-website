@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 Have you ever wanted to write your own language?
 

@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 [Phil Nash][phil] will be joining us for a two-part evening exploring the increasingly important area of realtime technologies. 

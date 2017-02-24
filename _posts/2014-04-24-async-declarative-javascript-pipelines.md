@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true # Set this to true to publish
 ---
 
 Patterns like data pipelines, queuing and multiplexing are familiar to backend developers working on distributed and high-traffic systems. Projects such as [Node.js](http://nodejs.org) or [ZeroMQ](http://zeromq.org) make the concepts of *streams*, *queues* and *pipelines* first-order primitives that allow you to compose software in an organic and declarative way.

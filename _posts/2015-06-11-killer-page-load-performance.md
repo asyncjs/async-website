@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 Users don’t wait for slow sites to load, and they’re only getting more and more impatient. How do we keep up? The good news is that we can get very far by focusing on our perceived load time (as opposed to full page load time).
 

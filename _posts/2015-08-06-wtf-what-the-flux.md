@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 [Tom Parslow][tom] returns to Async to talk about Flux, the perfect compliment to React.JS for building reliable maintainable JavaScript applications.

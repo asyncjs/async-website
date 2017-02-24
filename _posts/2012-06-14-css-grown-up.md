@@ -21,7 +21,6 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event.html
 collection: events
-published: true
 ---
 
 In the early days of CSS the web industry cut its teeth on blogs and small

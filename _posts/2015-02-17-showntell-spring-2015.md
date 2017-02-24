@@ -22,7 +22,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Christmas is now a distant memory, summer is still a little way off, so let's cheer ourselves up with a Show'n'Tell! The winter months are the perfect time for beavering away on hack projects whilst it's cold and dark outside, so come one and come all and share your beautiful creations.

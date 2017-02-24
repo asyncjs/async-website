@@ -19,7 +19,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Get on your best pair of hideous golfing trousers and join us for the first ever _Async JS Golf Competition_.

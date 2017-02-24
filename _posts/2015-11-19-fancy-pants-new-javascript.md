@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 It's [Tom Parslow][tom] again, this time talking about the new features of JavaScript known as ES2015 (previously ES6) and ES7.

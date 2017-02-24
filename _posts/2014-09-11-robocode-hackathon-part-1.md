@@ -23,7 +23,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 ###Join us for part one of a two-part hackathon and pit your robo-tank in a battle royale!

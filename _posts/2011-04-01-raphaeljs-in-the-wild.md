@@ -1,7 +1,6 @@
 ---
 collection: events
 layout: event.html
-published: false
 speakers: 
 sponsors: 
 tags: 
@@ -12,6 +11,7 @@ venue:
   link: http://theskiff.org/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
+draft: true
 ---
 Ben is a front-end web developer working with digital agencies in London to produce standards based rich user experiences with HTML, CSS and Javascript. Originally from a Flash background, Ben made the 'jump' about 2 years ago and has never looked back. He blogs at http://benbarnett.net and is @benpbarnett on Twitter.
 

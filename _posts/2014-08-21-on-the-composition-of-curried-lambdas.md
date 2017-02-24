@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 This will be an introduction to some of the concepts and techniques used in functional programming - and how, when utilised, they can create more readable and testable code.

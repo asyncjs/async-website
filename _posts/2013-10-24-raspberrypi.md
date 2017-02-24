@@ -23,7 +23,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 The [Raspberry Pi][rp] is an amazing foundation for hacking with, and deserves more credit than most people give it. As the lovechild of an Arduino and a computer, it gives you more responsibilities and possibilities than you would otherwise expect. It leaves all of the choices to the end user, from Operating System to how much processing power is dedicated to graphics rendering.

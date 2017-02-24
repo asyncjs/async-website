@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/hinkelstone/2765597758/
 lanyrd: http://lanyrd.com/2011/asyncjs-intro-nodejs/
 layout: event.html
-published: true
 speakers: 
 sponsors: 
 tags: 

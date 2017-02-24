@@ -9,7 +9,6 @@ image:
   title: Cute penguin couple - explored by Adam Foster | Codefor, on Flickr
 collection: news
 layout: news.html
-published: true
 ---
 Async is now completing its second year of twice monthly JavaScript events,
 and we want to build on our successes. We are looking for companies or

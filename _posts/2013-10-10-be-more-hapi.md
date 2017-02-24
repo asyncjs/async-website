@@ -22,7 +22,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 [HAPI][hapi] is a node.js framework designed to provide the perfect foundation for APIs. It has a simple to use configuration-centric design with built-in support for input validation, caching, authentication, and other essential features. HAPI provides a painless route to scalable architecture allowing you to spend more time writing reusable application code instead of building API scaffolding.

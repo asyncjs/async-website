@@ -26,7 +26,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 ## Part 1: Responsive Web Fonts

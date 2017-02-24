@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/sacharules/5671953126/
 lanyrd: http://lanyrd.com/2011/async-coffeescript/
 layout: event.html
-published: true
 speakers: 
 sponsors: 
 tags: 

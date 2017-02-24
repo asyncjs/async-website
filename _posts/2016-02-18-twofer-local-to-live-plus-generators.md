@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 In this special two for one evening, we'll be welcoming Graham Smith to the Async stage for the first time, with a talk entitled "From Local To Live":

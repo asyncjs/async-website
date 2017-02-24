@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Talks about rich media APIs often see the speaker having to leave the slide deck to open content in another tab and show a demo. Is there a way we can do better than this? Sole will talk about how she's taking a fairly conventional slide deck and making it seamlessly multidimensional but still keeping it printable. Expect ear and eye candy!

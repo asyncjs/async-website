@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Could there be a better alternative to the App Store? This talk explores how we currently build and play games and looks to the web for a better solution. [HTML5](http://www.w3.org/TR/html5/) and [WebGL](http://en.wikipedia.org/wiki/WebGL) offer exciting opportunities for game developers (or anyone working with realtime 3D). These technologies power [PlayCanvas](https://playcanvas.com), an online platform for building 3D games and apps. We'll take a look at some PlayCanvas content to see what's possible.

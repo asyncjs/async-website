@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/huladancer22/530743543/
 lanyrd: http://lanyrd.com/2010/asyncjs-requirejs/
 layout: event.html
-published: true
 speakers: 
 sponsors: 
 tags: 

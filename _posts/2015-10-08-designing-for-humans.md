@@ -21,7 +21,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Designing for humans - demystifying the user experience domain and developing a useful design rationale.

@@ -28,7 +28,6 @@ venue:
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
 layout: event.html
-published: true
 ---
 
 Join us for a tour of a real-world JavaScript application. For the best part

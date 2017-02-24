@@ -1,7 +1,6 @@
 ---
 collection: news
 layout: news.html
-published: true
 speakers: 
 sponsors: 
 tags: 
