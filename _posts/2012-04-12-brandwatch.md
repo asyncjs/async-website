@@ -4,24 +4,24 @@ authors:
 - name: Premasagar Rose
   link: http://premasagar.com
 image:
-  url: http://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-logo.png
+  url: https://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-logo.png
   link: http://www.brandwatch.com/
   title: Brandwatch
 collection: news
 layout: news.html
 ---
 The very lovely [Brandwatch](http://www.brandwatch.com), a social
-analytics company from Brighton, is sponsoring the [Async developer community](http://asyncjs.com) for the months of April and May!
+analytics company from Brighton, is sponsoring the [Async developer community](https://asyncjs.com) for the months of April and May!
 
-We [recently posted](http://asyncjs.com/sponsor-us/) about wanting to
+We [recently posted](https://asyncjs.com/sponsor-us/) about wanting to
 invest in our community and its activities, so our huge thanks go out to
 Brandwatch for blazing the trail. The timing is perfect, since
-Brandwatch's app falls under the scrutiny of [tonight's case study of JavaScript application architecture](http://asyncjs.com/architecture/).
+Brandwatch's app falls under the scrutiny of [tonight's case study of JavaScript application architecture](https://asyncjs.com/architecture/).
 And for budding JavaScripters,
 the company have some excellent local job openings (see below).
 
 <h3 class="clear">Who is Brandwatch?</h3>
-![Brandwatch Analytics](http://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-analytics-500x274.jpg)
+![Brandwatch Analytics](https://asyncjs.com/wp/wp-content/uploads/2012/04/brandwatch-analytics-500x274.jpg)
 
 __Brandwatch crawls the internet__, archiving over 50 million instances
 of social media data every day. Users of the service can search via a

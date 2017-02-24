@@ -2,7 +2,7 @@
 collection: events
 date: 2012-01-26T19:15:00+00:00
 image: 
-  url: http://asyncjs.com/wp/wp-content/uploads/2012/02/5980913422_06e08daef2_o.jpg
+  url: https://asyncjs.com/wp/wp-content/uploads/2012/02/5980913422_06e08daef2_o.jpg
   title: Setting Sails In Berlin - Potsdamer Platz by Sprengben [why not get a friend], on Flickr
   link: http://www.flickr.com/photos/sprengben/5980913422/
 lanyrd: http://lanyrd.com/2012/largescale/
@@ -36,7 +36,7 @@ venue:
 
 <p>Whilst Addy loves writing, his true passion is in helping move the web (even a little) forward. He's a member of the jQuery Core bug triage and docs teams and has also contributed to open-source projects such as <a href="http://www.modernizr.com">Modernizr</a>.</p>
 
-<p>Addy is currently writing his second open-source book, '<a href="http://addyosmani.com/blog/backbone-fundamentals/">Backbone Fundamentals</a>', about <a href="http://asyncjs.com/backbone/">Backbone.js</a>, which can be <a href="https://github.com/addyosmani/backbone-fundamentals">downloaded from GitHub</a> along with his some of his other open source projects.</p>
+<p>Addy is currently writing his second open-source book, '<a href="http://addyosmani.com/blog/backbone-fundamentals/">Backbone Fundamentals</a>', about <a href="https://asyncjs.com/backbone/">Backbone.js</a>, which can be <a href="https://github.com/addyosmani/backbone-fundamentals">downloaded from GitHub</a> along with his some of his other open source projects.</p>
 
 ### Update: videos of the talk
 

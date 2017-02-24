@@ -36,7 +36,7 @@ venue:
 
 <p>Unlike more traditional programming languages, JavaScript has no built-in ability to import modules of code with protected namespaces. Scripts are strung together on the DOM in a global soup, and namespaces are usually described by the convention of having a single global object contain the functionality for a library or API. Naming collisions and messy code architecture can be the result.</p>
 
-<p>As programmers start to craft large JavaScript libraries and applications, and as JavaScript development moves server-side with projects like <a href="http://asyncjs.com/nodejs/">Node.js</a>, the need for a way to structure code in a modular form becomes more pressing.</p>
+<p>As programmers start to craft large JavaScript libraries and applications, and as JavaScript development moves server-side with projects like <a href="https://asyncjs.com/nodejs/">Node.js</a>, the need for a way to structure code in a modular form becomes more pressing.</p>
 
 <p>We'll take a look at how to use RequireJS, the questions it raises, some proposed alternatives and the motivation for having modular code shared by the client and server.</p>
 

@@ -25,7 +25,7 @@ venue:
 
 <hr />
 
-The two <a href="http://asyncjs.com/jungle/">Async meetups</a> in September were transformed into hacknights as part of the <a href="http://brightondigitalfestival.co.uk">Brighton Digital Festival</a>, with local developers and designers working together on a collaborative art project: the JavaScript Jungle - <a href="http://jungle.asyncjs.com/">jungle.asyncjs.com</a>.
+The two <a href="https://asyncjs.com/jungle/">Async meetups</a> in September were transformed into hacknights as part of the <a href="http://brightondigitalfestival.co.uk">Brighton Digital Festival</a>, with local developers and designers working together on a collaborative art project: the JavaScript Jungle - <a href="http://jungle.asyncjs.com/">jungle.asyncjs.com</a>.
 
 Both sessions were a great success, with around 25 attendees for each meet-up, with some people coming down specially from London and beyond to take part.
 
@@ -37,7 +37,7 @@ Async regulars and newcomers alike descended on the regular Async meeting place 
 
 The technical goal of the sessions were to experiment and try something new, to learn drawing and animation with JavaScript, as well as event-based interactions between different objects. The wider goal of the project was to to bring together local developers and designers who may never have worked with one another, for a bit of community bonding.
 
-Working together in small teams or flying solo, creatures were created using a variety of techniques, including <a href="http://asyncjs.com/coffeescript/">Coffeescript</a>, SVG, <a href="http://asyncjs.com/canvas/">Canvas</a>, <a href="http://asyncjs.com/css3/">CSS3 animations</a> and even good-old animated gifs and image sprites.
+Working together in small teams or flying solo, creatures were created using a variety of techniques, including <a href="https://asyncjs.com/coffeescript/">Coffeescript</a>, SVG, <a href="https://asyncjs.com/canvas/">Canvas</a>, <a href="https://asyncjs.com/css3/">CSS3 animations</a> and even good-old animated gifs and image sprites.
 
 A world of fascinating creatures has evolved, including an elephant, flocking birds and the amazing flying hippo-bee.
 

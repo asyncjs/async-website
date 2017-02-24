@@ -30,7 +30,7 @@ venue:
 
 <p><strong><a href="http://nodejs.org">Node.js</a> is an extremely high performance server-side JavaScript framework</strong>. It solves the same problems as server-side tools such as PHP, Django or Ruby on Rails, using JavaScript as the programming language and with a focus on non-blocking, highly concurrent event-based programming.</p>
 
-<p>We've had Node sessions before (<a href="http://asyncjs.com/nodejs/">here</a> and <a href="http://asyncjs.com/express/">here</a>), but this time, we'll be back-tracking all the way to the beginning, with <span class="summary">an absolute beginner's guide to Node.js</span>, courtesy of <span class="vcard"><a class="fn url" href="http://hawksworx.com">Phil Hawksworth</a></span>.</p>
+<p>We've had Node sessions before (<a href="https://asyncjs.com/nodejs/">here</a> and <a href="https://asyncjs.com/express/">here</a>), but this time, we'll be back-tracking all the way to the beginning, with <span class="summary">an absolute beginner's guide to Node.js</span>, courtesy of <span class="vcard"><a class="fn url" href="http://hawksworx.com">Phil Hawksworth</a></span>.</p>
 
 <p><a href="http://twitter.com/philhawksworth">Phil</a>, who works as Technical Director for London agency <a href="http://theteam.co.uk">The Team</a>, has been experimenting with Node in his spare time for about a year or so. In that time, the framework has undergone some significant changes. At this Async session, he'll be talking about his experiences and giving some tips to those who are keen to get started quickly. From installing Node.js locally, to deploying it to serve your websites and web apps, we will look at examples and strategies for getting up and running.</p>
 

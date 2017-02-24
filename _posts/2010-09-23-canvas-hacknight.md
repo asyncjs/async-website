@@ -35,7 +35,7 @@ lanyrd: http://lanyrd.com/2010/asyncjs-canvas-hacknight/
 ---
 <a href="http://upcoming.yahoo.com/event/6976972">Add yourself to the event on Upcoming</a>
 
-You've <a href="http://diveintohtml5.org/canvas.html">read the book</a>. You've <a href="http://asyncjs.com/canvas/">watched the talk</a>. You've <a href="http://www.canvasdemos.com">seen the demos</a>. You've laughed! You've cried! Now come along to the <strong>Canvas Hack Night</strong>.
+You've <a href="http://diveintohtml5.org/canvas.html">read the book</a>. You've <a href="https://asyncjs.com/canvas/">watched the talk</a>. You've <a href="http://www.canvasdemos.com">seen the demos</a>. You've laughed! You've cried! Now come along to the <strong>Canvas Hack Night</strong>.
 
 No experience necessary <em>(you don't have to have read the book, or seen the talk)</em>. It's a perfect opportunity to begin experimenting with drawing on the HTML5 canvas element, or to catch up with others, to work on your visual masterpiece.
 

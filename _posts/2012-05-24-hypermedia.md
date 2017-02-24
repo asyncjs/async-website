@@ -50,7 +50,7 @@ You can see Tom's slides online at
 [#twitter]: https://twitter.com/almostobsolete
 [#rest]: http://tomayko.com/writings/rest-to-my-wife
 [#dharmafly]: http://dharmafly.com/
-[#node]: http://asyncjs.com/nodejs/
-[#backbone]: http://asyncjs.com/backbone/
-[#cs]: http://asyncjs.com/coffeescript/
+[#node]: https://asyncjs.com/nodejs/
+[#backbone]: https://asyncjs.com/backbone/
+[#cs]: https://asyncjs.com/coffeescript/
 [#couch]: http://couchdb.apache.org/docs/intro.html
