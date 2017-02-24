@@ -25,7 +25,7 @@ venue:
   address: 45 Church Rd, Hove, BN3 2BE
   latlong: 50.83695,-0.159302
 image:
-  url: http://asyncjs.com/wp/wp-content/uploads/2010/06/3185534518_d9d53b1f09.jpg
+  url: https://asyncjs.com/wp/wp-content/uploads/2010/06/3185534518_d9d53b1f09.jpg
   link: http://www.flickr.com/photos/caveman_92223/3185534518/
   title: White Peacock (by ecstaticist)
 ---

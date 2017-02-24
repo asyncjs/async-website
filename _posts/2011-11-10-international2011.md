@@ -27,9 +27,9 @@ venue:
   latlong: 50.826945,-0.136401
 ---
 
-<p>It's that time of year again. As a troupe of JavaScripters from the back of beyond descend upon the humble shores of Brighton for another heady dose of the <a href="http://2011.full-frontal.org">Full Frontal JavaScript conference</a>, we wee <a href="http://asyncjs.com">Async</a> folk will prop open our doors and welcome our international kinsfolk, for the breaking of bread and the sharing of our lofty wares.</p>
+<p>It's that time of year again. As a troupe of JavaScripters from the back of beyond descend upon the humble shores of Brighton for another heady dose of the <a href="http://2011.full-frontal.org">Full Frontal JavaScript conference</a>, we wee <a href="https://asyncjs.com">Async</a> folk will prop open our doors and welcome our international kinsfolk, for the breaking of bread and the sharing of our lofty wares.</p>
 
-<p>On the night before Full Frontal, you are cordially invited to <span class="summary">Async's "International Show n' Tell"</span>. If you'd like to take a 5-minute slot, to tell us about a project, a technique or a story, please let us know. (Check out <a href="http://asyncjs.com/showntell3/">last year's event</a> for some inspiration).</p>
+<p>On the night before Full Frontal, you are cordially invited to <span class="summary">Async's "International Show n' Tell"</span>. If you'd like to take a 5-minute slot, to tell us about a project, a technique or a story, please let us know. (Check out <a href="https://asyncjs.com/showntell3/">last year's event</a> for some inspiration).</p>
 
 <p>Anyway, if you'd like to just attend, please sign up on <a href="http://lanyrd.com/2011/asyncjs-international">the Lanyrd event page</a>. See you there.</p>
 

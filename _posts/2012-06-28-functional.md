@@ -59,7 +59,7 @@ Dallaway][#richard] will reveal its beauty, its warts and all.
 - Tom's [Underscore slides][#underscore-slides]{: data-slides=""}
 - Richard's [Roy code examples][#roy-slides]
 
-[#async]: http://asyncjs.com
+[#async]: https://asyncjs.com
 [#fbtn]: http://www.meetup.com/Functional-Brighton/
 [#fp]: https://en.wikipedia.org/wiki/Functional_programming
 [#statictype]: https://en.wikipedia.org/wiki/Static_type#Static_typing

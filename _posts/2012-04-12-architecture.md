@@ -45,10 +45,10 @@ Brandwatch. He's a regular contributor to various [open source
 projects][#github] and is preparing to release Brandwatch's first proper
 JavaScript library - tabler.
 
-[#node]: http://asyncjs.com/nodejs/
+[#node]: https://asyncjs.com/nodejs/
 [#jasmine]: http://pivotal.github.com/jasmine/
-[#require]: http://asyncjs.com/requirejs/
-[#backbone]: http://asyncjs.com/backbone/
+[#require]: https://asyncjs.com/requirejs/
+[#backbone]: https://asyncjs.com/backbone/
 [#brandwatch]: http://www.brandwatch.com
 [#homepage]: http://spmason.com
 [#twitter]: https://twitter.com/spmason

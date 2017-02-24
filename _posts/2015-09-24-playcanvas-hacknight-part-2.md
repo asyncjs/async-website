@@ -36,7 +36,7 @@ Please bring your own laptop. If you don't have one, then it's likely you could 
 This is part 2 of a 2 part series but there will be help and support for those that missed the first event
 
 [bdf]: http://brightondigitalfestival.co.uk/
-[robocode]: http://asyncjs.com/robocode-hackathon-part-1/
-[jungle]: http://asyncjs.com/jungle/
+[robocode]: https://asyncjs.com/robocode-hackathon-part-1/
+[jungle]: https://asyncjs.com/jungle/
 [playcanvas]: http://playcanvas.com
 [brandwatch]: https://www.brandwatch.com/careers/

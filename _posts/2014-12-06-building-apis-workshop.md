@@ -44,7 +44,7 @@ In this workshop Glenn will take you step by step from setting up a node server 
  - Deploying it to the web
 
 ###Workshop
-Unlike normal [asyncjs](http://asyncjs.com/) nights, this an afternoon long workshop. The aim is to get all the attendees to build an API and become familiar with using the framework and tools.
+Unlike normal [asyncjs](https://asyncjs.com/) nights, this an afternoon long workshop. The aim is to get all the attendees to build an API and become familiar with using the framework and tools.
 
 ###Skills required to get the most out of the workshop
 The workshop is aimed at Front-end devs, JavaScript and Node coders. You need an understanding of JavaScript beyond just using jquery, but you don’t need to be an expert, just confident enough to write your own functions. You should also be happy working with command line tools such as Grunt or similar. Knowledge of using Node.js is not needed, but will also help.

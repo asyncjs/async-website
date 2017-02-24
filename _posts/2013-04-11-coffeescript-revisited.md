@@ -38,7 +38,7 @@ Dave is co-founder of A/B testing startup [Myna][] and a director at software de
 [semantic quirks]: http://bonsaiden.github.com/JavaScript-Garden
 [inconsistencies]: http://trailingcomma.com
 [forthcoming versions]: http://es6isnigh.com
-[previous talks]: http://asyncjs.com/coffeescript
+[previous talks]: https://asyncjs.com/coffeescript
 [Dave Gurnell]: http://davegurnell.com
 [Myna]: http://mynaweb.com
 [Underscore]: http://underscoreconsulting.com
