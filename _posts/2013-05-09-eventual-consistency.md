@@ -1,5 +1,4 @@
 ---
-number: 71
 title: Life in an Eventually Consistent World
 summary: Convergent Replicated Data Types with Riak and Node.
 date: 2013-05-09T19:15:00+00:00

@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/helico/3060694963/
 lanyrd: http://lanyrd.com/2011/asyncjs-international/
 layout: event.html
-number: "36"
 published: true
 speakers: 
 sponsors: 

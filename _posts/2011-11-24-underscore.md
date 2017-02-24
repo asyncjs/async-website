@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/magnuscanis/526247737/
 lanyrd: http://lanyrd.com/2011/asyncjs-underscore/
 layout: event.html
-number: "37"
 published: true
 speakers: 
 sponsors: 

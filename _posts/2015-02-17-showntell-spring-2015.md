@@ -1,5 +1,4 @@
 ---
-number: 113
 title: Spring Show n' Tell
 summary: Show us yer wares
 date: 2015-02-19T19:15:00+00:00

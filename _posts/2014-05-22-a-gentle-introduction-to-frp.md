@@ -1,5 +1,4 @@
 ---
-number: 95
 title: "A gentle introduction to FRP"
 summary: "The basics of Functional Reactive Programming in client-side JavaScript"
 date: 2014-05-22T19:15:00+00:00

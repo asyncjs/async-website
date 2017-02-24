@@ -1,5 +1,4 @@
 ---
-number: 115
 title: "Creative Functional Programming"
 summary: "For fun and posthumous profit"
 date: 2015-03-19T19:15:00+00:00

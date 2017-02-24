@@ -1,5 +1,4 @@
 ---
-number: 81
 title: Be More HAPI
 summary: HAPI the perfect foundation for building APIs with node.js.
 date: 2013-10-10T19:15:00+00:00

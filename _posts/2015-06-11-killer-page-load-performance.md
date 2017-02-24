@@ -1,5 +1,4 @@
 ---
-number: 120
 title: "Killer page load performance"
 summary: "Stop losing users before they've even seen your site."
 date: 2015-06-11T19:15:00+00:00

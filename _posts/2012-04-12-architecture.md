@@ -1,5 +1,4 @@
 ---
-number: 46
 title: Architecture of a JavaScript Application
 summary: A tour of a real-world JavaScript application
 collection: events

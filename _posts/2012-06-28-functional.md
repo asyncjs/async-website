@@ -1,5 +1,4 @@
 ---
-number: 51
 title: "Functional JavaScript"
 summary: Reduce complexity and create more reusable, provable, scalable and composable programs.
 date: 2012-06-28T19:15:00+01:00

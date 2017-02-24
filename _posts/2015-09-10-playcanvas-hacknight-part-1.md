@@ -1,5 +1,4 @@
 ---
-number: 127
 title: "Playcanvas Lunar Lander Hacknight (Part 1)"
 summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-09-10T19:15:00+00:00

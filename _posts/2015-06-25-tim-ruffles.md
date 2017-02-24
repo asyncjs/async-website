@@ -1,5 +1,4 @@
 ---
-number: 121
 title: "AngularJS 1.x the right way"
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-06-25T19:15:00+00:00

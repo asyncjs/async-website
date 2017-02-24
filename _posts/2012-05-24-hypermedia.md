@@ -1,5 +1,4 @@
 ---
-number: 49
 title: Hypermedia APIs & JavaScript Applications
 summary: A look through the process of building a rich full-stack JavaScript application, API-first.
 date: 2012-05-24T19:15:00+01:00

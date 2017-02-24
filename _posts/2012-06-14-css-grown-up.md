@@ -1,5 +1,4 @@
 ---
-number: 50
 title: "CSS for Grown Ups"
 summary: How can we write our CSS to keep it bug-free, performant, and most importantly, maintainable?
 date: 2012-06-14T19:15:00+01:00

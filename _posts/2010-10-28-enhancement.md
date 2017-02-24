@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/wolfraven/1327537391/
 lanyrd: http://lanyrd.com/2010/async-responsive-enhancement/
 layout: event.html
-number: "12"
 published: true
 speakers: 
 sponsors: 

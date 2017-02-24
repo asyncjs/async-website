@@ -1,5 +1,4 @@
 ---
-number: 109
 title: Node Proxy "All your net are belong to us"
 summary: Utilizing proxies in Node.js for full-stack modularity in JavaScript applications.
 date: 2014-12-11T19:15:00+00:00

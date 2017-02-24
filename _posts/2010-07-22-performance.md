@@ -1,7 +1,6 @@
 ---
 collection: events
 layout: event.html
-number: "6"
 published: true
 speakers:
 - name: Mark Perkins

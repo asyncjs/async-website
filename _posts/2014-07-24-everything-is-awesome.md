@@ -1,5 +1,4 @@
 ---
-number: 99
 title: Everything is Awesome
 summary: Matt Gaunt from Google shares his experiences of the web from the perspective of a native developer
 date: 2014-07-24T19:15:00+00:00

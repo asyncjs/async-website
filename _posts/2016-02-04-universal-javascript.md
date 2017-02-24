@@ -1,5 +1,4 @@
 ---
-number: 137
 title: Writing Universal JavaScript
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2016-02-04T19:15:00+00:00
