@@ -1,5 +1,4 @@
 ---
-number: 111
 title: Everything you ever wanted to know about Three.js and WebGL but were afraid to ask
 summary: A concise introduction to building visualisations and games with Three.js, from absolute beginner to particle Lord / Dutchess
 date: 2015-01-22T19:15:00+00:00

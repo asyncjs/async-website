@@ -1,5 +1,4 @@
 ---
-number: 70
 title: Managing Modularity
 summary: What I've learned about how MVC scales with complexity.
 date: 2013-04-25T19:15:00+00:00

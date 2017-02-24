@@ -1,5 +1,4 @@
 ---
-number: 82
 title: Hacking the Raspberry Pi with JavaScript
 summary: Hacking hardware with a front-end language is easy.
 date: 2013-10-24T19:15:00+00:00

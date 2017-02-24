@@ -1,5 +1,4 @@
 ---
-number: 105
 title: Sass for Newbies
 summary: by Hugo Darby-Brown
 date: 2014-10-23T19:15:00+00:00

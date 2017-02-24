@@ -1,7 +1,6 @@
 ---
 collection: events
 layout: event.html
-number: "5"
 published: true
 speakers: 
 sponsors: 

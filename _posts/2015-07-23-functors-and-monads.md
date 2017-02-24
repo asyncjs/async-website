@@ -1,5 +1,4 @@
 ---
-number: 123
 title: "Functors and Monads"
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-07-23T19:15:00+00:00

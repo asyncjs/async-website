@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/sprengben/5980913422/
 lanyrd: http://lanyrd.com/2012/largescale/
 layout: event.html
-number: "40"
 published: true
 speakers:
 - name: Addy Osmani

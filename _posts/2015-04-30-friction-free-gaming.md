@@ -1,5 +1,4 @@
 ---
-number: 118
 title: "Friction Free Gaming"
 summary: ""
 date: 2015-04-30T19:15:00+00:00

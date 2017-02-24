@@ -1,5 +1,4 @@
 ---
-number: 117
 title: "Web Maps"
 summary: "A JavaScript Meeteup for Brighton and Hove"
 date: 2015-04-16T19:15:00+00:00

@@ -1,5 +1,4 @@
 ---
-number: 100
 title: My Year of Crawling
 summary: Learn about what it entails to build a successful robot and more
 date: 2014-08-07T19:15:00+00:00

@@ -1,5 +1,4 @@
 ---
-number: 134
 title: Async @ Async
 summary: "A JavaScript Meetup for Brighton & Hove"
 date: 2015-12-17T19:15:00+00:00

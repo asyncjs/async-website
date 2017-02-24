@@ -1,5 +1,4 @@
 ---
-number: 58
 title: Responsibly Responsive JavaScript
 summary: A look at what JavaScript can bring to the world of responsive web design
 date: 2012-10-11T19:15:00+00:00

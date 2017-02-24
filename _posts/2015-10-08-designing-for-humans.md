@@ -1,5 +1,4 @@
 ---
-number: 129
 title: "Designing for Humans"
 summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-10-08T19:15:00+00:00

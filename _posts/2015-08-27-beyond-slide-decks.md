@@ -1,5 +1,4 @@
 ---
-number: 126
 title: "Beyond slide decks"
 summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-08-27T19:15:00+00:00

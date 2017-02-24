@@ -1,5 +1,4 @@
 ---
-number: 66
 title: "Building HTML5 Games"
 summary: How to build your very own HTML5-powered games
 date: 2013-02-28T19:15:00+00:00

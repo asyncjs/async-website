@@ -1,5 +1,4 @@
 ---
-number: 130
 title: "Resilience"
 summary: "A JavaScript Meetup for Brighton and Hove"
 date: 2015-10-22T19:15:00+01:00

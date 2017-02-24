@@ -7,7 +7,6 @@ image:
   link: http://www.flickr.com/photos/nationalmaritimemuseum/4312854423/
 lanyrd: http://lanyrd.com/2012/asyncjs-best-practices/
 layout: event.html
-number: "39"
 published: true
 speakers: 
 sponsors: 

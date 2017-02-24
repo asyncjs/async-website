@@ -1,5 +1,4 @@
 ---
-number: 102
 title: Robocode Hackathon (part 1 of 2)
 summary: First session of robocode hackathon
 date: 2014-09-11T19:15:00+00:00
