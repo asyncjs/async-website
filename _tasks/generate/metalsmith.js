@@ -4,11 +4,12 @@ const path = require('path')
 const gulp = require('gulp')
 const gulpsmith = require('gulpsmith')
 const gulpFrontMatter = require('gulp-front-matter')
+const tags = require('metalsmith-tags')
+const feed = require('metalsmith-feed')
 const drafts = require('metalsmith-drafts')
 const markdown = require('metalsmith-markdown')
 const permalinks = require('metalsmith-permalinks')
 const helpers = require('metalsmith-register-helpers')
-const tags = require('metalsmith-tags')
 const boilerplates = require('metalsmith-layouts')
 const templates = require('metalsmith-in-place')
 const collections = require('metalsmith-collections')
@@ -19,6 +20,7 @@ const buildDate = require('metalsmith-build-date')
 const analytics = require('metalsmith-google-analytics').default
 
 const { reload } = require('../browser')
+const { customElements } = require('./feed')
 const { headlines, upcoming, past } = require('./filters')
 const { includes, layouts, posts, pages, dist } = require('../../paths.json')
 
@@ -51,6 +53,11 @@ module.exports = function metalsmith(cb) {
 
       // Metalsmith collections
       .use(collections({
+        rss: {
+          pattern: '*.md',
+          reverse: true,
+          refer: false
+        },
         news: {
           sortBy: 'date',
           reverse: true
@@ -136,6 +143,14 @@ module.exports = function metalsmith(cb) {
         engine: 'handlebars',
         partials: path.join(includes.dir, 'partials/'),
         directory: layouts.dir
+      }))
+
+      // Metalsmith RSS feed
+      .use(feed({
+        collection: 'rss',
+        limit: false,
+        destination: 'feed/atom/index.xml',
+        postCustomElements: customElements
       }))
 
       // Metalsmith analytics
