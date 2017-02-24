@@ -16,6 +16,7 @@ const redirect = require('metalsmith-redirect')
 const metadata = require('metalsmith-metadata')
 const metadataInFilename = require('metalsmith-metadata-in-filename')
 const buildDate = require('metalsmith-build-date')
+const analytics = require('metalsmith-google-analytics').default
 
 const { reload } = require('../browser')
 const { headlines, upcoming, past } = require('./filters')
@@ -136,6 +137,9 @@ module.exports = function metalsmith(cb) {
         partials: path.join(includes.dir, 'partials/'),
         directory: layouts.dir
       }))
+
+      // Metalsmith analytics
+      .use(analytics(process.env.GA_KEY))
 
     )
     .pipe(gulp.dest(dist.dir))

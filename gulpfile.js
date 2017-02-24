@@ -1,5 +1,8 @@
 'use strict'
 
+// Read environment variables from .env file
+require('dotenv').config()
+
 const gulp = require('gulp')
 const tasks = require('./_tasks/index')
 
