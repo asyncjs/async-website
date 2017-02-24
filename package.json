@@ -47,6 +47,7 @@
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections": "github:yanneves/metalsmith-collections",
     "metalsmith-drafts": "0.0.1",
+    "metalsmith-feed": "^0.2.0",
     "metalsmith-google-analytics": "0.0.1",
     "metalsmith-in-place": "^1.4.4",
     "metalsmith-layouts": "^1.7.0",
