@@ -1,4 +1,4 @@
---- 
+---
 collection: events
 date: 2010-10-28T19:15:00+01:00
 image: 

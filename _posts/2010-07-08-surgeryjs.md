@@ -1,4 +1,4 @@
---- 
+---
 collection: events
 layout: event.html
 number: "5"
