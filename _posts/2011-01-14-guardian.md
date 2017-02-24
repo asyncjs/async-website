@@ -1,4 +1,4 @@
---- 
+---
 collection: news
 layout: news.html
 number: 

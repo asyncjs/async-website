@@ -1,4 +1,4 @@
---- 
+---
 collection: events
 date: 2012-01-12T19:15:00+00:00
 image: 
