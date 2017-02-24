@@ -18,6 +18,8 @@ const metadata = require('metalsmith-metadata')
 const metadataInFilename = require('metalsmith-metadata-in-filename')
 const buildDate = require('metalsmith-build-date')
 const analytics = require('metalsmith-google-analytics').default
+const excerpts = require('metalsmith-excerpts')
+const more = require('metalsmith-more')
 
 const { reload } = require('../browser')
 const { customElements } = require('./feed')
@@ -123,6 +125,10 @@ module.exports = function metalsmith(cb) {
         ]
       }))
 
+      // Metalsmith excerpts
+      .use(excerpts())
+      .use(more())
+
       // Metalsmith register helpers
       .use(helpers({
         directory: path.join(includes.dir, 'helpers/')
@@ -151,6 +157,7 @@ module.exports = function metalsmith(cb) {
         collection: 'rss',
         limit: false,
         destination: 'feed/atom/index.xml',
+        postDescription: ({ less, contents }) => less || contents,
         postCustomElements: customElements
       }))
 
