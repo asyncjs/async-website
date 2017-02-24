@@ -1,7 +1,6 @@
 ---
 collection: events
 layout: event.html
-published: true
 speakers:
 - name: Mark Perkins
   link: http://allmarkedup.com

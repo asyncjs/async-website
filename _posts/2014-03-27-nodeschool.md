@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true # Set this to true to publish
 ---
 
 [nodeschool.io](http://nodeschool.io) is a free, community driven, open source educational project that teaches JavaScript and node.js skills in an interactive, self-guided way.

@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Event handling in JavaScript is a mess. Especially now since UIs are becoming more complex and are supposed to work on a range of devices. At the heart of [Functional Reactive Programming](https://www.youtube.com/watch?v=ZOCCzDNsAtI) lies a simple and powerful concept that can help us keep sane: __The EventStream__.

@@ -37,6 +37,9 @@ module.exports = function metalsmith(cb) {
       // Metalsmith piping
       gulpsmith()
 
+      // Metalsmith drafts
+      .use(drafts())
+
       // Metalsmith metadata
       .use(metadataInFilename())
       .use(metadata({ site: 'site.json' }))
@@ -96,7 +99,6 @@ module.exports = function metalsmith(cb) {
       }))
 
       // Metalsmith posts
-      .use(drafts())
       .use(markdown())
       .use(permalinks({
         relative: false,

@@ -24,7 +24,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 Offline is the new frontier for those building on the web. The things we build have become more complex, beyond what anyone could have envisioned when the web was invented or in its early years, and delivering "app-like" experiences with always available data is vital.

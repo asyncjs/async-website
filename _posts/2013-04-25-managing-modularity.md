@@ -26,7 +26,6 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event.html
 collection: events
-published: true
 ---
 
 The Model-View-Controller (MVC) model has been widely adopted for building client-side Javascript apps, but how does this architecture scale as complexity increases? Is MVC the right choice after all?

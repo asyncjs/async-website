@@ -22,7 +22,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Today's Javascript apps are multi-team, multi-version, server-side, client-side behemoths.

@@ -26,7 +26,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 Server-Sent Events (aka `EventSource`) is a lightweight alternative to WebSockets, for pushing real-time messages to connected browsers.

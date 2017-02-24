@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 [AngularJS][angular] has exploded in popularity, but the lack of guidance on the right way to use [Angular][angular] from the authors has resulted in teams with collapsing productivity. Gigantic controllers that everyone's too afraid to touch, scopes knotting the whole app together, persistence concerns leaking throughout, a sadly empty test folder... Applying some evergreen UI patterns, and a smattering of [Angular][angular] specific tools, can make it all so much simpler.
 

@@ -24,7 +24,6 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event.html
 collection: events
-published: true
 ---
 
 With the advent of HTML5 it is now possible to build games that run in the browser, plugin free, on multiple devices. Ever wanted to make your own game but weren't sure where to start? Or maybe you've built a few games before for desktop and are interested in the challenges involved in building one in the browser?

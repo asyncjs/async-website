@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 The main criticism of single-page applications has always been their reliance on JavaScript, but recently there has been a focus on running these client-side applications on the server. Jack Franklin explains the reasons Universal JavaScript should be taken seriously as an approach to building sites and shows how to run client-side JavaScript application on the server.

@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 ### UPDATE: Slides for this talk are available [here](https://github.com/davegurnell/asyncjs-creative-fp)

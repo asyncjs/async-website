@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 [Remy Sharp][remy-sharp] <abbr title="i.e. he's never turned up before and he lives in the same damn city for heavens sake!">adorns</abbr> Async for the first time evar to talk about the dark side of running [JS Bin][js-bin] as an open for all playground.

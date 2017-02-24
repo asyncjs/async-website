@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 In this talk I'll show what async-await is, how it helps, and ways you can start using it now. If I have time, I'll demo a small express/koa inspired experiment which can consume async functions as middleware.

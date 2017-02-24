@@ -23,7 +23,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Fast, secure and stylishly simple, the [Ubuntu](http://ubuntu.com) operating system is used by millions of people worldwide every day.

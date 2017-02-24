@@ -26,7 +26,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 ## UPDATE: Jack's code for this talk can be found [here](https://github.com/jackfranklin/jspm-demo-async-brighton)

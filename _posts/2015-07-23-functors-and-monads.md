@@ -23,7 +23,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 [Fabien O'Carroll][fabien] returns to Async to give us a masterclass in functional programming concepts.

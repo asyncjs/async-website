@@ -23,7 +23,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Or, "How to write jQuery without jQuery".

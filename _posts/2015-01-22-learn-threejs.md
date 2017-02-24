@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 WebGL is one of the most exciting features to hit the web in recent years. You can use it for a wide range of applications and visualisations, in both 2D and 3D, but is often seen to have a steep learning curve.

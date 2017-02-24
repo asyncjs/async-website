@@ -25,7 +25,6 @@ venue:
   latlong: 50.827006,-0.136063
 layout: event.html
 collection: events
-published: true
 ---
 
 > "Imagine if you could do things on your computer just like you do them in real life. If natural movements replaced all those clicks and taps and drags and drops. Imagine if technology finally figured out people, instead of the other way around. That's the Leap Motion Controller."

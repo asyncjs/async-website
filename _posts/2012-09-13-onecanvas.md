@@ -26,7 +26,6 @@ venue:
   latlong: 50.826945,-0.136401
 layout: event.html
 collection: events
-published: true
 ---
 
 [![A Brighton Digital Festival event][#bdf-logo]][#bdf-onecanvas]

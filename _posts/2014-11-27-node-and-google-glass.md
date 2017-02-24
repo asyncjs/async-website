@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 [Google Glass](https://www.google.co.uk/intl/en/glass/start/) has exploded onto the scene and become the flag bearer of wearable technology, bringing augmented reality to the masses. 

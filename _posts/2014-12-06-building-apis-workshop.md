@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 Writing an API can seem a complex task, but by using [HAPI.js](http://hapijs.com/) you can easily build well-structured APIs quickly. If you have ever wanted to build a backend for your latest mobile app idea or just a web interface to share data this workshop will show you how.

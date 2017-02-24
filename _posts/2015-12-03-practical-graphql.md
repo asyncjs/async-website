@@ -25,7 +25,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 
 GraphQL was introduced by Facebook this year and since then it has been a hot topic. We are going to talk about reasonings behind GraphQL, why you might consider using it, and who it is for. We will also talk about concepts of the modern web application concerning data sending and fetching from the backend. There will be mention of Facebook Relay, and how it integrates with GraphQL endpoints.

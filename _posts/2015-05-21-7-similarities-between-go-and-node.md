@@ -24,7 +24,6 @@ venue:
   latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
-published: true
 ---
 Go and Node have their fundamental differences and appeals but there are some key similarities that make it an appealing and natural choice for a lot of NodeJS/JavaScript developers. This is a side by side comparison of 7 common features and paradigms between NodeJS and Golang.
 
