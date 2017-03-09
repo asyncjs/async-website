@@ -1,4 +1,4 @@
-Async meets twice a month in Brighton & Hove, UK, to learn, discuss and play
+Async meets once a month in Brighton & Hove, UK, to learn, discuss and play
 with JavaScript and related technologies.
 
 We host talks, hack nights, show n' tells and community events, all of
