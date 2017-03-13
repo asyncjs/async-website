@@ -6,7 +6,9 @@ date: 2017-05-04T19:15+00:00
 lanyrd: https://lanyrd.com/2017/asyncjs-iframe-to-byeframe
 speakers:
 - name: Andy Taylor
-- name: Neil Witten
+  link: http://twitter.com/derek_andy
+- name: James Brannon
+  link: http://twitter.com/jebrannon
 image:
   url: https://image.freepik.com/free-icon/code-optimization_318-49778.jpg
   title: iframe
