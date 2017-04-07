@@ -1,8 +1,7 @@
 ---
-number: 145
 title: Introduction to NLP with Python
 summary: A web tech meetup for Brighton & Hove
-date: 2016-05-26T19:15+00:00
+date: 2016-05-26T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-introduction-to-nlp-with-python
 speakers:
 - name: Jess Bowden
@@ -21,9 +20,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 This talk will introduce the area of NLP (Natural Language Processing) and a basic introduction of its principles. It will use Python and some of its fundamental NLP packages, such as NLTK, to illustrate examples and topics, demonstrating how to get started with processing and analysing Natural Languages.

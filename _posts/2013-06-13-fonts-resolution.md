@@ -1,7 +1,7 @@
 ---
 title: "Double Bill: Responsive Web Fonts, The Edge of the Web"
 summary: Achieving resolution independence through SVG and asset fonts
-date: 2013-06-13T19:15:00+00:00
+date: 2013-06-13T19:15:00
 lanyrd: http://lanyrd.com/2013/async-responsive-web-fonts-resolution-independence/
 speakers:
 - name: Richard Rutter

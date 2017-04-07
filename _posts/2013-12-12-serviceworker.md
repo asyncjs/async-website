@@ -1,7 +1,7 @@
 ---
 title: ServiceWorker & the Offline Web
 summary:
-date: 2013-12-12T19:15:00+00:00
+date: 2013-12-12T19:15:00
 lanyrd: http://lanyrd.com/2013/async-serviceworker/
 speakers:
 - name: "Tom Ashworth"

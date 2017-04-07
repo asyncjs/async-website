@@ -1,7 +1,7 @@
 ---
 title: Astronauts, Conway's Law and Text Adventure - Experiments in Remixable Servers
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2016-01-21T19:15:00+00:00
+date: 2016-01-21T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-remixable-servers
 speakers:
 - name: James Hugman

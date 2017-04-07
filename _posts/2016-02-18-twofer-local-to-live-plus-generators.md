@@ -1,7 +1,7 @@
 ---
 title: "Twofer - From Local to Live - Generate yo' Generators"
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2016-02-18T19:15:00+00:00
+date: 2016-02-18T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-twofer
 speakers:
 - name: Graham Smith

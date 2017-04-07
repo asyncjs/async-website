@@ -1,8 +1,7 @@
 ---
-number: 144
 title: Adventures of a startup within a startup
 summary: A tech meetup for Brighton & Hove
-date: 2016-05-12T19:15+00:00
+date: 2016-05-12T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-adventures-startup
 speakers:
 - name: Dan Neame
@@ -23,9 +22,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 [Brandwatch Vizia](https://www.brandwatch.com/brandwatch-vizia) is a multi-screen data visualisation system, the second product that Brandwatch released. It uses the Brandwatch platform to present data in an attractive and simple manner.

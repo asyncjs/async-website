@@ -1,8 +1,7 @@
 ---
-number: 146
 title: Make Your Own JS Game
 summary: A web tech meetup for Brighton & Hove
-date: 2016-06-09T19:15+00:00
+date: 2016-06-09T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-make-your-own-js-game
 speakers:
 - name: Alvin Ourrad
@@ -27,9 +26,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 We all love a good game, don't we? I've got some good news for you, making games is almost as fun as playing them, and you can do this entirely in JavaScript.

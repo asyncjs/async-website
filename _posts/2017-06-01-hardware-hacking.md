@@ -1,8 +1,7 @@
 ---
-number: 163
 title: Hardware Hacking
 summary: A web tech meetup for Brighton & Hove
-date: 2017-06-01T19:15+00:00
+date: 2017-06-01T19:15:00
 lanyrd: 
 speakers:
 - name: Remi Shergold
@@ -18,9 +17,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Remi will be giving us an intro to the mysterious world of hardware hacking. More details TBC 

@@ -1,8 +1,7 @@
 ---
-number: 162
 title: From iFrame to ByeFrame
 summary: A web tech meetup for Brighton & Hove
-date: 2017-05-04T19:15+00:00
+date: 2017-05-04T19:15:00
 lanyrd: https://lanyrd.com/2017/asyncjs-iframe-to-byeframe
 speakers:
 - name: Andy Taylor
@@ -26,9 +25,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 iFrames are a quick and easy way to put content on other people’s websites, but not without their many drawbacks. James and Andy, the front end team from StoryStream, explain how they replaced iFrames with plain old JavaScript to seamlessly inject content into any website in the world, and detail the challenges they overcame along the way.

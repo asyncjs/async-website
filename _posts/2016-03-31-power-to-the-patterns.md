@@ -1,8 +1,7 @@
 ---
-number: 141
 title: Power to the Patterns - creating component libraries that work from prototype to production
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2016-03-31T19:15+00:00
+date: 2016-03-31T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-power-to-the-patterns
 speakers:
 - name: Mark Perkins
@@ -24,9 +23,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Component libraries, pattern portfolios, styleguides.... whatever you want to call them, using a modular design and build approach to developing sites and web apps is fast becoming an accepted best practice. But working in this way often comes with its own share of difficulties and pain points, particularly when it comes to integrating component libraries with production code.

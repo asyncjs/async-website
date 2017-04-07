@@ -1,7 +1,7 @@
 ---
 title: "Web Maps"
 summary: "A JavaScript Meeteup for Brighton and Hove"
-date: 2015-04-16T19:15:00+00:00
+date: 2015-04-16T19:15:00
 lanyrd: http://lanyrd.com/2015/7-similarities-between-go-and-node/
 speakers:
 - name: Shane Hudson

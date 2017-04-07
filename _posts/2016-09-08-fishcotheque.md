@@ -1,8 +1,7 @@
 ---
-number: 152
 title: Fishcotheque (part 1 of 2)
 summary: A web tech meetup for Brighton & Hove
-date: 2016-09-08T19:15+00:00
+date: 2016-09-08T19:15:00
 speakers:
 - name: Everybody
   link:
@@ -31,9 +30,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Calling all designers, developers and anyone else with a nautical interest. Have you ever wondered what lives down below the pier?

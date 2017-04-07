@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with ES6 Modules Today"
 summary: "The future is here. It's just not widely distributed yet."
-date: 2015-04-02T19:15:00+00:00
+date: 2015-04-02T19:15:00
 lanyrd: http://lanyrd.com/2015/getting-started-with-es6-modules/
 speakers:
 - name: Jack Franklin

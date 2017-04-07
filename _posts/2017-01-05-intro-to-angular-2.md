@@ -1,8 +1,7 @@
 ---
-number: 158
 title: What is Angular 2? From a simple component to zones
 summary: A web tech meetup for Brighton & Hove
-date: 2017-01-05T19:15+00:00
+date: 2017-01-05T19:15:00
 lanyrd: https://lanyrd.com/2017/asyncjs-intro-to-angular-2
 speakers:
 - name: Gordon Cumming
@@ -21,9 +20,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Angular 2 is a complete rewrite of AngularJS (like a new language) and got to its full release of 2.0.0 in mid Sept 2016 after 2 years of going through alpha, beta and RC releases and has new bits added every week (now at 2.3.1 – 20/12/16).  Gordon Cumming is a Senior Angular/Angular 2 developer and has been studying Angular 2 for over 2 years although only started coding in Oct 2015. He lives and breathes Angular 2 on a daily basis (often 12 hours per day 7 days a week) and has written a 2000 page training application in Angular 2, all about Angular 2, with about 50 working applications within it to demonstrate different features.  This application has lots of show/hide sections so that the viewers don’t have too  much information on the screen at once.

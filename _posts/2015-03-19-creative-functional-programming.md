@@ -1,7 +1,7 @@
 ---
 title: "Creative Functional Programming"
 summary: "For fun and posthumous profit"
-date: 2015-03-19T19:15:00+00:00
+date: 2015-03-19T19:15:00
 lanyrd: http://lanyrd.com/2015/asyncjs-march/
 speakers:
 - name: Dave Gurnell

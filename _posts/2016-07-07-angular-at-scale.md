@@ -1,8 +1,7 @@
 ---
-number: 148
 title: Angular at Scale
 summary: A web tech meetup for Brighton & Hove
-date: 2016-07-07T19:15+00:00
+date: 2016-07-07T19:15:00
 speakers:
 - name: James Gray
 lanyrd: http://lanyrd.com/2016/asyncjs-angular-at-scale
@@ -18,9 +17,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 So you’re a tech lead, developer or architect, you’ve got a massive application (or lots of smaller ones), a gambit of different user and business needs, long transactional journeys and different infrastructure locations.

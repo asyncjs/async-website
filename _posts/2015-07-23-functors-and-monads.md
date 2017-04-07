@@ -1,7 +1,7 @@
 ---
 title: "Functors and Monads"
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2015-07-23T19:15:00+00:00
+date: 2015-07-23T19:15:00
 lanyrd: http://lanyrd.com/2015/functors-and-monads
 speakers:
 - name: Fabien O'Carroll

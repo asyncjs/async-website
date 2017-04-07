@@ -1,8 +1,7 @@
 ---
-number: 154
 title: Make Your Own JS Game Part 2
 summary: A web tech meetup for Brighton & Hove
-date: 2016-10-06T19:15+00:00
+date: 2016-10-06T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-make-your-own-js-game-pt-2
 speakers:
 - name: Alvin Ourrad
@@ -27,9 +26,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Alvin Ourrad will return for another instalment of his workshops on how to Make Your Own JS Game. Don't worry if you missed [the first](https://asyncjs.com/make-your-own-js-game/), we'll provide you with the boilerplate to get you up to date. More details to follow...

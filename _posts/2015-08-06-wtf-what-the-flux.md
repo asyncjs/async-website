@@ -1,7 +1,7 @@
 ---
 title: "WTF: What The Flux?"
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2015-08-06T19:15:00+00:00
+date: 2015-08-06T19:15:00
 lanyrd: http://lanyrd.com/2015/what-the-flux
 speakers:
 - name: Thomas Parslow

@@ -1,6 +1,6 @@
 ---
 collection: events
-date: 2012-01-12T19:15:00+00:00
+date: 2012-01-12T19:15:00
 image: 
   url: http://farm3.staticflickr.com/2753/4312854423_84fb557d83.jpg
   title: Mr John Riddle, headmaster, with his pupils at the Royal Hospital School. by National Maritime Museum, on Flickr

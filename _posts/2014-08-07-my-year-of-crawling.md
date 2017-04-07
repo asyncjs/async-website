@@ -1,7 +1,7 @@
 ---
 title: My Year of Crawling
 summary: Learn about what it entails to build a successful robot and more
-date: 2014-08-07T19:15:00+00:00
+date: 2014-08-07T19:15:00
 lanyrd: http://lanyrd.com/2014/async-my-year-of-crawling/
 speakers:
 - name: Seraphina Anderson

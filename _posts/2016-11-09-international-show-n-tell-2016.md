@@ -1,8 +1,7 @@
 ---
-number: 156
 title: 2016 International Show n' Tell
 summary: A web tech meetup for Brighton & Hove
-date: 2016-11-09T19:15+00:00
+date: 2016-11-09T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-international-showntell
 speakers:
 - name: Everyone
@@ -21,9 +20,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Come one, come all, to the renowned annual **International Async Show'n'tell**! This year's [ffconf][ff] will for the first time be over two days, so to prevent clashing with the afterparties, this year's Show'n'Tell will be *on Wednesday 9th November* - not Thursday. This special Async is for Brightonians and pilgrims alike to show us what's getting their juices flowing right now.

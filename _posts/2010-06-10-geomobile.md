@@ -17,7 +17,7 @@ tags:
 - mobile
 - smartphone
 title: The Geo API in iPhone & Android
-date: 2010-06-10T19:15:00+00:00
+date: 2010-06-10T19:15:00
 lanyrd: http://lanyrd.com/2010/asyncjs-geomobile/
 venue: 
   name: The Werks
