@@ -1,7 +1,7 @@
 ---
 title: "Phil Nash Doublebill - WebRTC and Push notifications"
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2015-07-09T19:15:00+00:00
+date: 2015-07-09T19:15:00
 lanyrd: http://lanyrd.com/2015/phil-nash-doublebill-webrtc-and-push-notifications
 speakers:
 - name: Phil Nash

@@ -1,7 +1,7 @@
 ---
 title: "Caffeine Hit: Coffeescript Revisited"
 summary: A tour of the advantanges and weaknesses of the popular Javascript replacement.
-date: 2013-04-11T19:15:00+00:00
+date: 2013-04-11T19:15:00
 lanyrd: http://lanyrd.com/2013/async-coffeescript-revisited/
 speakers:
 - name: Dave Gurnell

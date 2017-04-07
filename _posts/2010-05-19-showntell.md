@@ -9,7 +9,7 @@ tags:
 - showntell
 title: JavaScript Show n' Tell
 lanyrd: http://lanyrd.com/2010/asyncjs-may/
-date: 2010-05-19T19:15:00+00:00
+date: 2010-05-19T19:15:00
 venue: 
   name: The Werks
   link: http://thewerks.org.uk

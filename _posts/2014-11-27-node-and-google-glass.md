@@ -1,7 +1,7 @@
 ---
 title: Google Glass and Node.js
 summary: An introduction to writing Google Glass apps with Node.js
-date: 2014-11-27T19:15:00+00:00
+date: 2014-11-27T19:15:00
 lanyrd: http://lanyrd.com/2014/async-google-glass-and-nodejs
 speakers:
 - name: Alena Ruprecht

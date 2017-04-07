@@ -1,8 +1,7 @@
 ---
-number: 143
 title: Spring Show n' Tell
 summary: Show us yer wares
-date: 2016-04-28T19:15+00:00
+date: 2016-04-28T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-showntell-2016-spring/
 speakers:
 sponsors:
@@ -24,9 +23,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 We've had some mind-blowing speeches from world-famous developers in recent months, and now it's *your turn*! The Async Birthday Show'n'Tell tradition continues on 28th April 2016. Come and show us what's floating your boat, what magic you've conjured up, or what you think will be The Next Big Thing&#8482;.

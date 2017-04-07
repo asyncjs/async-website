@@ -1,7 +1,7 @@
 ---
 title: Leap Motion
 summary: Building JavaScript applications with the Leap Motion controller
-date: 2013-07-25T19:15:00+00:00
+date: 2013-07-25T19:15:00
 lanyrd: http://lanyrd.com/2013/asyncjs-leapmotion/
 speakers:
 - name: Dan Neame

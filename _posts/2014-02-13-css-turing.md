@@ -1,7 +1,7 @@
 ---
 title: "HTML and CSS as a programming environment"
 summary: "or, how to write jQuery without jQuery"
-date: 2014-02-13T19:15:00+00:00
+date: 2014-02-13T19:15:00
 lanyrd: http://lanyrd.com/2014/asyncjs-css-turing/
 speakers:
 - name: Dan Neame

@@ -1,7 +1,7 @@
 ---
 title: Robocode Hackathon (part 2 of 2)
 summary: First session of robocode hackathon
-date: 2014-09-25T19:15:00+00:00
+date: 2014-09-25T19:15:00
 lanyrd: http://lanyrd.com/2014/async-robocode-hackathon-part-2-of-2/
 tags:
 - javascript

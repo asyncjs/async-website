@@ -1,8 +1,7 @@
 ---
-number: 155
 title: Neural Networks for Squirrels
 summary: A web tech meetup for Brighton & Hove
-date: 2016-11-03T19:15+00:00
+date: 2016-11-03T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-neural-networks
 speakers:
 - name: Antonio De Luca
@@ -22,9 +21,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 What do Neural Networks and JavaScript have in common? 

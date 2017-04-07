@@ -1,7 +1,7 @@
 ---
 title: "Nodeventure: hack night 2"
 summary: One of two hack nights to build a text adventure game, for the Brighton Digital Festival.
-date: 2013-09-26T19:15:00+00:00
+date: 2013-09-26T19:15:00
 lanyrd: http://lanyrd.com/2013/asyncjs-nodeventure2/
 speakers:
 - name: Everybody

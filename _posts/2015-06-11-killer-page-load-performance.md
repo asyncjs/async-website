@@ -1,7 +1,7 @@
 ---
 title: "Killer page load performance"
 summary: "Stop losing users before they've even seen your site."
-date: 2015-06-11T19:15:00+00:00
+date: 2015-06-11T19:15:00
 lanyrd: http://lanyrd.com/2015/killer-page-load-performance/
 speakers:
 - name: Jonas Ohlsson

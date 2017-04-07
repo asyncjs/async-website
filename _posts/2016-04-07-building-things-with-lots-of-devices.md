@@ -1,8 +1,7 @@
 ---
-number: 142
 title: Internet of Browsers
 summary: "A JavaScript Meetup for Brighton & Hove"
-date: 2016-04-07T19:15+00:00
+date: 2016-04-07T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-building-things-with-lots-of-devices
 speakers:
 - name: Ben Foxall
@@ -22,9 +21,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 ### Updated talk details

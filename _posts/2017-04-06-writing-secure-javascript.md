@@ -1,8 +1,7 @@
 ---
-number: 161
 title: Writing Secure JavaScript
 summary: A web tech meetup for Brighton & Hove
-date: 2017-04-06T19:15+00:00
+date: 2017-04-06T19:15:00
 lanyrd: https://lanyrd.com/2017/asyncjs-writing-secure-javascript
 speakers:
 - name: Josh Emerson
@@ -23,9 +22,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Some of the very things that make JavaScript awesome can also expose it to security risks. This talk will go through some sample security flaws unique to Node’s async nature and surrounding ecosystem (or especially relevant to it) and will show how these could occur in your own code or in npm dependencies.

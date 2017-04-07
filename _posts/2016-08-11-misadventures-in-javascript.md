@@ -1,8 +1,7 @@
 ---
-number: 150
 title: Misadventures in JavaScript - a decade of pointless experiments
 summary: A web tech meetup for Brighton & Hove
-date: 2016-08-11T19:15+00:00
+date: 2016-08-11T19:15:00
 lanyrd: http://lanyrd.com/2016/asyncjs-misadventures-in-javascript
 speakers:
 - name: Pete Goodman
@@ -23,9 +22,8 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event
-category: event
-published: true
+layout: event.html
+collection: events
 ---
 
 Pete will give you a whistlestop tour of the many weird (and pointless) experiments he has created over the years, built with a mixture of web technologies, a misguided imagination and a bit too much alcohol. Hopefully there will be a laugh or two along the way. 
