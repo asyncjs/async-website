@@ -102,7 +102,7 @@ on the home page, then run the following:
 Ownership
 ---------
 
-Async was founded by [Premasagar Rose](prem) in 2010. He has since moved to Portgual, but kindly allowed the community to continue using the name, website, and domain. In the event of Async ceasing to continue, the domain of asyncjs.com should pass back to [Prem](prem).
+Async was founded by [Premasagar Rose](prem) in 2010. He has since moved to Portugal, but kindly allowed the community to continue using the name, website, and domain. In the event of Async ceasing to continue, the domain of asyncjs.com should pass back to [Prem](prem).
 
 [#md]: http://daringfireball.net/projects/markdown/
 [#yaml]: http://www.yaml.org/
