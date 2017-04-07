@@ -13,6 +13,10 @@ const helpers = require('metalsmith-register-helpers')
 const boilerplates = require('metalsmith-layouts')
 const templates = require('metalsmith-in-place')
 const collections = require('metalsmith-collections')
+const archive = require('metalsmith-collections-archive')
+const filterCollections = require('metalsmith-collections-filter')
+const offsetCollections = require('metalsmith-collections-offset')
+const limitCollections = require('metalsmith-collections-limit')
 const redirect = require('metalsmith-redirect')
 const metadata = require('metalsmith-metadata')
 const metadataInFilename = require('metalsmith-metadata-in-filename')
@@ -46,7 +50,7 @@ module.exports = function metalsmith(cb) {
       .use(drafts())
 
       // Metalsmith metadata
-      .use(metadataInFilename())
+      .use(metadataInFilename({ match: '*.md' }))
       .use(metadata({ site: 'site.json' }))
       .use(buildDate({ key: 'BUILD' }))
       .use(redirect({
@@ -73,40 +77,47 @@ module.exports = function metalsmith(cb) {
           pattern: '*.md',
           sortBy: 'date',
           reverse: true,
-          refer: false,
-          limit: 2,
-          filter: headlines
+          refer: false
         },
         upcoming: {
           pattern: '*.md',
           sortBy: 'date',
-          refer: false,
-          limit: 2,
-          filter: upcoming
+          refer: false
         },
         past: {
           pattern: '*.md',
           sortBy: 'date',
           reverse: true,
-          refer: false,
-          limit: 2,
-          filter: past
+          refer: false
         },
         soonest: {
           pattern: '*.md',
           sortBy: 'date',
-          refer: false,
-          limit: 1,
-          filter: upcoming
+          refer: false
         },
         latest: {
           pattern: '*.md',
           sortBy: 'date',
           reverse: true,
-          refer: false,
-          limit: 1,
-          filter: past
+          refer: false
         }
+      }))
+      .use(filterCollections({
+        headlines,
+        upcoming,
+        past,
+        soonest: upcoming,
+        latest: past
+      }))
+      .use(offsetCollections({
+        upcoming: 1
+      }))
+      .use(limitCollections({
+        headlines: 2,
+        upcoming: 2,
+        past: 2,
+        soonest: 1,
+        latest: 1
       }))
 
       // Metalsmith posts
@@ -132,6 +143,15 @@ module.exports = function metalsmith(cb) {
       // Metalsmith register helpers
       .use(helpers({
         directory: path.join(includes.dir, 'helpers/')
+      }))
+
+      // Metalsmith archive
+      .use(archive({
+        layout: 'archive.html',
+        collections: {
+          news: true,
+          events: true
+        }
       }))
 
       // Metalsmith tags
@@ -163,6 +183,15 @@ module.exports = function metalsmith(cb) {
 
       // Metalsmith analytics
       .use(analytics(process.env.GA_KEY))
+
+      // .use((files, meta, done) => {
+      //   for (let key in files) {
+      //     if (files[key].hasOwnProperty('collection'))
+      //       console.dir(files[key])
+      //   }
+
+      //   done()
+      // })
 
     )
     .pipe(gulp.dest(dist.dir))
