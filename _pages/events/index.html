@@ -1,0 +1,22 @@
+---
+layout: base.html
+---
+
+<h2>Archives</h2>
+<section class="module links">
+  <ul>
+    {{#each archive.events.years}}
+      <li><a href="{{ @key }}" title="{{ @key }}">{{ @key }}</a></li>
+    {{/each}}
+  </ul>
+</section>
+{{#each archive.events.months}}
+  <section class="module">
+    <h2 class="module-heading">{{ @key }}:</h2>
+    <ul>
+      {{#each this}}
+        <li class="column event-item">{{> eventItem }}</li>
+      {{/each}}
+    </ul>
+  </section>
+{{/each}}
