@@ -1,6 +1,6 @@
 # Async Website
 
-Welcome to the repository for the Async website. The site is statically generated using [Metalmsith][#metalsmith] and hosted on [GitHub pages][#gh-pages]. This just means this repository contains templates and assets that are converted into a static HTML site each time a commit is pushed to GitHub.
+Welcome to the repository for the Async website. The site is statically generated using [Metalsmith][#metalsmith] and hosted on [GitHub pages][#gh-pages]. This just means this repository contains templates and assets that are converted into a static HTML site each time a commit is pushed to GitHub.
 
 ## Running the server locally
 
