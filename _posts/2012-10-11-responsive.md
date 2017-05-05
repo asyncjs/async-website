@@ -19,7 +19,7 @@ venue:
   location: http://theskiff.org/contact/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -43,7 +43,7 @@ smartest people in the industry. He also helps develop a browser plugin for
 Gmail called [ActiveInbox][#activeinbox] that has a passionate community of
 users across the world.
 
-## Update: [slides online][#slides]
+### Update: [slides online][#slides]
 
 <script async class="speakerdeck-embed" data-id="507806c11d371f000203b9f8" data-ratio="1.3333333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 

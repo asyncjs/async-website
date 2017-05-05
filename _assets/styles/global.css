@@ -1,0 +1,376 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import '_variables';
+@import '_overrides';
+@import '_wrapper';
+@import '_masthead';
+@import '_hero';
+@import '_social';
+@import '_module';
+@import '_footer';
+@import '_photos';
+
+.no-wrap {
+  white-space: nowrap;
+}
+
+.clear {
+  clear: both;
+}
+
+.prose {
+  font-size: 16px;
+  line-height: 26px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--black);
+  }
+}
+
+.prose ul {
+  margin-left: 1.2em;
+  list-style-type: square;
+}
+
+.prose ol {
+  margin-left: 1.3em;
+  list-style-type: decimal;
+}
+
+.prose .heading {
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.prose img {
+  margin-top: 8px;
+}
+
+.prose blockquote {
+  margin: 0;
+  padding: 0 1em;
+  border-left: 4px solid var(--primary);
+  font-style: italic;
+}
+
+.prose cite:before {
+  content: '— ';
+}
+
+.prose .image {
+  border: none;
+}
+
+.prose .bordered {
+  padding: 4px;
+  border: 1px solid var(--grey-light);
+}
+
+.prose .bordered:hover {
+  border-color: var(--tertiary);
+}
+
+.bordered {
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid var(--grey-light);
+}
+
+.bordered img {
+  margin: 0;
+}
+
+.lanyrd-link {
+  position: relative;
+  top: -4px;
+  left: 0px;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-indent: -900em;
+  background: url(../img/lanyrd-48x48.png) no-repeat center center;
+  background-size: 16px 16px;
+  z-index: 1;
+  margin-bottom: -8px;
+  vertical-align: text-top;
+}
+
+.event-detail .lanyrd-link {
+  top: 7px;
+  left: 5px;
+  width: 32px;
+  height: 32px;
+  background-size: 20px 20px;
+}
+
+.event-detail .meta {
+  font-size: 18px;
+}
+
+.event-detail .description::before,
+.event-detail .description::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.event-detail .bordered {
+  margin-bottom: 8px;
+}
+
+.event-detail .vevent {
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+  padding: 14px 0 12px 58px;
+  min-height: 40px;
+  border-left: 0;
+  border-right: 0;
+  margin: 8px 0;
+}
+
+.event-detail .vevent .date {
+  margin-top: -2px;
+  display: block;
+}
+
+.event-detail .vevent .adr {
+  display: none;
+}
+
+.event-detail .vevent .map {
+  position: absolute;
+  top: 8px;
+  left: 0px;
+  display: block;
+}
+
+.event-detail .vevent .map img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.event-detail .vevent .globe {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  display: block;
+}
+
+.event-detail .sponsors {
+  position: absolute;
+  right: 0;
+  top: 7px;
+  position: static;
+  overflow: hidden;
+  margin-left: -58px;
+  margin-top: 13px;
+  padding-top: 8px;
+}
+
+.event-detail .sponsor-logo {
+  float: right;
+  float: none;
+}
+
+.event-detail .sponsor-logo img {
+  display: block;
+  max-height: 52px;
+  max-width: auto;
+}
+
+.event-detail .description.image .bordered {
+  float: left;
+  width: 40%;
+  max-width: 300px;
+  margin: 4px 12px 12px 0;
+}
+
+.event-item {
+  margin: 0 0 16px 0;
+
+  h3,
+  p {
+    margin: 4px 0;
+  }
+}
+
+.event-item .lanyrd-simple {
+  font-size: 13px;
+  line-height: 1;
+  color: #2e2e2e;
+}
+
+.news-item .notifier {
+  color: var(--primary);
+
+  svg {
+    fill: var(--primary);
+  }
+}
+
+.news-item .read-more {
+  margin-top: -8px;
+}
+
+.dharmafly {
+  text-decoration: none;
+  padding: 1px;
+  font-size: 11px;
+}
+
+.dharmafly:hover,
+.dharmafly:focus {
+  color: var(--green-light);
+}
+
+.dharmafly:active {
+  color: var(--white);
+  background-color: var(--green-light);
+  border-bottom: none;
+}
+
+.lanyrd-people {
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+  left: -8px;
+  margin-bottom: 0;
+}
+
+.lanyrd-people {
+  margin-bottom: 8px;
+}
+
+.lanyrd-people li {
+  float: left;
+  margin-left: 8px;
+}
+
+.lanyrd-people li a {
+  width: 50px;
+}
+
+.lanyrd-trackers li a {
+  width: 35px;
+}
+
+.hubbub {
+  margin-top: 24px;
+}
+
+.hubbub-avatar {
+  width: 40px;
+}
+
+.hubbub-avatar-link {
+  float: left;
+  margin-top: 4px;
+}
+
+.hubbub-content {
+  margin-left: 60px;
+}
+
+.hubbub-timestamp {
+  float: right;
+}
+
+.hubbub-header a {
+  margin-right: 5px;
+}
+
+.hubbub-comment-body p {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: theme(screens.sm)) {
+  h2 {
+    font-size: 36px;
+  }
+
+  .event-detail .description.image {
+    position: relative;
+  }
+
+  .event-detail .description.image .bordered {
+    float: right;
+    margin: 4px 0 12px 12px;
+  }
+
+  .event-detail .sponsors {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .event-detail .sponsors .sponsor-logo {
+    float: right;
+  }
+}
+
+@media (min-width: theme(screens.md)) {
+  .column {
+    float: left;
+    box-sizing: border-box;
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .column:nth-child(odd) {
+    clear: left;
+  }
+
+  .column:after {
+    content: "";
+  }
+}
+
+body,
+.masthead p em {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+}
+
+i,
+em {
+  font-family: var(--font-family-body);
+}
+
+b, strong,
+.read-more a,
+.event-detail .vevent,
+.event-item .lanyrd-simple {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-bold);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.header,
+.news strong {
+  font-family: var(--font-family-header);
+  font-weight: var(--font-weight-regular);
+  /* May cause issues in Windows browsers */
+  text-rendering: optimizeLegibility;
+}
+
+img,
+video {
+  width: auto;
+}

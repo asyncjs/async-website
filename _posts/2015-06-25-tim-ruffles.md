@@ -24,7 +24,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 [AngularJS][angular] has exploded in popularity, but the lack of guidance on the right way to use [Angular][angular] from the authors has resulted in teams with collapsing productivity. Gigantic controllers that everyone's too afraid to touch, scopes knotting the whole app together, persistence concerns leaking throughout, a sadly empty test folder... Applying some evergreen UI patterns, and a smattering of [Angular][angular] specific tools, can make it all so much simpler.
@@ -46,4 +46,4 @@ We're happy to announce that Brandwatch will be sponsoring this event; so free b
 
 ### Update
 
-[Watch the video here](https://vimeo.com/134322682){: data-video="http://player.vimeo.com/video/134322682?portrait=0&amp;color=A6C664"}
+[Watch the video here](https://vimeo.com/134322682)

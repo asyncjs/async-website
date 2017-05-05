@@ -9,7 +9,7 @@
     MIT license
 */
 
-var Hubbub = (function() {
+Hubbub = (function() {
 
   "use strict";
 

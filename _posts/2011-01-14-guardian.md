@@ -1,6 +1,6 @@
 ---
 collection: news
-layout: news.html
+layout: news.hbs
 speakers: 
 sponsors: 
 tags: 

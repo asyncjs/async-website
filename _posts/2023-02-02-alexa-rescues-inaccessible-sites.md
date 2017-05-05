@@ -23,7 +23,7 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 

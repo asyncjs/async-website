@@ -25,7 +25,7 @@
   },
   "layouts": {
     "dir": "_layouts/",
-    "glob": "_layouts/**/*.html"
+    "glob": "_layouts/**/*.hbs"
   },
   "posts": {
     "dir": "_posts/",

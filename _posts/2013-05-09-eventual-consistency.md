@@ -24,7 +24,7 @@ venue:
   location: http://l4rp.com/#location
   address: 45 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.827006,-0.136063
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -47,7 +47,7 @@ Cristiano is one-third of [BrightMinded][brightminded]'s dev team. Feed him Tira
 ### Update: Slides from the talk
 
 The slides are at
-<http://eve.terseuniverse.net>{: data-slides=""}.
+<http://eve.terseuniverse.net>.
 
 
 [cristiano]: https://twitter.com/c_solarino

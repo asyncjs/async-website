@@ -14,7 +14,7 @@ tags:
   - javascript
   - nodejs
   - html
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:

@@ -22,7 +22,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 A programming language and its tools shape the way we solve a given problem. Things trivially easy in one language can be a thicket of awful in another. Some languages need lots of boiler plate, some do not.

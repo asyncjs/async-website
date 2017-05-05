@@ -16,7 +16,7 @@ tags:
   - audio
   - synthesizer
   - javascript
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

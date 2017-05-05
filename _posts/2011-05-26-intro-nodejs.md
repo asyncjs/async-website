@@ -6,7 +6,7 @@ image:
   title: look downstairs into stairwell whirl by quapan, on Flickr
   link: http://www.flickr.com/photos/hinkelstone/2765597758/
 lanyrd: http://lanyrd.com/2011/asyncjs-intro-nodejs/
-layout: event.html
+layout: event.hbs
 speakers: 
 sponsors: 
 tags: 

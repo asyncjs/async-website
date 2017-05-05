@@ -1,0 +1,12 @@
+<section class="prose description{{#if post.image}} image{{/if}}">
+  {{#if post.image}}
+    <a class="bordered" href="{{ post.image.link }}" title="{{ post.image.title }}">
+      <img src="{{ post.image.url }}" alt="{{ post.image.title }}" />
+    </a>
+  {{/if}}
+  {{{ contents }}}
+  {{#if post.meetup}}
+    <p class="flex items-center gap-x-2">Thinking of coming? {{> meetupLink link=post.meetup title=post.title text='Join us on Meetup'}}
+  {{/if}}
+  <p>{{> slackLink link=site.elsewhere.slack.link title='Join the Async Slack group' text='Stay up-to-date and join the community on Slack'}}
+</section>

@@ -14,10 +14,9 @@ tags:
   - javascript
   - accessibility
   - aria
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 
 Abby Mitchell will be giving us the low down on a crucial aspect of every web developer's life - accessibility. 

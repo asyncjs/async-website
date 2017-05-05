@@ -20,7 +20,7 @@ venue:
   location: http://l4rp.com/#location
   address: 45 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.827006,-0.136063
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 

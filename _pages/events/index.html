@@ -1,18 +1,20 @@
 ---
 title: Events
-layout: base.html
+layout: base.hbs
 is_events: true
 ---
 
-<div class="container">
-  <h1>
+<div class="max-w-screen-lg mx-auto px-4">
+  <h1 class="flex items-center">
     {{{ iconmonstr 'calendar' }}}Events
   </h1>
 
   {{> nextEvent}}
 
   <section class="module links">
-    <h2 class="module-heading">{{{ iconmonstr 'archive' }}}Archives</h2>
+    <h2 class="module-heading flex items-center">
+      {{{ iconmonstr 'archive' }}}Archives
+    </h2>
 
     <ul>
       {{#each archive.events.years}}
@@ -22,7 +24,9 @@ is_events: true
   </section>
   {{#each archive.events.months}}
     <section class="module">
-      <h2 class="module-heading">{{{ iconmonstr 'calendar' }}}{{ @key }}</h2>
+      <h2 class="module-heading flex items-center">
+        {{{ iconmonstr 'calendar' }}}{{ @key }}
+      </h2>
       <ul>
         {{#each this}}
           <li class="column event-item">{{> eventItem }}</li>

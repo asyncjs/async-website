@@ -22,7 +22,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 Go and Node have their fundamental differences and appeals but there are some key similarities that make it an appealing and natural choice for a lot of NodeJS/JavaScript developers. This is a side by side comparison of 7 common features and paradigms between NodeJS and Golang.
@@ -32,4 +32,4 @@ Dave is an interface and API developer, featured in .NET and CEO of Dav3 LTD, CT
 
 ### Update
 
-[Watch the video here](https://vimeo.com/133639449){: data-video="http://player.vimeo.com/video/133639449?portrait=0&amp;color=A6C664"}
+[Watch the video here](https://vimeo.com/133639449)

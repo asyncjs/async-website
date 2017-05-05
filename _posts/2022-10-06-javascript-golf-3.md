@@ -15,7 +15,7 @@ tags:
   - code
   - golf
   - codegolf
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:
@@ -24,7 +24,6 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-# draft: true # Delete this line to publish
 ---
 
 Come and join us on Thursday October 6th where Tom Parslow - long time Async attendee and chief code typer at [Buzzshot.com](https://buzzshot.com), will task us to solve a series of challenges using JavaScript. The catch - you have to write as little JavaScript as possible. Solve each challenge in the least number of characters to win the game. Imagine the kind of stuff you’d never want to see make it into a real codebase… that’s what we’re looking for!

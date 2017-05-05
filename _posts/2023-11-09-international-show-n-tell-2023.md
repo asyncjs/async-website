@@ -19,7 +19,7 @@ venue:
   location: https://goo.gl/maps/Pr2cfvC1KHwxcteY9
   address: 1 Preston Road, Brighton, United Kingdom, BN1 4QE
   latlong: 50.8336813,-0.1393051
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 

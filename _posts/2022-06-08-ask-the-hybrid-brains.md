@@ -13,7 +13,7 @@ tags:
 - questions
 - collaboration
 - virtual
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:
@@ -22,7 +22,6 @@ venue:
   location: https://goo.gl/maps/pkoNTTRA27bh5GKD8
   address: Floor 5, Tower Point, 44 North Road, Brighton, BN1 1YR
   latlong: 50.825944,-0.1437302
-# draft: true # Delete this line to publish
 ---
 We're back! After 2 years without human contact you will finally have the opportunity to come face-to-face with like-minded developers and enthusiasts! Can't make it in-person? Don't worry, you'll also be able to join us online.
 

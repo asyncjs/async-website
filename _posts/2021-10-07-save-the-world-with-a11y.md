@@ -16,7 +16,7 @@ tags:
   - performance
   - lighthouse
   - javascript
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 

@@ -22,7 +22,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -47,4 +47,4 @@ since April 2013, which has kindled an interest in learning more about the proce
 
 You can find Seraphina's slides here: [http://www.slideshare.net/Seraphina1979/my-year-of-crawling](http://www.slideshare.net/Seraphina1979/my-year-of-crawling)
 
-[Here](https://vimeo.com/114077932){: data-video="http://player.vimeo.com/video/114077932?portrait=0&amp;color=A6C664"} is the video of the talk.
+[Here](https://vimeo.com/114077932) is the video of the talk.

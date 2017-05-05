@@ -1,0 +1,20 @@
+@import '_variables';
+
+.photo-grid {
+  &::before,
+  &::after {
+    /* Clearfix for float */
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  img {
+    float: left;
+    width: 50%;
+
+    @media (min-width: theme(screens.md)) {
+      width: 25%;
+    }
+  }
+}

@@ -18,7 +18,7 @@ tags:
   - vuejs
   - framework
   - ssr
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

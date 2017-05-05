@@ -1,12 +1,13 @@
 ---
 title: News
-layout: base.html
+layout: base.hbs
+is_news: true
 ---
 
-<div class="container">
-  <h1>{{{ iconmonstr 'news' }}}News</h1>
+<div class="max-w-screen-lg mx-auto px-4">
+  <h1 class="flex items-center">{{{ iconmonstr 'news' }}}News</h1>
   <section class="module links">
-    <h2 class="module-heading">
+    <h2 class="module-heading flex items-center">
       {{{ iconmonstr 'archive' }}}Archives
     </h2>
     <ul>
@@ -17,19 +18,21 @@ layout: base.html
   </section>
   {{#each archive.news.months}}
     <section class="module">
-      <h2 class="module-heading">{{{ iconmonstr 'calendar' }}}{{ @key }}</h2>
+      <h2 class="module-heading flex items-center">
+        {{{ iconmonstr 'calendar' }}}{{ @key }}
+      </h2>
       <ul>
         {{#each this}}
           <li class="column news-item">
-            <h3><a href="/{{ path }}">{{ title }}</a></h3>
+            <h3><a href="/{{ permalink }}">{{ title }}</a></h3>
             <div class="prose">
               {{#if excerpt}}
                 {{{ excerpt }}}
+                <p class="read-more"><a href="/{{ permalink }}">Read more</a></p>
               {{/if}}
               {{#unless excerpt}}
                 {{{ contents }}}
               {{/unless}}
-              <p class="read-more"><a href="/{{ path }}">Read more</a></p>
             </div>
           </li>
         {{/each}}

@@ -24,7 +24,6 @@ jobs:
       - run: npm run build
         env:
           CI: true
-          GA_KEY: ${{ secrets.GA_KEY }}
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:

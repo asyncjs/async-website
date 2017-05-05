@@ -1,0 +1,32 @@
+<header class="masthead">
+  <h1 class="main-header">
+    <a href="/">
+      <img class="logo-small" src="/img/logo-small.png" alt="{{ site.title }}" />
+      <img class="logo" src="/img/logo.png" alt="{{ site.title }}" />
+    </a>
+  </h1>
+  <nav class="main-nav">
+    <ul>
+      <li>
+        <a href="/" {{#if is_home }}class="active"{{/if}}>
+          {{{ iconmonstr 'home' }}}<span class="text">Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="/events" {{#if is_events }}class="active"{{/if}}>
+          {{{ iconmonstr 'calendar' }}}<span class="text">Events</span>
+        </a>
+      </li>
+      <li>
+        <a href="/news" {{#if is_news }}class="active"{{/if}}>
+          {{{ iconmonstr 'news' }}}<span class="text">News</span>
+        </a>
+      </li>
+      <li>
+        <a href="/about" {{#if is_about }}class="active"{{/if}}>
+          {{{ iconmonstr 'about' }}}<span class="text">About</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>

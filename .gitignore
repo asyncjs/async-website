@@ -65,3 +65,6 @@ dist/
 
 # Editor specific files
 .vscode/
+
+# Metalsmith
+.metalsmith/

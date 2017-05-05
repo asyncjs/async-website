@@ -15,7 +15,7 @@ tags:
   - christmas
   - networking
   - party
-layout: event.html
+layout: event.hbs
 collection: events
 venue:
   name: Old Albion
