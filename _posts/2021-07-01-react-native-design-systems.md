@@ -15,7 +15,7 @@ tags:
   - javascript
   - react
   - reactnative
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

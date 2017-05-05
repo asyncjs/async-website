@@ -24,7 +24,7 @@ venue:
   location: http://l4rp.com/#location
   address: 45 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.827006,-0.136063
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -39,7 +39,7 @@ Graphic designers have long honed their craft to meet the specific constraints o
 ## Update: slides online
 
 The slides are at
-<https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web-async>{: data-slides=""}.
+<https://speakerdeck.com/paulrobertlloyd/the-edge-of-the-web-async>.
 
 
 [richard]: http://clagnut.com

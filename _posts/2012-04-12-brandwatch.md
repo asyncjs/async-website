@@ -8,7 +8,7 @@ image:
   link: http://www.brandwatch.com/
   title: Brandwatch
 collection: news
-layout: news.html
+layout: news.hbs
 ---
 The very lovely [Brandwatch](http://www.brandwatch.com), a social
 analytics company from Brighton, is sponsoring the [Async developer community](https://asyncjs.com) for the months of April and May!

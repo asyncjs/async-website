@@ -4,7 +4,7 @@ authors:
 - name: Yann Eves
   link: https://yannev.es
 collection: news
-layout: news.html
+layout: news.hbs
 ---
 
 Today is [International Women's Day][international-womens-day]. We celebrated Async's 14th Birthday yesterday and our community - and the tech industry as a whole - has become more diverse in those years. An inclusive, welcoming community benefits _everyone_ and we still have much to do, both globally and locally.

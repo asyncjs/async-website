@@ -6,7 +6,7 @@ image:
   title: Mr John Riddle, headmaster, with his pupils at the Royal Hospital School. by National Maritime Museum, on Flickr
   link: http://www.flickr.com/photos/nationalmaritimemuseum/4312854423/
 lanyrd: http://lanyrd.com/2012/asyncjs-best-practices/
-layout: event.html
+layout: event.hbs
 speakers: 
 sponsors: 
 tags: 

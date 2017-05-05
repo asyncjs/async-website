@@ -1,0 +1,31 @@
+@import '_variables';
+
+.footer {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: var(--primary-dark);
+  color: var(--grey-light);
+}
+
+.links {
+  li {
+    display: inline;
+
+    &::after {
+      content: " •";
+      margin: 0 8px;
+      color: var(--grey-light);
+    }
+
+    &:last-child::after {
+      content: "";
+    }
+  }
+}
+
+.credits,
+.credits a {
+  font-size: 12px;
+}

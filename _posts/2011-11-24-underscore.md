@@ -6,7 +6,7 @@ image:
   title: Handy tools (greyscale) by magnuscanis, on Flickr
   link: http://www.flickr.com/photos/magnuscanis/526247737/
 lanyrd: http://lanyrd.com/2011/asyncjs-underscore/
-layout: event.html
+layout: event.hbs
 speakers: 
 sponsors: 
 tags: 

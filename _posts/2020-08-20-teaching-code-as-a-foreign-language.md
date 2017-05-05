@@ -14,7 +14,7 @@ sponsors:
 tags:
   - teaching
   - coaching
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('marked').marked.parse
+module.exports.markdown = require('marked').marked.parse

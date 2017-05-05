@@ -1,14 +1,16 @@
-[![Build Status](https://travis-ci.org/asyncjs/async-website.svg?branch=master)](https://travis-ci.org/asyncjs/async-website)
 
 # Async Website
 
-Welcome to the repository for the Async website. The site is statically generated using [Metalsmith][#metalsmith] and hosted on [GitHub pages][#gh-pages]. This just means this repository contains templates and assets that are converted into a static HTML site each time a commit is pushed to GitHub.
+![Build Status](https://github.com/asyncjs/async-website/actions/workflows/build.yml/badge.svg)
+![Deploy Status](https://github.com/asyncjs/async-website/actions/workflows/deploy.yml/badge.svg)
+
+Welcome to the repository for the Async website. The site is statically generated using [Metalsmith][#metalsmith] and hosted on [GitHub Pages][#gh-pages]. This just means this repository contains templates and assets that are converted into a static HTML site each time a commit is pushed to GitHub.
 
 ## Running the server locally
 
 You'll need [node.js][#nodejs] >=12.13.0 and npm >=6.10.0 installed locally.
 
-If you are using nvm, you can run the following to install and use node 12:
+If you are using nvm, you can run the following to install using `.nvmrc`:
 
 ```bash
 nvm install
@@ -18,12 +20,6 @@ You will need to run the following each time you come to work on the site:
 
 ```bash
 nvm use
-```
-
-You can then globally install npm 6 with:
-
-```bash
-npm i npm@6.10 -g
 ```
 
 Once you have the correct node and npm versions you can install project dependencies by running:
@@ -43,7 +39,7 @@ $ npm start
 To run a single build and not create a watch task, run the following from the project directory:
 
 ```bash
-$ npm test
+$ npm run build
 ```
 
 This writes out the site files into the `dist/` directory.
@@ -81,7 +77,7 @@ venue:      An object containing venue data,
   location: A link to a map for the venue,
   address:  The address of the venue all in one line,
   latlong:  Lat long for the venue, e.g. "50.826945,-0.136401".
-layout:     The page layout file. Usually "event.html".
+layout:     The page layout file. Usually "event.hbs".
 collection: The page category. Usually "events".
 draft:      If true then the post will not appear on the site.
 ```
@@ -98,7 +94,7 @@ lanyrd:     (optional) The url to the lanyrd page for the event.
 authors:    An array of authors,
   - name:   Author name,
     link:   Author website or Twitter account.
-layout:     news.html
+layout:     news.hbs
 collection: news
 draft:      false
 ```
@@ -108,7 +104,7 @@ draft:      false
 GitHub pages rebuilds the site whenever a new commit is made. If a re-build is required, even without new content - e.g. in order to re-render the 'next event' on the home page, then run the following:
 
 ```bash
-$ git commit --allow-empty -m "Republish GitHub pages (empty commit)"
+$ git commit --allow-empty -m "Republish GitHub Pages (empty commit)"
 $ git push
 ```
 
@@ -117,9 +113,9 @@ $ git push
 Async was founded by [Premasagar Rose][#prem] in 2010. He has since moved to Portugal, but kindly allowed the community to continue using the name, website, and domain. In the event of Async ceasing to continue, the domain of asyncjs.com should pass back to [Prem][#prem].
 
 
-[#metalsmith]: http://metalsmith.io/
+[#metalsmith]: https://metalsmith.io/
 [#gh-pages]: https://pages.github.com/
 [#nodejs]: https://nodejs.org/
 [#md]: https://daringfireball.net/projects/markdown/
-[#yaml]: http://yaml.org/
+[#yaml]: https://yaml.org/
 [#prem]: http://premasagar.com/

@@ -19,7 +19,7 @@ venue:
   location: http://theskiff.org/contact/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -47,10 +47,9 @@ worked on projects for the BBC, Mozilla, Gumtree and Channel 4.
 Over the years he’s worked on web projects for the BBC, Mozilla, Sony, Ebay,
 Vodafone, Fontdeck, Multimap, and many others.
 
-### Update: Slides Online
+### Update: [Slides Online][#slides]
 
-Andy's slides are online at
-<https://speakerdeck.com/u/andyhume/p/css-for-grown-ups-maturing-best-practises>{: data-slides="http://speakerdeck.com/embed/4f5bea324b24ac0022005f50"}
+<iframe class="w-full aspect-video" src="https://speakerdeck.com/embed/4f5bea324b24ac0022005f50"></iframe>
 
 These slides are actually from a talk given at SXSW 2012 on the same subject
 but they're very similar. The [audio for this talk is also available][#audio]
@@ -58,3 +57,4 @@ for those that missed it.
 
 [#andy]: http://twitter.com/andyhume
 [#audio]: http://schedule.sxsw.com/2012/events/event_IAP9410
+[#slides]: https://speakerdeck.com/u/andyhume/p/css-for-grown-ups-maturing-best-practises

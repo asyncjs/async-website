@@ -13,7 +13,7 @@ tags:
 - progression
 - skills
 - developer
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:
@@ -22,7 +22,6 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-# draft: true # Delete this line to publish
 ---
 
 Our next event will be the first held at what we hope to be our standard venue for the foreseeable future: [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/) - just round the corner from our previous long standing venue.

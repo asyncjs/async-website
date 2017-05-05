@@ -6,7 +6,7 @@ image:
   title: Setting Sails In Berlin - Potsdamer Platz by Sprengben [why not get a friend], on Flickr
   link: http://www.flickr.com/photos/sprengben/5980913422/
 lanyrd: http://lanyrd.com/2012/largescale/
-layout: event.html
+layout: event.hbs
 speakers:
 - name: Addy Osmani
   link: http://addyosmani.com
@@ -42,8 +42,8 @@ venue:
 
 We've uploaded videos of the session to our new [Vimeo account](http://vimeo.com/asyncjs):
 
-- [Part 1](http://vimeo.com/35924671){: data-video="http://player.vimeo.com/video/35924671?portrait=0&amp;color=A6C664"}
-- [Part 2](http://vimeo.com/35924733){: data-video="http://player.vimeo.com/video/35924733?portrait=0&amp;color=A6C664"}
-- [Part 3](http://vimeo.com/35990666){: data-video="http://player.vimeo.com/video/35990666?portrait=0&amp;color=A6C664"}
+- [Part 1](http://vimeo.com/35924671)
+- [Part 2](http://vimeo.com/35924733)
+- [Part 3](http://vimeo.com/35990666)
 
 More info on [Addy’s blog](http://addyosmani.com/scalable-javascript-videos/).

@@ -6,7 +6,7 @@ image:
   title: Coffee Alchemy - Marickville by sachman75, on Flickr
   link: http://www.flickr.com/photos/sacharules/5671953126/
 lanyrd: http://lanyrd.com/2011/async-coffeescript/
-layout: event.html
+layout: event.hbs
 speakers: 
 sponsors: 
 tags: 

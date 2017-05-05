@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    <div class="wrapper">
+      {{> masthead}}
+
+      <div class="max-w-screen-lg mx-auto px-4">
+        <section class="module event-detail">
+          <h2 class="module-heading flex items-center">{{{ iconmonstr 'calendar-tick' }}}This Event</h2>
+          {{> eventDetail }}
+        </section>
+        <section class="module">
+          <section class="column upcoming-events">
+            <h2 class="module-heading flex items-center">{{{ iconmonstr 'calendar-date' }}}Following Event</h2>
+            <ul class="event-listing">
+              {{#with next}}
+              <li class="event-item">{{> eventItem }}</li>
+              {{/with}}
+              {{#unless next}}
+              <li class="empty">This is the latest event</li>
+              {{/unless}}
+            </ul>
+            <p class="read-more"><a href="/events/">View all events</a></p>
+          </section>
+          <section class="column past-events">
+            <h2 class="module-heading flex items-center">{{{ iconmonstr 'calendar-clock' }}}Previous Event</h2>
+            <ul class="event-listing">
+              {{#with previous}}
+              <li class="event-item">{{> eventItem }}</li>
+              {{/with}}
+              {{#unless previous}}
+              <li class="empty">This is the earliest event</li>
+              {{/unless}}
+            </ul>
+            <p class="read-more"><a href="/events/">View all events</a></p>
+          </section>
+        </section>
+      </div>
+      {{> footer}}
+    </div>
+  </body>
+</html>

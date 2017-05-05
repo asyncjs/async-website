@@ -13,10 +13,9 @@ tags:
   - javascript
   - nodejs
   - html
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 Following the success of [Ask the Online Brains](https://asyncjs.com/ask-the-online-brains/), and with regular programming still suspended, we have decided to run an online version of another classic Async event. On Thurs 2nd July 2020 at 19:30 we are organising a __"Two dimensional Show and Tell"__.
 

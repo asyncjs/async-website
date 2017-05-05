@@ -15,7 +15,7 @@ tags:
   - es6
   - unicode
   - utf-8
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:
@@ -24,7 +24,6 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-# draft: true # Delete this line to publish
 ---
 
 Ever wanted to break someone’s app with a single well placed 💩?

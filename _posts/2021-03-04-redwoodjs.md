@@ -15,7 +15,7 @@ tags:
   - jamstack
   - serverless
   - redwoodjs
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    <div class="wrapper">
+      {{> masthead}}
+      <div class="max-w-screen-lg mx-auto px-4">
+        <section class="module event-detail">
+          <h2 class="module-heading flex items-center">
+            {{{ iconmonstr 'news' }}}News
+          </h2>
+
+          <article class="event-detail">
+            <header>
+              <h2 class="heading">
+                <a href="/{{ permalink }}">
+                  {{ title }}
+                </a>
+              </h2>
+              <p class="meta">
+                {{#if authors}}
+                  By {{> userList users=authors }}&nbsp;
+                {{/if}}
+
+                Posted on {{ day date }}
+              </p>
+            </header>
+            {{> postDescription post=this }}
+          </article>
+        </section>
+      </div>
+      {{> footer}}
+    </div>
+  </body>
+</html>

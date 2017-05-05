@@ -1,13 +1,12 @@
 ---
 title: Home
-layout: base.html
+layout: base.hbs
 is_home: true
 ---
 
 <section class="hero">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="hero-content">
+  <div class="max-w-screen-lg mx-auto px-4">
+    <div class="relative z-10 py-[22.5%]">
       <h1>
         Welcome to {{ site.title }}
       </h1>
@@ -17,9 +16,11 @@ is_home: true
   </div>
 </section>
 
-<div class="container">
+<div class="max-w-screen-lg mx-auto px-4">
   <section class="module">
-    <h2 class="module-heading">{{{ iconmonstr 'about' }}}About</h2>
+    <h2 class="module-heading flex items-center">
+      {{{ iconmonstr 'about' }}}About
+    </h2>
     <p>
       Async is an inclusive web tech meetup based in Brighton, UK. We meet on the first Thursday of the month to learn, discuss and play with web technologies. Everyone is welcome, from experienced professionals to those learning to code.
     </p>
@@ -31,17 +32,33 @@ is_home: true
       Read more about us <a href="/about">here</a>.
     </p>
   </section>
-  {{#each headlines}}
-    <section class="module news" data-timestamp="{{ date }}">
-      <a href="/{{ path }}"><strong>News</strong> {{ title }}</a>
+
+  {{#if headlines.length}}
+    <section class="module">
+      <ul>
+        {{#each headlines}}
+          <li class="news-item">
+            <h3>
+              <a class="group flex items-center gap-x-1" href="/{{ permalink }}">
+                <span class="notifier motion-safe:animate-bounce group-hover:motion-safe:animate-none">
+                  {{{ iconmonstr 'megaphone' }}}
+                </span>
+                News: {{ title }}
+              </a>
+            </h3>
+          </li>
+        {{/each}}
+      </ul>
     </section>
-  {{/each}}
+  {{/if}}
 
   {{> nextEvent}}
 
   <section class="module">
     <section class="column upcoming-events">
-      <h2 class="module-heading">{{{ iconmonstr 'calendar-date' }}}Upcoming Events</h2>
+      <h2 class="module-heading flex items-center">
+        {{{ iconmonstr 'calendar-date' }}}Upcoming Events
+      </h2>
       <ul class="event-listing">
         {{#each upcoming}}
           <li class="event-item">{{> eventItem}}</li>
@@ -53,7 +70,9 @@ is_home: true
       <p class="read-more"><a href="/events/">View all events</a></p>
     </section>
     <section class="column past-events">
-      <h2 class="module-heading">{{{ iconmonstr 'calendar-clock' }}}Past Events</h2>
+      <h2 class="module-heading flex items-center">
+        {{{ iconmonstr 'calendar-clock' }}}Past Events
+      </h2>
       <ul class="event-listing">
         {{#each past}}
           <li class="event-item">{{> eventItem}}</li>

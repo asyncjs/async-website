@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body>
+    <div class="wrapper">
+      {{> masthead}}
+      <div class="max-w-screen-lg mx-auto px-4">
+        <section class="module">
+          <h2 class="module-heading">{{ tag }}</h2>
+          <ul class="event-listing">
+            {{#each pagination.files}}
+              <li class="event-item">{{> eventItem}}</li>
+            {{/each}}
+            {{#if pagination.previous}}
+              <p class="read-more"><a href="{{ pagination.previous.path }}">Previous</a></p>
+            {{/if}}
+            {{#if pagination.next}}
+              <p class="read-more"><a href="{{ pagination.next.path }}">Next</a></p>
+            {{/if}}
+          </ul>
+        </section>
+      </div>
+      {{> footer}}
+    </div>
+  </body>
+</html>

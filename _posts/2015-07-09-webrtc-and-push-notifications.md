@@ -24,7 +24,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -38,7 +38,7 @@ The meetup will be sponsored by [Riot Games][riot], who will provide pizzas and 
 
 ###Update:
 
-[Here](https://vimeo.com/134323927){: data-video="http://player.vimeo.com/video/134323927?portrait=0&amp;color=A6C664"} is the video of the talk and here are the resources Phil mentioned during his talks:
+[Here](https://vimeo.com/134323927) is the video of the talk and here are the resources Phil mentioned during his talks:
 
 #WhatRTC?
 

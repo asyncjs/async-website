@@ -1,0 +1,19 @@
+<footer class="footer">
+  <div class="max-w-screen-lg mx-auto px-4">
+    <ul class="links">
+      {{#each site.footer as |ref|}}
+        {{#with (lookup ../site.elsewhere [ref])~}}
+          <li><a href="{{ link }}" title="{{ desc }}">{{ name }}</a></li>
+        {{/with}}
+      {{/each}}
+    </ul>
+
+    <p class="credits">
+      <span>Webfonts <a target="_blank" href="https://fonts.google.com/specimen/Varela+Round">Varela Round</a> and <a target="_blank" href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a> served by <a target="_blank" href="https://fonts.google.com">Google Fonts</a>.</span>
+      <span>Icons provided by <a target="_blank" href="https://iconmonstr.com/">iconmonstr</a>.</span>
+      <span>Content licenced under <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.</span>
+      Created by <a class="dharmafly" target="_blank" href="http://dharmafly.com">Dharmafly</a> and <a target="_blank" href="/humans.txt">friends</a>
+    </p>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
