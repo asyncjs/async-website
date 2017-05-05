@@ -13,10 +13,9 @@ tags:
 - questions
 - collaboration
 - virtual
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 What with one thing and another, and with regular programming suspended, we've decided to have a go at a virtual Async event.
 

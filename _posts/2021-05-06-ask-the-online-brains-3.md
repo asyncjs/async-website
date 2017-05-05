@@ -14,7 +14,7 @@ tags:
   - questions
   - collaboration
   - virtual
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

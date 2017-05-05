@@ -26,7 +26,7 @@ venue:
   location: http://theskiff.org/contact/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -44,7 +44,7 @@ a self-describing API with a full-stack JavaScript app, built using
 ### Update: Slides online
 
 You can see Tom's slides online at
-<http://almostobsolete.net/talks/hypermedia/>{: data-slides=""}.
+<http://almostobsolete.net/talks/hypermedia/>.
 
 [#tom]: http://almostobsolete.net/
 [#twitter]: https://twitter.com/almostobsolete

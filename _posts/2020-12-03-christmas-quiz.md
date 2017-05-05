@@ -14,10 +14,9 @@ tags:
   - christmas
   - fun
   - no_code
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 
 Welcome to the first ever Async Christmas Quiz! As we welcome web tech loving folk of all levels of experience, this will _not_ be a quiz about how much JavaScript you know - it's a community quiz more in line with a traditional pub quiz. So please come along, either as a team or by yourself, and let's send off this rotten year in style!

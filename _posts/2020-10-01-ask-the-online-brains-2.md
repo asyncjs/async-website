@@ -14,10 +14,9 @@ tags:
   - questions
   - collaboration
   - virtual
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 
 2020 rumbles on and no sign of us being able to all meet up in person anytime in the near future sadly. To cheer ourselves up, we're having a re-run of the popular and successful Ask the Brains session we had back in May. For those new to the format, here's a recap:

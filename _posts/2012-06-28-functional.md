@@ -27,7 +27,7 @@ venue:
   location: http://theskiff.org/contact/
   address: 6 Gloucester Street, Brighton, BN1 4EW
   latlong: 50.826945,-0.136401
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -55,8 +55,8 @@ Dallaway][#richard] will reveal its beauty, its warts and all.
 
 ### Update: Slides Online
 
-- Kingsley's [intro slides][#intro-slides]{: data-slides=""}
-- Tom's [Underscore slides][#underscore-slides]{: data-slides=""}
+- Kingsley's [intro slides][#intro-slides]
+- Tom's [Underscore slides][#underscore-slides]
 - Richard's [Roy code examples][#roy-slides]
 
 [#async]: https://asyncjs.com

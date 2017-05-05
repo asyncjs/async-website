@@ -23,7 +23,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -56,4 +56,4 @@ Dave is a full-stack web developer and a consultant and trainer at Scala consult
 
 ### Update
 
-[Watch the video here](https://vimeo.com/128853043){: data-video="http://player.vimeo.com/video/128853043?portrait=0&amp;color=A6C664"}
+[Watch the video here](https://vimeo.com/128853043)

@@ -22,7 +22,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 Users don’t wait for slow sites to load, and they’re only getting more and more impatient. How do we keep up? The good news is that we can get very far by focusing on our perceived load time (as opposed to full page load time).
@@ -39,4 +39,4 @@ We'll also be giving away two tickets to [Cold Front Conference](https://coldfro
 
 ### Update
 
-[Watch the video here](https://vimeo.com/133640736){: data-video="http://player.vimeo.com/video/133640736?portrait=0&amp;color=A6C664"}
+[Watch the video here](https://vimeo.com/133640736)

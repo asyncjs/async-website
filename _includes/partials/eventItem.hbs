@@ -1,0 +1,11 @@
+<h3 class="flex items-center gap-x-2">
+  <a href="/{{ permalink }}">{{ title }}</a>
+  {{> meetupLink link=meetup title=title}}
+</h3>
+<p class="details vevent">
+  <time class="dtstart date" title="{{ timestamp date }}" datetime="{{ timestamp date }}">{{ day date }}</time>
+  {{#if venue}}
+    @
+    <a href="{{ venue.link }}">{{ venue.name }}</a>
+  {{/if}}
+</p>

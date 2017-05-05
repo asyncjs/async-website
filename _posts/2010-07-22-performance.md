@@ -1,6 +1,6 @@
 ---
 collection: events
-layout: event.html
+layout: event.hbs
 speakers:
 - name: Mark Perkins
   link: http://allmarkedup.com

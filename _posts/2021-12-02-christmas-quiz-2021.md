@@ -14,10 +14,9 @@ tags:
   - christmas
   - fun
   - no_code
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 
 Welcome back for another Async Christmas Quiz! Despite all the challenges, it’s been a great year in Async-land, with great talks on everything from Accessibility to React Native, as well as some cracking community events such as Ask the Brains and the Show’n’Tell.

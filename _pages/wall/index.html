@@ -1,0 +1,13 @@
+---
+title: Wall
+layout: base.hbs
+---
+
+<article class="absolute inset-0 z-[1001] h-dvh grid place-content-center bg-white">
+  {{#each soonest}}
+    <h1>{{title}}</h1>
+    {{#if speakers}}
+      <p>Presented by {{> userList users=speakers }}</p>
+    {{/if}}
+  {{/each}}
+</article>

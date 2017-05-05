@@ -1,0 +1,9 @@
+@import '_variables';
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-top: var(--masthead-height);
+  padding-bottom: var(--footer-height);
+}

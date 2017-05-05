@@ -20,7 +20,7 @@ tags:
   - build
   - framework
   - deployment
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

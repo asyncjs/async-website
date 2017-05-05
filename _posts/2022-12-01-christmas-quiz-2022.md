@@ -14,7 +14,7 @@ tags:
   - christmas
   - fun
   - no_code
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:

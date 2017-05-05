@@ -22,7 +22,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -30,7 +30,7 @@ collection: events
 
 Slides for Hugo's talk are now available here: [http://slides.com/darby-brown/sass-for-newbies](http://slides.com/darby-brown/sass-for-newbies)
 
-And the video is available here: [https://vimeo.com/120463213](https://vimeo.com/120463213){: data-video="http://player.vimeo.com/video/120463213?portrait=0&amp;color=A6C664"}
+And the video is available here: [https://vimeo.com/120463213](https://vimeo.com/120463213)
 
 ---
 
@@ -48,4 +48,4 @@ Learn some best practises when writing Sass, and how to avoid some of the common
 
 Hugo Darby-Brown is a Welsh front-end developer with a passion for Sass and CSS animations. 
 
-[Sass]: http://sass-lang.com/
+[sass]: http://sass-lang.com/

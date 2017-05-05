@@ -1,6 +1,6 @@
 ---
 collection: events
-layout: event.html
+layout: event.hbs
 speakers: 
 sponsors: 
 tags: 

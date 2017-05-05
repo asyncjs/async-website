@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="flex min-h-full">
+  {{> head}}
+  <body class="flex-1">
+    <div class="wrapper flex-1">
+      {{> masthead}}
+
+      <div class="max-w-screen-lg mx-auto px-4">
+        <h1 class="flex items-center">
+          {{{ iconmonstr 'archive' }}}{{ title }}
+        </h1>
+        {{#if children}}
+          <section class="module links">
+            <h2 class="module-heading flex items-center">
+              {{{ iconmonstr 'calendar' }}}Refine
+            </h2>
+            <ul>
+              {{#each children}}
+                <li><a href="/{{ path }}" title="{{ title }}">{{ title }}</a></li>
+              {{/each}}
+            </ul>
+          </section>
+        {{/if}}
+        <section class="module">
+          {{#unless children}}
+            <h2 class="module-heading flex items-center">
+              {{{ iconmonstr 'calendar' }}}{{ title }}
+            </h2>
+          {{/unless}}
+          <ul>
+            {{#each posts}}
+              <li class="column event-item">{{> eventItem }}</li>
+            {{/each}}
+          </ul>
+        </section>
+      </div>
+
+      {{> footer}}
+    </div>
+  </body>
+</html>

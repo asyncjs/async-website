@@ -15,7 +15,7 @@ tags:
   - startups
   - aws
   - process
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 ---

@@ -22,7 +22,7 @@ venue:
   location: https://goo.gl/maps/WGe2p9D7Wup3LdNt8
   address: York And Elder Works, 50 New England St, Brighton BN1 4AW
   latlong: 50.8325788,-0.1420808
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 

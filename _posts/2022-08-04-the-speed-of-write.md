@@ -13,7 +13,7 @@ tags:
 - developer
 - editor
 - skills
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
 venue:
@@ -22,7 +22,6 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-# draft: true # Delete this line to publish
 ---
 
 We're back at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/) this coming Thursday for an event that we don't believe we've had anything quite like before.

@@ -39,11 +39,6 @@
       "link": "https://github.com/asyncjs/async-website",
       "desc": "Fork this site on GitHub"
     },
-    "news": {
-      "name": "News",
-      "link": "/news/",
-      "desc": "Recent Async Announcements"
-    },
     "feed": {
       "name": "Subscribe to feed",
       "link": "/feed/",

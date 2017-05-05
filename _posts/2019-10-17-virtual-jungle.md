@@ -31,7 +31,7 @@ venue:
   location: https://goo.gl/maps/SPf97i5WkAR2
   address: Ironworks, 30 Cheapside, Brighton, BN1 4GD
   latlong: 50.829371,-0.138194
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 Come along to the Async [BDF](https://brightondigitalfestival.co.uk/) Special to help create an immersive augmented-reality jungle scene which you can view directly on your phone's web browser!

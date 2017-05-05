@@ -14,10 +14,9 @@ tags:
   - frameworks
   - javascript
   - architecture
-layout: event.html
+layout: event.hbs
 collection: events
 online: true
-# draft: true # Delete this line to publish
 ---
 
 Web Components, or Custom HTML tags, allow us to create our own custom HTML tags that are native to the browser. They can be used as a modular library for organisations, or be used to create complete applications using 'the platform'.

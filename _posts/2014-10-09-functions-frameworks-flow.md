@@ -19,7 +19,7 @@ venue:
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
-layout: event.html
+layout: event.hbs
 collection: events
 ---
 
@@ -35,4 +35,4 @@ Tom is a JavaScript developer, working at Twitter in London, and ex-Brightoner.
 
 ### Update
 
-[Watch the video here](https://vimeo.com/119841250){: data-video="http://player.vimeo.com/video/119841250?portrait=0&amp;color=A6C664"}
+[Watch the video here](https://vimeo.com/119841250)

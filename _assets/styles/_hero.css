@@ -1,0 +1,46 @@
+@import '_variables';
+
+.about-hero {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+  color: var(--white);
+  text-align: center;
+  background-image: url('../img/hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h1 {
+    color: var(--white);
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.7;
+    background-color: color-mix(in srgb, var(--primary), #000 10%);
+  }
+
+  @media all and (min-width: 768px) {
+    text-align: left;
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+}
