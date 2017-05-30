@@ -8,9 +8,9 @@ speakers:
   link: https://remi-shergold.com/
 sponsors:
 image:
-  url: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/S.H_Horikawa_%E2%80%93_Star_Strider_Robot_%28%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%29_%E2%80%93_Front.jpg/512px-S.H_Horikawa_%E2%80%93_Star_Strider_Robot_%28%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%29_%E2%80%93_Front.jpg
-  title: Star Strider Robot
-  link: https://commons.wikimedia.org/wiki/File:S.H_Horikawa_%E2%80%93_Star_Strider_Robot_(%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88)_%E2%80%93_Front.jpg
+  url: https://i.imgur.com/LBjIg5i.jpg
+  title: Async motherboard
+  link: https://i.imgur.com/LBjIg5i.jpg
 tags:
 - hardware
 - python
