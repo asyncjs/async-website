@@ -7,6 +7,9 @@ speakers:
 - name: Harry Hogg
   link: https://twitter.com/hogg_io
 sponsors:
+- name: Brandwatch
+  link: https://www.brandwatch.com/careers
+  logo: /img/sponsors/brandwatch.png
 image:
   url: http://i.imgur.com/RmelSPs.png
   title: Snake
@@ -37,4 +40,8 @@ Bring a laptop if you can, but we’ll be forming into teams so come along even 
 ### About the speaker
 
 Harry is a Javascript developer at [Brandwatch](www.brandwatch.com), who spends most of his time rolling around in React components and has an unhealthy love for CSS.
+
+## Update
+
+This meeting will be sponsored by [Brandwatch](https://www.brandwatch.com/careers), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
 
