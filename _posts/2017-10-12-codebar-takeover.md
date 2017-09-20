@@ -1,7 +1,7 @@
 ---
 title: Codebar Takeover
 summary: A web tech meetup for Brighton & Hove
-date: 2017-10-17T19:15:00
+date: 2017-10-12T19:15:00
 lanyrd: 
 speakers:
 sponsors:
@@ -17,4 +17,4 @@ layout: event.html
 collection: events
 ---
 
-We'll be having a special event on 17th October, with a Codebar takeover of Async! For those who don't know, [Codebar](https://codebar.io/brighton) is a fantastic initiative to enable underrepresented people to learn how to program in a safe environment. The Brighton Codebar is highly successful, and has enabled many people to find great careers in the programming world. This event, we'll hear from some of the alumni, and see how they've put their skills to use. It promises to be an inspiring and fascinating evening; don't miss it! more details to follow.
+We'll be having a special event on 12th October, with a Codebar takeover of Async! For those who don't know, [Codebar](https://codebar.io/brighton) is a fantastic initiative to enable underrepresented people to learn how to program in a safe environment. The Brighton Codebar is highly successful, and has enabled many people to find great careers in the programming world. This event, we'll hear from some of the alumni, and see how they've put their skills to use. It promises to be an inspiring and fascinating evening; don't miss it! more details to follow.
