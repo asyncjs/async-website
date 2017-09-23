@@ -6,6 +6,9 @@ lanyrd:
 speakers:
 sponsors:
 image:
+  url: http://codebar.io/images/logo-square.png
+  title: Codebar Logo
+  link: https://codebar.io/brighton
 tags:
 venue:
   name: The Skiff
