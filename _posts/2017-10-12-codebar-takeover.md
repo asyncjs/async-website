@@ -1,9 +1,11 @@
 ---
-title: Codebar Takeover
+title: Code, Explore, Create. Inspirational Demos from codebar
 summary: A web tech meetup for Brighton & Hove
 date: 2017-10-12T19:15:00
 lanyrd: 
 speakers:
+- name: The Codebar Brighton team
+  link: https://twitter.com/CodebarBrighton
 sponsors:
 image:
   url: http://codebar.io/images/logo-square.png
@@ -20,4 +22,13 @@ layout: event.html
 collection: events
 ---
 
-We'll be having a special event on 12th October, with a Codebar takeover of Async! For those who don't know, [Codebar](https://codebar.io/brighton) is a fantastic initiative to enable underrepresented people to learn how to program in a safe environment. The Brighton Codebar is highly successful, and has enabled many people to find great careers in the programming world. This event, we'll hear from some of the alumni, and see how they've put their skills to use. It promises to be an inspiring and fascinating evening; don't miss it! more details to follow.
+
+For those who haven't heard of us, [codebar][codebar] is a non-profit initiative that facilitates the growth of a diverse tech community by running regular programming workshops. The atmosphere at each weekly codebar meeting is pretty special – a great mix of catching-up, idea sharing and learning. In addition to meeting weekly, we work hard to offer interesting and exciting events and workshops.
+
+Come down for an upbeat evening of code demos, stories and inspiration sharing from our latest event; a [whole][weekend1] [weekend][weekend2] of creative coding, held as part of Brighton Digital Festival.
+Everyone is welcome to come along. If you have ever thought about becoming a student or a coach at codebar, it’d be a great time to see what we do and ask us questions!
+
+[codebar]: https://codebar.io/
+[weekend1]: http://brightondigitalfestival.co.uk/events/code-explore-create-day-1
+[weekend2]: http://brightondigitalfestival.co.uk/events/code-explore-create-day-2
+
