@@ -16,7 +16,7 @@ tags:
 - nodejs
 venue:
   name: The Skiff
-  link: http://www.theskiff.org/
+  link: https://www.theskiff.org/
   location: https://goo.gl/maps/SPf97i5WkAR2
   address: Ironworks, 30 Cheapside, Brighton, BN1 4GD
   latlong: 50.829371,-0.138194
@@ -30,13 +30,13 @@ And, _if you’d like to grab a speaking slot_, you’ll have five minutes on th
 
 Speakers, please <a data-gist href="https://gist.github.com/larister/f079111663031d4db0339f8e3f12b55f">add a comment to the Speakers' Gist</a>.
 
-**Please Note**: This year, the venue has changed, and will now be at [The Skiff][the-skiff]. See there me hearties.
+**Please Note**: This year, the venue has changed, and will now be at [The Skiff][theskiff]. See there me hearties.
 
 For a spot of inspiration, take a look at our International Show n' Tells in [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010]. We've also hosted local show n' tells: [1][spring-2016], [2][spring-2015], [3][birthday-4], [4][birthday-3], [5][birthday-2], [6][birthday-1], [7][showntell-2], [8][showntell-1].
 
 [ff]: http://2017.ffconf.org/
 [event-lanyrd]: http://lanyrd.com/2016/asyncjs-international-showntell
-[the-skiff]: http://www.the-skiff.org
+[theskiff]: https://www.theskiff.org/
 
 [async]: http://asyncjs.com
 [showntell-1]: http://asyncjs.com/showntell/
