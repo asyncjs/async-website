@@ -11,3 +11,4 @@ deploy:
     branch: master
 env:
   - GA_KEY="UA-2150808-14"
+group: deprecated-2017Q4
