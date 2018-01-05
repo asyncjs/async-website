@@ -11,11 +11,11 @@
       <section class="column past-events">
         <h2 class="module-heading">Previous Event:</h2>
         <ul class="event-listing">
-          {{#with previous}}
-            <li class="event-item">{{> eventItem }}</li>
+          {{#with next}}
+          <li class="event-item">{{> eventItem }}</li>
           {{/with}}
-          {{#unless previous}}
-            <li class="empty">This is the last event</li>
+          {{#unless next}}
+          <li class="empty">This is the most recent event</li>
           {{/unless}}
         </ul>
         <p class="read-more"><a href="/events/">View all events</a></p>
@@ -23,11 +23,11 @@
       <section class="column upcoming-events">
         <h2 class="module-heading">Following Event:</h2>
         <ul class="event-listing">
-          {{#with next}}
-            <li class="event-item">{{> eventItem }}</li>
+          {{#with previous}}
+          <li class="event-item">{{> eventItem }}</li>
           {{/with}}
-          {{#unless next}}
-            <li class="empty">This is the most recent event</li>
+          {{#unless previous}}
+          <li class="empty">This is the last event</li>
           {{/unless}}
         </ul>
         <p class="read-more"><a href="/events/">View all events</a></p>
