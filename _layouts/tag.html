@@ -2,23 +2,25 @@
 <html>
   {{> head}}
   <body>
-    {{> masthead}}
-    <section class="module">
-      <h2 class="module-heading">{{ tag }}</h2>
-      <ul class="event-lisiting">
-        {{#each pagination.files}}
-          <li class="event-item">{{> eventItem}}</li>
-        {{/each}}
-        {{#if pagination.previous}}
-          <p class="read-more"><a href="{{ pagination.previous.path }}">Previous</a>
-        {{/if}}
-        {{#if pagination.next}}
-          <p class="read-more"><a href="{{ pagination.next.path }}">Next</a>
-        {{/if}}
-      </ul>
-    </section>
-    {{> about}}
-    {{> links}}
-    {{> footer}}
+    <div class="wrapper">
+      {{> masthead}}
+      <section class="module">
+        <h2 class="module-heading">{{ tag }}</h2>
+        <ul class="event-lisiting">
+          {{#each pagination.files}}
+            <li class="event-item">{{> eventItem}}</li>
+          {{/each}}
+          {{#if pagination.previous}}
+            <p class="read-more"><a href="{{ pagination.previous.path }}">Previous</a>
+          {{/if}}
+          {{#if pagination.next}}
+            <p class="read-more"><a href="{{ pagination.next.path }}">Next</a>
+          {{/if}}
+        </ul>
+      </section>
+      {{> about}}
+      {{> links}}
+      {{> footer}}
+    </div>
   </body>
 </html>

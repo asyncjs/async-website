@@ -2,23 +2,25 @@
 <html>
   {{> head}}
   <body>
-    {{> masthead}}
-    <section class="module event-detail">
-      <h2 class="module-heading">News:</h2>
-      <article class="event-detail">
-        <header>
-          <h2 class="heading">{{ title }}</h2>
-          <p class="meta">
-            {{#if authors}}
-              By {{> userList users=authors }}&nbsp;
-            {{/if}}
-            <a href="/{{ path }}">Posted on {{ day date }}</a>
-        </header>
-        {{> postDescription post=this }}
-      </article>
-    </section>
-    {{> about}}
-    {{> links}}
-    {{> footer}}
+    <div class="wrapper">
+      {{> masthead}}
+      <section class="module event-detail">
+        <h2 class="module-heading">News:</h2>
+        <article class="event-detail">
+          <header>
+            <h2 class="heading">{{ title }}</h2>
+            <p class="meta">
+              {{#if authors}}
+                By {{> userList users=authors }}&nbsp;
+              {{/if}}
+              <a href="/{{ path }}">Posted on {{ day date }}</a>
+          </header>
+          {{> postDescription post=this }}
+        </article>
+      </section>
+      {{> about}}
+      {{> links}}
+      {{> footer}}
+    </div>
   </body>
 </html>
