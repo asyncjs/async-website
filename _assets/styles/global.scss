@@ -186,21 +186,24 @@ h2 {
   margin-right: 4px;
 }
 
-.module {
+.module,
+.column {
   margin-bottom: 20px;
   font-size: 16px;
+}
+
+.module {
   clear: left;
 }
 
-.module:after,
-.column:after {
-  content: "---";
+.module:after {
+  content: "";
   display: block;
-  text-align: center;
-  color: #ccc;
-  margin-top: 20px;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
   width: 100%;
-  clear: left;
+  clear: both;
 }
 
 .column:last-of-type:after {
