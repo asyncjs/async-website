@@ -1,5 +1,14 @@
+$screen-xs: 480px;
+$screen-sm: 560px;
+$screen-md: 768px;
+
 body {
   font: 62.5%/1;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
   margin: 0 auto;
   padding: 12px;
 }
@@ -610,7 +619,7 @@ footer span {
   width: 0;
 }
 
-@media (min-width:480px) {
+@media (min-width: $screen-xs) {
   h2 {
     font-size: 36px;
   }
@@ -650,7 +659,7 @@ footer span {
   }
 }
 
-@media (min-width:560px) {
+@media (min-width: $screen-sm) {
   .masthead p {
     display: inline-block;
     margin-top: 12px;
@@ -661,11 +670,9 @@ footer span {
   }
 }
 
-@media (min-width:840px) {
-  body {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 720px;
+@media (min-width: $screen-md) {
+  .wrapper {
+    max-width: $screen-md;
   }
 
   .masthead p {
