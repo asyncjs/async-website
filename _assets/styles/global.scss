@@ -237,11 +237,11 @@ h2 {
 .masthead h1,
 .masthead p,
 .masthead .logo {
+  display: inline-block;
   vertical-align: middle;
 }
 
 .masthead h1 {
-  display: inline-block;
   text-transform: none;
   font-size: 48px;
   margin-right: 8px;
@@ -258,10 +258,6 @@ h2 {
 .masthead p em {
   font-style: normal;
   display: inline-block;
-}
-
-.masthead .logo {
-  display: none;
 }
 
 .event-detail header,
@@ -652,10 +648,7 @@ footer span {
 
 @media (min-width:560px) {
   .masthead p {
-    display: inline-block
-  }
-
-  .masthead p {
+    display: inline-block;
     margin-top: 12px;
   }
 
