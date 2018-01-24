@@ -2,6 +2,16 @@ $screen-xs: 480px;
 $screen-sm: 560px;
 $screen-md: 768px;
 
+$white: #fff;
+$grey-light: #ccc;
+$grey-medium: #aaa;
+$black: #000;
+
+$red: #e52222;
+$red-light: #ef4948;
+
+$green-light: #a6c664;
+
 body {
   font: 62.5%/1;
   margin: 0;
@@ -21,7 +31,7 @@ h5,
 h6,
 .header {
   text-transform: uppercase;
-  text-shadow: 0 0 1px #fff;
+  text-shadow: 0 0 1px $white;
 }
 
 h1,
@@ -43,7 +53,7 @@ abbr {
 }
 
 a {
-  color: #000;
+  color: $black;
   text-decoration: none;
   -webkit-transition: background-color, border-color, color;
   -webkit-transition-duration: 0.2s;
@@ -51,7 +61,7 @@ a {
 }
 
 a:hover {
-  color: #e52222;
+  color: $red;
 }
 
 iframe {
@@ -126,11 +136,11 @@ h2 {
 
 .prose a:hover,
 .prose a:focus {
-  color: #e52222;
+  color: $red;
 }
 
 .prose a:active {
-  color: #ef4948;
+  color: $red-light;
 }
 
 .prose .image {
@@ -139,7 +149,7 @@ h2 {
 
 .prose .bordered {
   padding: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid $grey-light;
 }
 
 .prose .bordered:hover {
@@ -148,14 +158,14 @@ h2 {
 }
 
 .prose .bordered:active {
-  border-color: #e52222;
-  background-color: #ef4948;
+  border-color: $red;
+  background-color: $red-light;
 }
 
 .bordered {
   display: inline-block;
   padding: 4px;
-  border: 1px solid #ccc;
+  border: 1px solid $grey-light;
 }
 
 .bordered:hover {
@@ -164,8 +174,8 @@ h2 {
 }
 
 .bordered:active {
-  border-color: #e52222;
-  background-color: #ef4948;
+  border-color: $red;
+  background-color: $red-light;
 }
 
 .bordered img {
@@ -209,7 +219,7 @@ h2 {
   content: "";
   display: block;
   height: 1px;
-  background-color: #ccc;
+  background-color: $grey-light;
   margin: 20px 0;
   width: 100%;
   clear: both;
@@ -284,7 +294,7 @@ h2 {
 }
 
 .event-detail .heading:hover a {
-  color: #e52222;
+  color: $red;
 }
 
 .event-detail .lanyrd-link {
@@ -329,7 +339,7 @@ h2 {
   position: relative;
   padding: 14px 0 12px 58px;
   min-height: 40px;
-  border: 1px dashed #ccc;
+  border: 1px solid $grey-light;
   border-left: 0;
   border-right: 0;
   margin: 0 0 8px;
@@ -366,7 +376,7 @@ h2 {
   position: static;
   overflow: hidden;
   margin-left: -58px;
-  border-top: 1px dashed #ccc;
+  border-top: 1px dashed $grey-light;
   margin-top: 13px;
   padding-top: 8px;
 }
@@ -405,7 +415,7 @@ h2 {
 }
 
 .event-item h3:hover a {
-  color: #e52222;
+  color: $red;
 }
 
 .event-item .details {
@@ -454,18 +464,18 @@ h2 {
 .news a {
   display: block;
   padding: 8px 0;
-  border-bottom: 1px dashed #ccc;
+  border-bottom: 1px dashed $grey-light;
   height: auto;
   line-height: 1;
 }
 
 .news:first-of-type a {
-  border-top: 1px dashed #ccc;
+  border-top: 1px dashed $grey-light;
 }
 
 .news:hover a {
-  color: #000;
-  border-color: #aaa;
+  color: $black;
+  border-color: $grey-medium;
 }
 
 .news strong {
@@ -484,7 +494,7 @@ footer {
 footer,
 footer a {
   font-size: 12px;
-  color: #aaa;
+  color: $grey-medium;
   margin-top: 32px;
   margin-bottom: 16px;
 }
@@ -508,12 +518,12 @@ footer span {
 
 .dharmafly:hover,
 .dharmafly:focus {
-  color: #A6C664;
+  color: $green-light;
 }
 
 .dharmafly:active {
-  color: #fff;
-  background-color: #A6C664;
+  color: $white;
+  background-color: $green-light;
   border-bottom: none;
 }
 
