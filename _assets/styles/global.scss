@@ -1,7 +1,7 @@
 body {
   font: 62.5%/1;
   margin: 0 auto;
-  padding: 24px;
+  padding: 10px;
 }
 
 h1,
@@ -604,12 +604,6 @@ footer span {
 }
 
 @media (min-width:480px) {
-  body {
-    margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
   h2 {
     font-size: 36px;
   }
@@ -661,11 +655,6 @@ footer span {
 }
 
 @media (min-width:560px) {
-  body {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
   .masthead h1,
   .masthead p {
     position: static;
