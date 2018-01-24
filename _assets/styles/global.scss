@@ -370,6 +370,13 @@ h2 {
   max-width: auto;
 }
 
+.event-detail .description.image .bordered {
+  float: left;
+  width: 40%;
+  max-width: 300px;
+  margin: 4px 12px 12px 0;
+}
+
 .event-item {
   margin-bottom: 16px;
 }
@@ -619,13 +626,7 @@ footer span {
 
   .event-detail .description.image .bordered {
     float: right;
-    top: 0;
-    left: 60%;
-    right: 0;
-    max-width: 45%;
-    margin-top: 4px;
-    margin-left: 3%;
-    margin-bottom: 8px;
+    margin: 4px 0 12px 12px;
   }
 
   #media-test {
