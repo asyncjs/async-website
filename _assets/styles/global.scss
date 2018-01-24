@@ -668,6 +668,16 @@ footer span {
 }
 
 @media (min-width:840px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 720px;
+  }
+
+  .masthead p {
+    font-size: 24px;
+  }
+
   .column {
     float: left;
     box-sizing: border-box;
@@ -685,20 +695,6 @@ footer span {
 
   .column.event-item h3 {
     margin-top: 0;
-  }
-}
-
-@media (min-width:820px) {
-  .masthead p {
-    font-size: 24px;
-  }
-}
-
-@media (min-width:840px) {
-  body {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 720px;
   }
 }
 
