@@ -235,20 +235,21 @@ h2 {
 }
 
 .masthead h1,
-.masthead p {
-  float: left;
+.masthead p,
+.masthead .logo {
+  vertical-align: middle;
 }
 
 .masthead h1 {
+  display: inline-block;
   text-transform: none;
   font-size: 48px;
   margin-right: 8px;
 }
 
 .masthead p {
-  position: relative;
-  top: 16px;
-  font-size: 16px;
+  display: block;
+  font-size: 18px;
   width: auto;
   line-height: 20px;
   color: #555;
@@ -256,7 +257,7 @@ h2 {
 
 .masthead p em {
   font-style: normal;
-  display: block;
+  display: inline-block;
 }
 
 .masthead .logo {
@@ -609,16 +610,11 @@ footer span {
   }
 
   .masthead {
-    position: relative;
     margin-bottom: 32px;
-    padding-left: 50px;
   }
 
   .masthead .logo {
-    position: absolute;
-    top: 14px;
-    left: -5px;
-    display: block;
+    display: inline-block;
   }
 
   .event-detail .description.image {
@@ -655,11 +651,12 @@ footer span {
 }
 
 @media (min-width:560px) {
-  .masthead h1,
   .masthead p {
-    position: static;
-    float: none;
-    display: inline;
+    display: inline-block
+  }
+
+  .masthead p {
+    margin-top: 12px;
   }
 
   .masthead p em {
