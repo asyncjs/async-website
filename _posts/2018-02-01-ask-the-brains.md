@@ -38,3 +38,7 @@ Inspired by the monthly [Brighton ALT.NET meetup](http://brightonalt.net/) also 
 - Which Javascript unit testing framework should I use?
 
 The format works best when there is a diverse group of people and opinions in the room, so whether you consider yourself an absolute beginner, or a seasoned pro, please do come and join!
+
+### Update:
+
+The link for the Global Diversity CFP workshop is [here](https://www.globaldiversitycfpday.com/events/60); do come along and spread the word!
