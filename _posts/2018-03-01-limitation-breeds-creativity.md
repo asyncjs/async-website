@@ -11,6 +11,9 @@ speakers:
 - name: Cassie Evans
   link: https://twitter.com/cassiecodes
 sponsors:
+- name: Rakuten Marketing
+  link: https://rakutenmarketing.com/en-uk/career/full-stack-engineer
+  logo: /img/sponsors/rakuten.jpg
 tags:
 - css
 - html
@@ -31,3 +34,7 @@ In web dev, sometimes the sheer volume of things to learn can be overwhelming. P
 More choice doesn’t mean more creativity. When you work within constraints your mind has to look for unconventional ways around it. Come along to see me demo a few of my favourite unconventional solutions. (Some restrictions were even self inflicted.) 
 
 Expect LOTS of CSS, and a bunch of (hopefully) clever hacks.
+
+## Update
+
+This meeting will be sponsored by [Rakuten](https://rakutenmarketing.com/en-uk/career/full-stack-engineer), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
