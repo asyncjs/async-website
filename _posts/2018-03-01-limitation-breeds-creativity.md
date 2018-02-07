@@ -37,4 +37,4 @@ Expect LOTS of CSS, and a bunch of (hopefully) clever hacks.
 
 ## Update
 
-This meeting will be sponsored by [Rakuten](https://rakutenmarketing.com/en-uk/career/full-stack-engineer), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
+This meeting will be sponsored by [Rakuten Marketing](https://rakutenmarketing.com/en-uk/career/full-stack-engineer), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
