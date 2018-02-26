@@ -39,11 +39,11 @@ Speakers, please <a data-gist href="https://gist.github.com/JakeSidSmith/45e60f8
 
 For a spot of inspiration, check out our previous show n' tells: [International 2017][showntell-international-2017], [International 2016][showntell-international-2016], [Spring 2016][showntell-spring-2016], [International 2015][showntell-international-2015], [Spring 2015][showntell-spring-2015], or view all of our [previous events][events].
 
-[async]: http://asyncjs.com
+[async]: https://asyncjs.com
 [events]: https://asyncjs.com/events/
-[ask-the-brains]: http://localhost:3000/ask-the-brains/
+[ask-the-brains]: https://asyncjs.com/ask-the-brains/
 [showntell-spring-2015]: https://asyncjs.com/showntell-spring-2015/
-[showntell-international-2015]: http://asyncjs.com/showntell-2015/
+[showntell-international-2015]: https://asyncjs.com/showntell-2015/
 [showntell-spring-2016]: https://asyncjs.com/showntell-spring-2016/
 [showntell-international-2016]: https://asyncjs.com/international-show-n-tell-2016/
 [showntell-international-2017]: https://asyncjs.com/international-show-n-tell-2017/
