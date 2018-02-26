@@ -29,9 +29,11 @@ layout: event.html
 collection: events
 ---
 
-DESCRIPTION!
+It's 2018, and after a few great talks, and our new [Ask The Brains][ask-the-brains] evening of tech discussion, we're back with another Show n' Tell! Last year we had a great range of projects and topics, ranging from creative CSS animations, and generating "marble flow" textures in real time, to taking a look at some emerging new languages, and proposals for unit testing tools. And, not to forget, we had our youngest ever speaker, at only 8 years old, showing off a javascript game he had made.
 
-And, _if you’d like to grab a speaking slot_, you’ll have five minutes on the night to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, HTML, CSS, or the wider world of tech.
+Come along and see what awesome stuff the community has been working on, share your own projects, or talk about something you're passionate about.
+
+_If you’d like to grab a speaking slot_, you’ll have five minutes on the night to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, HTML, CSS, or the wider world of tech.
 
 Speakers, please <a data-gist href="https://gist.github.com/JakeSidSmith/45e60f8c45ab5128d760d33de7c3e3e1">add a comment to the Speakers' Gist</a>.
 
@@ -39,6 +41,7 @@ For a spot of inspiration, check out our previous show n' tells: [International 
 
 [async]: http://asyncjs.com
 [events]: https://asyncjs.com/events/
+[ask-the-brains]: http://localhost:3000/ask-the-brains/
 [showntell-spring-2015]: https://asyncjs.com/showntell-spring-2015/
 [showntell-international-2015]: http://asyncjs.com/showntell-2015/
 [showntell-spring-2016]: https://asyncjs.com/showntell-spring-2016/
