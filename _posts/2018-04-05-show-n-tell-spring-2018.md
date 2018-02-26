@@ -1,5 +1,5 @@
 ---
-title: Spring Show n' Tell
+title: Show n' Tell Spring 2018
 summary: Show us what you got!
 date: 2018-04-05T19:15:00
 # lanyrd: url.com
