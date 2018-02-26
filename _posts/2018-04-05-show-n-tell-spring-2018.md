@@ -7,10 +7,10 @@ speakers:
 # sponsors:
 # - name: Company
 #   link: domain.com
-# image:
-#   url:  http://s0.geograph.org.uk/geophotos/02/32/72/2327299_0870d9fd.jpg
-#   title: Street Entertainer 4
-#   link:  http://www.geograph.org.uk/photo/2327299
+image:
+  url:  /img/fractals/1.jpg
+  title: Fractal
+  link:  /img/fractals/1.jpg
 tags:
 - javascript
 - nodejs
