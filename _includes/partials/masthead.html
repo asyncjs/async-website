@@ -2,4 +2,13 @@
   <img class="logo" src="/img/logo-100x100.png" width="50" height="50" />
   <h1><a href="/">{{ site.title }}:</a></h1>
   {{{ markdown site.caption }}}
+  <ul class="social">
+    {{#each site.social as |social|}}
+      <li>
+        <a href="{{ social.link }}" title="{{ social.desc }}">
+          {{{ iconmonstr social.name }}}
+        </a>
+      </li>
+    {{/each}}
+  </ul>
 </header>
