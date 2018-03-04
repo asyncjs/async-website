@@ -249,7 +249,7 @@ h2 {
 
 .masthead {
   position: relative;
-  margin-bottom: 24px;
+  margin-bottom: 12px;
 }
 
 .masthead:after {
@@ -287,7 +287,7 @@ h2 {
 
 .social {
   list-style: none;
-  margin: 10px 0;
+  margin: 12px 0;
   padding: 0;
 
   li {
@@ -656,10 +656,6 @@ footer span {
 @media (min-width: $screen-xs) {
   h2 {
     font-size: 36px;
-  }
-
-  .masthead {
-    margin-bottom: 32px;
   }
 
   .masthead .logo {
