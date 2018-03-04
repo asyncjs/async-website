@@ -57,13 +57,14 @@ abbr {
 a {
   color: $black;
   text-decoration: none;
-  -webkit-transition: background-color, border-color, color;
+  -webkit-transition: background-color, border-color, color, fill;
   -webkit-transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-out;
 }
 
 a:hover {
   color: $red;
+  fill: $red;
 }
 
 iframe {
