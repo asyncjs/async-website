@@ -249,7 +249,8 @@ h2 {
 
 .masthead {
   position: relative;
-  margin-bottom: 12px;
+  margin: 12px 0;
+  border-bottom: 1px solid $grey-light;
 }
 
 .masthead:after {
@@ -270,6 +271,7 @@ h2 {
   text-transform: none;
   font-size: 48px;
   margin-right: 8px;
+  line-height: 1.2em;
 }
 
 .masthead p {
@@ -290,9 +292,18 @@ h2 {
   margin: 12px 0;
   padding: 0;
 
+  &::before,
+  &::after {
+    // Clearfix for float
+    content: '';
+    display: table;
+    clear: both;
+  }
+
   li {
-    display: inline-block;
-    margin-right: 5px;
+    display: block;
+    float: left;
+    margin-right: 12px;
 
     &:last-child {
       margin-right: 0;
