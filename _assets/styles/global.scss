@@ -12,7 +12,8 @@ $red-light: #ef4948;
 
 $green-light: #a6c664;
 
-$social-icon-size: 36px;
+$social-icon-size: 28px;
+$social-icon-size-large: 36px;
 
 body {
   font: 62.5%/1;
@@ -267,6 +268,11 @@ h2 {
   vertical-align: middle;
 }
 
+.masthead .logo-and-title {
+  margin: 12px 0;
+  float: left;
+}
+
 .masthead h1 {
   text-transform: none;
   font-size: 48px;
@@ -288,9 +294,15 @@ h2 {
 }
 
 .social {
+  display: block;
   list-style: none;
   margin: 12px 0;
   padding: 0;
+
+  @media all and (min-width: $screen-md) {
+    margin-top: 28px;
+    float: right;
+  }
 
   &::before,
   &::after {
@@ -312,8 +324,20 @@ h2 {
 
   svg {
     display: block;
-    width: $social-icon-size;
-    height: $social-icon-size;
+    width: $social-icon-size-large;
+    height: $social-icon-size-large;
+    transition: ease-in-out 0.1s all;
+    fill: $grey-medium;
+
+    &:hover {
+      fill: $red;
+      transform: scale(1.2, 1.2);
+    }
+
+    @media all and (min-width: $screen-md) {
+      width: $social-icon-size;
+      height: $social-icon-size;
+    }
   }
 }
 
@@ -717,7 +741,7 @@ footer span {
   }
 
   .masthead p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .column {
