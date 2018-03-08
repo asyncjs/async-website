@@ -58,9 +58,9 @@ abbr {
 a {
   color: $black;
   text-decoration: none;
-  -webkit-transition: background-color, border-color, color, fill;
-  -webkit-transition-duration: 0.2s;
-  -webkit-transition-timing-function: ease-out;
+  transition: background-color, border-color, color, fill;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
 }
 
 a:hover {
@@ -194,9 +194,7 @@ h2 {
   width: 32px;
   height: 32px;
   text-indent: -900em;
-  background: url(../img/lanyrd-48x48.png) no-repeat  center center;
-  -webkit-background-size: 16px 16px;
-  -moz-background-size: 16px 16px;
+  background: url(../img/lanyrd-48x48.png) no-repeat center center;
   background-size: 16px 16px;
   z-index: 1;
   margin-bottom: -8px;
@@ -361,8 +359,6 @@ h2 {
   left: 5px;
   width: 32px;
   height: 32px;
-  -webkit-background-size: 20px 20px;
-  -moz-background-size: 20px 20px;
   background-size: 20px 20px;
 }
 
@@ -670,14 +666,6 @@ footer span {
   width: 200%;
   height: 200%;
   max-width: 200%;
-  -webkit-transform: scale(0.5);
-  -webkit-transform-origin: top left;
-  -moz-transform: scale(0.62);
-  -moz-transform-origin: 0;
-  -o-transform: scale(0.62);
-  -o-transform-origin: 0;
-  -ms-transform: scale(0.62);
-  -ms-transform-origin: 0;
   transform: scale(0.62);
   transform-origin: 0;
 }
