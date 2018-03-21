@@ -4,7 +4,7 @@ summary: Show us what you got!
 date: 2018-04-05T19:15:00
 # lanyrd: url.com
 speakers:
- sponsors:
+sponsors:
 - name: Rakuten Marketing
   link: https://rakutenmarketing.com/en-uk/career/full-stack-engineer
   logo: /img/sponsors/rakuten.jpg
