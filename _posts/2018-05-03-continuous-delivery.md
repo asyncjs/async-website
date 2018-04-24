@@ -1,8 +1,7 @@
 ---
-title: Andy Hume on CI/CD
+title: Continuous Integration/Continuous Delivery
 summary: A web tech meetup for Brighton & Hove
 date: 2018-05-03T19:15:00
-# lanyrd: url.com
 speakers: 
  - name: Andy Hume
    link: https://twitter.com/andyhume
@@ -27,4 +26,8 @@ layout: event.html
 collection: events
 ---
 
-Andy Hume will be making his long awaited return to Async to share tales from the trenches working on continuous integration/deployment. More details TBC.
+I'm fascinated by how websites are built and released in to the world. I've been doing it in all sorts of ways for over fifteen years at companies like Microsoft, the Guardian, Twitter, and currently Brandwatch in Brighton. Over that time I've got somewhat opinionated about effective ways of releasing things on the web, whether that's web frontends, APIs, or cloud infrastructure.
+
+I think there are some core methodologies to developing, testing, building, and deploying software that lead to rapid, high quality, low-risk releases. Methodologies that empower developers and designers to get their work in front of users quickly, leading to better products and a much more rewarding and reliable way of developing.
+
+We'll talk through some of these methodologies and principles, and look at some specific implementations and examples.
