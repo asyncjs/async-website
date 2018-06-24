@@ -26,8 +26,6 @@ layout: event.html
 collection: events
 ---
 
-Amazon's Alexa has seen phenomenal take-up since its release in 2014. Join us for a workshop by Jez Nicholson, and create your very first Alexa app in Node.js!
-
-More details TBC.
+Amazon tutorials will help you make your first Hello World/Alexa app, but what then? Building a Voice User Interface raises questions that will apply to any app build. Jez will take you on a lightning tour of what he has learned so far. There will be slides+talk, there will be activities, there will be live(ish) coding. You should leave the session with an idea of how Alexa works and what a real-life project might involve..
 
 This meetup will be sponsored by Creative Technologies, so beers and pizzas for all! If you have any dietary requirements, please get in touch at <a href="mailto:hello@asyncjs.com">hello@asyncjs.com</a>
