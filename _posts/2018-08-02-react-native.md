@@ -24,4 +24,4 @@ layout: event.html
 collection: events
 ---
 
-David Sharp will be giving us a tour of React Native; the framework developed by Facebook to allow cross-plaform native mobile applications to be developed in JavaScript. More details TBC.
+Over the recent years, various attempts have been made to bring app development to the web development community, with varying degrees of success and popularity. Facebook's offering asks devs to leverage their knowledge of React and its ecosystem, but ditch the DOM, to allow for frictionless development of performant iOS and Android apps. However, with their "learn once, write anywhere" approach, is React Native really as straightforward as the marketing blurb would have you believe? In this talk, we'll cover how easy it is to get your React Native code running on a real device, offer a primer to the React and JSX way of life, and discuss some of the hurdles you might come across.
