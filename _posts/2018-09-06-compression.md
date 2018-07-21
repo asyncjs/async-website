@@ -23,4 +23,6 @@ layout: event.html
 collection: events
 ---
 
-Niall Coleman will be giving us an introduction to the wonderful world of compression algorithms, including a walk through of a game map compression tool he developed himself. More details TBC.
+I've always been amazed about how compression formats and algorithms work. Over the past couple of years, I have created a game that features a hand-rolled compression algorithm for the game maps. These consist of two 2D arrays of numbers, corresponding to the game tiles. However, this format can be applied to an integer array of any number of dimensions.
+
+This talk will be about how the compression algorithm works, including condensing the information and then translating to binary, before finally writing to disk.
