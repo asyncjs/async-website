@@ -6,7 +6,7 @@ speakers:
  - name: David Sharp
    link: https://davidsharp.codes/
 sponsors:
-- name: Prodpad
+- name: ProdPad
   link: https://www.prodpad.com/about-us/jobs/
   logo: /img/sponsors/prodpad.png
 image:
@@ -31,4 +31,4 @@ Over the recent years, various attempts have been made to bring app development 
 
 ## UPDATE:
 
-This meetup will now be sponsored by the good folk at [Prodpad](http://www.prodpad.com/about-us/jobs/), so beers and pizzas for all! If you have any dietary requirements, please get in touch at <a href="mailto:hello@asyncjs.com">hello@asyncjs.com</a>
+This meetup will now be sponsored by the good folk at [ProdPad](http://www.prodpad.com/about-us/jobs/), so beers and pizzas for all! If you have any dietary requirements, please get in touch at <a href="mailto:hello@asyncjs.com">hello@asyncjs.com</a>
