@@ -5,6 +5,9 @@ date: 2018-09-06T19:15:00
 speakers: 
  - name: Niall Coleman
 sponsors:
+- name: ProdPad
+  link: https://www.prodpad.com/about-us/jobs/
+  logo: /img/sponsors/prodpad.png
 image:
   url: https://farm5.staticflickr.com/4079/4785420782_4196588df4_z_d.jpg
   title: M113 - Car Crusher 2
@@ -26,3 +29,7 @@ collection: events
 I've always been amazed about how compression formats and algorithms work. Over the past couple of years, I have created a game that features a hand-rolled compression algorithm for the game maps. These consist of two 2D arrays of numbers, corresponding to the game tiles. However, this format can be applied to an integer array of any number of dimensions.
 
 This talk will be about how the compression algorithm works, including condensing the information and then translating to binary, before finally writing to disk.
+
+## UPDATE:
+
+This meetup will again be sponsored by the good folk at [ProdPad](http://www.prodpad.com/about-us/jobs/), so beers and pizzas for all! If you have any dietary requirements, please get in touch at <a href="mailto:hello@asyncjs.com">hello@asyncjs.com</a>
