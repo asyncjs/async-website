@@ -27,4 +27,12 @@ layout: event.html
 collection: events
 ---
 
-October will see the return of the famed Async "Double Bills". This meeting will include Mark Everitt on Unit Testing, and Dan Neame on Electron. More details TBC, stay tuned!
+October will see the return of the famed Async "Double Bills".
+
+Part 1: Testing JavaScript by Mark Everitt
+
+A whistle-stop tour of why, what, when, and how to test. This talk should be relevant to all JS coders, from those just starting out to seasoned developers.
+
+Part 2: Electon.js by Dan Neame
+
+Details TBC
