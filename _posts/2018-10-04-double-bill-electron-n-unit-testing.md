@@ -35,4 +35,4 @@ A whistle-stop tour of why, what, when, and how to test. This talk should be rel
 
 Part 2: Electon.js by Dan Neame
 
-Details TBC
+Electron allows you to package your web apps as executable Desktop applications. In this talk Dan Neame will cover how Electron works, how to get started with the framework, how to build a complicated application, and how to package these for release across Windows, Linux and Mac.
