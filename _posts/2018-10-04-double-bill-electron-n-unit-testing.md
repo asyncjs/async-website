@@ -33,6 +33,6 @@ Part 1: Testing JavaScript by Mark Everitt
 
 A whistle-stop tour of why, what, when, and how to test. This talk should be relevant to all JS coders, from those just starting out to seasoned developers.
 
-Part 2: Electon.js by Dan Neame
+Part 2: Electron.js by Dan Neame
 
 Electron allows you to package your web apps as executable Desktop applications. In this talk Dan Neame will cover how Electron works, how to get started with the framework, how to build a complicated application, and how to package these for release across Windows, Linux and Mac.
