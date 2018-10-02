@@ -8,6 +8,9 @@ speakers:
  - name: Mark Everitt
    link: https://qubyte.codes/
 sponsors:
+- name: Rakuten Marketing
+  link: https://rakutenmarketing.com/en-uk/career/full-stack-engineer
+  logo: /img/sponsors/rakuten.jpg
 image:
   url: https://farm2.staticflickr.com/1873/29163684827_51640f9e0d_z_d.jpg
   title: Double rainbow
@@ -36,3 +39,7 @@ A whistle-stop tour of why, what, when, and how to test. This talk should be rel
 Part 2: Electron.js by Dan Neame
 
 Electron allows you to package your web apps as executable Desktop applications. In this talk Dan Neame will cover how Electron works, how to get started with the framework, how to build a complicated application, and how to package these for release across Windows, Linux and Mac.
+
+## Update
+
+This meeting will be sponsored by [Rakuten Marketing](https://rakutenmarketing.com/en-uk/career/full-stack-engineer), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
