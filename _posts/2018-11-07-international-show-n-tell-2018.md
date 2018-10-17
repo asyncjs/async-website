@@ -16,11 +16,11 @@ tags:
 - nodejs
 - html
 venue:
-  name: The Skiff
-  link: https://www.theskiff.org/
-  location: https://goo.gl/maps/SPf97i5WkAR2
-  address: Ironworks, 30 Cheapside, Brighton, BN1 4GD
-  latlong: 50.829371,-0.138194
+  name: 68 Middle St
+  link: http://68middle.st
+  location: http://goo.gl/maps/dxEiT
+  address: Brighton, BN1
+  latlong: 50.82116,-0.143144
 layout: event.html
 collection: events
 ---
@@ -31,12 +31,14 @@ _If you’d like to grab a speaking slot_, you’ll have five minutes on the nig
 
 Speakers, please <a data-gist href="https://gist.github.com/larister/ab84a296acf8f6cc51e242ea40dd53ac">add a comment to the Speakers' Gist</a>.
 
-**Please Note**: If you haven't been for a couple of years, Async is now held at [The Skiff][theskiff]. See there me hearties.
-
 For a spot of inspiration, take a look at our International Show n' Tells in [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
+## Important Notice:
+
+For the Show'n'Tell we'll be back in our old venue of [68 Middle St][68middlest], _not_ The Skiff
+
 [ff]: http://2018.ffconf.org/
-[theskiff]: https://www.theskiff.org/
+[68middlest]: http://68middle.st
 [async]: http://asyncjs.com
 [showntell-2010]: http://asyncjs.com/showntell3/
 [showntell-2011]: http://asyncjs.com/international2011/
