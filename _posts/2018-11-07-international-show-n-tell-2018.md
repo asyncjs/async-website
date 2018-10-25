@@ -4,12 +4,15 @@ summary: A web tech meetup for Brighton & Hove
 date: 2018-11-07T19:15:00
 lanyrd: 
 image:
-  url: https://farm7.staticflickr.com/6166/6197157605_558c8d4360_z_d.jpg
-  title: Cirque Maximum
-  link: https://www.flickr.com/photos/dirkscircusimages/
+  url: https://farm4.staticflickr.com/3289/3060694963_3d778f69dd_z_d.jpg
+  title: The Juggler II
+  link: https://www.flickr.com/photos/helico
 speakers:
 - name: All and sundry
 sponsors:
+- name: Ocasta
+  link: https://ocasta.recruitee.com/
+  logo: https://s3-eu-west-2.amazonaws.com/ocasta-dev-wp-content/ocastalive/app/uploads/social-large-5121.png
 tags:
 - showntell
 - javascript
@@ -36,6 +39,10 @@ For a spot of inspiration, take a look at our International Show n' Tells in [20
 ## Important Notice:
 
 For the Show'n'Tell we'll be back in our old venue of [68 Middle St][68middlest], _not_ The Skiff
+
+# Update:
+
+This meetup will be sponsored by [Ocasta](https://ocasta.com), so drinks and pizzas for all! This session, all pizzas will be from [Purezza](http://purezza.co.uk/), so no need to let us know dietary requirements except for gluten free as they'll all be vegan/vegetarian :)
 
 [ff]: http://2018.ffconf.org/
 [68middlest]: http://68middle.st
