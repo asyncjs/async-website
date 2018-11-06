@@ -1,5 +1,5 @@
 ---
-title: Readable code - Between UX and I
+title: Useable, Grammatical and Readable code
 summary: A web tech meetup for Brighton & Hove
 date: 2018-12-06T19:15:00
 lanyrd: 
@@ -25,6 +25,8 @@ layout: event.html
 collection: events
 ---
 
-Daniel van Berzon will be giving a talk on the crucial art of code readability; including insights gained from his [howreadable.com](http://howreadable.com/) survey.
+As software developers, we all know that we need to make our code more readable - but how exactly? There is not a lot of literature out there on the subject, and what there is can be very dogmatic and contradictory.
 
-More details TBC.
+In this talk, Daniel van Berzon attempts to tackle the issue by learning from the worlds of Linguistics and UX, which have successfully solved similar problems. As part of the talk Daniel will present the initial findings from his ongoing readability experiment at [howreadable.com](http://howreadable.com).
+
+Anyone who has written some code, used a website and tried to speak a language (including English) should enjoy this talk.
