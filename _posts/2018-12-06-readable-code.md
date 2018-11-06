@@ -16,11 +16,11 @@ tags:
 - javascript
 - codingpractices
 venue:
-  name: 68 Middle St
-  link: http://68middle.st
-  location: http://goo.gl/maps/dxEiT
-  address: Brighton, BN1
-  latlong: 50.82116,-0.143144
+  name: The Skiff
+  link: https://www.theskiff.org/
+  location: https://goo.gl/maps/SPf97i5WkAR2
+  address: Ironworks, 30 Cheapside, Brighton, BN1 4GD
+  latlong: 50.829371,-0.138194
 layout: event.html
 collection: events
 ---
