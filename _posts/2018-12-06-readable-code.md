@@ -11,6 +11,9 @@ speakers:
 - name: Daniel van Berzon
   link: https://twitter.com/dvberzon
 sponsors:
+- name: Ocasta
+  link: https://ocasta.recruitee.com/
+  logo: https://s3-eu-west-2.amazonaws.com/ocasta-dev-wp-content/ocastalive/app/uploads/social-large-5121.png
 tags:
 - readability
 - javascript
@@ -30,3 +33,7 @@ As software developers, we all know that we need to make our code more readable 
 In this talk, Daniel van Berzon attempts to tackle the issue by learning from the worlds of Linguistics and UX, which have successfully solved similar problems. As part of the talk Daniel will present the initial findings from his ongoing readability experiment at [howreadable.com](http://howreadable.com).
 
 Anyone who has written some code, used a website and tried to speak a language (including English) should enjoy this talk.
+
+# Update:
+
+This meetup will be sponsored by [Ocasta](https://ocasta.com), so drinks and pizzas for all! This session, all pizzas will be from [Purezza](http://purezza.co.uk/), so no need to let us know dietary requirements except for gluten free as they'll all be vegan/vegetarian :)
