@@ -11,6 +11,9 @@ speakers:
 - name: Alasdair McLeay
 - name: Steve Sims
 sponsors:
+- name: Brandwatch
+  link: http://www.brandwatch.com
+  logo: /img/sponsors/brandwatch.png
 tags:
 - javascript
 - reactjs
@@ -35,3 +38,7 @@ This will be useful for anyone interested in:
 - React
 
 Alasdair McLeay and Steve Sims are freelance UI developers, currently working on a large public sector project for IBM.
+
+### Update
+
+Brandwatch have stepped in at the last moment to offer sponsorship, hooray! Free beers & pizzas for all. Please contact hello AT asyncjs DOT com if you have specific dietary requirements.
