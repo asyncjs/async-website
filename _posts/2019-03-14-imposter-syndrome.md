@@ -9,6 +9,10 @@ image:
   link: https://www.flickr.com/photos/42714088@N07/9128471890/
 speakers:
 - name: Pete
+sponsors:
+- name: Brandwatch
+  link: http://www.brandwatch.com
+  logo: /img/sponsors/brandwatch.png
 tags:
 - code
 - life
@@ -27,3 +31,7 @@ Imposter syndrome. You may have heard of it. You may have suffered from it. You 
 This talk will explore a journey through imposter syndrome: recognition, acceptance and coping strategies.
 
 Disclaimer: It won't contain a magic cure, but hopefully some of it will help!
+
+### Update
+
+Brandwatch will now be sponsoring! Free beers & pizzas for all. Please contact hello AT asyncjs DOT com if you have specific dietary requirements.
