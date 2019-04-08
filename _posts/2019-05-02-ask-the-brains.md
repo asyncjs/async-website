@@ -38,4 +38,6 @@ Inspired by the monthly [Brighton ALT.NET meetup](http://brightonalt.net/) also 
 - Is it just me, or is React Router 5 rubbish?
 - Should I write unit tests, integration tests, or both?
 
-The format works best when there is a diverse group of people and opinions in the room, so whether you consider yourself an absolute beginner, or a seasoned pro, please do come and join!
+The format works best when there is a diverse group of people and opinions in the room, so whether you consider yourself an absolute beginner, or a seasoned pro, do come and join.
+
+So, please put your thinking caps on now and start thinking of some questions you would like to ask, so you can come prepared!
