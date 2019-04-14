@@ -27,7 +27,7 @@ collection: events
 ---
 
 
-After last year's successful [Ask the Brains](https://asyncjs.com/ask-the-brains/) event, we'll be rebooting it for 2019.
+After last year's successful [Ask the Brains](https://asyncjs.com/ask-the-brains-spring-18/) event, we'll be rebooting it for 2019.
 
 Inspired by the monthly [Brighton ALT.NET meetup](http://brightonalt.net/) also hosted at the Skiff, we will be asking/talking/ranting about everything web related - 10 minutes per topic. The aim is to create a friendly environment for everyone to ask their "that thing you've never understood but always been too afraid to ask" type questions, plus any other topics you feel like talking about on the night. Topics such as:
 
