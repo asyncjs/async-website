@@ -2,14 +2,16 @@
 title: Ask the Brains Spring 2019
 summary: A web tech meetup for Brighton & Hove
 date: 2019-05-02T19:15:00
-lanyrd: 
 image:
-  url: 
-  title: 
-  link: 
+  url: https://live.staticflickr.com/4138/4932655275_9af8d4e8b6_n_d.jpg
+  title: What?
+  link: https://www.flickr.com/photos/debord/
 speakers:
 - name: Everyone
 sponsors:
+- name: Madgex
+- link: https://madgex.com/uk/careers#vacancies
+  logo: /img/sponsors/madgex.png
 tags:
 - workshop
 - questions
@@ -41,3 +43,7 @@ Inspired by the monthly [Brighton ALT.NET meetup](http://brightonalt.net/) also 
 The format works best when there is a diverse group of people and opinions in the room, so whether you consider yourself an absolute beginner, or a seasoned pro, do come and join.
 
 So, please put your thinking caps on now and start thinking of some questions you would like to ask, so you can come prepared!
+
+## Update
+
+This meeting will be sponsored by [Madgex](https://madgex.com/uk/careers#vacancies), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
