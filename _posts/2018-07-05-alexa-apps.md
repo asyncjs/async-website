@@ -6,7 +6,7 @@ speakers:
  - name: Jez Nicholson
 sponsors:
 - name: Creative Technologies
-  link: https://www.creative-technologies.co.uk
+  -link: https://www.creative-technologies.co.uk
   logo: /img/sponsors/creative-technologies.jpg
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/c/cc/Amazon_Alexa_App_Logo.png

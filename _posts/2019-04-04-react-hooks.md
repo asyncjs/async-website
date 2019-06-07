@@ -11,7 +11,7 @@ speakers:
 - name: Matthew McCorry
 sponsors:
 - name: Creative Technologies
-  link: https://www.creative-technologies.co.uk
+  -link: https://www.creative-technologies.co.uk
   logo: /img/sponsors/creative-technologies.jpg
 tags:
 - React
