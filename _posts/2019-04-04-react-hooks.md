@@ -11,7 +11,8 @@ speakers:
 - name: Matthew McCorry
 sponsors:
 - name: Creative Technologies
-  logo: /img/sponsors/ctOneWorld.jpg
+  link: https://www.creative-technologies.co.uk
+  logo: /img/sponsors/creative-technologies.jpg
 tags:
 - React
 - Hooks
@@ -30,4 +31,4 @@ The highly anticipated feature of React Hooks has finally been released. We can 
 
 We are going to take a look at the precursors to Hooks, then learn about how Hooks work and how to use them to improve our React apps.
 
-This meetup will be sponsored by Creative Technologies, so beers and pizzas for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
+This meetup will be sponsored by [Creative Technologies](https://www.creative-technologies.co.uk), so beers and pizzas for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
