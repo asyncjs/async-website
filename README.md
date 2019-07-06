@@ -6,7 +6,22 @@ Welcome to the repository for the Async website. The site is statically generate
 
 ## Running the server locally
 
-You'll need [node.js][#nodejs] >=6.0.0 installed locally. Once done you can install project dependencies by running:
+You'll need [node.js][#nodejs] >=12.6.0 and npm >=6.10.0 installed locally.
+
+If you are using nvm, you can run the following to install and use node 12:
+
+```bash
+nvm install
+nvm use
+```
+
+You can then globally install npm 6 with:
+
+```bash
+npm i npm@6.10 -g
+```
+
+Once you have the correct node and npm versions you can install project dependencies by running:
 
 ```bash
 $ npm install
