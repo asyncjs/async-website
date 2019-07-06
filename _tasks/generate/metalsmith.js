@@ -21,7 +21,6 @@ const redirect = require('metalsmith-redirect')
 const metadata = require('metalsmith-metadata')
 const metadataInFilename = require('metalsmith-metadata-in-filename')
 const buildDate = require('metalsmith-build-date')
-const analytics = require('metalsmith-google-analytics').default
 const excerpts = require('metalsmith-excerpts')
 const more = require('metalsmith-more')
 
@@ -180,9 +179,6 @@ module.exports = function metalsmith(cb) {
         postDescription: ({ less, contents }) => less || contents,
         postCustomElements: customElements
       }))
-
-      // Metalsmith analytics
-      .use(analytics(process.env.GA_KEY))
 
       // .use((files, meta, done) => {
       //   for (let key in files) {
