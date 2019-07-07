@@ -1,14 +1,35 @@
 <header class="masthead">
-  <div class="logo-and-title">
-    <img class="logo" src="/img/logo-100x100.png" width="50" height="50" />
-    <h1>
-      <a href="/">
-        {{ site.title }}:
-      </a>
-    </h1>
-    {{{ markdown site.caption }}}
-  </div>
-  <ul class="social">
+  <h1 class="main-header">
+    <a href="/">
+      <img class="logo" src="/img/logo-100x100.png" alt="Async" width="50" height="50" />
+      <span class="text">
+        {{ site.title }}
+      </span>
+    </a>
+  </h1>
+  <nav class="main-nav">
+    <ul>
+      <li>
+        <a href="/" {{#if is_home }}class="active"{{/if}}>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="/events" {{#if is_events }}class="active"{{/if}}>
+          Events
+        </a>
+      </li>
+      <li>
+        <a href="/about" {{#if is_about }}class="active"{{/if}}>
+          About
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- {{{ markdown site.caption }}} -->
+  <!-- <ul class="social">
     {{#each site.social as |social|}}
       <li>
         <a href="{{ social.link }}" target="_blank" title="{{ social.desc }}">
@@ -16,5 +37,5 @@
         </a>
       </li>
     {{/each}}
-  </ul>
+  </ul> -->
 </header>
