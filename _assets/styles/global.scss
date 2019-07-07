@@ -1,6 +1,5 @@
 @import 'variables';
 @import 'overrides';
-@import 'wrapper';
 @import 'masthead';
 
 .no-wrap {
@@ -128,24 +127,9 @@
 
 .module {
   clear: left;
-}
-
-.module:after {
-  content: "";
-  display: block;
-  height: 1px;
-  background-color: $grey-light;
-  margin: 20px 0;
-  width: 100%;
-  clear: both;
-}
-
-.column:last-of-type:after {
-  content: "";
-}
-
-.module:last-of-type:after {
-  content: "";
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .module-heading {
