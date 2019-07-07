@@ -1,8 +1,31 @@
 @import 'variables';
 
+.footer {
+  h2,
+  .links {
+    vertical-align: middle;
+  }
+
+  h2 {
+    display: inline;
+    font-size: 16px;
+  }
+
+  a {
+    border-bottom: 1px dashed;
+  }
+
+  span {
+    white-space: nowrap;
+  }
+}
+
 .links {
+  display: inline;
+  line-height: 2em;
+
   li {
-    display: inline-block;
+    display: inline;
 
     &::after {
       content: " •";
