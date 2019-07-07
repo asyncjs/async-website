@@ -1,6 +1,12 @@
 <footer>
   <div class="container">
-    <p>
+    <ul class="links">
+      {{#each site.elsewhere}}
+        <li><a href="{{ link }}" title="{{ desc }}">{{ name }}</a></li>
+      {{/each}}
+    </ul>
+
+    <p class="credits">
       <span>Webfonts <a href="https://fonts.google.com/?selection.family=Catamaran:400,700">Catamaran</a> and <a href="https://fonts.google.com/?selection.family=Anton">Anton</a> served by <a href="https://fonts.google.com">Google Fonts</a>.</span>
       <span>Lanyrd Icons by <a href="https://paulrobertlloyd.com/2009/06/social_media_icons/">PRL</a>.</span>
       <span>Content licenced under <a href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.</span>
