@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'overrides';
 @import 'masthead';
+@import 'footer';
 
 .no-wrap {
   white-space: nowrap;
@@ -124,6 +125,15 @@
   max-width: 1024px;
   margin: 0 auto;
   padding: 0 16px;
+
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+    width: 0;
+    height: 0;
+    clear: both;
+  }
 }
 
 .module,
@@ -303,24 +313,6 @@
   font-size: 13px;
   line-height: 1;
   color: #2e2e2e;
-}
-
-.links li {
-  display: inline-block;
-}
-
-.links li:after {
-  content: " •";
-  padding: 0 8px;
-  color: #808080;
-}
-
-.links li:last-child:after {
-  content: "";
-}
-
-.links li a {
-  border-bottom: 1px dashed;
 }
 
 .news {
