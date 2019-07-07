@@ -1,0 +1,9 @@
+@import 'variables';
+
+.wrapper {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  padding-top: $masthead-height;
+  padding-bottom: $footer-height;
+}
