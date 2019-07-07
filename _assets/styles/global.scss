@@ -1,29 +1,11 @@
-$screen-xs: 480px;
-$screen-sm: 560px;
-$screen-md: 768px;
-
-$white: #fff;
-$grey-light: #ccc;
-$grey-medium: #aaa;
-$black: #000;
-
-$red: #e52222;
-$red-light: #ef4948;
-
-$green-light: #a6c664;
-
-$social-icon-size: 28px;
-$social-icon-size-large: 36px;
+@import 'variables';
+@import 'wrapper';
+@import 'masthead';
 
 body {
   font: 62.5%/1;
   margin: 0;
   padding: 0;
-}
-
-.wrapper {
-  margin: 0 auto;
-  padding: 12px;
 }
 
 h1,
@@ -298,7 +280,6 @@ h2 {
   padding: 0;
 
   @media all and (min-width: $screen-md) {
-    margin-top: 28px;
     float: right;
   }
 
@@ -681,10 +662,6 @@ footer span {
     font-size: 36px;
   }
 
-  .masthead .logo {
-    display: inline-block;
-  }
-
   .event-detail .description.image {
     position: relative;
   }
@@ -712,26 +689,7 @@ footer span {
   }
 }
 
-@media (min-width: $screen-sm) {
-  .masthead p {
-    display: inline-block;
-    margin-top: 12px;
-  }
-
-  .masthead p em {
-    display: inline;
-  }
-}
-
 @media (min-width: $screen-md) {
-  .wrapper {
-    max-width: $screen-md;
-  }
-
-  .masthead p {
-    font-size: 20px;
-  }
-
   .column {
     float: left;
     box-sizing: border-box;
