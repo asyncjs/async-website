@@ -1,74 +1,10 @@
 @import 'variables';
+@import 'overrides';
 @import 'wrapper';
 @import 'masthead';
 
-body {
-  font: 62.5%/1;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.header {
-  text-transform: uppercase;
-  text-shadow: 0 0 1px $white;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-ol,
-p {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-abbr {
-  cursor: help;
-}
-
-a {
-  color: $black;
-  text-decoration: none;
-  transition: background-color, border-color, color, fill;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-out;
-}
-
-a:hover {
-  color: $red;
-  fill: $red;
-}
-
-iframe {
-  display: block;
-  max-width: 100%;
-  margin-bottom: 16px;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .no-wrap {
   white-space: nowrap;
-}
-
-h2 {
-  font-size: 28px;
-  margin-bottom: 16px;
 }
 
 .clear {
@@ -476,26 +412,6 @@ h2 {
 
 .news-item .read-more {
   margin-top: -16px;
-}
-
-footer {
-  line-height: 1.5;
-}
-
-footer,
-footer a {
-  font-size: 12px;
-  color: $grey-medium;
-  margin-top: 32px;
-  margin-bottom: 16px;
-}
-
-footer a {
-  border-bottom: 1px dashed;
-}
-
-footer span {
-  white-space: nowrap;
 }
 
 .dharmafly {
