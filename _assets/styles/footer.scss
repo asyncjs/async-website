@@ -1,0 +1,27 @@
+@import 'variables';
+
+.links {
+  li {
+    display: inline-block;
+
+    &::after {
+      content: " •";
+      padding: 0 8px;
+      color: #808080;
+    }
+
+    &:last-child::after {
+      content: "";
+    }
+
+    a {
+      border-bottom: 1px dashed;
+    }
+  }
+}
+
+.credits,
+.credits a {
+  font-size: 12px;
+  color: $grey-medium;
+}
