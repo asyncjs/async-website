@@ -32,12 +32,22 @@
       "desc": "Request access to the Async Slack channel"
     },
     {
+      "name": "Meetup",
+      "link": "https://www.meetup.com/Async-Web-Tech-Meetup/",
+      "desc": "Join our meetup group"
+    },
+    {
       "name": "GitHub",
       "link": "https://github.com/asyncjs/async-website",
       "desc": "Fork this site on GitHub"
     }
   ],
   "elsewhere": [
+    {
+      "name": "Meetup",
+      "link": "https://www.meetup.com/Async-Web-Tech-Meetup/",
+      "desc": "Join our meetup group"
+    },
     {
       "name": "News",
       "link": "/news/",
