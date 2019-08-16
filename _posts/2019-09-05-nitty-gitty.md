@@ -7,9 +7,12 @@ image:
   title: Git logo
   link: https://git-scm.com/downloads/logos
 speakers:
-- name: Daniel van Berzon
-  link: https://twitter.com/dvberzon
+  - name: Daniel van Berzon
+    link: https://twitter.com/dvberzon
 sponsors:
+  - name: Creative Technologies
+    -link: https://www.creative-technologies.co.uk
+    logo: /img/sponsors/creative-technologies.png
 tags:
   - git
   - tools
@@ -33,3 +36,7 @@ Some exposure to git would be beneficial to enjoy this talk
 ### Lightning Talk
 
 [Remi Shergold](https://remi-shergold.com/) will give us a lightning talk on CSS Modules
+
+### Update
+
+This meetup will be sponsored by [Creative Technologies](https://www.creative-technologies.co.uk), so beers and pizzas for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
