@@ -6,13 +6,13 @@ is_events: true
 
 <div class="container">
   <h1>
-    Events
+    {{{ iconmonstr 'calendar' }}}Events
   </h1>
 
   {{> nextEvent}}
 
   <section class="module links">
-    <h2 class="module-heading">Archives</h2>
+    <h2 class="module-heading">{{{ iconmonstr 'archive' }}}Archives</h2>
 
     <ul>
       {{#each archive.events.years}}
@@ -22,7 +22,7 @@ is_events: true
   </section>
   {{#each archive.events.months}}
     <section class="module">
-      <h2 class="module-heading">{{ @key }}</h2>
+      <h2 class="module-heading">{{{ iconmonstr 'calendar' }}}{{ @key }}</h2>
       <ul>
         {{#each this}}
           <li class="column event-item">{{> eventItem }}</li>
