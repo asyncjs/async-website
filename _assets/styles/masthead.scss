@@ -78,10 +78,10 @@
   a {
     position: relative;
     display: inline-block;
-    font-weight: bold;
+    font-family: $font-family-header;
 
     &.active {
-      color: $red;
+      color: $primary;
 
       &::after {
         content: '';
@@ -91,7 +91,7 @@
         width: 100%;
         display: block;
         margin-top: 4px;
-        border-bottom: 2px solid $red;
+        border-bottom: 2px solid $primary;
       }
     }
   }
