@@ -18,6 +18,10 @@ Tools Development: Yann Eves
 Twitter: @yanneves_
 Location: Brighton, UK
 
+Upgrades & Re-design (2019): Jake 'Sid' Smith
+Twitter: @jakesidsmith
+Location: Brighton, UK
+
 And all our other contributors at https://github.com/asyncjs/asyncjs.github.com/graphs/contributors
 
 /* THANKS */
