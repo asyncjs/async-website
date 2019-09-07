@@ -7,12 +7,12 @@
 
       <div class="container">
         <section class="module event-detail">
-          <h2 class="module-heading">This Event</h2>
+          <h2 class="module-heading">{{{ iconmonstr 'calendar-tick' }}}This Event</h2>
           {{> eventDetail }}
         </section>
         <section class="module">
           <section class="column past-events">
-            <h2 class="module-heading">Previous Event</h2>
+            <h2 class="module-heading">{{{ iconmonstr 'calendar-clock' }}}Previous Event</h2>
             <ul class="event-listing">
               {{#with next}}
               <li class="event-item">{{> eventItem }}</li>
@@ -24,7 +24,7 @@
             <p class="read-more"><a href="/events/">View all events</a></p>
           </section>
           <section class="column upcoming-events">
-            <h2 class="module-heading">Following Event</h2>
+            <h2 class="module-heading">{{{ iconmonstr 'calendar-date' }}}Following Event</h2>
             <ul class="event-listing">
               {{#with previous}}
               <li class="event-item">{{> eventItem }}</li>
