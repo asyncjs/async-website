@@ -7,12 +7,12 @@
 
       <div class="container">
         <h1>
-          {{ title }}
+          {{{ iconmonstr 'archive' }}}{{ title }}
         </h1>
         {{#if children}}
           <section class="module links">
             <h2 class="module-heading">
-              Refine
+              {{{ iconmonstr 'calendar' }}}Refine
             </h2>
             <ul>
               {{#each children}}
@@ -23,7 +23,7 @@
         {{/if}}
         <section class="module">
           {{#unless children}}
-            <h2 class="module-heading">{{ title }}</h2>
+            <h2 class="module-heading">{{{ iconmonstr 'calendar' }}}{{ title }}</h2>
           {{/unless}}
           <ul>
             {{#each posts}}
