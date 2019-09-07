@@ -21,8 +21,6 @@
 }
 
 .main-header {
-  white-space: nowrap;
-
   a {
     line-height: 1em;
   }
@@ -46,6 +44,7 @@
   .logo {
     display: inline-block;
     width: 36px;
+    margin-right: 10px;
 
     @media all and (min-width: $screen-sm) {
       width: 48px;
