@@ -11,8 +11,9 @@ is_events: true
 
   {{> nextEvent}}
 
-  <h2>Archives</h2>
   <section class="module links">
+    <h2>Archives</h2>
+
     <ul>
       {{#each archive.events.years}}
         <li><a href="{{ @key }}" title="{{ @key }}">{{ @key }}</a></li>
