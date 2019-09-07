@@ -64,26 +64,22 @@
 
   li {
     display: inline;
+    margin-right: 20px;
 
-    &::after {
-      content: '|';
-      margin: 0 8px
-    }
-
-    &:last-child::after {
-      content: none;
+    &:last-child {
+      margin-right: 0;
     }
   }
 
   a {
-    position: relative;
     display: inline-block;
     font-family: $font-family-header;
+    text-decoration: none;
 
     &.active {
       color: $primary;
 
-      &::after {
+      span::after {
         content: '';
         position: absolute;
         top: 100%;
@@ -94,5 +90,31 @@
         border-bottom: 2px solid $primary;
       }
     }
+
+    .text {
+      position: relative;
+      display: none;
+
+      @media all and (min-width: 480px) {
+        display: inline;
+      }
+    }
+
+    .text,
+    svg {
+      vertical-align: middle;
+    }
+  }
+
+  svg {
+    fill: $tertiary;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+
+  a.active svg {
+    fill: $primary;
   }
 }
