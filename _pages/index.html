@@ -7,7 +7,7 @@ is_home: true
 <div class="container">
   {{#each headlines}}
     <section class="module news" data-timestamp="{{ date }}">
-      <a href="/{{ path }}"><strong>News:</strong> {{ title }}</a>
+      <a href="/{{ path }}"><strong>News</strong> {{ title }}</a>
     </section>
   {{/each}}
 
@@ -15,7 +15,7 @@ is_home: true
 
   <section class="module">
     <section class="column upcoming-events">
-      <h2 class="module-heading">Upcoming Events:</h2>
+      <h2 class="module-heading">Upcoming Events</h2>
       <ul class="event-listing">
         {{#each upcoming}}
           <li class="event-item">{{> eventItem}}</li>
@@ -27,7 +27,7 @@ is_home: true
       <p class="read-more"><a href="/events/">View all events</a></p>
     </section>
     <section class="column past-events">
-      <h2 class="module-heading">Past Events:</h2>
+      <h2 class="module-heading">Past Events</h2>
       <ul class="event-listing">
         {{#each past}}
           <li class="event-item">{{> eventItem}}</li>
