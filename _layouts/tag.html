@@ -4,20 +4,22 @@
   <body>
     <div class="wrapper">
       {{> masthead}}
-      <section class="module">
-        <h2 class="module-heading">{{ tag }}</h2>
-        <ul class="event-listing">
-          {{#each pagination.files}}
-            <li class="event-item">{{> eventItem}}</li>
-          {{/each}}
-          {{#if pagination.previous}}
-            <p class="read-more"><a href="{{ pagination.previous.path }}">Previous</a>
-          {{/if}}
-          {{#if pagination.next}}
-            <p class="read-more"><a href="{{ pagination.next.path }}">Next</a>
-          {{/if}}
-        </ul>
-      </section>
+      <div class="container">
+        <section class="module">
+          <h2 class="module-heading">{{ tag }}</h2>
+          <ul class="event-listing">
+            {{#each pagination.files}}
+              <li class="event-item">{{> eventItem}}</li>
+            {{/each}}
+            {{#if pagination.previous}}
+              <p class="read-more"><a href="{{ pagination.previous.path }}">Previous</a></p>
+            {{/if}}
+            {{#if pagination.next}}
+              <p class="read-more"><a href="{{ pagination.next.path }}">Next</a></p>
+            {{/if}}
+          </ul>
+        </section>
+      </div>
       {{> footer}}
     </div>
   </body>
