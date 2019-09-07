@@ -2,6 +2,8 @@
 @import 'overrides';
 @import 'wrapper';
 @import 'masthead';
+@import 'hero';
+@import 'social';
 @import 'module';
 @import 'footer';
 
@@ -96,53 +98,6 @@
     width: 0;
     height: 0;
     clear: both;
-  }
-}
-
-.social {
-  display: block;
-  list-style: none;
-  margin: 12px 0;
-  padding: 0;
-
-  @media all and (min-width: $screen-md) {
-    float: right;
-  }
-
-  &::before,
-  &::after {
-    // Clearfix for float
-    content: '';
-    display: table;
-    clear: both;
-  }
-
-  li {
-    display: block;
-    float: left;
-    margin-right: 8px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  svg {
-    display: block;
-    width: $social-icon-size-large;
-    height: $social-icon-size-large;
-    transition: ease-in-out 0.1s all;
-    fill: $grey-medium;
-
-    &:hover {
-      fill: $primary;
-      transform: scale(1.2, 1.2);
-    }
-
-    @media all and (min-width: $screen-md) {
-      width: $social-icon-size;
-      height: $social-icon-size;
-    }
   }
 }
 
