@@ -4,20 +4,28 @@
   <body>
     <div class="wrapper">
       {{> masthead}}
-      <section class="module event-detail">
-        <h2 class="module-heading">News:</h2>
-        <article class="event-detail">
-          <header>
-            <h2 class="heading">{{ title }}</h2>
-            <p class="meta">
-              {{#if authors}}
-                By {{> userList users=authors }}&nbsp;
-              {{/if}}
-              <a href="/{{ path }}">Posted on {{ day date }}</a>
-          </header>
-          {{> postDescription post=this }}
-        </article>
-      </section>
+      <div class="container">
+        <section class="module event-detail">
+          <h2 class="module-heading">News:</h2>
+          <article class="event-detail">
+            <header>
+              <h2 class="heading">
+                <a href="/{{ path }}">
+                  {{ title }}
+                </a>
+              </h2>
+              <p class="meta">
+                {{#if authors}}
+                  By {{> userList users=authors }}&nbsp;
+                {{/if}}
+
+                Posted on {{ day date }}
+              </p>
+            </header>
+            {{> postDescription post=this }}
+          </article>
+        </section>
+      </div>
       {{> footer}}
     </div>
   </body>
