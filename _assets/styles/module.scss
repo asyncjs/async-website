@@ -1,4 +1,6 @@
 .module {
+  margin: 50px auto;
+
   &::before,
   &::after {
     content: '';
