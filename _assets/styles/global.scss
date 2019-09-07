@@ -223,14 +223,11 @@
   font-size: 18px;
 }
 
-.event-detail .description:before,
-.event-detail .description:after {
-    content: "";
-    display: table;
-}
-
-.event-detail .description:after {
-    clear: both;
+.event-detail .description::before,
+.event-detail .description::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .event-detail .bordered {
