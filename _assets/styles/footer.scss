@@ -5,20 +5,13 @@
   width: 100%;
   left: 0;
   bottom: 0;
-
-  h2,
-  .links {
-    vertical-align: middle;
-  }
-
-  h2 {
-    font-size: 18px;
-    margin: 4px 0;
-  }
+  background-color: darken($primary, 30%);
+  color: $grey-light;
 }
 
 .links {
-  display: inline;
+  display: inline-block;
+  margin-bottom: 0;
   line-height: 2em;
 
   li {
@@ -27,7 +20,7 @@
     &::after {
       content: " •";
       margin: 0 8px;
-      color: #808080;
+      color: $grey-light;
     }
 
     &:last-child::after {
