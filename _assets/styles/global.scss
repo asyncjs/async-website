@@ -241,16 +241,11 @@
 }
 
 .event-item {
-  margin: 0 0 16px 0;
+  margin: 16px auto;
 
   h3,
   p {
     margin: 4px 0;
-  }
-
-  h3 {
-    font-size: 18px;
-    line-height: 1.2;
   }
 }
 
@@ -446,10 +441,6 @@
 
   .column:after {
     content: "";
-  }
-
-  .column.event-item h3 {
-    margin-top: 0;
   }
 }
 

@@ -1,5 +1,5 @@
 .module {
-  margin: 50px auto;
+  margin: 25px auto;
 
   &::before,
   &::after {
@@ -7,4 +7,8 @@
     display: table;
     clear: both;
   }
+}
+
+.module-heading {
+  font-size: 24px;
 }
