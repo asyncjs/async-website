@@ -2,6 +2,7 @@
 @import 'overrides';
 @import 'wrapper';
 @import 'masthead';
+@import 'module';
 @import 'footer';
 
 .no-wrap {
@@ -119,10 +120,6 @@
     height: 0;
     clear: both;
   }
-}
-
-.module {
-  clear: left;
 }
 
 .social {
