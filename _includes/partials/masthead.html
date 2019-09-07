@@ -8,17 +8,17 @@
     <ul>
       <li>
         <a href="/" {{#if is_home }}class="active"{{/if}}>
-          Home
+          {{{ iconmonstr 'home' }}}<span class="text">Home</span>
         </a>
       </li>
       <li>
         <a href="/events" {{#if is_events }}class="active"{{/if}}>
-          Events
+          {{{ iconmonstr 'calendar' }}}<span class="text">Events</span>
         </a>
       </li>
       <li>
         <a href="/about" {{#if is_about }}class="active"{{/if}}>
-          About
+          {{{ iconmonstr 'about' }}}<span class="text">About</span>
         </a>
       </li>
     </ul>
