@@ -17,10 +17,6 @@
     margin-right: 8px;
   }
 
-  a {
-    border-bottom: 1px dashed;
-  }
-
   span {
     white-space: nowrap;
   }
@@ -42,15 +38,10 @@
     &:last-child::after {
       content: "";
     }
-
-    a {
-      border-bottom: 1px dashed;
-    }
   }
 }
 
 .credits,
 .credits a {
   font-size: 12px;
-  color: $grey-medium;
 }

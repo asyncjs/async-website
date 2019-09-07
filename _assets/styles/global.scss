@@ -50,18 +50,8 @@
 }
 
 .prose a {
-  border-bottom: 1px dashed;
+  color: $secondary;
 }
-
-.prose a:hover,
-.prose a:focus {
-  color: $red;
-}
-
-.prose a:active {
-  color: $red-light;
-}
-
 .prose .image {
   border: none;
 }
@@ -77,8 +67,7 @@
 }
 
 .prose .bordered:active {
-  border-color: $red;
-  background-color: $red-light;
+  border-color: $secondary;
 }
 
 .bordered {
@@ -90,11 +79,6 @@
 .bordered:hover {
   border-color: rgba(239,73,72,0.4);
   background-color: rgba(239,73,72,0.25);
-}
-
-.bordered:active {
-  border-color: $red;
-  background-color: $red-light;
 }
 
 .bordered img {
@@ -146,11 +130,6 @@
   clear: left;
 }
 
-.module-heading {
-  font-size: 18px;
-  color: #9d999e;
-}
-
 .social {
   display: block;
   list-style: none;
@@ -187,7 +166,7 @@
     fill: $grey-medium;
 
     &:hover {
-      fill: $red;
+      fill: $primary;
       transform: scale(1.2, 1.2);
     }
 
@@ -196,10 +175,6 @@
       height: $social-icon-size;
     }
   }
-}
-
-.event-detail .heading:hover a {
-  color: $red;
 }
 
 .event-detail .lanyrd-link {
@@ -212,11 +187,6 @@
 
 .event-detail .meta {
   font-size: 18px;
-}
-
-.event-detail .meta a {
-  border-bottom-width: 1px;
-  border-bottom-style: dashed;
 }
 
 .event-detail .description:before,
@@ -239,7 +209,6 @@
   position: relative;
   padding: 14px 0 12px 58px;
   min-height: 40px;
-  border: 1px dashed $grey-light;
   border-left: 0;
   border-right: 0;
   margin: 8px 0;
@@ -273,7 +242,6 @@
   position: static;
   overflow: hidden;
   margin-left: -58px;
-  border-top: 1px dashed $grey-light;
   margin-top: 13px;
   padding-top: 8px;
 }
@@ -332,13 +300,8 @@
 .news a {
   display: block;
   padding: 8px 0;
-  border-bottom: 1px dashed $grey-light;
   height: auto;
   line-height: 1;
-}
-
-.news:first-of-type a {
-  border-top: 1px dashed $grey-light;
 }
 
 .news:hover a {
@@ -355,9 +318,7 @@
 }
 
 .dharmafly {
-  font-family: Calibri, Helvetica, Arial, sans-serif;
   text-decoration: none;
-  font-weight: bold;
   padding: 1px;
   font-size: 11px;
 }
@@ -431,10 +392,6 @@
 .hubbub-comment-body p {
   margin-top: 8px;
   margin-bottom: 16px;
-}
-
-.hubbub-comment-body a {
-  border-bottom:1px dashed;
 }
 
 .iframe-wrapper {
@@ -520,23 +477,23 @@
   }
 }
 
-body, .masthead p em {
-  font-family: "Catamaran", Helvetica, Arial, Verdana , sans-serif;
-  font-weight: normal;
+body,
+.masthead p em {
+  font-family: $font-family-body;
+  font-weight: $font-weight-regular;
 }
 
-i, em {
-  font-family:"Catamaran", Helvetica, Arial, Verdana , sans-serif;
-  font-style: italic;
+i,
+em {
+  font-family: $font-family-body;
 }
 
 b, strong,
-.masthead h1,
 .read-more a,
 .event-detail .vevent,
 .event-item .lanyrd-simple {
-  font-family:"Catamaran", Helvetica, Arial, Verdana , sans-serif;
-  font-weight: bold;
+  font-family: $font-family-body;
+  font-weight: $font-weight-bold;
 }
 
 h1,
@@ -547,7 +504,7 @@ h5,
 h6,
 .header,
 .news strong {
-  font-family: "Anton", Verdana, sans-serif;
-  font-weight: normal;
+  font-family: $font-family-header;
+  font-weight: $font-weight-regular;
   text-rendering: optimizeLegibility; // May cause issues in Windows browsers
 }
