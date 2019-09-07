@@ -5,10 +5,13 @@ $screen-md: 768px;
 $white: #fff;
 $grey-light: #ccc;
 $grey-medium: #aaa;
-$black: #000;
+$black: #333;
 
-$red: #e52222;
-$red-light: #ef4948;
+$primary: #b144ab;
+$secondary: #e97223;
+$tertiary: #0a90a5;
+$success: #2da73c;
+$error: #e35050;
 
 $green-light: #a6c664;
 
@@ -16,3 +19,9 @@ $social-icon-size: 28px;
 $social-icon-size-large: 36px;
 $masthead-height: 80px;
 $footer-height: 200px;
+
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+$font-family-header: 'Varela Round', helvetica, arial, sans-serif;
+$font-family-body: 'Open Sans', helvetica, arial, sans-serif;
