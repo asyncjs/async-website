@@ -4,8 +4,11 @@ layout: base.html
 ---
 
 <div class="container">
-  <h2>News</h2>
+  <h1>News</h1>
   <section class="module links">
+    <h2 class="module-heading">
+      Archives
+    </h2>
     <ul>
       {{#each archive.news.years}}
         <li><a href="{{ @key }}" title="{{ @key }}">{{ @key }}</a></li>
