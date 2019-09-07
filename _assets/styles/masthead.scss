@@ -7,11 +7,15 @@
   left: 0;
   width: 100%;
   height: $masthead-height;
-  padding: 12px;
+  padding: 10px;
   border-bottom: 1px solid $grey-light;
   background-color: rgba(255, 255, 255, 0.98);
   z-index: 1000;
   display: table;
+
+  @media all and (min-width: 768px) {
+    padding: 10px 15px;
+  }
 
   .main-header,
   .main-nav {
@@ -27,28 +31,26 @@
   }
 
   .logo,
-  .text {
+  .logo-small {
     vertical-align: middle;
+    height: 40px;
   }
 
-  .text {
-    display: none;
-    font-size: 36px;
-    line-height: 1em;
-    text-transform: none;
-
-    @media all and (min-width: $screen-sm) {
-      display: inline;
-    }
+  .logo-small {
+    display: inline-block;
   }
 
   .logo {
-    display: inline-block;
-    width: 36px;
-    margin-right: 10px;
+    display: none;
+  }
 
-    @media all and (min-width: $screen-sm) {
-      width: 48px;
+  @media all and (min-width: 768px) {
+    .logo-small {
+      display: none;
+    }
+
+    .logo {
+      display: inline-block;
     }
   }
 }
