@@ -27,11 +27,6 @@ h6,
   }
 }
 
-h1 svg {
-  width: 24px;
-  height: 24px;
-}
-
 h1,
 h2,
 h3,
@@ -44,6 +39,15 @@ p {
   margin: 16px 0;
   padding: 0;
   list-style-type: none;
+}
+
+h1 {
+  margin: 25px 0;
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 abbr {
