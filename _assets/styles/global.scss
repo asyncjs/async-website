@@ -47,23 +47,13 @@
 }
 
 .prose .bordered:hover {
-  border-color: rgba(239,73,72,0.2);
-  background-color: rgba(239,73,72,0.1);
-}
-
-.prose .bordered:active {
-  border-color: $secondary;
+  border-color: $tertiary;
 }
 
 .bordered {
   display: inline-block;
   padding: 4px;
   border: 1px solid $grey-light;
-}
-
-.bordered:hover {
-  border-color: rgba(239,73,72,0.4);
-  background-color: rgba(239,73,72,0.25);
 }
 
 .bordered img {
