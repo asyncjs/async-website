@@ -1,0 +1,9 @@
+<ul class="social">
+  {{#each site.social as |social|}}
+    <li>
+      <a href="{{ social.link }}" target="_blank" title="{{ social.desc }}">
+        {{{ iconmonstr social.name }}}
+      </a>
+    </li>
+  {{/each}}
+</ul>

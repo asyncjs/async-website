@@ -4,6 +4,19 @@ layout: base.html
 is_home: true
 ---
 
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="hero-content">
+      <h1>
+        Welcome to {{ site.title }}
+      </h1>
+      {{{ markdown site.caption }}}
+      {{> socialIcons}}
+    </div>
+  </div>
+</section>
+
 <div class="container">
   {{#each headlines}}
     <section class="module news" data-timestamp="{{ date }}">
