@@ -2,6 +2,7 @@
 title: Editing the world
 summary: A web tech meetup for Brighton & Hove
 date: 2019-10-03T19:15:00
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/264314578/
 image:
   url: https://live.staticflickr.com/6160/6198533837_68f9873b4a_z_d.jpg
   title: Starting to write

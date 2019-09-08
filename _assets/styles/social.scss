@@ -27,11 +27,44 @@
     display: block;
     width: $social-icon-size;
     height: $social-icon-size;
-    transition: ease-in-out 0.1s all;
     fill: $white;
-
-    &:hover {
-      transform: scale(1.2, 1.2);
-    }
   }
+}
+
+.social a,
+.meetup-link {
+  svg {
+    transition: ease-in-out 0.1s all;
+  }
+
+  &:hover svg {
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.meetup-link {
+  color: $meetup-color;
+
+  svg {
+    fill: $meetup-color;
+    margin-right: 0;
+  }
+}
+
+h2 .meetup-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+h3 .meetup-link svg {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -2px;
+}
+
+p .meetup-link svg {
+  width: 18px;
+  height: 18px;
+  margin-left: 2px;
+  margin-bottom: -3px;
 }

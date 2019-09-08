@@ -2,6 +2,7 @@
   <header>
     <h2 class="heading">
       <a href="/{{ path }}">{{ title }}</a>
+      {{> meetupLink link=meetup title=title}}
     </h2>
     <p class="meta">
       {{#if speakers}}

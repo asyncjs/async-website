@@ -5,4 +5,7 @@
     </a>
   {{/if}}
   {{{ contents }}}
+  {{#if post.meetup}}
+    <p>Thinking of coming? {{> meetupLink link=post.meetup title=post.title text='Join us on Meetup'}}
+  {{/if}}
 </section>
