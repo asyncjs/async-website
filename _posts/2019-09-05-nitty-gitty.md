@@ -2,6 +2,7 @@
 title: The nitty-gitty
 summary: A web tech meetup for Brighton & Hove
 date: 2019-09-05T19:15:00
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/263831760/
 image:
   url: https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png
   title: Git logo
