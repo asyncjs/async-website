@@ -37,7 +37,7 @@ Audience expectations: Intermediate JavaScript knowledge, some familiarity with 
 
 ### Lightning Talk
 
-Slot available - get in touch at hello AT asyncjs DOT com.
+Freya Brown - Topic TBC
 
 ### Update!
 
