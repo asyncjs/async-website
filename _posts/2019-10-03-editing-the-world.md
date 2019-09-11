@@ -37,7 +37,7 @@ Audience expectations: Intermediate JavaScript knowledge, some familiarity with 
 
 ### Lightning Talk
 
-Freya Brown - Topic TBC
+Freya Brown - Writing Bots with JavaScript
 
 ### Update!
 
