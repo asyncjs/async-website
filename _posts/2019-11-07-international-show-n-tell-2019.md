@@ -8,12 +8,16 @@ image:
   title: The Juggler II
   link: https://www.flickr.com/photos/helico
 speakers:
-- name: All and sundry
+  - name: All and sundry
+sponsors:
+  - name: Brandwatch
+    link: http://www.brandwatch.com
+    logo: /images/sponsors/brandwatch.png
 tags:
-- showntell
-- javascript
-- nodejs
-- html
+  - showntell
+  - javascript
+  - nodejs
+  - html
 venue:
   name: The Skiff
   link: https://www.theskiff.org/
@@ -33,6 +37,10 @@ Speakers, please <a data-gist href="https://gist.github.com/orangespaceman/196f4
 For a spot of inspiration, take a look at our International Show n' Tells in [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
 You are welcome to [sign up for this talk on meetup](https://www.meetup.com/Async-Web-Tech-Meetup/).
+
+### Update
+
+Brandwatch have stepped in at the last moment to offer sponsorship, hooray! (They're [hiring](http://jobs.jobvite.com/careers/brandwatch/job/oZisbfwE?__jvst=Career+Site)). Free beers & pizzas for all. Please contact hello AT asyncjs DOT com if you have specific dietary requirements.
 
 [ff]: http://2019.ffconf.org/
 [async]: http://asyncjs.com
