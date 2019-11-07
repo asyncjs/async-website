@@ -24,4 +24,6 @@ layout: event.html
 collection: events
 ---
 
-Network specialist Chris Tomkins will be talking to us about what JavaScript Developers should know about networking. More details TBC
+Network specialist Chris Tomkins' talk will take you through some interesting and non-obvious characteristics of how TCP/IP networks like the Internet work, and how you can design your client-server applications to be "good citizens" and perform well in a variety of suboptimal networking scenarios.
+
+The audience should have a basic understanding of IP addresses, and ideally a bit of knowledge about TCP/IP and building client/server/websockets applications.
