@@ -10,6 +10,9 @@ image:
 speakers:
   - name: Chris Tomkins
 sponsors:
+  - name: Automattic
+    logo: https://automattic.files.wordpress.com/2005/12/automattic-cmyk.png
+    link: https://automattic.com/work-with-us/
 tags:
   - networks
   - low-level
@@ -31,3 +34,8 @@ The audience should have a basic understanding of IP addresses, and ideally a bi
 ### "Lightning" Talk
 
 I'm happy to announce that Daniel van Berzon will be doing an extended lightning talk at the start of the evening to provide us with the findings from his groundbreaking [experiment on code readability](https://www.howreadable.com).
+
+### Update! 
+
+
+This meetup now be sponsored by [Automattic](https://automattic.com/work-with-us/), so beers and pizzas for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
