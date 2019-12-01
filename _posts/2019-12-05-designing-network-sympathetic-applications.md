@@ -39,3 +39,5 @@ I'm happy to announce that Daniel van Berzon will be doing an extended lightning
 
 
 This meetup now be sponsored by [Automattic](https://automattic.com/work-with-us/), so beers and pizzas for all! If you have any dietary requirements, please get in touch at hello AT asyncjs DOT com.
+
+You are welcome to [sign up for this talk on meetup](https://www.meetup.com/Async-Web-Tech-Meetup/).
