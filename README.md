@@ -29,7 +29,7 @@ npm i npm@6.10 -g
 Once you have the correct node and npm versions you can install project dependencies by running:
 
 ```bash
-$ npm install
+$ npm ci
 ```
 
 Then to start the server run the following from the project directory:
