@@ -12,6 +12,11 @@ If you are using nvm, you can run the following to install and use node 12:
 
 ```bash
 nvm install
+```
+
+You will need to run the following each time you come to work on the site:
+
+```bash
 nvm use
 ```
 
