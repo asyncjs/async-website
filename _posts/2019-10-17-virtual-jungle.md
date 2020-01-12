@@ -2,6 +2,7 @@
 title: Virtual Jungle
 summary: A web tech meetup for Brighton & Hove
 date: 2019-10-17T19:15:00
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/265349180/
 image:
   url: /img/talks/virtual_jungle.png
   title: King of the jungle
