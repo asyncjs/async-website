@@ -3,6 +3,7 @@ title: 2019 International Show n' Tell
 summary: A web tech meetup for Brighton & Hove
 date: 2019-11-07T19:15:00
 lanyrd:
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/265460562/
 image:
   url: https://farm4.staticflickr.com/3289/3060694963_3d778f69dd_z_d.jpg
   title: The Juggler II
@@ -35,8 +36,6 @@ _If you’d like to grab a speaking slot_, you’ll have five minutes on the nig
 Speakers, please <a data-gist href="https://gist.github.com/orangespaceman/196f4e37b2dcd5bee37fe1367bbf2896">add a comment to the Speakers' Gist</a>.
 
 For a spot of inspiration, take a look at our International Show n' Tells in [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
-
-You are welcome to [sign up for this talk on meetup](https://www.meetup.com/Async-Web-Tech-Meetup/).
 
 ### Update
 
