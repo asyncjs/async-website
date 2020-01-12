@@ -6,7 +6,7 @@ Welcome to the repository for the Async website. The site is statically generate
 
 ## Running the server locally
 
-You'll need [node.js][#nodejs] >=12.6.0 and npm >=6.10.0 installed locally.
+You'll need [node.js][#nodejs] >=12.13.0 and npm >=6.10.0 installed locally.
 
 If you are using nvm, you can run the following to install and use node 12:
 
