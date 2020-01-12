@@ -3,6 +3,7 @@ title: Kubernetes primer
 summary: A web tech meetup for Brighton & Hove
 date: 2020-02-6T19:15:00
 lanyrd:
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png
   title: Kubernetes logo
@@ -27,5 +28,3 @@ collection: events
 ---
 
 Ollie Edwards will be giving us an introduction of what Kubernetes is, what problems it solves, and how to get started with it. More details TBC.
-
-You are welcome to [sign up for this talk on meetup](https://www.meetup.com/Async-Web-Tech-Meetup/).
