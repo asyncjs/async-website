@@ -2,7 +2,7 @@
 title: Why do we need Kubernetes?
 summary: A web tech meetup for Brighton & Hove
 date: 2020-02-6T19:15:00
-meetup: https://www.meetup.com/Async-Web-Tech-Meetup/
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/267877674
 image:
   url: https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png
   title: Kubernetes logo
