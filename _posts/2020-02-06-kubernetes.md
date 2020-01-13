@@ -26,7 +26,7 @@ layout: event.html
 collection: events
 ---
 
-In 1768 Volatire proclaimed “if Kubernetes didn’t exist it would be necessary to invent it” which was impressive as Kubernetes was still some 240 years from being invented. This talks aims to unpick this uncanny prescience by imagining a world where Kubernetes does not exist and investigating how we would solve problems with standardisation and operation of modern applications without it.
+In 1768 Voltaire proclaimed “if Kubernetes didn’t exist it would be necessary to invent it” which was impressive as Kubernetes was still some 240 years from being invented. This talks aims to unpick this uncanny prescience by imagining a world where Kubernetes does not exist and investigating how we would solve problems with standardisation and operation of modern applications without it.
 
 No Kubernetes experiences is expected, but an awareness of servers and some JS experience would be helpful
 
