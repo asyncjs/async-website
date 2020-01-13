@@ -62,7 +62,7 @@
     "metalsmith-more": "^0.2.0",
     "metalsmith-permalinks": "^2.2.0",
     "metalsmith-redirect": "^2.1.0",
-    "metalsmith-register-helpers": "^0.4.0",
+    "metalsmith-register-helpers": "^0.3.0",
     "metalsmith-tags": "^2.0.0",
     "moment": "^2.24.0",
     "run-sequence": "^1.2.2",
