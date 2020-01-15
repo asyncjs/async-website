@@ -12,7 +12,7 @@ speakers:
 sponsors:
   - name: AWS
     link: https://aws.amazon.com/
-    logo: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/AmazonWebservices_Logo.svg/640px-AmazonWebservices_Logo.svg.png
+    logo: /img/sponsors/aws.png
 tags:
   - serverside
   - nodejs
