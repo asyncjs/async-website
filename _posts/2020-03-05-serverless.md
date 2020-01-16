@@ -2,7 +2,7 @@
 title: Learning serverless in 60 min
 summary: A web tech meetup for Brighton & Hove
 date: 2020-03-5T19:15:00
-meetup: https://www.meetup.com/Async-Web-Tech-Meetup/
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/267966005
 image:
   url: /img/talks/aws.png
   title: AWS SAM
