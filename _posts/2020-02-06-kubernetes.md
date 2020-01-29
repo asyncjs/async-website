@@ -10,6 +10,9 @@ image:
 speakers:
   - name: Ollie Edwards
 sponsors:
+  - name: Brandwatch
+    link: https://www.brandwatch.com/careers
+    logo: /img/sponsors/brandwatch.png
 tags:
   - serverside
   - nodejs
@@ -31,3 +34,8 @@ In 1768 Voltaire proclaimed “if Kubernetes didn’t exist it would be necessar
 No Kubernetes experiences is expected, but an awareness of servers and some JS experience would be helpful
 
 N.B. May contain minor historical inaccuracies.
+
+## Update
+
+This meeting will be sponsored by [Brandwatch](https://www.brandwatch.com/careers), who will provide pizzas and beers for all. Please get in touch if you have any specific dietary requirements at hello AT asyncjs DOT com.
+
