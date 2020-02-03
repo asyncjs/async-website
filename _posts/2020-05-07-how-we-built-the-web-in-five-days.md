@@ -4,9 +4,8 @@ summary: A web tech meetup for Brighton & Hove
 date: 2020-05-7T19:15:00
 meetup: https://www.meetup.com/Async-Web-Tech-Meetup
 image:
-  url: https://live.staticflickr.com/7138/7767546188_8fd15e5ac5_w_d.jpg
-  title: WWW
-  link: https://www.flickr.com/photos/aicomputin/
+  url: https://worldwideweb.cern.ch/images/colophon/thegroup.jpg
+  title: Jeremy and Remy at Cern
 speakers:
   - name: Jeremy Keith
     link: https://adactio.com/
