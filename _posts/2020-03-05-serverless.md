@@ -35,3 +35,7 @@ With serverless backends, front-end developers can build confidently in the clou
 In this session you will learn about tooling, frameworks, and architectural patterns focused on building a web application from front to back. Along the way we will discuss best practices to help you get a started on developing without needing to manage servers. I will demo the solutions, and show how you can integrate these common web app features with minimal code.
 
 If you are a front-end developer wondering how serverless can help you, this session is for you!
+
+### Lightning talk
+
+Jake Howard will be doing a brief talk on "Wireguard - The Modern VPN Technology"
