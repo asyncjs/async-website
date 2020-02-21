@@ -1,13 +1,15 @@
 ---
-title: Async 10 year birthday party
+title: Future of AR/VR on the Web
 summary: A web tech meetup for Brighton & Hove
 date: 2020-04-2T19:15:00
 meetup: https://www.meetup.com/Async-Web-Tech-Meetup
 image:
-  url: https://images-na.ssl-images-amazon.com/images/I/81B2EoMMPHL._SL1500_.jpg
-  title: 10th Birthday cake topper
-  link: https://www.amazon.com/Cake-Topper-10th-Birthday-Tenth/dp/B077LSBV7C
+  url: https://i.imgur.com/UFYgx1Y.png
+  title: VR Is The Future.
+  link: https://imgur.com/gallery/UFYgx1Y
 speakers:
+  - name: Ada Rose Cannon
+    link: https://twitter.com/lady_ada_king
 sponsors:
 tags:
 venue:
@@ -20,4 +22,4 @@ layout: event.html
 collection: events
 ---
 
-2020 sees Async's **10 year** birthday! We will be celebrating in true Async fashion, likely with a show'n'tell but more details TBC.
+Ada Rose Cannon will present the future of augmented and virtual reality on the web. More details to be confirmed.
