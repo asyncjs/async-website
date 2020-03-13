@@ -9,3 +9,42 @@
     height: 14px;
   }
 }
+
+.alert-banner {
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: $error;
+  padding: 15px 20px;
+
+  a {
+    text-decoration: underline;
+    color: $white;
+  }
+
+  h3,
+  p {
+    margin: 5px 0;
+    color: $white;
+  }
+
+  p {
+    line-height: 1em;
+  }
+
+  h3 {
+    border-bottom: 2px solid $white;
+  }
+}
+
+// Allow footer to remain accessible
+.footer {
+  margin-bottom: $alert-banner-height;
+}
+
+.wrapper {
+  padding-bottom: $footer-height + $alert-banner-height;
+}
