@@ -1,0 +1,11 @@
+@import 'variables';
+
+.alert {
+  color: $error;
+
+  svg {
+    fill: $error;
+    width: 14px;
+    height: 14px;
+  }
+}
