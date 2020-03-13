@@ -8,6 +8,11 @@
     width: 14px;
     height: 14px;
   }
+
+  a {
+    color: $error;
+    text-decoration: underline;
+  }
 }
 
 .alert-banner {
