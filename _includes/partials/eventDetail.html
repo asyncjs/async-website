@@ -18,14 +18,21 @@
       <span class="date">{{ day date }}</span>
       <span class="time">{{ time date }}</span>
     </time>
+    {{#if venue}}
+      @
+      <span class="location vcard">
+        <a class="url fn org" href="{{ venue.link }}">{{ venue.name }}</a>
+        <span class="adr">{{ venue.address }}</span>
+      </span>
+      <a class="map bordered" href="{{ directions venue }}">
+        <img src="https://api.tiles.mapbox.com/v4/mapbox.streets/{{ longitude venue.latlong }},{{ latitude venue.latlong }},15/140x140.png?access_token={{ @root.site.mapbox.api_token }}" alt="Map of {{ venue.name }}" width="140" height="140" />
+      </a>
+    {{/if}}
+    {{#if online}}
     @
-    <span class="location vcard">
-      <a class="url fn org" href="{{ venue.link }}">{{ venue.name }}</a>
-      <span class="adr">{{ venue.address }}</span>
-    </span>
-    <a class="map bordered" href="{{ directions venue }}">
-      <img src="https://api.tiles.mapbox.com/v4/mapbox.streets/{{ longitude venue.latlong }},{{ latitude venue.latlong }},15/140x140.png?access_token={{ @root.site.mapbox.api_token }}" alt="Map of {{ venue.name }}" width="140" height="140" />
-    </a>
+      <span>online</span>
+      <span class="globe">{{{ iconmonstr 'globe' }}}</span>
+    {{/if}}
     {{#if sponsors}}
       <div class="sponsors">
         {{#each sponsors}}
@@ -36,6 +43,8 @@
       </div>
     {{/if}}
   </section>
-  {{> covidAlert }}
+  {{#unless online}}
+    {{> covidAlert }}
+  {{/unless}}
   {{> postDescription post=this }}
 </article>
