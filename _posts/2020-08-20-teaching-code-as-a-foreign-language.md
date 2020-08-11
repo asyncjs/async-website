@@ -1,8 +1,8 @@
 ---
 title: Teaching code as a foreign language
 summary: A web tech meetup for Brighton & Hove
-date: 2020-07-02T19:15:00
-meetup: https://www.meetup.com/Async-Web-Tech-Meetup
+date: 2020-08-20T19:00:00
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/272406911/
 image:
   url: https://live.staticflickr.com/7150/6697055189_f947d7a7a7_z_d.jpg
   title: teacher meme
@@ -14,14 +14,9 @@ sponsors:
 tags:
   - teaching
   - coaching
-venue:
-  name: The Skiff
-  link: https://www.theskiff.org/
-  location: https://goo.gl/maps/SPf97i5WkAR2
-  address: Ironworks, 30 Cheapside, Brighton, BN1 4GD
-  latlong: 50.829371,-0.138194
 layout: event.html
 collection: events
+online: true
 ---
 
 How can you set developers up for success? Think like an English teacher.
