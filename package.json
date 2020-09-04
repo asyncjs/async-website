@@ -41,7 +41,7 @@
     "gulp-uglify": "^1.5.4",
     "gulp-uncss": "^1.0.6",
     "gulpsmith": "^0.6.0",
-    "handlebars": "^4.4.5",
+    "handlebars": "^4.5.3",
     "markdownlint": "^0.2.0",
     "marked": "^0.7.0",
     "metalsmith": "^2.3.0",
