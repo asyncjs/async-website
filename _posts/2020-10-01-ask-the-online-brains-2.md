@@ -1,5 +1,5 @@
 ---
-title: "Ask the Online Brains, Spring 2020"
+title: "Ask the Online Brains, Autumn 2020"
 summary: "A virtual online version of our popular Ask The Brains event"
 date: 2020-10-01T19:45:00
 meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/273322568
