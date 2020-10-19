@@ -6,7 +6,7 @@ meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/274016280
 speakers:
   - name: Craig West
 image:
-  url: /images/talks/web-component-logo.png
+  url: /img/talks/web-component-logo.png
   title: Web Component logo
 tags:
   - workshop
