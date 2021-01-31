@@ -25,5 +25,7 @@ Abby Mitchell will be giving us the low down on a crucial aspect of every web de
 Web Accessibility is an important aspect of software development to know about for anyone building anything for the web. Or for anyone working with anyone building anything for the web. Or for anyone who even knows anyone building anything for the web. Basically, if you care about making the world (which nowadays is increasingly synonymous with the digital world) a more inclusive place for people with disabilities and impairments, then learning about web accessibility is a must. 
 This talk aims to give a broad overview of web accessibility for those keen to get their feet wet in this interesting, yet often overlooked, area of web development. The talk will cover the basic What, Why and How of the topic, giving you a starting point from which to develop your interest/skills going forward.
 
+Abby is a Full Stack Web Developer working at IBM in London. She is a primarily self-taught developer, with a passion for code, puns and making the digital world a more inclusive place.
+
 ---
 The Zoom will be open from 7.30pm so please feel free to join early and have a general catch up :)
