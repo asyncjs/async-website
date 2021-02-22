@@ -1,5 +1,5 @@
 ---
-title: "RedwoodJS with Anthony Campolo"
+title: "Fullstack Jamstack Development with RedwoodJS"
 summary: "Introduction to RedwoodJS, a Jamstack framework"
 date: 2021-03-04T19:45:00
 meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/276500370/
@@ -21,8 +21,7 @@ online: true
 # draft: true # Delete this line to publish
 ---
 
-Join Anthony Campolo as he talks us through RedwoodJS, the hottest Jamstack framework around. Further details to follow.
-
+RedwoodJS is a fullstack serverless framework for the Jamstack that combines a variety of modern technologies including React, GraphQL, and Prisma. In this talk, Anthony Campolo (RedwoodJS Core Advocate), will explain the origins and motivations behind RedwoodJS. He will also demonstrate how to create a RedwoodJS app from scratch and deploy it to the internet.
 ---
 
 The Zoom will be open from 7.30pm so please feel free to join early and have a general catch up :)
