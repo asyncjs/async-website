@@ -19,8 +19,8 @@ layout: event.html
 collection: events
 online: true
 ---
-
 RedwoodJS is a fullstack serverless framework for the Jamstack that combines a variety of modern technologies including React, GraphQL, and Prisma. In this talk, Anthony Campolo (RedwoodJS Core Advocate), will explain the origins and motivations behind RedwoodJS. He will also demonstrate how to create a RedwoodJS app from scratch and deploy it to the internet.
+
 ---
 
 The Zoom will be open from 7.30pm so please feel free to join early and have a general catch up :)
