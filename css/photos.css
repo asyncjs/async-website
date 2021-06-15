@@ -1,0 +1,2 @@
+.photo-grid:after,.photo-grid:before{content:"";display:table;clear:both}.photo-grid img{float:left;width:50%}@media (min-width:768px){.photo-grid img{width:25%}}
+/*# sourceMappingURL=photos.css.map */

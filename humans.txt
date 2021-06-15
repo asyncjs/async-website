@@ -1,0 +1,31 @@
+/* TEAM */
+
+Lanyrd Widget: Aaron Acerboni
+Twitter: @aaronacerboni
+Location: Brighton, UK
+
+Design & Development: Aron Carroll
+Twitter: @aroncarroll
+Location: Brighton, UK
+
+Design & QA: Premasagar Rose
+Twitter: @premasagar
+Location: Brighton, UK
+
+Tools Development: Yann Eves
+Website: https://yannev.es
+Location: Brighton, UK
+
+Upgrades & Re-design (2019): Jake 'Sid' Smith
+Twitter: @jakesidsmith
+Location: Brighton, UK
+
+And all our other contributors at https://github.com/asyncjs/asyncjs.github.com/graphs/contributors
+
+/* THANKS */
+
+Richard Rutter and Josh Emerson @ Fontdeck for the fonts.
+
+/* SITE */
+
+Last update: Tue Jun 15 2021 02:27:47 GMT+0000 (Coordinated Universal Time)

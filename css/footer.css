@@ -1,0 +1,2 @@
+@charset "UTF-8";.footer{position:absolute;width:100%;left:0;bottom:0;background-color:#421a40;color:#ccc}.links li{display:inline}.links li:after{content:" •";margin:0 8px;color:#ccc}.links li:last-child:after{content:""}.credits,.credits a{font-size:12px}
+/*# sourceMappingURL=footer.css.map */
