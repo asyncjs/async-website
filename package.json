@@ -66,7 +66,7 @@
     "metalsmith-tags": "^2.0.0",
     "moment": "^2.24.0",
     "run-sequence": "^1.2.2",
-    "striptags": "^2.2.1",
+    "striptags": "^3.2.0",
     "through2": "^2.0.5"
   }
 }
