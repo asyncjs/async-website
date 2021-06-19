@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  schedule:
+    # Weekly on a Friday at midnight
+    - cron: "0 0 * * 5"
 
 jobs:
   gh-pages:
