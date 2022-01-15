@@ -43,7 +43,7 @@
     "gulpsmith": "^0.6.0",
     "handlebars": "^4.7.7",
     "markdownlint": "^0.2.0",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "metalsmith": "^2.3.0",
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections": "^0.9.0",
