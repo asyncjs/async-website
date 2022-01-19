@@ -13,7 +13,7 @@ image:
 sponsors:
 - name: Pusher
   link: https://www.pusher.com
-  logo: /images/sponsors/pusher.png
+  logo: /img/sponsors/pusher.png
 tags:
 venue:
   name: 68 Middle St

@@ -10,7 +10,7 @@ speakers:
   link: https://twitter.com/CarlBateman
 sponsors:
 image:
-  url:   /images/talks/doublebill.png
+  url:   /img/talks/doublebill.png
   title: "Double Bill"
 tags:
   - js

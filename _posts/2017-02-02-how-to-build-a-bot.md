@@ -6,7 +6,7 @@ lanyrd: https://lanyrd.com/2017/asyncjs-how-to-build-a-bot
 speakers:
 - name: Alexandre Nicol
 image:
-  url: /images/talks/riseOfTheBots.jpg
+  url: /img/talks/riseOfTheBots.jpg
   title: Artificial Intelligence
   link: https://pixabay.com/p-503588/?no_redirect
 sponsors:

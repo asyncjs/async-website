@@ -8,7 +8,7 @@ speakers:
   link:
 sponsors:
 image:
-  url:   /images/talks/nodeventure-text.jpg
+  url:   /img/talks/nodeventure-text.jpg
   title: "Nodeventure"
   link:
 tags:

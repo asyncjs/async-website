@@ -13,7 +13,7 @@ speakers:
 sponsors:
   - name: Brandwatch
     link: http://www.brandwatch.com
-    logo: /images/sponsors/brandwatch.png
+    logo: /img/sponsors/brandwatch.png
 tags:
   - showntell
   - javascript

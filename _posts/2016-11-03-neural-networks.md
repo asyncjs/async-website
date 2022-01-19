@@ -7,7 +7,7 @@ speakers:
 - name: Antonio De Luca
   link: http://www.antoniodeluca.info/
 image:
-  url: /images/talks/neuralNetworksForSquirrels.jpg
+  url: /img/talks/neuralNetworksForSquirrels.jpg
   title: Neural Networks for Squirrels
 sponsors:
 tags:
