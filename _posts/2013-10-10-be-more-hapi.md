@@ -7,7 +7,7 @@ speakers:
 - name: Glenn Jones
   link: http://glennjones.net
 image:
-  url:   /images/talks/happycomputer.jpg
+  url:   /img/talks/happycomputer.jpg
   title: "'Happy computer' by Karsten Schmidt"
   link:  http://www.flickr.com/photos/toxi/3489976711/
 tags:

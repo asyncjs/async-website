@@ -13,7 +13,7 @@ image:
 sponsors:
 - name: Brandwatch
   link: https://www.brandwatch.com/careers
-  logo: /images/sponsors/brandwatch.png
+  logo: /img/sponsors/brandwatch.png
 tags:
 - games
 - js

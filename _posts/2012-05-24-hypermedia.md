@@ -9,7 +9,7 @@ speakers:
 sponsors:
 - name: Brandwatch
   link: http://www.brandwatch.com
-  logo: /images/sponsors/brandwatch.png
+  logo: /img/sponsors/brandwatch.png
 image:
   url:   http://farm1.staticflickr.com/104/265106093_72262a959a.jpg
   title: Colors And Numbers by cszar, on Flickr

@@ -8,7 +8,7 @@ speakers:
   link: "http://kornel.lesinski.name"
 sponsors:
 image:
-  url:   /images/talks/class-header-connectivity.jpg
+  url:   /img/talks/class-header-connectivity.jpg
   title: "Server-Sent Events spec (image CC-BY-SA by W3C)"
   link:  http://www.w3.org/TR/eventsource/
 tags:

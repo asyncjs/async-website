@@ -8,9 +8,9 @@ speakers:
 lanyrd: https://lanyrd.com/2016/asyncjs-fishcotheque-2-of-2
 sponsors:
 image:
-  url:   /images/talks/fishcotheque.jpg
+  url:   /img/talks/fishcotheque.jpg
   title: Fishcotheque
-  link:  /images/talks/fishcotheque.jpg
+  link:  /img/talks/fishcotheque.jpg
 tags:
   - js
   - node
