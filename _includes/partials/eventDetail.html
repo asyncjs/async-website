@@ -25,7 +25,7 @@
         <span class="adr">{{ venue.address }}</span>
       </span>
       <a class="map bordered" href="{{ directions venue }}">
-        <img src="https://api.tiles.mapbox.com/v4/mapbox.streets/{{ longitude venue.latlong }},{{ latitude venue.latlong }},15/140x140.png?access_token={{ @root.site.mapbox.api_token }}" alt="Map of {{ venue.name }}" width="140" height="140" />
+        <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v11/static/{{ longitude venue.latlong }},{{ latitude venue.latlong }},15,0/140x140?access_token={{ @root.site.mapbox.api_token }}" alt="Map of {{ venue.name }}" width="140" height="140" />
       </a>
     {{/if}}
     {{#if online}}
