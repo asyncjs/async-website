@@ -2,7 +2,7 @@
 title: "Svelte Extravaganza"
 summary: "An elaborate, spectacular display of the powerful Svelte and SvelteKit"
 date: 2022-03-03T19:30:00
-meetup:
+meetup: https://www.meetup.com/Async-Web-Tech-Meetup/events/284244105/
 speakers:
   - name: pngwn
     link: https://twitter.com/evilpingwin
