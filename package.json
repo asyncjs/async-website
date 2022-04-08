@@ -63,7 +63,7 @@
     "metalsmith-redirect": "^2.1.0",
     "metalsmith-register-helpers": "^0.2.0",
     "metalsmith-tags": "^2.1.0",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "run-sequence": "^1.2.2",
     "sass": "^1.49.0",
     "striptags": "^3.2.0",
