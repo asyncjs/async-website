@@ -29,7 +29,11 @@
       </a>
     {{/if}}
     {{#if online}}
-    @
+    {{#if venue}}
+      &amp;
+    {{else}}
+      @
+    {{/if}}
       <span>online</span>
       <span class="globe">{{{ iconmonstr 'globe' }}}</span>
     {{/if}}
