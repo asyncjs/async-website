@@ -24,11 +24,11 @@ venue:
   latlong: 50.825944,-0.1437302
 # draft: true # Delete this line to publish
 ---
-We're back! You will be happy to know that you will finally have the opportunity to come face-to-face with like-minded developers and enthusiasts (at Async at least) for the first time in over 2 years! Can't make it in-person? Don't worry, you'll also be able to join us online.
+We're back! After 2 years without human contact you will finally have the opportunity to come face-to-face with like-minded developers and enthusiasts! Can't make it in-person? Don't worry, you'll also be able to join us online.
 
-I am very happy to announce that on the evening of Wednesday 8th June, we will be hosting an in-person hybrid version of our popular __"Ask the Brains"__ event for the first time. This means that you will have the ability to join us in-person at [PLATF9RM](https://goo.gl/maps/pkoNTTRA27bh5GKD8) in Brighton, or to join us online!
+We are very happy to announce that on the evening of Wednesday 8th June, we will be hosting an in-person hybrid version of our popular __"Ask the Brains"__ event for the first time. This means that you will have the ability to join us in-person at [PLATF9RM](https://goo.gl/maps/pkoNTTRA27bh5GKD8) in Brighton, or to join us online!
 
-Inspired by the monthly Brighton [ALT.NET meetup](http://brightonalt.net/), we will be asking/talking/ranting about everything web-related - 5 - 10 minutes per topic.
+Inspired by the monthly Brighton [ALT.NET meetup](http://brightonalt.net/), we will be asking/talking/rambling about everything web-related - 5-10 minutes per topic.
 
 The aim is to create a friendly environment for everyone to ask their _"that thing you've never understood but always been too afraid to ask"_ type questions, plus any other topics you feel like talking about on the night. Topics such as:
 
