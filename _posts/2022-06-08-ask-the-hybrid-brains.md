@@ -40,7 +40,7 @@ The aim is to create a friendly environment for everyone to ask their _"that thi
 - Should I write unit tests, integration tests, or both?
 - What are the beneficial aspects of Agile/Scrum, and what do you find less useful.
 
-You will be able to submit topics, and event attendees will be able to vote for the topics they would like to discuss. We will run the online discussion for about an hour, and afterwards, anyone who wishes to stay can share a virtual pint.
+You will be able to submit topics, and event attendees will be able to vote for the topics they would like to discuss. We will run the discussion for about an hour, and afterwards, anyone who wishes can join us nearby for a chat/drink (sorry we can't take you online folks with us).
 
 The format works best when there is a diverse group of people and opinions in the room, so whether you consider yourself an absolute beginner or a seasoned pro, do come and join.
 
