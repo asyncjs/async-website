@@ -48,4 +48,4 @@ So, please put your thinking caps on now and start thinking of some questions yo
 
 We're all looking forward to seeing you!
 
-Whether you're thinking of joining us in-person or online, please sign up to the event on [meetup.com](https://www.meetup.com/Async-Web-Tech-Meetup/events/286286575/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-12okz6cc1-qcX1c2aXAN0M_EXnKNzH5A) for more info, and updates.
+Whether you're thinking of joining us in-person or online, please sign up to the event on [meetup.com](https://www.meetup.com/Async-Web-Tech-Meetup/events/286286575/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
