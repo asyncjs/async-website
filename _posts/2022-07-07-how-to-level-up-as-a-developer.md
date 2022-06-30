@@ -33,4 +33,4 @@ On Thursday the 7th of July we will be joined by Simon Downes of The Student Roo
 
 As always we welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
-If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/286855303/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-12okz6cc1-qcX1c2aXAN0M_EXnKNzH5A) for more info, and updates.
+If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/286855303/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
