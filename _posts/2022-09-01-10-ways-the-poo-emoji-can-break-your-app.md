@@ -2,7 +2,7 @@
 title: "10 ways the 💩 emoji can break your app"
 summary: "Ten ways text processing can go horribly wrong."
 date: 2022-09-01T19:15:00
-meetup: https://www.meetup.com/async-web-tech-meetup/events/ !!! JAKE I NEED AN EVENT ID !!!
+meetup: https://www.meetup.com/async-web-tech-meetup/events/288002306/
 speakers:
   - name: "Remi Shergold"
     link: https://remi-shergold.com/
@@ -24,7 +24,7 @@ venue:
   location: https://g.page/Mocatta-House-4437?share
   address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
   latlong: 50.8294399,-0.1443907
-draft: true # Delete this line to publish
+# draft: true # Delete this line to publish
 ---
 
 Ever wanted to break someone’s app with a single well placed 💩?
@@ -37,4 +37,4 @@ As always we welcome people of all backgrounds and experience levels, so whether
 
 You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/), or online (via Zoom).
 
-If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/287513925/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
+If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/288002306/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
