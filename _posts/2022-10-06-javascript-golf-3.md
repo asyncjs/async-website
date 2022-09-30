@@ -27,7 +27,7 @@ venue:
 # draft: true # Delete this line to publish
 ---
 
-ECome and join us on Thursday October 6th where Tom Parslow - long time Async attendee and chief code typer at [Buzzshot.com](https://buzzshot.com), will task us to solve a series of challenges using JavaScript. The catch - you have to write as little JavaScript as possible. Solve each challenge in the least number of characters to win the game. Imagine the kind of stuff you’d never want to see make it into a real codebase… that’s what we’re looking for!
+Come and join us on Thursday October 6th where Tom Parslow - long time Async attendee and chief code typer at [Buzzshot.com](https://buzzshot.com), will task us to solve a series of challenges using JavaScript. The catch - you have to write as little JavaScript as possible. Solve each challenge in the least number of characters to win the game. Imagine the kind of stuff you’d never want to see make it into a real codebase… that’s what we’re looking for!
 
 We are making an effort to ensure that this episode of JavaScript Golf will be suitable for people of all skill levels, so even if you’re reasonably new to JavaScript you should still be able to tackle the challenges (and we’ll be on hand to help if you need it!). Even if you don’t get the fewest number of characters we hope that the majority of attendees will learn a little something about JavaScript from each other along the way. So, don’t forget to bring your laptop, tablet, phone, or whatever you feel comfortable writing code on (with a text editor installed).
 
