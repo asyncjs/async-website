@@ -25,9 +25,9 @@ venue:
   latlong: 50.8294399,-0.1443907
 ---
 
-The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [FFConf 2022](https://2022.ffconf.org/) is coming. So, it's time for another International Async Show 'n' tell! This year's installment will be _on Thursday 10th November_. The ever popular International show 'n' tell is the perfect opportunity to give a peek at your passion project, try out a lightning talk, or just share what's on your mind.
 **IMPORTANT: Different date, and possibly different venue.\*\***
 
+The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [ffconf 2022](https://2022.ffconf.org/) is coming. So, it's time for another International Async Show 'n' tell! This year's installment will be _on Thursday 10th November_.
 
 If you're interested in giving a talk, we'd love to hear from you. It's the perfect opportunity to give a peek at your passion project, try out a lightning talk, or just share what's on your mind. You’ll have five minutes on the night to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
 
