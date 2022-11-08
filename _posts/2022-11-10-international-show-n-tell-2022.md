@@ -25,8 +25,6 @@ venue:
   latlong: 50.8294399,-0.1443907
 ---
 
-**IMPORTANT: Different date, and possibly different venue.\*\***
-
 The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [ffconf 2022](https://2022.ffconf.org/) is coming. So, it's time for another International Async Show 'n' tell! This year's installment will be _on Thursday 10th November_.
 
 If you're interested in giving a talk, we'd love to hear from you. It's the perfect opportunity to give a peek at your passion project, try out a lightning talk, or just share what's on your mind. You’ll have five minutes on the night to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
@@ -43,9 +41,7 @@ For a spot of inspiration, take a look at our International Show n' Tells in [20
 
 You will be able to join us in-person, or online (via Zoom).
 
-If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/289172125/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
-
-\*\*This event is being held on the second Thursday of the month to coincide with ffconf (instead of the first Thursday), and we may book a different venue with more space if it seems that we're getting more attendees than we could comfortably fit in the usual venue ([Spaces, Trafalgar Place](https://www.spacesworks.com/brighton/trafalgar-place/)). Make sure you're set to attend on Meetup and [join our Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for updates.
+If you're thinking of joining us in-person, please sign up to the event on [meetup.com][meetup]. We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
 
 [showntell-2010]: http://asyncjs.com/showntell3/
 [showntell-2011]: http://asyncjs.com/international2011/
