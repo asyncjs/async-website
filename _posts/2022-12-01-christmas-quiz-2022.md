@@ -4,7 +4,7 @@ summary: "A web tech meetup based in Brighton & Hove"
 date: 2022-12-01T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/289656145/
 speakers:
-  - name: Quizmaster (TBA)
+  - name: Quizmaster Alise
 image:
   url: /img/talks/christmas-quiz-2022-sdv1.5.png
   title: Async Christmas Quiz 2022
