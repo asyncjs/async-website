@@ -18,7 +18,11 @@ tags:
 - aws
 - crawler
 venue:
-  name: TBC?
+  name: Spaces
+  link: https://www.spacesworks.com/brighton/trafalgar-place/
+  location: https://g.page/Mocatta-House-4437?share
+  address: Mocatta House, Trafalgar Pl, BN1 4DU, Brighton
+  latlong: 50.8294399,-0.1443907
 layout: event.html
 collection: events
 draft: true # Delete this line to publish
