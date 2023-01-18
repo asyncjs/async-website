@@ -16,18 +16,23 @@ tags:
 - accessibility
 - ruby
 - aws
+- crawler
 venue:
   name: TBC?
 layout: event.html
 collection: events
 draft: true # Delete this line to publish
+online: true
 ---
 
 The Web is over 30 years old, yet some websites are still not accessible.
 
-This is the tale of how Alexa, with a little bit of help, came to the rescue of
-a blind person who could not get access to local news.
+This is the tale of how Alexa, with a little bit of help, came to the rescue of a blind person who could not get access to local news.
 
-In this talk, Alex Nicol speaks about accessibility, web crawling, tech for
-good, Alexa, running Ruby on Lambdas, and working on a side project whilst
-having a six-month-old baby.
+In this talk, Alex Nicol speaks about accessibility, web crawling, tech-for-good, Alexa, running Ruby on Lambdas, and working on a side project whilst having a six-month-old baby.
+
+Alex Nicol is a web developer working at [BridgeU](https://bridge-u.com/) and [Bounce Technologies](https://www.bouncetechnologies.com/). He's also founded is [own consultancy company](https://alexnicol.dev), specialised in conversational systems and tech-for-good. He previously spent six years at EDF Energy as an R&D engineer specialising in automated voice systems and chatbots.
+
+You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/), or online (via Zoom).
+
+If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/288819953/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
