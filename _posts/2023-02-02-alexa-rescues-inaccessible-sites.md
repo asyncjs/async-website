@@ -31,7 +31,7 @@ This is the tale of how Alexa, with a little bit of help, came to the rescue of 
 
 In this talk, Alex Nicol speaks about accessibility, web crawling, tech-for-good, Alexa, running Ruby on Lambdas, and working on a side project whilst having a six-month-old baby.
 
-Alex Nicol is a web developer working at [BridgeU](https://bridge-u.com/) and [Bounce Technologies](https://www.bouncetechnologies.com/). He's also founded is [own consultancy company](https://alexnicol.dev), specialised in conversational systems and tech-for-good. He previously spent six years at EDF Energy as an R&D engineer specialising in automated voice systems and chatbots.
+Alex Nicol is a web developer working at [BridgeU](https://bridge-u.com/) and [Bounce Technologies](https://www.bouncetechnologies.com/). He's also founded his [own consultancy company](https://alexnicol.dev), specialised in conversational systems and tech-for-good. He previously spent six years at EDF Energy as an R&D engineer specialising in automated voice systems and chatbots.
 
 You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/), or online (via Zoom).
 
