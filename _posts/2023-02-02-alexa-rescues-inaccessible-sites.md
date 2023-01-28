@@ -35,6 +35,6 @@ In this talk, Alex Nicol speaks about accessibility, web crawling, tech-for-good
 
 Alex Nicol is a web developer working at [BridgeU](https://bridge-u.com/) and [Bounce Technologies](https://www.bouncetechnologies.com/). He's also founded his [own consultancy company](https://alexnicol.dev), specialised in conversational systems and tech-for-good. He previously spent six years at EDF Energy as an R&D engineer specialising in automated voice systems and chatbots.
 
-You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/), or online (via Zoom).
+You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/) or [online](https://www.youtube.com/watch?v=uJwvY0K6TkY).
 
 If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/291255649/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
