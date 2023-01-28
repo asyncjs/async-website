@@ -4,19 +4,19 @@ summary: "This is the tale of how Alexa, with a little bit of help, came to the 
 date: 2023-02-02T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/291255649/
 speakers:
-- name: "Alex Nicol"
-  link: https://alexnicol.dev
+  - name: "Alex Nicol"
+    link: https://alexnicol.dev
 sponsors:
 image:
-  url:   https://live.staticflickr.com/4045/4682461024_10ce18b9ea_b.jpg
+  url: https://live.staticflickr.com/4045/4682461024_10ce18b9ea_b.jpg
   title: "HAL in vector by abelmon007 is licensed under CC BY 2.0."
-  link:  https://www.flickr.com/photos/80265839@N00/4682461024
+  link: https://www.flickr.com/photos/80265839@N00/4682461024
 tags:
-- alexa
-- accessibility
-- ruby
-- aws
-- crawler
+  - alexa
+  - accessibility
+  - ruby
+  - aws
+  - crawler
 venue:
   name: Spaces
   link: https://www.spacesworks.com/brighton/trafalgar-place/
@@ -25,8 +25,6 @@ venue:
   latlong: 50.8294399,-0.1443907
 layout: event.html
 collection: events
-draft: true # Delete this line to publish
-online: true
 ---
 
 The Web is over 30 years old, yet some websites are still not accessible.
