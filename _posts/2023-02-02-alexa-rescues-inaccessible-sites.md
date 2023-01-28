@@ -2,7 +2,7 @@
 title: "Alexa to the rescue of inaccessible websites"
 summary: "This is the tale of how Alexa, with a little bit of help, came to the rescue of a blind person who could not get access to local news."
 date: 2023-02-02T19:15:00
-meetup: https://www.meetup.com/Async-Web-Tech-Meetup/
+meetup: https://www.meetup.com/async-web-tech-meetup/events/291255649/
 speakers:
 - name: "Alex Nicol"
   link: https://alexnicol.dev
@@ -39,4 +39,4 @@ Alex Nicol is a web developer working at [BridgeU](https://bridge-u.com/) and [B
 
 You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/), or online (via Zoom).
 
-If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/288819953/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
+If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/291255649/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
