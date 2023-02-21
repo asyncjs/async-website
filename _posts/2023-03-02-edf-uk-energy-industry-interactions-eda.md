@@ -31,4 +31,6 @@ The UK energy industry is made up of lots of parties that need to communicate in
 
 De-regulation, a more competitive energy market, a rising cost to serve energy and changes to industry processes has meant EDF needs to find ways to drive it's cost to serve down and stay competitive.
 
-Event Driven Architecture is incresaingly becoming the tool that EDF is choosing to manage the complexity of these energy interactions and enable it to meet it's compliance obligations,
+Event Driven Architecture is increasingly becoming the tool that EDF is choosing to manage the complexity of these energy interactions and solve these problems.
+
+Kevin Baldwyn is a lead engineer at EDF energy and in this talk he will explain how EDF is using EDA to manage the complexity of UK Energy Interactions and describe some of the architecture, patterns, lessons learned, and why you may want to start using EDA in your applications.
