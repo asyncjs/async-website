@@ -2,16 +2,15 @@
 title: "Managing complex UK Energy Interactions with EDA"
 summary: "How EDF Energy is using Event Driven Architecture to manage the complexity of UK Energy Inetractions"
 date: 2023-03-02T19:15:00
-lanyrd: http://lanyrd.com/2014/asyncjs-SLUG/
 meetup: https://www.meetup.com/Async-Web-Tech-Meetup/
 speakers:
 - name: Kev Baldwyn
   link: https://www.linkedin.com/in/kevbaldwyn/
 sponsors:
 image:
-  url:   http://farm4.staticflickr.com/3192/2941676828_07b19d1699.jpg
-  title: "'Photo title' by Creator"
-  link:  http://www.flickr.com/photos/chavals/2941676828/
+  url:   https://live.staticflickr.com/65535/50601725777_1a756e08d0_b_d.jpg
+  title: "'evening energy' by Joachim Aspenlaub Blattboldt"
+  link:  https://www.flickr.com/photos/blattboldt/50601725777
 tags:
 - EDF
 - EDA
