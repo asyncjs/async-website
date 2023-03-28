@@ -46,6 +46,6 @@ Put your thinking caps on and start thinking of some questions you would like to
 
 ---
 
-You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/) or [online](https://www.youtube.com/watch?v=oNT4-hfJGmM).
+You will be able to join us in-person at [Spaces](https://www.spacesworks.com/brighton/trafalgar-place/).
 
 If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/291967758/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
