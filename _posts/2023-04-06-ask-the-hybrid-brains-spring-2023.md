@@ -1,5 +1,5 @@
 ---
-title: "Ask the Hybrid Brains, Spring 2023"
+title: "Ask the Brains, Spring 2023"
 summary: "Our Ask the Brains event wherever you are"
 date: 2023-04-06T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/291967758/
