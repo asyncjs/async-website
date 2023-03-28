@@ -8,7 +8,7 @@ speakers:
 sponsors:
 image:
   url: /img/talks/hybrid-brains-2023-sdv1.5.png
-  title: Ask the Hybrid Brains, Spring 2023
+  title: Ask the Brains, Spring 2023
   link: https://www.meetup.com/async-web-tech-meetup/events/291967758/
 tags:
   - workshop
