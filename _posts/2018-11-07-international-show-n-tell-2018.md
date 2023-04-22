@@ -20,7 +20,7 @@ tags:
 - html
 venue:
   name: 68 Middle St
-  link: http://68middle.st
+  link: "#"
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
@@ -38,15 +38,13 @@ For a spot of inspiration, take a look at our International Show n' Tells in [20
 
 ## Important Notice:
 
-For the Show'n'Tell we'll be back in our old venue of [68 Middle St][68middlest], _not_ The Skiff
+For the Show'n'Tell we'll be back in our old venue of 68 Middle St, _not_ The Skiff
 
 # Update:
 
 This meetup will be sponsored by [Ocasta](https://ocasta.com), so drinks and pizzas for all! This session, all pizzas will be from [Purezza](http://purezza.co.uk/), so no need to let us know dietary requirements except for gluten free as they'll all be vegan/vegetarian :)
 
 [ff]: http://2018.ffconf.org/
-[68middlest]: http://68middle.st
-[async]: http://asyncjs.com
 [showntell-2010]: http://asyncjs.com/showntell3/
 [showntell-2011]: http://asyncjs.com/international2011/
 [showntell-2012]: http://asyncjs.com/showntell-2012/

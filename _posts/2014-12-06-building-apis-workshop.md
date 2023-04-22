@@ -18,7 +18,7 @@ tags:
 - workshop
 venue:
   name: 68 Middle St
-  link: http://68middle.st
+  link: "#"
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
@@ -55,7 +55,7 @@ The workshop is aimed at Front-end devs, JavaScript and Node coders. You need an
 ###Tickets
 As this is a workshop there are a limited number of places. If you wish to come please get a free ticket. If you cannot make it once you have a ticket, please release your place so that someone else can come.
 
-Supported by [68 Middle Street](http://68middle.st/)
+Supported by 68 Middle Street
 
 ***
 

@@ -17,7 +17,7 @@ image:
   link:  https://www.flickr.com/photos/gund4m/
 venue:
   name: 68 Middle St
-  link: http://68middle.st
+  link: "#"
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
@@ -35,4 +35,4 @@ We’re also looking for talented artists to give the tank fighters some visual 
 
 This event is part of the [Brighton Digital Festival](http://www.brightondigitalfestival.co.uk).
 
-Pizzas will be supplied by local tech company [Brandwatch](http://www.brandwatch.com), and the event will be supported and hosted by the good folk at [68 Middle Street](http://68middle.st).
+Pizzas will be supplied by local tech company [Brandwatch](http://www.brandwatch.com), and the event will be supported and hosted by the good folk at 68 Middle Street.

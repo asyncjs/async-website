@@ -18,7 +18,7 @@ tags:
 - css
 venue:
   name: 68 Middle St
-  link: http://68middle.st
+  link: "#"
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
