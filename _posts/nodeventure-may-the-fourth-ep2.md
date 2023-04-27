@@ -1,5 +1,5 @@
 ---
-title: "Nodeventure: May the Fourth (Event 2 of 2)"
+title: "Nodeventure: May the Fourth (Ep. 2 of 2)"
 summary: "One of two hack nights to build a text adventure game"
 date: 2023-05-11T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/293070432/
