@@ -48,5 +48,5 @@ If you're thinking of joining us in-person, please sign up to the event on [meet
 
 [ifiction]: https://en.wikipedia.org/wiki/Interactive_fiction
 [nodeventure]: /nodeventure/
-[event-1]: /nodeventure-may-the-fourth/
-[event-2]: /nodeventure-may-the-fourth-strikes-back/
+[event-1]: /nodeventure-may-the-fourth-ep1/
+[event-2]: /nodeventure-may-the-fourth-ep2/
