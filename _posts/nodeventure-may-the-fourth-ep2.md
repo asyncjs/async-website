@@ -45,5 +45,5 @@ You will be able to join us in-person at [Spaces](https://www.spacesworks.com/br
 If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/291967758/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
 
 [ifiction]: https://en.wikipedia.org/wiki/Interactive_fiction
-[event-1]: /nodeventure-may-the-fourth/
-[event-2]: /nodeventure-may-the-fourth-strikes-back/
+[event-1]: /nodeventure-may-the-fourth-ep1/
+[event-2]: /nodeventure-may-the-fourth-ep2/
