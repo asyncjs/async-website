@@ -1,11 +1,10 @@
 {
-  "title":      "Async",
+  "title": "Async",
   "description": "An inclusive web tech meetup based in Brighton, UK",
-  "caption":    "An _inclusive_ web tech meetup based in _Brighton, UK_",
-  "url":        "https://asyncjs.com",
-  "email":      "hello@asyncjs.com",
-  "feedburner": "http://feeds.feedburner.com/asyncjs",
-  "analytics":  "UA-2150808-14",
+  "caption": "An _inclusive_ web tech meetup based in _Brighton, UK_",
+  "url": "https://asyncjs.com",
+  "email": "hello@asyncjs.com",
+  "analytics": "DCQSDYFP",
   "mapbox": {
     "api_token": "pk.eyJ1IjoiYXN5bmNqcyIsImEiOiJrMHlGX3BJIn0.O57e5qvXpxKni60engPX2Q"
   },
@@ -64,14 +63,14 @@
       "desc": "Subscribe to the website's Atom feed"
     },
     {
-      "name": "Subscribe by email",
-      "link": "http://feedburner.google.com/fb/a/mailverify?uri=asyncjs",
-      "desc": "Subscribe to email updates for the website"
-    },
-    {
       "name": "Email Us",
       "link": "mailto:hello@asyncjs.com",
       "desc": "Get in touch"
+    },
+    {
+      "name": "Analytics",
+      "link": "https://app.usefathom.com/share/dcqsdyfp/asyncjs.com",
+      "desc": "Analytics powered by Fathom"
     },
     {
       "name": "Code of Conduct",
