@@ -5,7 +5,7 @@ date: 2023-08-03T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/295080379/
 speakers:
   - name: Jake 'Sid' Smith
-    link: https://twitter.com/JakeSidSmith
+    link: https://jakesidsmith.com
   - name: Yann Eves
     link: https://yannev.es
 sponsors:
