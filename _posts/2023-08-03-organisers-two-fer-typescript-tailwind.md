@@ -32,11 +32,11 @@ collection: events
 
 This month we bring you a special organisers' two-fer presented by Jake and Yann!
 
-#### The Power of TypeScript
+### The Power of TypeScript
 
 Jake will speak on advanced patterns in TypeScript you'll be glad to know. Along with powerful uses you may wish you didn't see. `<T>`rigger warning.
 
-#### Picking up Tailwind
+### Picking up Tailwind
 
 Yann will share a lightning talk on upcoming features in Tailwind that simplify the developer experience and progressively enhance new CSS concepts. Try to `@container` your excitement.
 
