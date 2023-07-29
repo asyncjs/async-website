@@ -28,7 +28,7 @@ layout: event.html
 collection: events
 ---
 
-**NEW VENUE:** We're trialling a move to [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship), a brand new space we think makes an even better long-term home for Async meetups. Located a short walk from Brighton railway station on the ground floor of the new York & Elder development.
+**NEW VENUE:** We're trialling a move to [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship), a brand new space we think makes an even better long-term home for Async meetups. Located [a short walk](https://goo.gl/maps/oKjqEjpyzC1sLKLp7) from Brighton railway station on the ground floor of the new York & Elder development.
 
 This month we bring you a special organisers' two-fer presented by Jake and Yann!
 
