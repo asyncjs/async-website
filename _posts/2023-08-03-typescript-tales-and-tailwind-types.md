@@ -44,6 +44,6 @@ This session will explore advanced concepts and assumes a working knowledge of e
 
 ---
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or [online](https://www.youtube.com/watch?v=---).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (we will add the link to join online shortly).
 
 If you're thinking of joining us in-person, please sign up to the event on [meetup.com](https://www.meetup.com/async-web-tech-meetup/events/295080379/). We also highly recommend you sign up to the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for more info, and updates.
