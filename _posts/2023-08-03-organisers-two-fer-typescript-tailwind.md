@@ -10,7 +10,7 @@ speakers:
     link: https://yannev.es
 sponsors:
 image:
-  url:
+  url: /img/talks/typescript-tailwind.jpg
   title: Tailwind and TypeScript logos
 tags:
   - programming
