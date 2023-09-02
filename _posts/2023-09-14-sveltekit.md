@@ -1,6 +1,6 @@
 ---
-title: "SvelteKit (TBD)"
-summary: "Summary pending"
+title: "Load Up on SvelteKit"
+summary: "A primer talk on Svelte and SvelteKit with a dive into data loading with practical examples."
 date: 2023-09-14T19:15:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/295822326/
 speakers:
@@ -26,9 +26,11 @@ layout: event.html
 collection: events
 ---
 
-SvelteKit talk details on the way!
+Load Up on SvelteKit!
 
-Scott is a Svelte ambassador, developer relations engineer, and international conference speaker with a passion for creating video content and educating others on Svelte and SvelteKit. They’re also an experienced technical writer, producing engaging blog content to connect with the Svelte community.
+A Svelte and SvelteKit primer talk with a dive into data loading with practical examples.
+
+Scott is a Svelte ambassador, developer advocate, and international conference speaker with a passion for creating video content and educating others on Svelte and SvelteKit. They’re also an experienced technical writer, producing engaging blog content to connect with the Svelte community.
 
 ---
 
