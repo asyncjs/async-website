@@ -25,7 +25,7 @@ layout: event.html
 collection: events
 ---
 
-A Svelte and SvelteKit primer talk with a dive into data loading with practical examples.
+On the 14th of September (the second Thursday of the month) Scott Spence will be giving a Svelte and SvelteKit primer talk with a dive into data loading with practical examples.
 
 Scott is a Svelte ambassador, developer advocate, and international conference speaker with a passion for creating video content and educating others on Svelte and SvelteKit. They’re also an experienced technical writer, producing engaging blog content to connect with the Svelte community.
 
