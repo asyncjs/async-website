@@ -15,6 +15,7 @@ tags:
   - svelte
   - sveltekit
   - data
+online: true
 venue:
   name: Runway East
   link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
