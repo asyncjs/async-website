@@ -16,7 +16,7 @@ tags:
 - nodejs
 venue:
   name: 68 Middle St
-  link: "#"
+  link: https://web.archive.org/web/20200124043717/http://68middle.st/
   location: http://goo.gl/maps/dxEiT
   address: Brighton, BN1
   latlong: 50.82116,-0.143144
