@@ -5,7 +5,7 @@
  *  Released under the MIT License
  *  More Information: https://github.com/dharmafly/lanyrd.js
  */
-(function( _lanyrd, jQuery, module, undefined ) {
+(function( _lanyrd, jQuery, module ) {
     "use strict";
 
     var config, utils, lanyrd, parseUrl;
@@ -32,7 +32,7 @@
               }
             } else {
               for ( index in items ) {
-                if ( items.hasOwnProperty( index ) ) {
+                if ( Object.prototype.hasOwnProperty.call( items, index ) ) {
                   item = items[ index ];
                   fn.call( context || item, item, index, items );
                 }
@@ -80,7 +80,7 @@
             for ( ; index < count; index += 1 ) {
               object = objects[ index ];
               for ( property in object ) {
-                if ( object.hasOwnProperty( property ) ) {
+                if ( Object.prototype.hasOwnProperty.call( object, property ) ) {
                   target[ property ] = object[ property ];
                 }
               }
@@ -189,7 +189,7 @@
             while ( object && keys.length ) {
               key = keys.shift();
 
-              if ( object.hasOwnProperty( key ) || (prototype === true && object[ key ] !== undefined) ) {
+              if ( Object.prototype.hasOwnProperty.call( object, key ) || (prototype === true && object[ key ] !== undefined) ) {
                 object = object[ key ];
 
                 if ( keys.length === 0 && object !== undefined ) {
@@ -614,13 +614,10 @@
 
     // _.each
     var breaker = {},
-        AP = Array.prototype,
-        OP = Object.prototype,
-
-        hasOwn = OP.hasOwnProperty,
-        toString = OP.toString,
-        forEach = AP.forEach,
-        slice = AP.slice;
+        hasOwn = Object.prototype.hasOwnProperty,
+        toString = Object.prototype.toString,
+        forEach = Array.prototype.forEach,
+        slice = Array.prototype.slice;
 
     var _each = function( obj, iterator, context ) {
       var key, i, l;
