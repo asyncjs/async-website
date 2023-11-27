@@ -1,7 +1,7 @@
 <section class="module event-detail">
   <h2 class="module-heading">{{{ iconmonstr 'calendar-tick' }}}Next Event</h2>
   {{#each soonest}}
-    {{> eventDetail }}
+    {{> eventDetail site=../site }}
   {{/each}}
   {{#unless soonest}}
     <p class="prose">There are currently no upcoming events, stay tuned for more. You can follow us on <a href="https://twitter.com/asyncjs">Twitter</a> or subscribe to the <a href="/feed/">feed</a> for updates.</p>

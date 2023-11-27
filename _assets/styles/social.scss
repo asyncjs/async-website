@@ -50,20 +50,30 @@ a {
   }
 }
 
-h2 .meetup-link svg {
+.slack-link {
+  svg {
+    fill: $tertiary;
+    margin-right: 0;
+  }
+}
+
+h2 .meetup-link svg,
+h2 .slack-link svg {
   width: 24px;
   height: 24px;
 }
 
-h3 .meetup-link svg {
+h3 .meetup-link svg,
+h3 .slack-link svg {
   width: 18px;
   height: 18px;
   margin-bottom: -2px;
 }
 
-p .meetup-link svg {
+p .meetup-link svg,
+p .slack-link svg {
   width: 18px;
   height: 18px;
-  margin-left: 2px;
+  margin-left: 4px;
   margin-bottom: -3px;
 }
