@@ -1,9 +1,11 @@
 <ul class="social">
   {{#each site.social as |social|}}
-    <li>
-      <a href="{{ social.link }}" target="_blank" title="{{ social.desc }}">
-        {{{ iconmonstr social.name }}}
-      </a>
-    </li>
+    {{#with (lookup ../site.elsewhere [social])~}}
+      <li>
+        <a href="{{ link }}" target="_blank" title="{{ desc }}">
+          {{{ iconmonstr name }}}
+        </a>
+      </li>
+    {{/with}}
   {{/each}}
 </ul>

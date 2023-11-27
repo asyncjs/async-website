@@ -1,8 +1,10 @@
 <footer class="footer">
   <div class="container">
     <ul class="links">
-      {{#each site.elsewhere}}
-        <li><a href="{{ link }}" title="{{ desc }}">{{ name }}</a></li>
+      {{#each site.footer as |ref|}}
+        {{#with (lookup ../site.elsewhere [ref])~}}
+          <li><a href="{{ link }}" title="{{ desc }}">{{ name }}</a></li>
+        {{/with}}
       {{/each}}
     </ul>
 
