@@ -19,7 +19,7 @@
   },
   "homepage": "https://asyncjs.com/",
   "devDependencies": {
-    "browser-sync": "^2.27.12",
+    "browser-sync": "^3.0.2",
     "del": "^3.0.0",
     "dotenv": "^14.2.0",
     "graceful-fs": "^4.2.9",
