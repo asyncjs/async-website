@@ -13,6 +13,9 @@ sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
     link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
+  - name: Urlbox
+    logo: /img/sponsors/urlbox.png
+    link: https://urlbox.com/
 tags:
   - javascript
   - webapps
@@ -37,3 +40,5 @@ Expect a brief but ill-informed overview of the history of web development, a de
 ---
 
 Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more.](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship)
+
+**Update:** Urlbox is joining as a last-minute sponsor supporting our first merch print run in over a decade - more details on that soon. Check out their [Screenshot API](https://urlbox.com/).
