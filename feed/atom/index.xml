@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Async]]></title><description><![CDATA[An inclusive web tech meetup based in Brighton, UK]]></description><link>https://asyncjs.com</link><generator>metalsmith-feed</generator><lastBuildDate>Fri, 08 Mar 2024 00:56:20 GMT</lastBuildDate><atom:link href="https://asyncjs.com/feed/atom/index.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Ask the Brains, Spring 2024]]></title><description><![CDATA[<p>We&#39;re back with our popular <strong>&quot;Ask the Brains&quot;</strong> event. The aim is to create a friendly environment for everyone to ask their <em>&quot;that thing you&#39;ve never understood but always been too afraid to ask&quot;</em> type questions, plus any other topics you feel like talking about on the night.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Async]]></title><description><![CDATA[An inclusive web tech meetup based in Brighton, UK]]></description><link>https://asyncjs.com</link><generator>metalsmith-feed</generator><lastBuildDate>Fri, 08 Mar 2024 17:52:47 GMT</lastBuildDate><atom:link href="https://asyncjs.com/feed/atom/index.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Ask the Brains, Spring 2024]]></title><description><![CDATA[<p>We&#39;re back with our popular <strong>&quot;Ask the Brains&quot;</strong> event. The aim is to create a friendly environment for everyone to ask their <em>&quot;that thing you&#39;ve never understood but always been too afraid to ask&quot;</em> type questions, plus any other topics you feel like talking about on the night.</p>
 <p>We will be asking/talking/rambling about everything web-related - 5-10 minutes per topic, such as:</p>
 <ul>
 <li>Tabs or spaces for indentation?</li>
@@ -16,7 +16,53 @@
 <p>Put your thinking caps on and start thinking of some questions you would like to ask!</p>
 <hr>
 <p>Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. <a href="https://runwayea.st/locations/brighton?utm_source=external&amp;utm_medium=event&amp;utm_campaign=sponsorship">Learn more.</a></p>
-]]></description><link>https://asyncjs.com/ask-the-brains-spring-2024</link><guid isPermaLink="true">https://asyncjs.com/ask-the-brains-spring-2024</guid><pubDate>Thu, 04 Apr 2024 19:00:00 GMT</pubDate><image><url>/img/talks/ask-the-brains-2024-ojv4.jpg</url><title>Ask the Brains, Spring 2024</title></image></item><item><title><![CDATA[14th Birthday Show n' Tell]]></title><description><![CDATA[<p>Async is fourteen years old! A decade has flown by since we last <a href="/birthday4">celebrated</a>. Come ye all for an evening of lightning talks. Tell us about a project, a library, a technique, a story, or anything else to do with JavaScript and its extended family (HTML, CSS, SVG, animated GIFs) or the wider world of web.</p>
+]]></description><link>https://asyncjs.com/ask-the-brains-spring-2024</link><guid isPermaLink="true">https://asyncjs.com/ask-the-brains-spring-2024</guid><pubDate>Thu, 04 Apr 2024 19:00:00 GMT</pubDate><image><url>/img/talks/ask-the-brains-2024-ojv4.jpg</url><title>Ask the Brains, Spring 2024</title></image></item><item><title><![CDATA[International Women's Day]]></title><description><![CDATA[<p>Today is <a href="https://www.internationalwomensday.com/">International Women&#39;s Day</a>. We celebrated Async&#39;s 14th Birthday yesterday and our community - and the tech industry as a whole - has become more diverse in those years. An inclusive, welcoming community benefits <em>everyone</em> and we still have much to do, both globally and locally.</p>
+<p>The theme for International Women&#39;s Day 2024 is <strong>inspire inclusion</strong>. So we want to share some work we&#39;ve been doing behind the scenes that inspires inclusion in our community, and our upcoming plans to continue beating that drum.</p>
+<h3 id="challenges">Challenges</h3>
+<p>In our journey to promote diversity and inclusion, we&#39;ve encountered several hurdles:</p>
+<ul>
+<li><p><strong>Lack of talks from women in tech</strong>: Curating speakers is the hardest part of organising Async, we rely a lot on speakers volunteering from within our community (thank you!). Despite our efforts to host talks from women in tech, many of our past speakers are on an indefinite hiatus, posing a significant challenge as we have to reach out further afield.</p>
+</li>
+<li><p><strong>Big audience</strong>: The increased attendance at Async events has made it intimidating for new speakers to step forward, hindering our efforts to support and nurture diverse voices.</p>
+</li>
+<li><p><strong>Venue accessibility</strong>: Our past venues, while generously provided for free, posed accessibility challenges with poor lighting and off-street location, making it feel less safe to travel to on your own.</p>
+</li>
+</ul>
+<h3 id="our-response">Our response</h3>
+<p>To address these challenges and inspire inclusion, we&#39;ve taken proactive steps:</p>
+<ul>
+<li><p><strong>Establishment of a speaker fund</strong>: We&#39;re creating a fund to cover transportation and accommodation costs for speakers, particularly those from underrepresented backgrounds, to ensure that speaking opportunities are accessible to all.</p>
+</li>
+<li><p><strong>Search for a more accessible venue</strong>: We started searching for a venue that prioritises accessibility, including well-lit spaces with clear signage and convenient street access.</p>
+</li>
+<li><p><strong>Improving event visibility</strong>: We&#39;re investing in signage and branded clothing to make organisers more identifiable at events, fostering a welcoming environment for attendees.</p>
+</li>
+<li><p><strong>Language review</strong>: We&#39;re reviewing our event promotions to ensure they&#39;re inclusive and free from accidental discrimination.</p>
+</li>
+<li><p><strong>Supporting novice speakers</strong>: We&#39;re reintroducing our &#39;twofer&#39; event format (two speakers share the stage) to provide opportunities for novice speakers to share their voices and dedicating more volunteer time to support them.</p>
+</li>
+</ul>
+<h3 id="relection">Relection</h3>
+<p>While these improvements demand a lot of volunteer time behind the scenes, we&#39;ve made significant progress. We&#39;ve maintained a better minimum representation at our events across many minority groups in tech and expanded our reach through livestreams, connecting with an international community.</p>
+<h3 id="action">Action</h3>
+<p>Looking ahead, we&#39;re committed to continuing our efforts:</p>
+<ul>
+<li><p>The speaker fund will be available later this year, ensuring that financial barriers don&#39;t hinder participation and reaching speakers from further afield.</p>
+</li>
+<li><p>We&#39;ve relocated to <a href="https://runwayea.st/locations/brighton?utm_source=external&amp;utm_medium=event&amp;utm_campaign=sponsorship">Runway East Brighton</a>, a more accessible venue, to create a welcoming environment for all.</p>
+</li>
+<li><p>Async-branded clothing is in the works, making organisers easily identifiable at events.</p>
+</li>
+<li><p>We&#39;ve reviewed language in our event templates and are organising collaborative events to amplify diverse voices.</p>
+</li>
+</ul>
+<p>Our efforts would mean little without the fantastic community Async has grown to become. Know that we see you and are so grateful that you all welcome every person who arrives at an Async event with enthusiasm to develop the web for a better tomorrow.</p>
+<blockquote>
+<p>You can&#39;t be what you can&#39;t see.</p>
+<p><cite>Marian Wright Edelman</cite></p>
+</blockquote>
+<p>See you again soon!</p>
+]]></description><link>https://asyncjs.com/international-womens-day-2024</link><guid isPermaLink="true">https://asyncjs.com/international-womens-day-2024</guid><pubDate>Fri, 08 Mar 2024 00:00:00 GMT</pubDate></item><item><title><![CDATA[14th Birthday Show n' Tell]]></title><description><![CDATA[<p>Async is fourteen years old! A decade has flown by since we last <a href="/birthday4">celebrated</a>. Come ye all for an evening of lightning talks. Tell us about a project, a library, a technique, a story, or anything else to do with JavaScript and its extended family (HTML, CSS, SVG, animated GIFs) or the wider world of web.</p>
 <p>If you would like to grab a speaking slot, please leave a comment on the <a href="https://www.meetup.com/async-web-tech-meetup/events/298657957/">meetup event</a> including:</p>
 <ul>
 <li>Your name</li>
@@ -161,9 +207,4 @@
 <p>For a spot of inspiration, take a look at our International Show n&#39; Tells in <a href="https://www.meetup.com/async-web-tech-meetup/events/281637443/">2021</a>, <a href="https://www.meetup.com/async-web-tech-meetup/events/271442327/">2020</a>, <a href="https://asyncjs.com/international-show-n-tell-2019/">2019</a>, <a href="https://asyncjs.com/international-show-n-tell-2018/">2018</a>, <a href="https://asyncjs.com/international-show-n-tell-2017/">2017</a>, <a href="https://asyncjs.com/international-show-n-tell-2016/">2016</a>, <a href="http://asyncjs.com/showntell-2015/">2015</a>, <a href="http://asyncjs.com/showntell-2014/">2014</a>, <a href="http://asyncjs.com/showntell-2013/">2013</a>, <a href="http://asyncjs.com/showntell-2012/">2012</a>, <a href="http://asyncjs.com/international2011/">2011</a> and <a href="http://asyncjs.com/showntell3/">2010</a>.</p>
 <p>You will be able to join us in-person, or online (via Zoom).</p>
 <p>If you&#39;re thinking of joining us in-person, please sign up to the event on <a href="https://www.meetup.com/async-web-tech-meetup/events/289172125/">meetup.com</a>. We also highly recommend you sign up to the <a href="https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ">Async Slack</a> for more info, and updates.</p>
-]]></description><link>https://asyncjs.com/international-show-n-tell-2022</link><guid isPermaLink="true">https://asyncjs.com/international-show-n-tell-2022</guid><pubDate>Thu, 10 Nov 2022 19:15:00 GMT</pubDate><image><url>/img/people/7.jpg</url><title>2022 International Show &apos;n&apos; Tell</title><link>https://www.meetup.com/async-web-tech-meetup/events/289172125/</link></image><author>&lt;![CDATA[ Everyone ]]</author></item><item><title><![CDATA[JavaScript Golf 3]]></title><description><![CDATA[<p>Come and join us on Thursday October 6th where Tom Parslow - long time Async attendee and chief code typer at <a href="https://buzzshot.com">Buzzshot.com</a>, will task us to solve a series of challenges using JavaScript. The catch - you have to write as little JavaScript as possible. Solve each challenge in the least number of characters to win the game. Imagine the kind of stuff you’d never want to see make it into a real codebase… that’s what we’re looking for!</p>
-<p>We are making an effort to ensure that this episode of JavaScript Golf will be suitable for people of all skill levels, so even if you’re reasonably new to JavaScript you should still be able to tackle the challenges (and we’ll be on hand to help if you need it!). Even if you don’t get the fewest number of characters we hope that the majority of attendees will learn a little something about JavaScript from each other along the way. So, don’t forget to bring your laptop, tablet, phone, or whatever you feel comfortable writing code on (with a text editor installed).</p>
-<p>As always we welcome people of all backgrounds and experience levels, so whether you&#39;ve got a few years under your belt, or you&#39;re just starting to look into development we&#39;d love to have you along.</p>
-<p>You will be able to join us in-person at <a href="https://www.spacesworks.com/brighton/trafalgar-place/">Spaces</a>, or online (via Zoom).</p>
-<p>If you&#39;re thinking of joining us in-person, please sign up to the event on <a href="https://www.meetup.com/async-web-tech-meetup/events/288819953/">meetup.com</a>. We also highly recommend you sign up to the <a href="https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ">Async Slack</a> for more info, and updates.</p>
-]]></description><link>https://asyncjs.com/javascript-golf-3</link><guid isPermaLink="true">https://asyncjs.com/javascript-golf-3</guid><pubDate>Thu, 06 Oct 2022 19:15:00 GMT</pubDate><image><url>https://farm8.staticflickr.com/7379/12758383654_ab4b43d147_z_d.jpg</url><title>Urbanowicz_Krzysztof_GOLF</title><link>https://www.flickr.com/photos/kurbanowicz/12758383654/in/photolist-krq3XY-7hTRLz-9kGXLo-awf96H-9kGXTb-7hTSDX-7hXNAY-kroiT4-6xcLyT-65CWTR-5ds8DL-9kGYdb-9kDVyT-9a69ML-5bCwNN-efi4ma-56hckS-4kQ3Fv-eBP5xt-6QKY1E-c3HmpL-eBRqu3-4ZxP3p-5bCxDW-krpfTx-4ZC1qL-5bCB6j-3vs2Y1-4ZC1u5-4q64vn-4ZxM8Z-4ZxNwg-341zZd-6xj6oL-4ZxNUP-9L3STz-9L3SXt-dxM9tg-dbJjkc-anWVqa-4ZxNqz-5bym8g-4PXK7g-dbJkFS-5bxftP-5bym7V-krp6SB-5bCsCE-5t5bP2-5byh6a</link></image><author>&lt;![CDATA[ Tom Parslow ]]</author></item></channel></rss>
+]]></description><link>https://asyncjs.com/international-show-n-tell-2022</link><guid isPermaLink="true">https://asyncjs.com/international-show-n-tell-2022</guid><pubDate>Thu, 10 Nov 2022 19:15:00 GMT</pubDate><image><url>/img/people/7.jpg</url><title>2022 International Show &apos;n&apos; Tell</title><link>https://www.meetup.com/async-web-tech-meetup/events/289172125/</link></image><author>&lt;![CDATA[ Everyone ]]</author></item></channel></rss>
