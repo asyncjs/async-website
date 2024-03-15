@@ -52,7 +52,7 @@ a {
 
 .slack-link {
   svg {
-    fill: $tertiary;
+    fill: var(--tertiary);
     margin-right: 0;
   }
 }
@@ -74,6 +74,5 @@ p .meetup-link svg,
 p .slack-link svg {
   width: 18px;
   height: 18px;
-  margin-left: 4px;
-  margin-bottom: -3px;
+  margin-bottom: -2px;
 }
