@@ -369,3 +369,8 @@ h6,
   /* May cause issues in Windows browsers */
   text-rendering: optimizeLegibility;
 }
+
+img,
+video {
+  width: auto;
+}
