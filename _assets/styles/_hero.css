@@ -23,17 +23,17 @@
     font-size: 20px;
   }
 
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    opacity: 0.7;
+    background-color: color-mix(in srgb, var(--primary), #000 10%);
+  }
+
   @media all and (min-width: 768px) {
     text-align: left;
-
-    &::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      z-index: 0;
-      opacity: 0.7;
-      background-color: color-mix(in srgb, var(--primary), #000 10%);
-    }
 
     h1 {
       font-size: 48px;
