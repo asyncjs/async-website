@@ -18,6 +18,11 @@
         </a>
       </li>
       <li>
+        <a href="/news" {{#if is_news }}class="active"{{/if}}>
+          {{{ iconmonstr 'news' }}}<span class="text">News</span>
+        </a>
+      </li>
+      <li>
         <a href="/about" {{#if is_about }}class="active"{{/if}}>
           {{{ iconmonstr 'about' }}}<span class="text">About</span>
         </a>
