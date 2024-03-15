@@ -16,7 +16,7 @@
     "browser": "browser-sync start -s \"./dist/\" -f \"./dist/js/*\" \"./dist/css/*\" --no-open",
     "watch:js": "npm run build:js -- --watch",
     "watch:css": "npm run build:css -- --watch",
-    "watch:site": "chokidar \"_pages/**/*\" \"_posts/**/*\" -c \"npx npm-run-all build:site reload\"",
+    "watch:site": "chokidar \"_pages/**/*\" \"_posts/**/*\" \"_layouts/**/*\" \"_includes/partials/**/*\" -c \"npx npm-run-all build:site reload\"",
     "watch": "npm-run-all --parallel browser watch:*",
     "start": "npm-run-all build watch"
   },
