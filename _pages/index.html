@@ -35,6 +35,9 @@ is_home: true
 
   {{#if headlines.length}}
     <section class="module">
+      <h2 class="module-heading flex items-center">
+        {{{ iconmonstr 'news' }}}News
+      </h2>
       <ul>
         {{#each headlines}}
           <li class="news-item">
@@ -43,7 +46,7 @@ is_home: true
                 <span class="notifier motion-safe:animate-bounce group-hover:motion-safe:animate-none">
                   {{{ iconmonstr 'megaphone' }}}
                 </span>
-                News: {{ title }}
+                {{ title }}
               </a>
             </h3>
           </li>
