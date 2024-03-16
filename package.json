@@ -7,7 +7,7 @@
     "clean": "rm -rf ./dist/",
     "copy:images": "cpr ./_assets/images/ ./dist/img/",
     "copy:wp-files": "cpr ./_assets/wp/ ./dist/wp/",
-    "build:js": "esbuild ./_assets/scripts/main.js ./_assets/scripts/hubbub.js --bundle --minify --sourcemap --outdir=./dist/js/",
+    "build:js": "esbuild ./_assets/scripts/* --bundle --minify --sourcemap --outdir=./dist/js/",
     "build:css": "postcss ./_assets/styles/global.css -o ./dist/css/global.css",
     "build:site": "node metalsmith.js",
     "build": "npm-run-all clean copy:* build:*",
