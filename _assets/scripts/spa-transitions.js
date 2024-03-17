@@ -14,24 +14,70 @@ If anything goes wrong during this process we fall back to the default behavior 
 
 */
 
+var CACHE_TIMEOUT = 1000 * 60 * 60; // 1 hour
+var MATCHES_LOCAL = new RegExp("^" + window.location.origin);
+
+var cache = {};
+
+function isLocalAnchor(anchor) {
+  return (
+    anchor &&
+    (!anchor.target || anchor.target === "_self") &&
+    typeof anchor.href === "string" &&
+    MATCHES_LOCAL.test(anchor.href)
+  );
+}
+
+function shouldUpdateCache(href) {
+  return !cache[href] || cache[href].time < Date.now() - CACHE_TIMEOUT;
+}
+
+function getPageContent(href) {
+  return fetch(href).then((response) => response.text());
+}
+
+function addMouseEnterHandlers() {
+  window.document.querySelectorAll("a").forEach(function (anchor) {
+    if (isLocalAnchor(anchor)) {
+      anchor.addEventListener("mouseenter", function mouseEnterHandler() {
+        console.log(anchor.href);
+
+        if (shouldUpdateCache(anchor.href)) {
+          cache[anchor.href] = {
+            time: Date.now(),
+            content: getPageContent(anchor.href),
+          };
+        }
+      });
+    }
+  });
+}
+
 if (window.history && window.fetch) {
-  var MATCHES_LOCAL = new RegExp("^" + window.location.origin);
+  addMouseEnterHandlers();
 
   window.addEventListener(
     "click",
-    function (event) {
+    function clickHandler(event) {
       var anchor = event.target.closest("a");
 
-      if (
-        anchor &&
-        (!anchor.target || anchor.target === "_self") &&
-        typeof anchor.href === "string" &&
-        MATCHES_LOCAL.test(anchor.href)
-      ) {
+      if (isLocalAnchor(anchor)) {
         event.preventDefault();
 
-        fetch(anchor.href)
-          .then((response) => response.text())
+        var gettingNewCache = shouldUpdateCache(anchor.href);
+
+        var content = gettingNewCache
+          ? getPageContent(anchor.href)
+          : cache[anchor.href].content;
+
+        if (gettingNewCache) {
+          cache[anchor.href] = {
+            time: Date.now(),
+            content: content,
+          };
+        }
+
+        content
           .then((html) => {
             var $ = load(html);
             var head = $("head");
@@ -39,14 +85,18 @@ if (window.history && window.fetch) {
             var title = head.find("title").text();
 
             if (typeof window.document.startViewTransition === "function") {
-              window.document.startViewTransition(function () {
-                window.document.title = title;
-                window.document.body.innerHTML = body.html();
-                window.scrollTo(0, 0);
-              });
+              window.document.startViewTransition(
+                function viewTransitionHandler() {
+                  window.document.title = title;
+                  window.document.body.innerHTML = body.html();
+                  window.scrollTo(0, 0);
+                  addMouseEnterHandlers();
+                }
+              );
             } else {
               window.document.title = title;
               window.document.body.innerHTML = body.html();
+              addMouseEnterHandlers();
             }
           })
           .catch((error) => {
