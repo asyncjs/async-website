@@ -99,12 +99,14 @@ if (window.history && window.fetch) {
                     window.document.body.innerHTML = body.html();
                     window.scrollTo(0, 0);
                     addMouseEnterHandlers();
+                    window.history.pushState({}, "", anchor.href);
                   }
                 );
               } else {
                 window.document.title = title;
                 window.document.body.innerHTML = body.html();
                 addMouseEnterHandlers();
+                window.history.pushState({}, "", anchor.href);
               }
             }
           })
@@ -114,8 +116,6 @@ if (window.history && window.fetch) {
             }
             window.location.href = anchor.href;
           });
-
-        window.history.pushState({}, "", anchor.href);
       }
     },
     { passive: false }
