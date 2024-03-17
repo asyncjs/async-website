@@ -18,6 +18,7 @@ var CACHE_TIMEOUT = 1000 * 60 * 60; // 1 hour
 var MATCHES_LOCAL = new RegExp("^" + window.location.origin);
 
 var cache = {};
+var currentTransitionHref = window.location.href;
 
 function isLocalAnchor(anchor) {
   return (
@@ -64,6 +65,12 @@ if (window.history && window.fetch) {
       if (isLocalAnchor(anchor)) {
         event.preventDefault();
 
+        if (currentTransitionHref === anchor.href) {
+          return;
+        }
+
+        currentTransitionHref = anchor.href;
+
         var gettingNewCache = shouldUpdateCache(anchor.href);
 
         var content = gettingNewCache
@@ -84,19 +91,21 @@ if (window.history && window.fetch) {
             var body = $("body");
             var title = head.find("title").text();
 
-            if (typeof window.document.startViewTransition === "function") {
-              window.document.startViewTransition(
-                function viewTransitionHandler() {
-                  window.document.title = title;
-                  window.document.body.innerHTML = body.html();
-                  window.scrollTo(0, 0);
-                  addMouseEnterHandlers();
-                }
-              );
-            } else {
-              window.document.title = title;
-              window.document.body.innerHTML = body.html();
-              addMouseEnterHandlers();
+            if (currentTransitionHref === anchor.href) {
+              if (typeof window.document.startViewTransition === "function") {
+                window.document.startViewTransition(
+                  function viewTransitionHandler() {
+                    window.document.title = title;
+                    window.document.body.innerHTML = body.html();
+                    window.scrollTo(0, 0);
+                    addMouseEnterHandlers();
+                  }
+                );
+              } else {
+                window.document.title = title;
+                window.document.body.innerHTML = body.html();
+                addMouseEnterHandlers();
+              }
             }
           })
           .catch((error) => {
