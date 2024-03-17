@@ -14,7 +14,7 @@ If anything goes wrong during this process we fall back to the default behavior 
 
 */
 
-if (window.history) {
+if (window.history && window.fetch) {
   var MATCHES_LOCAL = new RegExp("^" + window.location.origin);
 
   window.addEventListener(
