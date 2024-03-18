@@ -46,8 +46,6 @@ function addMouseEnterHandlers() {
   window.document.querySelectorAll("a").forEach(function (anchor) {
     if (isLocalAnchor(anchor)) {
       anchor.addEventListener("mouseenter", function mouseEnterHandler() {
-        console.log(anchor.href);
-
         if (shouldUpdateCache(anchor.href)) {
           cache[anchor.href] = {
             time: Date.now(),
