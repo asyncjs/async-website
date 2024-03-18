@@ -17,7 +17,12 @@ If anything goes wrong during this process we fall back to the default behavior 
 var CACHE_TIMEOUT = 1000 * 60 * 60; // 1 hour
 var MATCHES_LOCAL = new RegExp("^" + window.location.origin);
 
-var cache = {};
+var cache = {
+  [window.location.href]: {
+    time: Date.now(),
+    content: Promise.resolve(window.document.documentElement.outerHTML),
+  },
+};
 var currentTransitionHref = window.location.href;
 
 function isLocalAnchor(anchor) {
@@ -54,8 +59,71 @@ function addMouseEnterHandlers() {
   });
 }
 
+function transitionTo(href, isBack) {
+  if (currentTransitionHref === href) {
+    return;
+  }
+
+  currentTransitionHref = href;
+
+  var gettingNewCache = shouldUpdateCache(href);
+
+  var content = gettingNewCache ? getPageContent(href) : cache[href].content;
+
+  if (gettingNewCache) {
+    cache[href] = {
+      time: Date.now(),
+      content: content,
+    };
+  }
+
+  content
+    .then((html) => {
+      var $ = load(html);
+      var head = $("head");
+      var body = $("body");
+      var title = head.find("title").text();
+
+      if (currentTransitionHref === href) {
+        if (typeof window.document.startViewTransition === "function") {
+          window.document.startViewTransition(function viewTransitionHandler() {
+            window.document.title = title;
+            window.document.body.innerHTML = body.html();
+            window.scrollTo(0, 0);
+            addMouseEnterHandlers();
+
+            if (!isBack) {
+              window.history.pushState({}, "", href);
+            }
+          });
+        } else {
+          window.document.title = title;
+          window.document.body.innerHTML = body.html();
+          addMouseEnterHandlers();
+
+          if (!isBack) {
+            window.history.pushState({}, "", href);
+          }
+        }
+      }
+    })
+    .catch((error) => {
+      if (window.console && typeof window.console.error === "function") {
+        console.error(error);
+      }
+
+      if (!isBack) {
+        window.location.href = href;
+      }
+    });
+}
+
 if (window.history && window.fetch) {
   addMouseEnterHandlers();
+
+  window.addEventListener("popstate", function handlePopState(event) {
+    transitionTo(event.target.location.href, true);
+  });
 
   window.addEventListener(
     "click",
@@ -65,57 +133,7 @@ if (window.history && window.fetch) {
       if (isLocalAnchor(anchor)) {
         event.preventDefault();
 
-        if (currentTransitionHref === anchor.href) {
-          return;
-        }
-
-        currentTransitionHref = anchor.href;
-
-        var gettingNewCache = shouldUpdateCache(anchor.href);
-
-        var content = gettingNewCache
-          ? getPageContent(anchor.href)
-          : cache[anchor.href].content;
-
-        if (gettingNewCache) {
-          cache[anchor.href] = {
-            time: Date.now(),
-            content: content,
-          };
-        }
-
-        content
-          .then((html) => {
-            var $ = load(html);
-            var head = $("head");
-            var body = $("body");
-            var title = head.find("title").text();
-
-            if (currentTransitionHref === anchor.href) {
-              if (typeof window.document.startViewTransition === "function") {
-                window.document.startViewTransition(
-                  function viewTransitionHandler() {
-                    window.document.title = title;
-                    window.document.body.innerHTML = body.html();
-                    window.scrollTo(0, 0);
-                    addMouseEnterHandlers();
-                    window.history.pushState({}, "", anchor.href);
-                  }
-                );
-              } else {
-                window.document.title = title;
-                window.document.body.innerHTML = body.html();
-                addMouseEnterHandlers();
-                window.history.pushState({}, "", anchor.href);
-              }
-            }
-          })
-          .catch((error) => {
-            if (window.console && typeof window.console.error === "function") {
-              console.error(error);
-            }
-            window.location.href = anchor.href;
-          });
+        transitionTo(anchor.href);
       }
     },
     { passive: false }
