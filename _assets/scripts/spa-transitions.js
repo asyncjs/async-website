@@ -112,6 +112,8 @@ function transitionTo(href, isBack) {
 
       if (!isBack) {
         window.location.href = href;
+      } else {
+        window.location.reload();
       }
     });
 }
