@@ -3,6 +3,9 @@ title: "Particle Flow"
 summary: "A web tech meetup based in Brighton & Hove"
 date: 2024-05-09T19:00:00
 meetup: 
+speakers:
+  - name: Peter Cook
+    link: https://www.peterrcook.com/
 image:
   url: /img/talks/particle-flow.jpg
   title: Particle Flow
