@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html class="flex min-h-full">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="google-site-verification" content="i7Zcd4VE6mdqs2t1pb_kquaAQI_WItbWMOAt7_t0AYo" />
     <title>2010 &ndash; Async</title>
     <link rel="author" href="/humans.txt">
@@ -18,8 +18,8 @@
     <script src="https://cdn.usefathom.com/script.js" data-site="DCQSDYFP" defer></script>
     <!-- / Fathom -->
   </head>
-  <body>
-    <div class="wrapper">
+  <body class="flex-1">
+    <div class="wrapper flex-1">
       <header class="masthead">
         <h1 class="main-header">
           <a href="/">
@@ -40,6 +40,11 @@
               </a>
             </li>
             <li>
+              <a href="/news" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 9h-16v1h16v-1zm-12 2h-4v1h4v-1zm0 2h-4v1h4v-1zm12-2h-4v1h4v-1zm0 2h-4v1h4v-1zm0 2h-16v1h16v-1zm-5-4h-6v3h6v-3zm7-7v14h-20v-14h20zm2-2h-24v20h24v-20zm-11.832 5.972l-.46-1.941h.505l.24 1.345.27-1.345h.492l.238 1.32.249-1.32h.482l-.501 1.941h-.5l-.238-1.284-.271 1.284h-.506zm-.579-.396h-.78v-.406h.698v-.393h-.698v-.35h.74v-.396h-1.215v1.941h1.255v-.396zm3.257.028c-.149 0-.324-.043-.466-.116l-.024-.013-.098.398.015.008c.102.058.318.119.547.119.581 0 .788-.328.788-.61 0-.272-.161-.458-.507-.586-.254-.096-.338-.145-.338-.247 0-.098.1-.161.254-.161.136 0 .266.03.388.088l.023.011.107-.39-.015-.007c-.145-.065-.311-.098-.495-.098-.442 0-.739.239-.739.593 0 .262.181.458.535.581.227.081.304.144.304.247 0 .117-.102.183-.279.183zm-6.016-.959l.691 1.327h.485v-1.941h-.438v1.189l-.64-1.189h-.536v1.941h.438v-1.327z"/></svg><span class="text">News</span>
+              </a>
+            </li>
+            <li>
               <a href="/about" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 18h-2v-8h2v8zm-1-12.25c.69 0 1.25.56 1.25 1.25s-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25.56-1.25 1.25-1.25z"/></svg><span class="text">About</span>
               </a>
@@ -48,12 +53,12 @@
         </nav>
       </header>
 
-      <div class="container">
-        <h1>
+      <div class="max-w-screen-lg mx-auto px-4">
+        <h1 class="flex items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M1.8 9l-.8-4h22l-.8 4h-2.029l.39-2h-17.122l.414 2h-2.053zm18.575-6l.604-2h-17.979l.688 2h16.687zm3.625 8l-2 13h-20l-2-13h24zm-8 4c0-.552-.447-1-1-1h-6c-.553 0-1 .448-1 1s.447 1 1 1h6c.553 0 1-.448 1-1z"/></svg>2010
         </h1>
           <section class="module links">
-            <h2 class="module-heading">
+            <h2 class="module-heading flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 20h-4v-4h4v4zm-6-10h-4v4h4v-4zm6 0h-4v4h4v-4zm-12 6h-4v4h4v-4zm6 0h-4v4h4v-4zm-6-6h-4v4h4v-4zm16-8v22h-24v-22h3v1c0 1.103.897 2 2 2s2-.897 2-2v-1h10v1c0 1.103.897 2 2 2s2-.897 2-2v-1h3zm-2 6h-20v14h20v-14zm-2-7c0-.552-.447-1-1-1s-1 .448-1 1v2c0 .552.447 1 1 1s1-.448 1-1v-2zm-14 2c0 .552-.447 1-1 1s-1-.448-1-1v-2c0-.552.447-1 1-1s1 .448 1 1v2z"/></svg>Refine
             </h2>
             <ul>
@@ -69,7 +74,7 @@
           </section>
         <section class="module">
           <ul>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/debug">Debugging JavaScript</a>
 </h3>
 <p class="details vevent">
@@ -78,7 +83,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/requirejs">Modular JavaScript with RequireJS</a>
 </h3>
 <p class="details vevent">
@@ -87,7 +92,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/showntell3">/International/ JavaScript Show n&#x27; Tell</a>
 </h3>
 <p class="details vevent">
@@ -96,7 +101,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/enhancement">Responsive Enhancement</a>
 </h3>
 <p class="details vevent">
@@ -105,7 +110,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/phonegap">PhoneGap ~ Write native smartphone apps with HTML5 and JavaScript</a>
 </h3>
 <p class="details vevent">
@@ -114,7 +119,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/canvas-hacknight">Canvas Hack Night</a>
 </h3>
 <p class="details vevent">
@@ -123,7 +128,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/showntell2">JavaScript Show n&#x27; Tell</a>
 </h3>
 <p class="details vevent">
@@ -132,7 +137,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/meetings-change">Change of Meetings</a>
 </h3>
 <p class="details vevent">
@@ -141,7 +146,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/canvas">Drawing In The Browser, with Canvas</a>
 </h3>
 <p class="details vevent">
@@ -150,7 +155,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/unit">Unit Testing in JavaScript</a>
 </h3>
 <p class="details vevent">
@@ -159,7 +164,7 @@
     <a href="http://theskiff.org/">The Skiff</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/performance">A Rough Guide to JavaScript Performance</a>
 </h3>
 <p class="details vevent">
@@ -168,7 +173,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/surgeryjs">JavaScript Surgery</a>
 </h3>
 <p class="details vevent">
@@ -177,7 +182,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/css3">Using CSS3 Transitions &amp; Animations</a>
 </h3>
 <p class="details vevent">
@@ -186,7 +191,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/geomobile">The Geo API in iPhone &amp; Android</a>
 </h3>
 <p class="details vevent">
@@ -195,7 +200,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/showntell">JavaScript Show n&#x27; Tell</a>
 </h3>
 <p class="details vevent">
@@ -204,7 +209,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/nodejs">Getting started with Node.js</a>
 </h3>
 <p class="details vevent">
@@ -213,7 +218,7 @@
     <a href="http://thewerks.org.uk">The Werks</a>
 </p>
 </li>
-              <li class="column event-item"><h3>
+              <li class="column event-item"><h3 class="flex items-center gap-x-2">
   <a href="/new-group">New Group</a>
 </h3>
 <p class="details vevent">
@@ -225,10 +230,9 @@
       </div>
 
       <footer class="footer">
-        <div class="container">
+        <div class="max-w-screen-lg mx-auto px-4">
           <ul class="links">
       <li><a href="https://www.meetup.com/Async-Web-Tech-Meetup/" title="Join our meetup group">Meetup</a></li>
-      <li><a href="/news/" title="Recent Async Announcements">News</a></li>
       <li><a href="/feed/" title="Subscribe to the website&#x27;s Atom feed">Subscribe to feed</a></li>
       <li><a href="mailto:hello@asyncjs.com" title="Get in touch">Email Us</a></li>
       <li><a href="https://app.usefathom.com/share/dcqsdyfp/asyncjs.com" title="Analytics powered by Fathom">Analytics</a></li>
@@ -243,7 +247,6 @@
           </p>
         </div>
       </footer>
-      <div id="media-test"></div>
       <script src="/js/main.js"></script>
     </div>
   </body>
