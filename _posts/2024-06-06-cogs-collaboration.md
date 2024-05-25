@@ -46,7 +46,7 @@ Next we'll see a number of problems which were solved along the way including au
 
 There will be some code snippets but expect this talk to be more focused on design decisions and problems solving rather than diving deep into code.
 
-Chetan heads the software team at [Clockwork Dog](http://clockwork.dog), the creators of [COGS](https://cogs.show). Clockwork Dog build interative experiences using COGS for large immersive theatre shows and also gprovide COGS as an off-the-shelf system to buisnesses around the world.
+Chetan heads the software team at [Clockwork Dog](http://clockwork.dog), the creators of [COGS](https://cogs.show). Clockwork Dog build interactive experiences using COGS for large immersive theatre shows and also provide COGS as an off-the-shelf system to businesses around the world.
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
