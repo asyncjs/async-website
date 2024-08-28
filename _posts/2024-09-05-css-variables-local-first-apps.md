@@ -10,7 +10,7 @@ speakers:
     link: https://spacecat.io/
 image:
   url: /img/talks/css-variables-and-local-first-apps.jpg
-  title: Improve your Multi-Factor Auth with Firebase and Vonage APIs
+  title: CSS Variables and Local-First Apps
 sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
