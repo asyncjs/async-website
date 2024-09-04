@@ -1,16 +1,14 @@
 ---
-title: "CSS Variables and Local-First Apps"
+title: "Sync Different: Building Local-First Apps"
 summary: "A web tech meetup based in Brighton & Hove"
 date: 2024-09-05T19:00:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/302977988
 speakers:
-  - name: James Chetwood
-    link: https://x.com/jchetters/
   - name: Dave Pereira-Gurnell
     link: https://spacecat.io/
 image:
   url: /img/talks/css-variables-and-local-first-apps.jpg
-  title: CSS Variables and Local-First Apps
+  title: "Sync Different: Building Local-First Apps"
 sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
@@ -31,15 +29,15 @@ layout: event.hbs
 collection: events
 ---
 
-On Thursday 5th September we will be joined by [James Chetwood](https://x.com/jchetters/) - Freelance Web Developer, and Dave Pereira-Gurnell - Developer/Trainer at [Spacecat](https://spacecat.io/) for a couple of exciting talks:
+**Update**: unfortunately James Chetwood is now unable to give his talk - Design GUI: Exploring CSS Variables. Instead we will be continuing with only Dave Pereira-Gurnell's talk - Sync Different: Building Local-First Apps.
 
-**Design GUI: Exploring CSS Variables.**
+On Thursday 5th September we will be joined by Dave Pereira-Gurnell - Developer/Trainer at [Spacecat](https://spacecat.io/).
 
-James will talk about talk about his project - Design GUI. Covering his process of starting with a vague idea and iterating through different technologies, eventually landing on a Chrome Extension and CSS Variables.
+Does your web app work offline? What about supporting multiplayer editing? No? You’re not alone—these features are notoriously challenging to implement. Web development is already complex, and adding offline functionality or real-time collaboration is a step beyond what most of us are willing to try.
 
-**Sync Different: Building Local-First Apps**
+Yet, a new wave of web and mobile apps, like Linear, Figma, and Goodnotes, are managing to deliver these capabilities seamlessly. In this talk, we’ll explore how apps like these are built and how you can leverage similar strategies in your own projects.
 
-Does your web app work offline? What about supporting multiplayer editing? No? You’re not alone—these features are notoriously challenging to implement. Web development is already complex, and adding offline functionality or real-time collaboration is a step beyond what most of us are willing to try. Yet, a new wave of web and mobile apps, like Linear, Figma, and Goodnotes, are managing to deliver these capabilities seamlessly. In this talk, we’ll explore how apps like these are built and how you can leverage similar strategies in your own projects. Dave will back this up by walking you through a simple multiplayer editor using the open-source CRDT Automerge.
+We’re on the brink of a software development renaissance where building **local-first apps**—software that works offline but seamlessly syncs with the cloud—will become the norm. Dave will introduce you to powerful tools like **Operational Transforms** and **Conflict-free Replicated Data Types** (CRDTs) that make local-first development feasible, and show how they’re being packaged up into approachable open source tools. He'll back this up by walking you through a simple multiplayer editor using the open-source CRDT **Automerge**.
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
