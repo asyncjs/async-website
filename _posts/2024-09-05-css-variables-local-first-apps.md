@@ -41,7 +41,7 @@ We’re on the brink of a software development renaissance where building **loca
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link will be added closer to the time).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or [online via our YouTube channel](https://youtube.com/live/D6FRtp9IWkY?feature=share).
 
 ---
 
