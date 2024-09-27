@@ -40,7 +40,7 @@ At Mozilla, [James](https://www.linkedin.com/in/hugman/) worked on the core `uni
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the time).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or [online via YouTube](https://www.youtube.com/watch?v=f_lInAt-8EI).
 
 ---
 
