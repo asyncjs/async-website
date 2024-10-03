@@ -17,7 +17,7 @@ jobs:
         id: nvmrc
         shell: bash
         run: echo ::set-output name=NODE_VERSION::$(cat .nvmrc)
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v4
         with:
           node-version: ${{ steps.nvmrc.outputs.NODE_VERSION }}
       - run: npm ci
