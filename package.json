@@ -39,11 +39,11 @@
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/permalinks": "^3.0.1",
     "autoprefixer": "^10.4.20",
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.3",
     "chokidar-cli": "^3.0.0",
     "cpr": "^3.0.1",
-    "cssnano": "^7.0.5",
-    "esbuild": "^0.23.1",
+    "cssnano": "^7.0.6",
+    "esbuild": "^0.24.0",
     "graceful-fs": "^4.2.11",
     "isobject": "^4.0.0",
     "jstransformer-handlebars": "^1.2.0",
@@ -62,11 +62,11 @@
     "metalsmith-tags": "^2.1.0",
     "moment": "^2.30.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.41",
+    "postcss": "^8.4.47",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.1.0",
-    "postcss-preset-env": "^10.0.2",
+    "postcss-preset-env": "^10.0.5",
     "striptags": "^3.2.0",
-    "tailwindcss": "^3.4.10"
+    "tailwindcss": "^3.4.13"
   }
 }
