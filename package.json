@@ -39,7 +39,7 @@
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/permalinks": "^3.0.1",
     "autoprefixer": "^10.4.20",
-    "browser-sync": "^3.0.2",
+    "browser-sync": "^3.0.3",
     "chokidar-cli": "^3.0.0",
     "cpr": "^3.0.1",
     "cssnano": "^7.0.5",
