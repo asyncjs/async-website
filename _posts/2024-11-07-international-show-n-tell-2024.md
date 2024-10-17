@@ -15,7 +15,10 @@ tags:
   - web
 venue:
   name: Brighton (Venue TBC)
-  latlong: 50.8229,0.1363
+  link:
+  location: https://maps.app.goo.gl/DKf93NbJMJjD8hKp8
+  address: Brighton
+  latlong: 50.8373889,-0.18859
 layout: event.hbs
 collection: events
 ---
