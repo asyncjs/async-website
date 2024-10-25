@@ -14,11 +14,11 @@ tags:
   - javascript
   - web
 venue:
-  name: Brighton (Venue TBC)
-  link:
-  location: https://maps.app.goo.gl/DKf93NbJMJjD8hKp8
-  address: Brighton
-  latlong: 50.8373889,-0.18859
+  name: Ironworks Studios
+  link: https://www.ironworks-studios.co.uk/
+  location: https://maps.app.goo.gl/khpv6EcMoWmkMumQ7
+  address: 30 Cheapside, Brighton and Hove, Brighton BN1 4GD
+  latlong: 50.8293358,-0.1410389
 layout: event.hbs
 collection: events
 ---
@@ -35,12 +35,17 @@ If you would like to grab a speaking slot, please leave a comment on the [meetup
 - A sentence or two about your talk
 - Any relevant links
 
+We only have time for so many speakers, so if you'd like to secure a slot (and a free drink) please leave your details on the [meetup event][meetup] - first come, first served. If on the day you feel like showing something off, we may have additional time due to cancellations, but we cannot guarantee it.
+
 For a spot of inspiration, take a look at our International Show n' Tells in [2023][showntell-2023], [2022][showntell-2022], [2021][showntell-2021], [2020][showntell-2020], [2019][showntell-2019], [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
-You will be able to join us in-person in Brighton (venue TBC) or online (link added closer to the event).
+You will be able to join us in-person at [Ironworks Studios](https://www.ironworks-studios.co.uk/) ([view on Google Maps](https://maps.app.goo.gl/khpv6EcMoWmkMumQ7)) thanks to sponsorship from [Tillo](https://www.tillo.io/) or online [via YouTube](https://www.youtube.com/live/-2ejpzPeBsw?si=4xjT6qqjS2JvYpI4) thanks to [Silicon Brighton](https://siliconbrighton.com/).
+
+🍕 Pizza will be provided thanks to sponsorship from [Buzzshot](https://buzzshot.com/), [ffconf](https://ffconf.org/), and [Silicon Brighton](https://siliconbrighton.com/).
+
+🍻 Drinks will be available to purchase from Ironworks' bar. Speakers will be offered a free drink - sign up now if you want to secure a speaking slot - first come, first served.
 
 As always we welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
-
 
 [showntell-2010]: http://asyncjs.com/showntell3/
 [showntell-2011]: http://asyncjs.com/international2011/
