@@ -26,11 +26,11 @@ layout: event.hbs
 collection: events
 ---
 
-This event is happening on Thursday 9th of January - the __second__ Thursday of the month.
+This event is happening on Thursday 9th of January - the **second** Thursday of the month.
 
 The World Wide Web turned 30 years old in 2019. To mark the occasion, a motley group of web nerds gathered at CERN, the birthplace of the web, to build a time machine. The first ever web browser was, confusingly, called WorldWideWeb. What if we could recreate the experience of using it ...but within a modern browser! Join (Je)Remy on a journey through time and space and code as they excavate the foundations of Tim Berners-Lee's gloriously ambitious and hacky hypertext system that went on to conquer the world.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or [online via YouTube](https://www.youtube.com/live/XONerj4rE2I?si=xW_lRY5jZFRijtzo).
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
