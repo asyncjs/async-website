@@ -28,4 +28,4 @@ Richard Rutter and Josh Emerson @ Fontdeck for the fonts.
 
 /* SITE */
 
-Last update: Wed Jan 08 2025 15:44:39 GMT+0000 (Coordinated Universal Time)
+Last update: Fri Jan 10 2025 01:17:31 GMT+0000 (Coordinated Universal Time)
