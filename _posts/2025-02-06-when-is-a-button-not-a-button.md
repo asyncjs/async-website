@@ -8,7 +8,6 @@ image:
   title: When is a button not a button? Semantic HTML and Accessibility APIs
 speakers:
   - name: Helen Brockelbank
-    link: https://adactio.com/
 tags:
   - html
   - ui
