@@ -28,7 +28,7 @@ Have you ever tried using a web interface only to find interactive elements brok
 
 In this talk we’ll look at how accessibility APIs interact with the DOM so we can all make websites that are more useful than a sewing machine made of cake.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online via YouTube (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or [online via YouTube](https://www.youtube.com/watch?v=9fU8YuQrLLM).
 
 We welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
