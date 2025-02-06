@@ -5,7 +5,7 @@ is_home: true
 ---
 
 <section class="hero">
-  <div class="max-w-screen-lg mx-auto px-4">
+  <div class="max-w-(--breakpoint-lg) mx-auto px-4">
     <div class="relative z-10 py-[22.5%]">
       <h1>
         Welcome to {{ site.title }}
@@ -16,7 +16,7 @@ is_home: true
   </div>
 </section>
 
-<div class="max-w-screen-lg mx-auto px-4">
+<div class="max-w-(--breakpoint-lg) mx-auto px-4">
   <section class="module">
     <h2 class="module-heading flex items-center">
       {{{ iconmonstr 'about' }}}About
@@ -43,7 +43,7 @@ is_home: true
           <li class="news-item">
             <h3>
               <a class="group flex items-center gap-x-1" href="/{{ permalink }}">
-                <span class="notifier motion-safe:animate-bounce group-hover:motion-safe:animate-none">
+                <span class="notifier motion-safe:animate-bounce motion-safe:group-hover:animate-none">
                   {{{ iconmonstr 'megaphone' }}}
                 </span>
                 {{ title }}

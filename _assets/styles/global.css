@@ -1,16 +1,14 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import 'tailwindcss';
 
-@import '_variables';
-@import '_overrides';
-@import '_wrapper';
-@import '_masthead';
-@import '_hero';
-@import '_social';
-@import '_module';
-@import '_footer';
-@import '_photos';
+@import './_variables.css';
+@import './_overrides.css';
+@import './_wrapper.css';
+@import './_masthead.css';
+@import './_hero.css';
+@import './_social.css';
+@import './_module.css';
+@import './_footer.css';
+@import './_photos.css';
 
 .no-wrap {
   white-space: nowrap;
@@ -292,7 +290,7 @@
   margin-bottom: 16px;
 }
 
-@media (min-width: theme(screens.sm)) {
+@media (min-width: --theme(--breakpoint-sm)) {
   h2 {
     font-size: 36px;
   }
@@ -320,7 +318,7 @@
   }
 }
 
-@media (min-width: theme(screens.md)) {
+@media (min-width: --theme(--breakpoint-md)) {
   .column {
     float: left;
     box-sizing: border-box;

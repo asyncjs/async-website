@@ -1,5 +1,5 @@
 <footer class="footer">
-  <div class="max-w-screen-lg mx-auto px-4">
+  <div class="max-w-(--breakpoint-lg) mx-auto px-4">
     <ul class="links">
       {{#each site.footer as |ref|}}
         {{#with (lookup ../site.elsewhere [ref])~}}

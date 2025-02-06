@@ -1,4 +1,4 @@
-@import '_variables';
+@import './_variables.css';
 
 .photo-grid {
   &::before,
@@ -13,7 +13,7 @@
     float: left;
     width: 50%;
 
-    @media (min-width: theme(screens.md)) {
+    @media (min-width: --theme(--breakpoint-md)) {
       width: 25%;
     }
   }
