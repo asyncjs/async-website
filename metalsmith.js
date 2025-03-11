@@ -5,6 +5,7 @@ const { rm, mkdir, cp } = require("node:fs/promises");
 
 const isObject = require("isobject");
 const moment = require("moment");
+const transform = require("jstransformer-handlebars");
 
 const metalsmith = require("metalsmith");
 const tags = require("metalsmith-tags");
@@ -164,12 +165,16 @@ async function build() {
     .use(tags({ layout: "tag.hbs" }))
     .use(
       templates({
-        transform: "handlebars",
+        transform,
         extname: null,
         pattern: "**/*.{html,hbs}*",
       })
     )
-    .use(boilerplates({ directory: layouts.dir }))
+    .use(boilerplates({
+      transform,
+      pattern: "**",
+      directory: layouts.dir
+    }))
     .use(
       feed({
         collection: "rss",
