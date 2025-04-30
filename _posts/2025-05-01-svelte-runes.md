@@ -3,6 +3,8 @@ title: "Svelte Runes, using the signals pattern for reactivity"
 summary: "A web tech meetup based in Brighton & Hove"
 date: 2025-05-01T19:00:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/307497941
+speakers:
+  - name: James Turner
 image:
   url: /img/talks/Svelte Machine Mobile.png
   title: Svelte machine logo
@@ -29,6 +31,8 @@ Svelte sports a reactive system that allied with a pre-compiler makes binding pr
 Speaker: James Turner
 
 James currently runs his own web-dev consultancy and has been building web-apps for longer that he cares to remember, having developed one of the first browser based FX trading systems (on IE6 no less!)
+
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=wypos_DZdyo).
 
 ---
 
