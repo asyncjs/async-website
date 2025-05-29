@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     # Weekly on a Friday at midnight
     - cron: "0 0 * * 5"
