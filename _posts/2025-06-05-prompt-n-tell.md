@@ -2,7 +2,7 @@
 title: "Prompt n Tell"
 summary: "A web tech meetup based in Brighton & Hove"
 date: 2025-06-05T19:00:00
-meetup: https://www.meetup.com/async-web-tech-meetup/events/306226491
+meetup: https://www.meetup.com/async-web-tech-meetup/events/307976280
 image:
   url: /img/talks/github-copilot.png
   title: GitHub Copilot logo
@@ -48,4 +48,4 @@ Pizzas provided by our venue! Runway East has been fighting boring offices since
 BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
 
 [runway-east]: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
-[meetup]: https://www.meetup.com/async-web-tech-meetup/events/306226491
+[meetup]: https://www.meetup.com/async-web-tech-meetup/events/307976280
