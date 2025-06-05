@@ -12,6 +12,9 @@ sponsors:
     link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
   - name: Silicon Brighton
     link: https://siliconbrighton.com/
+  - name: CodeRabbit
+    logo: /img/sponsors/coderabbit.png
+    link: https://coderabbit.link/asyncjs-uk
 tags:
   - showntell
   - birthday
@@ -45,7 +48,8 @@ We welcome people of all backgrounds and experience levels, so whether you've go
 
 Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more][runway-east].
 
-BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
+UPDATE: This event has found its perfect sponsor [CodeRabbit][coderabbit] - free AI code reviews that run directly in VS Code. Review each commit immediately without waiting for PR to be raised. Catch more bugs and ship code faster.
 
 [runway-east]: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
+[coderabbit]: https://coderabbit.link/asyncjs-uk
 [meetup]: https://www.meetup.com/async-web-tech-meetup/events/307976280
