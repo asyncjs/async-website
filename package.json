@@ -38,7 +38,7 @@
     "@metalsmith/layouts": "^3.0.0",
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/permalinks": "^3.2.0",
-    "@tailwindcss/postcss": "^4.1.8",
+    "@tailwindcss/postcss": "^4.1.9",
     "autoprefixer": "^10.4.21",
     "browser-sync": "^3.0.4",
     "chokidar-cli": "^3.0.0",
@@ -63,9 +63,9 @@
     "metalsmith-tags": "^2.1.0",
     "moment": "^2.30.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.5.4",
+    "postcss": "^8.5.5",
     "postcss-cli": "^11.0.1",
-    "postcss-preset-env": "^10.2.2",
+    "postcss-preset-env": "^10.2.3",
     "striptags": "^3.2.0",
     "tailwindcss": "^4.0.0"
   }
