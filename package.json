@@ -63,7 +63,7 @@
     "metalsmith-tags": "^2.1.0",
     "moment": "^2.30.1",
     "npm-run-all": "^4.1.5",
-    "postcss": "^8.5.5",
+    "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
     "postcss-preset-env": "^10.2.3",
     "striptags": "^3.2.0",
