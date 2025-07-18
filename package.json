@@ -48,7 +48,7 @@
     "graceful-fs": "^4.2.11",
     "isobject": "^4.0.0",
     "jstransformer-handlebars": "^1.2.0",
-    "marked": "^16.1.0",
+    "marked": "^16.1.1",
     "metalsmith": "^2.6.3",
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections-archive": "^1.1.2",
