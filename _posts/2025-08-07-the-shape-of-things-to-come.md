@@ -13,6 +13,9 @@ sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
     link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
+  - name: Hove Capital
+    logo: /img/sponsors/hove-capital.jpg
+    link: https://www.linkedin.com/company/hove-capital/
 tags:
   - css
   - web
