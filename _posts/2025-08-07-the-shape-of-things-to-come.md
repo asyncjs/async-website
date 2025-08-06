@@ -36,6 +36,8 @@ On Thursday 7th August we're very happy to be joined by Noam Rosenthal. Noam wor
 
 We will understand what ideas they help express, how they work, how they complement each other and what's missing.
 
+If you'd like to join, but can't make it in person, you can join us online via [YouTube](https://www.youtube.com/watch?v=UpERwa8noSo).
+
 ---
 
 🍕 Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship).
