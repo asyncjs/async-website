@@ -2,7 +2,7 @@
 title: "From Side-project to Serverless Business with One Programming Language - TypeScript"
 summary: "A web tech meetup based in Brighton & Hove"
 date: 2025-09-04T19:00:00
-meetup: https://www.meetup.com/async-web-tech-meetup/events/307497941
+meetup: https://www.meetup.com/async-web-tech-meetup/events/310748479/
 speakers:
   - name: James Turner
 image:
