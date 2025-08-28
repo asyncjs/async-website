@@ -34,6 +34,10 @@ In the presentation we’ll look at the system architecture and technologies use
 
 James currently runs his own web-dev consultancy and has been building web-apps for "longer that he cares to remember", having developed one of the first browser based FX trading systems (on IE6 no less).
 
+🍕 Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship).
+
+🍻 BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
+
 You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
 
 ---
