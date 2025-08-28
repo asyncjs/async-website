@@ -6,7 +6,7 @@ meetup: https://www.meetup.com/async-web-tech-meetup/events/307497941
 speakers:
   - name: James Turner
 image:
-  url: /img/talks/Svelte Machine Mobile.png
+  url: /img/talks/svelte-machine-mobile.png
   title: Svelte machine logo
 sponsors:
   - name: Runway East
