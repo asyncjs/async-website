@@ -5,9 +5,10 @@ date: 2025-09-04T19:00:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/310748479/
 speakers:
   - name: James Turner
+  - link: http://esparter.com/
 image:
-  url: /img/talks/fixme.png
-  title: FIXME
+  url: /img/talks/side-project-to-serverless.png
+  title: TypeScript - One Language to Rule Them All, and in the Darkness Compile Them
 sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
