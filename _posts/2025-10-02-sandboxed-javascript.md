@@ -8,7 +8,7 @@ speakers:
   - link: https://chetbox.com/
 image:
   url: /img/talks/sandboxed-javascript.png
-  title: Sandboxed Javascript
+  title: The letters "J" and "S" sitting in a children's sandbox
 sponsors:
   - name: Runway East
     logo: /img/sponsors/rwe.png
