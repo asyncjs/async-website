@@ -35,10 +35,6 @@ Allowing users to write their own code in your application is incredibly powerfu
 
 [COGS](https://cogs.show/) is a software and hardware platform for building immersive theatre and escape room experiences.
 
-🍕 Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship).
-
-🍻 BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
-
 You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
 
 ---
