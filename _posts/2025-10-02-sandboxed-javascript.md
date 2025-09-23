@@ -5,7 +5,7 @@ date: 2025-10-02T19:00:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/311184343
 speakers:
   - name: Chetan Padia
-  - link: https://chetbox.com/
+    link: https://chetbox.com/
 image:
   url: /img/talks/sandboxed-javascript.png
   title: The letters "J" and "S" sitting in a children's sandbox
