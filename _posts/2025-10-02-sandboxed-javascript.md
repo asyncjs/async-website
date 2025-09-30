@@ -35,7 +35,7 @@ Allowing users to write their own code in your application is incredibly powerfu
 
 [COGS](https://cogs.show/) is a software and hardware platform for building immersive theatre and escape room experiences.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=xnsOyKS8GsU).
 
 ---
 
