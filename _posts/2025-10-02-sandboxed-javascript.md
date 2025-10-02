@@ -39,6 +39,6 @@ You will be able to join us in-person at [Runway East](https://runwayea.st/locat
 
 ---
 
-Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship).
+Pizzas provided [Buzzshot](https://buzzshot.com/), a local company providing technology for escape rooms.
 
 BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
