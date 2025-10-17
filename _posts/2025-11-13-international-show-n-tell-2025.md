@@ -23,7 +23,7 @@ layout: event.hbs
 collection: events
 ---
 
-**IMPORTANT**: The venue for the 2025 International Show 'n' Tell has changed to [Projects][venue-link]. Please check the address and location details (or have a look on [Google Maps][venue-map]).
+**IMPORTANT**: The date and venue for the 2025 International Show 'n' Tell has changed to the second Thursday in November (13th) at [Projects][venue-link]. Please check the address and location details (or have a look on [Google Maps][venue-map]).
 
 The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [ffconf 2025](https://2025.ffconf.org/) is coming. So, it's time for another International Async Show n' tell! This year's installment will be _on Thursday 13th November_ (the second Thursday in November).
 
