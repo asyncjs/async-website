@@ -40,6 +40,11 @@ If you would like to grab a speaking slot, please leave a comment on the [meetup
 - Where to find you on the socials
 - A sentence or two about your talk
 - Any relevant links
+- Delete as appropriate:
+  - I have a live demo that I will need to run on my own machine
+  - I can provide slides/pre-recorded demos that are publicly accessible on the web
+
+Ideally your talk should be available as slides on the web that can be accessed from another machine. If you have live demos it would be easiest for us (to avoid having to switch machines regularly and get the stream setup on each) if you pre-recorded these. If you cannot pre-record a demo, please note (in your comment) that you need your own machine to present.
 
 We only have time for so many speakers, so if you'd like to secure a slot please leave your details on the [meetup event][meetup] - first come, first served. If on the day you feel like showing something off, we may have additional time due to cancellations, but we cannot guarantee it.
 
