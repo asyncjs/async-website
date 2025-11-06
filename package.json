@@ -38,7 +38,7 @@
     "@metalsmith/layouts": "^3.0.0",
     "@metalsmith/markdown": "^1.10.0",
     "@metalsmith/permalinks": "^3.2.0",
-    "@tailwindcss/postcss": "^4.1.16",
+    "@tailwindcss/postcss": "^4.1.17",
     "autoprefixer": "^10.4.21",
     "browser-sync": "^3.0.4",
     "chokidar-cli": "^3.0.0",
