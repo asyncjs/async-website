@@ -6,7 +6,7 @@ jobs:
   npm-run-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Read .nvmrc
         id: nvmrc
         shell: bash
