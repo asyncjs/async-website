@@ -9,10 +9,11 @@ image:
   url: /img/talks/hybrid-brains.jpg
   title: Ask the Hybrid brains
 tags:
-- workshop
-- questions
-- collaboration
-- virtual
+  - askthebrains
+  - workshop
+  - questions
+  - collaboration
+  - virtual
 layout: event.hbs
 collection: events
 online: true

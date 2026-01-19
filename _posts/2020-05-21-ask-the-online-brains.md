@@ -9,10 +9,11 @@ image:
   url: /img/talks/brains.jpg
   title: Ask the online brains
 tags:
-- workshop
-- questions
-- collaboration
-- virtual
+  - askthebrains
+  - workshop
+  - questions
+  - collaboration
+  - virtual
 layout: event.hbs
 collection: events
 online: true

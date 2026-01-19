@@ -11,6 +11,7 @@ sponsors:
     logo: /img/sponsors/rwe.png
     link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
 tags:
+  - askthebrains
   - workshop
   - questions
   - collaboration
