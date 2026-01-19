@@ -11,10 +11,10 @@ sponsors:
     logo: /img/sponsors/rwe.png
     link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
 tags:
-  - showntell
-  - birthday
-  - javascript
-  - web
+  - askthebrains
+  - workshop
+  - questions
+  - collaboration
 venue:
   name: Runway East
   link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship

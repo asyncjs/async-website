@@ -10,6 +10,7 @@ image:
   title: Roundtable meeting of leaders at Belt and Road international forum
   link: https://commons.wikimedia.org/wiki/File:Roundtable_meeting_of_leaders_at_Belt_and_Road_international_forum.jpg
 tags:
+  - askthebrains
   - workshop
   - questions
   - collaboration
