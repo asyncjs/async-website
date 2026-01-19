@@ -25,6 +25,8 @@ layout: event.hbs
 collection: events
 ---
 
+🍕🍻 **This event is not sponsored.**
+
 After a couple of months off for the holidays, we're back with our popular **"Ask the Brains"** event. The aim is to create a friendly environment for everyone to ask their _"that thing you've never understood but always been too afraid to ask"_ type questions, plus any other topics you feel like talking about on the night.
 
 We will be asking/talking/rambling about everything web-related - 5-10 minutes per topic, such as:
@@ -46,6 +48,4 @@ Put your thinking caps on and start thinking of some questions you would like to
 
 ---
 
-Pizzas provided by our venue! Runway East has been fighting boring offices since 2014. Members get team bliss guaranteed with space to scale. [Learn more](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship).
-
-BYOB: We are currently looking for additional sponsorship. This event will likely not have a sponsor for drinks, so if you'd like to have a couple during the event please bring some of your own (and maybe some to share if you're feeling generous).
+🍕🍻 **No food/drink sponsorship:** make sure you eat beforehand and or bring your own snacks/drinks.
