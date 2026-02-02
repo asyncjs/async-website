@@ -11,7 +11,7 @@ image:
 sponsors:
   - name: Puck
     logo: /img/sponsors/puck.png
-    link: http://puckeditor.com/
+    link: https://puckeditor.com/
 tags:
   - showntell
   - conference
