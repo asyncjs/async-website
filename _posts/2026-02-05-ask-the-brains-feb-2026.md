@@ -7,9 +7,9 @@ image:
   url: /img/talks/ask-the-brains-feb-2026.png
   title: Ask the Brains, Feb 2026
 sponsors:
-  - name: Runway East
-    logo: /img/sponsors/rwe.png
-    link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
+  - name: Puck
+    logo: /img/sponsors/puck.png
+    link: https://puckeditor.com/
 tags:
   - askthebrains
   - workshop
@@ -25,7 +25,7 @@ layout: event.hbs
 collection: events
 ---
 
-🍕🍻 **This event is not sponsored.**
+🍕🍻 **Update: food and drinks are now sponsored!**
 
 After a couple of months off for the holidays, we're back with our popular **"Ask the Brains"** event. The aim is to create a friendly environment for everyone to ask their _"that thing you've never understood but always been too afraid to ask"_ type questions, plus any other topics you feel like talking about on the night.
 
@@ -48,4 +48,4 @@ Put your thinking caps on and start thinking of some questions you would like to
 
 ---
 
-🍕🍻 **No food/drink sponsorship:** make sure you eat beforehand and or bring your own snacks/drinks.
+🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
