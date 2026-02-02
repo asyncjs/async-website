@@ -52,7 +52,7 @@ For a spot of inspiration, take a look at our International Show n' Tells in [20
 
 You will be able to join us in-person at [Projects][venue-link] ([view on Google Maps][venue-map]) or online via [YouTube](https://www.youtube.com/watch?v=siECTlsnI90) thanks to [Silicon Brighton](https://siliconbrighton.com/).
 
-🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](http://puckeditor.com/).
+🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
 
 As always we welcome people of all backgrounds and experience levels, so whether you've got a few years under your belt, or you're just starting to look into development we'd love to have you along.
 
