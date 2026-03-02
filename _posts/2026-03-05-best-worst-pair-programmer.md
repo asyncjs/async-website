@@ -40,6 +40,8 @@ We'll also look at why running your own infrastructure matters more, not less, i
 
 You'll leave with a mental model of where Claude Code (is it really a lazy, immoral, subversive, gaslighting liar?) may fit more into your workflow, and enough live demos to either excite or terrify you. Probably both.
 
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=zWsOKBYg2qI).
+
 ---
 
 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
