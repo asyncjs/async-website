@@ -10,7 +10,7 @@ speakers:
     link: https://daz.is/
 image:
   url: /img/talks/we-stopped-writing-code.jpg
-  title: Dave Mateer
+  title: A laptop that's made of cake
 sponsors:
   - name: Puck
     logo: /img/sponsors/puck.png
