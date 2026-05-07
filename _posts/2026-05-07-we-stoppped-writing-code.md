@@ -34,7 +34,7 @@ Since this alien technology arrived without a manual, they've both been figuring
 
 In this talk they'll share what they've learned: how they've each adapted, what their workflows look like now, and what's actually working. They'll walk through some of the specifics: the ralph loop, context management, verification, and a few demos of things built along the way.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added close to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [vie YouTube](https://www.youtube.com/watch?v=04dDYFATKxo).
 
 ---
 
