@@ -29,7 +29,7 @@ collection: events
 
 On July 2nd we'll be joined by Roger Carvalho - creator of [Clipbeam](https://clipbeam.com/).
 
-In this talk Roger will discuss how to build a cross platform desktop apps that can take advantage of AI capabilities without relying on cloud-based APIs.
+In this talk Roger will discuss how to build a cross platform desktop app that can take advantage of AI capabilities without relying on cloud-based APIs.
 
 We'll be taking a look at [Clipbeam](https://clipbeam.com/) - a collection of JavaScript and native modules that allow content extraction from webpages, files and audio, auto tagging & categorization of content, RAG with semantic search, and an AI chatbot with voice capabilities that runs entirely on a user's device.
 
