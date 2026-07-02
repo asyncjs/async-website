@@ -33,7 +33,7 @@ In this talk Roger will discuss how to build a cross platform desktop app that c
 
 We'll be taking a look at [Clipbeam](https://clipbeam.com/) - a collection of JavaScript and native modules that allow content extraction from webpages, files and audio, auto tagging & categorization of content, RAG with semantic search, and an AI chatbot with voice capabilities that runs entirely on a user's device.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or maybe online - to be confirmed.
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or or online [via YouTube](https://www.youtube.com/watch?v=RdTco89hUFQ).
 
 ---
 
