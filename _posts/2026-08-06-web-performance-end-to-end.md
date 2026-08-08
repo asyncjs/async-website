@@ -34,7 +34,7 @@ We'll go end-to-end with modern image formats and SSR on the rendering side, HTT
 
 Most of this is configuration and architecture, not a rewrite. The highest impact fixes are often the ones nobody's checked in months and are cheap to verify continuously, but expensive to untangle later.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=Qbq6J6dQfcg).
 
 ---
 
