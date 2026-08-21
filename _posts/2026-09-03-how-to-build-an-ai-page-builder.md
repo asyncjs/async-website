@@ -33,7 +33,7 @@ On Thursday the 3rd of September Chris Villa will be giving us a glimpse into ho
 
 More details coming soon.
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=Qbq6J6dQfcg).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
 
 <!-- ---
 
