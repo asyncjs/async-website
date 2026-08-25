@@ -43,7 +43,7 @@
     "browser-sync": "^3.0.4",
     "chokidar-cli": "^3.0.0",
     "cpr": "^3.0.1",
-    "cssnano": "^8.0.7",
+    "cssnano": "^8.0.8",
     "esbuild": "^0.28.2",
     "graceful-fs": "^4.2.11",
     "isobject": "^4.1.1",
