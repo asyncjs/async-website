@@ -38,7 +38,7 @@ If time allows, we'll cover some lessons learnt building Puck's AI that you can 
 
 Chris did his first talk introducing Puck at Async 3 years ago, which kicked off Puck's crazy journey to 13k stars and 1M monthly downloads. "I'm grateful for the opportunity to talk again."
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube](https://www.youtube.com/watch?v=qH8WXqeFgFc).
 
 ---
 
