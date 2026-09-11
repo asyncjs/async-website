@@ -14,8 +14,9 @@ image:
   url: /img/sponsors/puck.png
   title: Puck Editor
 tags:
-  - web
-  - performance
+  - ai
+  - machine learning
+  - react
 venue:
   name: Runway East
   link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
