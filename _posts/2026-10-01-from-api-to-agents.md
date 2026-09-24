@@ -9,6 +9,13 @@ tags:
   - api
   - ai
   - machine learning
+sponsors:
+  - name: Puck
+    logo: /img/sponsors/puck.png
+    link: https://puckeditor.com
+image:
+  url: /img/talks/steve-mason.jpg
+  title: Steve Mason
 venue:
   name: Runway East
   link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
@@ -19,18 +26,14 @@ layout: event.hbs
 collection: events
 ---
 
-<!-- sponsors:
-  - name: Puck
-    logo: /img/sponsors/puck.png
-    link: https://puckeditor.com
-image:
-  url: /img/sponsors/puck.png
-  title: Puck Editor -->
+[Sutton](https://heysutton.com/) is an ERP for small manufacturers - it manages inventory, tracks orders, and runs production jobs. Over the last 18 months our small team of engineers turned it into something customers can extend from inside the product. Describe an app to an agent, which builds it and pushes it to our platform. It then runs in a sandboxed environment with its own backend and scoped access to the customer's own data.
 
-More details coming soon.
+This talk is about the team's journey from “barely an API” to a full featured vibe-coding platform, and some of the wrong turns along the way
+
+Steve is one of the lead engineers at Sutton (formerly Digit). He's been writing software for most of his life and last gave a talk at Async 12 years ago(!)
 
 You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
 
 ---
 
-<!-- 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/). -->
+🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
