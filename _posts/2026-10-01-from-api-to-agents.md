@@ -5,6 +5,7 @@ date: 2026-10-01T19:00:00
 meetup: https://www.meetup.com/async-web-tech-meetup/events/316512771/
 speakers:
   - name: Steve Mason
+    link: http://github.com/spmason
 tags:
   - api
   - ai
