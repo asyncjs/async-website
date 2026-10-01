@@ -33,7 +33,7 @@ This talk is about the team's journey from “barely an API” to a full feature
 
 Steve is one of the lead engineers at Sutton (formerly Digit). He's been writing software for most of his life and last gave a talk at Async 12 years ago(!)
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online [via YouTube])(https://www.youtube.com/watch?v=LsGXmK4oh2w).
 
 ---
 
