@@ -50,7 +50,7 @@ We only have time for so many speakers, so if you'd like to secure a slot please
 
 For a spot of inspiration, take a look at our International Show n' Tells in [2025][showntell-2025], [2024][showntell-2024], [2023][showntell-2023], [2022][showntell-2022], [2021][showntell-2021], [2020][showntell-2020], [2019][showntell-2019], [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
-You will be able to join us in-person at TBC or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
+You will be able to join us in-person (venue TBC) or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
 
 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
 
