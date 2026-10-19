@@ -18,16 +18,16 @@ tags:
   - javascript
   - web
 venue:
-  name: Projects
-  link: https://www.projectsclub.co.uk/nile-house
-  location: https://maps.app.goo.gl/gwcNmQMoxfRRoieL6
-  address: Nile House, Nile Street, Brighton, BN1 1HW
-  latlong: 50.821146,-0.1440009
+  name: Runway East
+  link: https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship
+  location: https://goo.gl/maps/WGe2p9D7Wup3LdNt8
+  address: York And Elder Works, 50 New England St, Brighton BN1 4AW
+  latlong: 50.8325788,-0.1420808
 layout: event.hbs
 collection: events
 ---
 
-**IMPORTANT**: The date and venue for the 2026 International Show 'n' Tell has changed to the second Thursday in November (12th) at [Projects][venue-link]. Please check the address and location details (or have a look on [Google Maps][venue-map]).
+**IMPORTANT**: Date/venue change. The date for the 2026 International Show 'n' Tell has changed to the second Thursday in November (12th). We are still confirming which venue this will be held at. Join the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for updates.
 
 The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [ffconf 2026](https://2026.ffconf.org/) is coming. So, it's time for another International Async Show n' tell! This year's installment will be _on Thursday 12th November_ (the second Thursday in November).
 
@@ -50,7 +50,7 @@ We only have time for so many speakers, so if you'd like to secure a slot please
 
 For a spot of inspiration, take a look at our International Show n' Tells in [2025][showntell-2025], [2024][showntell-2024], [2023][showntell-2023], [2022][showntell-2022], [2021][showntell-2021], [2020][showntell-2020], [2019][showntell-2019], [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
-You will be able to join us in-person at [Projects][venue-link] ([view on Google Maps][venue-map]) or online via [YouTube](https://www.youtube.com/watch?v=siECTlsnI90) thanks to [Silicon Brighton](https://siliconbrighton.com/).
+You will be able to join us in-person at TBC or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
 
 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
 
