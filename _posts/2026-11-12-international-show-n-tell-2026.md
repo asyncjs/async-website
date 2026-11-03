@@ -27,7 +27,7 @@ layout: event.hbs
 collection: events
 ---
 
-**IMPORTANT**: Date/venue change. The date for the 2026 International Show 'n' Tell has changed to the second Thursday in November (12th). We are still confirming which venue this will be held at. Join the [Async Slack](https://join.slack.com/t/asyncjs/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ) for updates.
+**IMPORTANT**: Date change & venue confirmed. The date for the 2026 International Show 'n' Tell has changed to the second Thursday in November (12th). The event will be held at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) and streamed online if you can't make it in-person.
 
 The November migration of the world's top web developers to the sunny city of Brighton & Hove can only mean one thing - [ffconf 2026](https://2026.ffconf.org/) is coming. So, it's time for another International Async Show n' tell! This year's installment will be _on Thursday 12th November_ (the second Thursday in November).
 
@@ -50,7 +50,7 @@ We only have time for so many speakers, so if you'd like to secure a slot please
 
 For a spot of inspiration, take a look at our International Show n' Tells in [2025][showntell-2025], [2024][showntell-2024], [2023][showntell-2023], [2022][showntell-2022], [2021][showntell-2021], [2020][showntell-2020], [2019][showntell-2019], [2018][showntell-2018], [2017][showntell-2017], [2016][showntell-2016], [2015][showntell-2015], [2014][showntell-2014], [2013][showntell-2013], [2012][showntell-2012], [2011][showntell-2011] and [2010][showntell-2010].
 
-You will be able to join us in-person (venue TBC) or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
 
 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
 
@@ -73,5 +73,3 @@ As always we welcome people of all backgrounds and experience levels, so whether
 [showntell-2024]: https://www.meetup.com/async-web-tech-meetup/events/304061584/
 [showntell-2025]: https://www.meetup.com/async-web-tech-meetup/events/311564687/
 [meetup]: https://www.meetup.com/async-web-tech-meetup/events/317047653/
-[venue-link]: https://www.projectsclub.co.uk/nile-house
-[venue-map]: https://maps.app.goo.gl/gwcNmQMoxfRRoieL6
