@@ -35,6 +35,6 @@ Unlike JS & CSS, HTML as a language remained relatively stable over the last dec
 
 ---
 
-You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or online (link added closer to the event) thanks to [Silicon Brighton](https://siliconbrighton.com/).
+You will be able to join us in-person at [Runway East](https://runwayea.st/locations/brighton?utm_source=external&utm_medium=event&utm_campaign=sponsorship) or MAYBE online (still confirming) thanks to [Silicon Brighton](https://siliconbrighton.com/).
 
 🍕🍻 Pizza and drinks will be provided thanks to sponsorship from [Puck - the open source visual editor for React](https://puckeditor.com/).
